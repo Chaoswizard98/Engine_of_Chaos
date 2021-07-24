@@ -1,0 +1,12 @@
+{
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Curse_Functions",
+    "path": "folders/Scripts/Modifyables/Items/Item_Functions/Curse_Functions.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Character_Is_Cursed",
+  "tags": [],
+  "resourceType": "GMScript",
+}

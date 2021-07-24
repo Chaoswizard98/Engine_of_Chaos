@@ -1,0 +1,1 @@
+Setup_Room_Transfer_Tile(id,room_Ashenwood,"Jason_Basement","Left");

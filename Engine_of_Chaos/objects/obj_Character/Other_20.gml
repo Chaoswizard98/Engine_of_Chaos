@@ -1,0 +1,2 @@
+allow_interaction = true;
+
