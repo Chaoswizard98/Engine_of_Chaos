@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tilesets",
-    "path": "folders/Sprites/tilesets.yy",
+    "name": "Utility",
+    "path": "folders/Sprites/Utility.yy",
   },
   "resourceVersion": "1.0",
   "name": "bg_Title_Screen",

@@ -3,10 +3,10 @@
 //===========================
 allow_interaction = false;//Allows you to press the continue button
 state = "Room_Start";//event state
-Create_Global_Game_Settings();//initialize controls, etc
-Create_New_Data();//Initialize character data
-Create_Audio_Controller();//Create Audio Controller
-Load_Config();//Load our configuration (If it exists)
+//Create_Global_Game_Settings();//initialize controls, etc
+//Create_New_Data();//Initialize character data
+//Create_Audio_Controller();//Create Audio Controller
+//Load_Config();//Load our configuration (If it exists)
 
 //=======================
 //Modifyable Declarations

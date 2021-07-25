@@ -52,8 +52,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tilesets",
-    "path": "folders/Tile Sets/Tilesets.yy",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "bg_Ancient_Shrine_Tiles_tileset",

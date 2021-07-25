@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Spell_Cast",
-  "duration": 1.436111,
+  "duration": 1.431111,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
