@@ -4,7 +4,7 @@ switch(global.Story_State){
     case 0://First Cutscene
         Finish_Room_Transition(noone);//Cancel default room transition event
         _player = Create_Player(192,216,"Down","Jason",false,true);//x,y,direction,id,allow_interaction,cutsene_mode
-        Create_Cutscene_Controller("Jasons_Room_Cutscene","Cutscene",0,_player);
+		Start_Cutscene("Jasons_Room_Cutscene",_player);
         Play_Music(noone,"Fade_To_Next",250,0);
     break;
     default:

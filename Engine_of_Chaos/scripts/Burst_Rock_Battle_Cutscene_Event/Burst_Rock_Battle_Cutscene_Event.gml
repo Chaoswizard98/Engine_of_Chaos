@@ -7,7 +7,7 @@ function Burst_Rock_Battle_Cutscene_Event() {
 	        state = "Perform_Animation";
         
 	        //Create Dialogue
-	        Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Burst_Rock_Exploded"),id,false,true);
+	        Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Burst_Rock_Exploded"),id,false,true);
 	    break;
 	    case "End_Animation":
 	        Set_Character_Health("Local",attacker,"Set",0);//burst rock dies

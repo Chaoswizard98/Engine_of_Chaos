@@ -16,7 +16,8 @@ function Create_Global_Game_Settings() {
 	global.Difficulty = "Normal";
 	global.Sound_Volume = .5;
 	global.Music_Volume = .25;
-	global.Language = "English";
+	global.Default_Language = "English"; //default project language (default fallback for non-valid language scripts)
+	global.Language = "English"; //Current language 
 	global.Number_Of_Save_Slots = 4;
 	global.Save_Slot = 0;
 

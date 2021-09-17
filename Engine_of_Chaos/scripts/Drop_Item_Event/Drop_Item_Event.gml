@@ -60,7 +60,7 @@ function Drop_Item_Event() {
 	    //Selected an item=
 	    //=================
 	    case "Selected_Item":
-	        Create_Dialogue("none",Get_Voice("Drop_Item"),Get_General_Messages("Member_List","Discard_Item?",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,true,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Drop_Item"),Get_General_Messages("Member_List","Discard_Item?",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,true,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        state = "Create_Decision";
 	    break;
     

@@ -1,5 +1,5 @@
 function Battle_01_Intro_Cutscene() {
-	var _wolf = player_trigger;
+	var _wolf = other_trigger;
 	var _jason = Get_Character("Jason","Default");
 	var _max = Get_Character("Max","Default");
 	var _ciera = Get_Character("Ciera","Default");
@@ -100,7 +100,7 @@ function Battle_01_Intro_Cutscene() {
 	    break;
 	    case 16:
 	        state += 1;
-	        Create_Dialogue("none",Get_Voice("sfx_Dialogue07"),"Grrrrr.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,sfx_Dialogue07,"Grrrrr.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 17:
 	        state += 1;
@@ -117,7 +117,7 @@ function Battle_01_Intro_Cutscene() {
 	            _lookup = "Global";
 	            _max = 1;
 	        }
-	        Create_Dialogue(Get_Character_Portrait(_lookup,_max,"Total"),Get_Voice(Get_Character_Voice(_lookup,_max,"Total")),"Hey look!^ It's a wolf!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue(_lookup,_max,"Hey look!^ It's a wolf!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 19:
 	        state += 1;
@@ -125,7 +125,7 @@ function Battle_01_Intro_Cutscene() {
 	            _lookup = "Global";
 	            _ciera = 2;
 	        }
-	        Create_Dialogue(Get_Character_Portrait(_lookup,_ciera,"Total"),Get_Voice(Get_Character_Voice(_lookup,_ciera,"Total")),"Don't they have a bounty on those right now?",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue(_lookup,_ciera,"Don't they have a bounty on those right now?",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 20:
 	        state += 1;
@@ -133,7 +133,7 @@ function Battle_01_Intro_Cutscene() {
 	    break;
 	    case 21:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"That's true,^ and we could use some gold,^ but wolves are pack hunters.% It might be a bit wiser to sneak around them.% As long as we don't get too close to their den,^ we should be fine.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"That's true,^ and we could use some gold,^ but wolves are pack hunters.% It might be a bit wiser to sneak around them.% As long as we don't get too close to their den,^ we should be fine.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 22:
 	        state += 1;
@@ -150,7 +150,7 @@ function Battle_01_Intro_Cutscene() {
 	            _lookup = "Global";
 	            _max = 1;
 	        }
-	        Create_Dialogue(Get_Character_Portrait(_lookup,_max,"Total"),Get_Voice(Get_Character_Voice(_lookup,_max,"Total")),"Psh.^ Where's the fun in that?",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue(_lookup,_max,"Psh.^ Where's the fun in that?",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 24:
 	        state += 1;
@@ -158,7 +158,7 @@ function Battle_01_Intro_Cutscene() {
 	    break;
 	    case 25:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"Well whatever the case,^ we better decide quick!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"Well whatever the case,^ we better decide quick!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 26:
 	        state += 1;

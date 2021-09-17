@@ -3,7 +3,7 @@ function Player_Was_Defeated() {
 
 	if(_script = "none"){
 	    if(Battle_Flag_Was_Set(0)){//Player was defeated
-	        _script = "Player_Was_Defeated_Default";
+	        _script = "Default_Battle_Defeat";
 	    }
 	}
 

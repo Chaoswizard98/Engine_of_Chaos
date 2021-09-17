@@ -1,11 +1,11 @@
-function Generic_Advisor_Dialogue() {
+function Generic_Advisor_Dialogue(){
 	var _player, _npc;
 	_player = player_trigger;//set player to the npc's current object
-	_npc = npc_trigger;//set npc
+	_npc = other_trigger;//set npc
 
 	switch(state){
 	    case 0:
-	        Create_Dialogue(_npc.portrait_ID,Get_Voice(_npc.voice_ID),Get_NPC_Dialogue_Message("Advisor_Dialogue",_npc.advisor_dialogue_greeting_ID,string(_player.name)),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+			Create_Character_Dialogue("Local",_npc,Get_NPC_Dialogue_Messages(_npc,_player,"Default_Advisor_Greeting"),id,true,true);
 	        state += 1;
 	    break;
 	    case 1:
@@ -13,7 +13,7 @@ function Generic_Advisor_Dialogue() {
 	        Create_Advisor_Menu(id,_player,_npc);//current object, current character
 	    break;
 	    case 2:
-	        Create_Dialogue(_npc.portrait_ID,Get_Voice(_npc.voice_ID),Get_NPC_Dialogue_Message("Advisor_Dialogue",_npc.advisor_dialogue_farewell_ID,string(_player.name)),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+			Create_Character_Dialogue("Local",_npc,Get_NPC_Dialogue_Messages(_npc,_player,"Default_Advisor_Farewell"),id,true,true);
 	        state += 1;
 	    break;
 	    case 3:

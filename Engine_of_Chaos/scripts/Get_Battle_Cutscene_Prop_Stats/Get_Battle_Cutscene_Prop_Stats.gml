@@ -30,6 +30,10 @@ function Get_Battle_Cutscene_Prop_Stats() {
 	        _sprite = spr_Explosion_Big;
 	        _animation_speed = .25;
 	    break;
+		case "SF2_Blaze_Fire_1":
+	        _sprite = spr_SF2_Blaze_Flame_1;
+	        _animation_speed = .25;
+	    break;
 	    case "Blaze_Fire_1":
 	        _sprite = spr_Blaze_Fire_1;
 	        _animation_speed = .25;

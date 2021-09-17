@@ -54,9 +54,8 @@ function Create_Member_List_Controller() {
 	            instance_destroy();
 	        }
 	        else{//if we arent throwing an error code...
-	            var _portrait_ID;
-	            _portrait_ID = Get_Character_Portrait(_lookup_type,character_list[0],"Total");//get correct portrait (test for overrides)
-	            portrait_controller = Create_Portrait_Controller(_portrait_ID,"Member_List",id,Character_Is_Dead(_lookup_type,character_list[0]));//create the portrait controller
+	            var _portrait = Get_Appearance(_lookup_type,character_list[0],"Portrait");//get correct portrait (test for overrides)
+				portrait_controller = Create_Portrait_Controller(_portrait,"Member_List",id,Character_Is_Dead(_lookup_type,character_list[0]));//create the portrait controller
 	            top_window_pan_x = max_top_window_pan_x;
 	            top_window_pan_y = max_top_window_pan_y;
 	            bottom_window_pan = max_bottom_window_pan;
@@ -65,8 +64,4 @@ function Create_Member_List_Controller() {
 	        }
         
 	    }
-	//}
-
-
-
 }

@@ -9,11 +9,11 @@ function Church_Cure_Event() {
 	            character_index = 0;
 	            cure_index = 0;
 	            no_one_injured = true;
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Investigate"),id,true,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Investigate"),id,true,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else{
 	            state = "Create_More_Help_Decision";
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Invalid_Party"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Invalid_Party"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	    break;
 	    //===================
@@ -207,7 +207,7 @@ function Church_Cure_Event() {
 	    break;
 	    case "Create_More_Help_Decision":
 	        state = "Back_To_Menu?";
-	        Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
 	    case "Back_To_Menu?":
 	        state = "Back_To_Menu_Decision";

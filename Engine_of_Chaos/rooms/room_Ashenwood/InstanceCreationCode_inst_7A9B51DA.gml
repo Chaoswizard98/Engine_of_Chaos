@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"How_To_Make_Game","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","How_To_Make_Game");

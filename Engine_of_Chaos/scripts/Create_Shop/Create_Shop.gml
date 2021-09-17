@@ -13,7 +13,7 @@ function Create_Shop() {
 
 	_this.shop_ID = _this.current_npc.shop_ID[argument[1]];//set shop ID
 	_this.dialogue_ID = _this.current_npc.shop_dialogue_ID[argument[1]];//set dialogue ID
-	_this.voice_ID = _this.current_npc.voice_ID;//set voice of the npc
+	//_this.voice_ID = _this.current_npc.voice_ID;//set voice of the npc
 
 	with(_this){
 	    Shop_Configuration();//set up shop stock and variables

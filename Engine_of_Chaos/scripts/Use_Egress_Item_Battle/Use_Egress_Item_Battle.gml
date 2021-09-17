@@ -3,7 +3,7 @@ function Use_Egress_Item_Battle() {
 
 	switch(state){
 	    case 0:
-	        Create_Dialogue("none",Get_Voice("Retreat_From_Battle"),_player.name + " uses the " + Get_Inventory_Item_Stats("Local",_player,obj_Target_Selection_Controller.inventory_slot,"Item_Name")+"!",id,true,true);
+	        Create_Dialogue(noone,Get_Generic_Voice("Retreat_From_Battle"),_player.name + " uses the " + Get_Inventory_Item_Stats("Local",_player,obj_Target_Selection_Controller.inventory_slot,"Item_Name")+"!",id,true,true);
 	        state += 1;
 	    break;
 	    case 1:

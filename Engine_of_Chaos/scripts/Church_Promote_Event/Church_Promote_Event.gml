@@ -9,15 +9,15 @@ function Church_Promote_Event() {
 	        cure_index = 0;
 	        no_one_injured = true;
 	        if(lookup_type = "Local"){
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Invalid_Party"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Invalid_Party"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            state = "Create_More_Help_Decision";
 	        }
 	        else if(Faction_Is_Empty(lookup_type,current_player.faction)){
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Cant_Promote_Anyone"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Cant_Promote_Anyone"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            state = "Create_More_Help_Decision";
 	        }
 	        else{
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Promote_Who"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Promote_Who"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	    break;
 	    case "Create_Member_List":
@@ -27,17 +27,17 @@ function Church_Promote_Event() {
 	    case "Selecting_Character":
 	        if(parent_event = "Backed_Out_Of_Menu"){//cancel selecting character
 	            state = "Create_More_Help_Decision";
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Im_Wrong"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Im_Wrong"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else{//selected a character
 	            Get_Possible_Promotions(character_index);
 	            if(number_of_promotions > 0){
 	                state = "Create_Promote_Decision";
-	                Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"X_Wants_Promotion",Get_Character_Name(lookup_type,character_index,"Total")),id,false,false);
+	                Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"X_Wants_Promotion",Get_Character_Name(lookup_type,character_index,"Total")),id,false,false);
 	            }
 	            else{
 	                state = "Start";
-	                Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Remain_Current_Class",Get_Character_Name(lookup_type,character_index,"Total")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	                Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Remain_Current_Class",Get_Character_Name(lookup_type,character_index,"Total")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            }
 	        }
 	    break;
@@ -108,7 +108,7 @@ function Church_Promote_Event() {
     
 	    case "Create_More_Help_Decision":
 	        state = "Back_To_Menu?";
-	        Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
 	    case "Back_To_Menu?":
 	        state = "Back_To_Menu_Decision";

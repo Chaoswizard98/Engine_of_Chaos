@@ -49,10 +49,10 @@ function Set_Starting_Stats() {
 	//==========================
 	//Set initial Sprite Stats =
 	//==========================
-	global.Overworld_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	global.Portrait_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	global.Voice_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	global.Battle_Cutscene_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
+	//global.Overworld_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
+	//global.Portrait_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
+	//global.Voice_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
+	//global.Battle_Cutscene_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
 
 
 

@@ -18,7 +18,7 @@ else{//In Battle
             }
         }
         Play_Music(noone,"Fade_Out",250,0);
-        Create_Cutscene_Controller("Battle_01_Intro","Cutscene",0,_wolf);//cutscene, type, trigger_1
+		Start_Cutscene("Battle_01_Intro_Cutscene",noone,_wolf);
     }
     else if(global.Story_State = 5){
         Play_Music(bgm_Dont_Stop_Fighting,"Fade_To_Next",250,0);

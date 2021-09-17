@@ -18,7 +18,7 @@ if(state = "Start"){
 
 else if(state = "Display_Cancel_Message"){
     state = "Cancel_Spell_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Spell_Selection","No_Magic"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Spell_Selection","No_Magic"),id,true,true);
 }
 
 
@@ -28,11 +28,6 @@ else if(state = "Cancel_Spell_Selection"){
 }
 
 else if(state = "Target_Selection"){
-    //if(Get_Character_Magic('Local',current_character,'Total') < Get_Spell_Slot_Stats('Local',current_character,inventory_slot[current_index],spell_level,'Magic_Cost')){//Not enough magic
-        
-    //}
-    //else{//select target
-        Create_Target_Selection_Controller(current_character,"Magic",id,inventory_slot[current_index],spell_level);
-    //}
+    Create_Target_Selection_Controller(current_character,"Magic",id,inventory_slot[current_index],spell_level);
 }
 

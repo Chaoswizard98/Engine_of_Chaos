@@ -1,36 +1,24 @@
-function Bookshelf_Messages_English() {
-	var _message_ID = argument[0];//Message to look up
-	var _type_ID = argument[1];//Menu we're calling from
-
-	//Extra data provided by the menu object
-	//things like character names, items, prices, etc.
-	var _data1 = argument[2];
-	var _data2 = argument[3];
-	var _data3 = argument[4];
-	var _data4 = argument[5];
-	var _data5 = argument[6];
-
-
+function Bookshelf_Messages_English(_bookshelf,_player) {
 	var _message = "";
-
+	var _name = Get_Character_Name("Local",_player,"Total")
 	//===============
 	//Search Message=
 	//===============
-	switch(_type_ID){
-	    case "Bookshelf": _message = (_data1 + " examines the bookshelf."); break;
-	    case "Sign": _message = (_data1 + " investigates the sign."); break;
-	    case "Notice_Board": _message = (_data1 + " investigates the notice board."); break;
-	    case "Door": _message = (_data1 + " investigates the door."); break;
-	    case "Well": _message = (_data1 + " looks into the well."); break;
-	    case "Note": _message = (_data1 + " investigates the note."); break;
-	    case "Area": _message = (_data1 + " investigates the area."); break;
+	switch(_bookshelf.object_type){
+	    case "Bookshelf": _message = (_name + " examines the bookshelf."); break;
+	    case "Sign": _message = (_name + " investigates the sign."); break;
+	    case "Notice_Board": _message = (_name + " investigates the notice board."); break;
+	    case "Door": _message = (_name + " investigates the door."); break;
+	    case "Well": _message = (_name + " looks into the well."); break;
+	    case "Note": _message = (_name + " investigates the note."); break;
+	    case "Area": _message = (_name + " investigates the area."); break;
     
-	    default: _message = (_data1 + " investigates the area."); break;
+	    default: _message = (_name + " investigates the area."); break;
 	}
 	//=========================
 	//Log witty 1 liner's here=
 	//=========================
-	switch(_message_ID){
+	switch(_bookshelf.message_ID){
 	    //Bookshelves
 	    case "How_To_Make_Game": _message += ("%#How to Make a Shining Force Game. By Chaoswizard98.%#Step 1: Wing it. %#Step 2: Ensure the wolf obtains the healing rain. %#Step 3: Release Demo. %#What a strange book!"); break;
 	    case "Farming_Techniques": _message += ("%#One book is titled 'Farming Techniques.'"); break;

@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Jess_Diary","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Jess_Diary");

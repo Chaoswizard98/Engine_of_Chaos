@@ -126,16 +126,6 @@ battle_cutscene_death_event = "none";
 kills = 0;
 deaths = 0;
 
-overworld_sprite_ID = "Default";//default sprite
-overworld_sprite_ID_override = "none";
-portrait_ID = "none";//portrait to use
-portrait_ID_override = "none";//costume / forced portrait
-voice_ID = "none";//character's voice id
-voice_ID_override = "none";//costume / forced voice
-
-battle_cutscene_sprite_ID = "none";
-battle_cutscene_sprite_ID_override = "none";
-
 //Battle Stuff
 battle_ID = "Default";
 group_ID = "Default";
@@ -289,8 +279,11 @@ y_origin = y;//y origin for wandering
 face_player_during_dialogue = true;//do they face the player when spoken to?
 face_original_direction = false;//do they face the original direction after talking to them?
 original_direction = "Down";//the way they originally face (for returning to this direction after talking to them)
-dialogue_ID = "none";//dialogue script
-other_dialogue_ID = "none";//bonus dialogue script for things like 'talk' option on advisor menu
+
+dialogue_script = "NPC_Dialogue";//Script that gets run when talking to them
+talk_menu_script = "NPC_Dialogue";//Secondary script for "talk" menu option
+dialogue_ID = "none";//dialogue message id for default 1-line responses
+
 advisor_dialogue_greeting_ID = "Default_Advisor_Greeting";
 advisor_dialogue_farewell_ID = "Default_Advisor_Farewell";
 event_cooldown = 60;//time between movement events
@@ -340,6 +333,6 @@ sprite_offset_y = 4;//draw location
 //============================
 //Post Modifyable Calculations
 //============================
-Get_Overworld_Sprite(Get_Character_Overworld_Sprite("Local",id,"Total"));//Fixes the default sprite origin
+Fix_Overworld_Sprite_Origin(sprite_index);
 image_speed = idle_animation_speed;
 

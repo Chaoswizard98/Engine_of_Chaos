@@ -45,7 +45,7 @@ else{
     else if(state = "Summon_Character_Creator"){
         state = "Creating_Character";
         Create_New_Data();
-        Create_Name_Character_Controller(id,global.Portrait_ID[0],global.Name[0]);
+        Create_Name_Character_Controller(id,Get_Character_Portrait("Global",0,"Default"),Get_Character_Name("Global",0,"Base"));
     }
     //==================
     //Creating Character

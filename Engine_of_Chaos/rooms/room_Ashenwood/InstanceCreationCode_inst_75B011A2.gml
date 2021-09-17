@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Qi_Card","Area");
+Set_Bookshelf(id,"Area","Qi_Card");

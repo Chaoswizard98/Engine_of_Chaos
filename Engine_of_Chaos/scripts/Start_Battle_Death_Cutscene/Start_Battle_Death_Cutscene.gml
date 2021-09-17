@@ -28,9 +28,5 @@ function Start_Battle_Death_Cutscene() {
 	        }
 	    }
 	}
-
-	Create_Cutscene_Controller(_script_ID,"Battle_Cutscene",0,_character);//play death animation
-
-
-
+	Start_Cutscene(_script_ID,_character);
 }

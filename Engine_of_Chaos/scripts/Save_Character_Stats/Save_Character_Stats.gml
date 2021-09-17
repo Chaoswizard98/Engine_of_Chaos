@@ -6,11 +6,11 @@ function Save_Character_Stats() {
     
 	    global.Name[i] = name;
 	    global.Faction[i] = faction;
-	    global.Overworld_Sprite_ID[i] = overworld_sprite_ID;
-	    global.Portrait_ID[i] = portrait_ID;
-	    global.Voice_ID[i] = voice_ID;
-	    global.Battle_Cutscene_Sprite_ID[i] = battle_cutscene_sprite_ID;
-	    global.Battle_Cutscene_Sprite_ID_Override[i] = battle_cutscene_sprite_ID_override;
+	    //global.Overworld_Sprite_ID[i] = overworld_sprite_ID;
+	    //global.Portrait_ID[i] = portrait_ID;
+	    //global.Voice_ID[i] = voice_ID;
+	    //global.Battle_Cutscene_Sprite_ID[i] = battle_cutscene_sprite_ID;
+	    //global.Battle_Cutscene_Sprite_ID_Override[i] = battle_cutscene_sprite_ID_override;
     
 	    //class;
 	    global.Level[i] = level;

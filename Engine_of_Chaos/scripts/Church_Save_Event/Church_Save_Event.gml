@@ -7,7 +7,7 @@ function Church_Save_Event() {
 	        state = "Create_Decision_Controller";
 	        character_index = 0;
 	        no_one_injured = true;
-	        Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Save"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Save"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
 	    case "Create_Decision_Controller":
 	        state = "Awaiting_Decision";
@@ -54,7 +54,7 @@ function Church_Save_Event() {
     
 	    case "Create_More_Help_Decision":
 	        state = "Back_To_Menu?";
-	        Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Another_Desire"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
 	    case "Back_To_Menu?":
 	        state = "Back_To_Menu_Decision";

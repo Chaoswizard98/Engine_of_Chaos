@@ -37,9 +37,7 @@ function Remove_Item() {
 	}
 	else if(_lookup_type = "Local"){
 	    _character.items[global.Number_Of_Inventory_Slots-1] = "none";//set final slot to empty
-	    _character.sprite_index = Get_Overworld_Sprite(Get_Character_Overworld_Sprite("Local",_character,"Total"));//set their sprite
-	    _character.portrait_ID = Get_Character_Portrait("Local",_character,"Total");//Set Portrait
-	    _character.voice_ID = Get_Character_Voice("Local",_character,"Total");//Set Voice
+		Set_Appearance(_character);
 	}
 
 

@@ -19,7 +19,7 @@ if(_character != noone){//if there is a character here
         if(global.In_Battle){//if we're in battle, ask player for confirmation
             call_trigger = false;
             _character.allow_interaction = false;
-            Create_Cutscene_Controller(battle_cutscene_script,"Battle_Cutscene",0,_character,id);//confirmation cutscene
+			Start_Cutscene(battle_cutscene_script,_character,id);
         }
         else{//otherwise, teleport
             call_trigger = false;

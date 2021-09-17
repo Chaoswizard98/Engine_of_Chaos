@@ -2,8 +2,8 @@ function Get_Projectile_Setup() {
 	var _character = argument[0];
 	var _animation = argument[1];
 	var _return_stat = argument[2];
-	var _character_sprite = Get_Character_Battle_Cutscene_Sprite("Local",_character,"Total");
 	var _cutscene_character = Get_Battle_Cutscene_Character(_character);
+	var _character_sprite = _cutscene_character.sprite_ID;
 
 	//Stats
 	var _projectile = "none";

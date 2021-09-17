@@ -1,4 +1,4 @@
-function Set_Town_Party_Member_Stats() {
+function Set_Town_Party_Member_Stats(){
 	var _index = argument[0];
 
 	global_ID = _index;
@@ -8,14 +8,9 @@ function Set_Town_Party_Member_Stats() {
 	//Set up stats for party members in town
 	name = Get_Character_Name("Global",_index,"Base");//Name
 	faction = Get_Character_Faction("Global",_index,"Base");//Faction
-	overworld_sprite_ID = Get_Character_Overworld_Sprite("Global",_index,"Base");//Overworld Sprite
-	portrait_ID = Get_Character_Portrait("Global",_index,"Base");//Overworld Sprite
-	voice_ID = Get_Character_Voice("Global",_index,"Base");//Overworld Sprite
-	battle_cutscene_sprite_ID = Get_Character_Battle_Cutscene_Sprite("Global",_index,"Base");
-	battle_cutscene_sprite_ID_override = "none";
 	can_gain_xp = true;//all players can gain xp
 	can_recieve_drops = true;
-	can_recieve_gold = true;;
+	can_recieve_gold = true;
 
 	class = Get_Character_Class("Global",_index,"Base");
 	level = Get_Character_Level("Global",_index,"Total");
@@ -248,11 +243,13 @@ function Set_Town_Party_Member_Stats() {
 	curse_suppression[5] = global.Curse_Suppression[_index,5];//infliction_turns_remaining
 
 
-	if(_index = 1){
+
+	
+	/*if(_index = 1){
 	    if(global.Story_State <= 3){
 	       dialogue_ID =  "Max_With_Milkshake";
 	    }
-	}
+	}*/
 
 
 

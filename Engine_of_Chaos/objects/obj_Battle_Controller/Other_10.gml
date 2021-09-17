@@ -5,7 +5,7 @@ if(event = "Start_Turn"){//Cursor End of Path
     Set_Camera_Target(Get_Current_Turn());//camera follows active object
     if(Object_Is_Character(Get_Current_Turn())){//if object is a character
         if(Get_Current_Turn().hidden){//if the character is a hidden unit
-            Create_Cutscene_Controller(Get_Current_Turn().reveal_cutscene_ID,"Battle_Cutscene");//cutscene ID, type
+			Start_Cutscene(Get_Current_Turn().reveal_cutscene_ID);
         }
         else if(Status_Effect_Prevents_Turn(Get_Current_Turn())){//if character is sleeping/stunned/petrified/paralyzed/etc
             Execute_Battle_Event("End_Turn");//end their turn
@@ -15,7 +15,7 @@ if(event = "Start_Turn"){//Cursor End of Path
         }
     }
     else if(Object_Is_Spawner(Get_Current_Turn())){//if object is a mob-spawner
-        Create_Cutscene_Controller(Get_Current_Turn().spawn_cutscene_ID,"Battle_Cutscene");//cutscene ID, type
+		Start_Cutscene(Get_Current_Turn().spawn_cutscene_ID);
     }
 }
 //==========================
@@ -36,7 +36,7 @@ else if(event = "End_Turn"){
         snap_cursor_to_character = true;
     }
     if(Object_Is_Character(Get_Current_Turn())){//if object is a character
-        Create_Cutscene_Controller("Status_Effects_Battle","Battle_Cutscene",0,Get_Current_Turn());//character ended turn, update status effects
+		Start_Cutscene("Status_Effects_Battle",Get_Current_Turn());
     }
     else{//object isnt a character, skip this event
         Execute_Battle_Event("Start_Death_Animation");

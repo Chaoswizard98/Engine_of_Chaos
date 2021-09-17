@@ -1,4 +1,5 @@
 character = noone;//character we're drawing
+sprite_ID = "Default";//ID of the sprite set to draw (Saved in case of sprite costume changes due to equipment breaking mid cutscene)
 animation = "Idle";//animation to play
 current_frame = 0;//current frame of the animation (used for frame triggers)
 trigger_event = false;//ping battle cutscene controller?

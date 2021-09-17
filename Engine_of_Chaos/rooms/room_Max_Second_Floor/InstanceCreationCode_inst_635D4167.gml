@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Innkeeper_Etiquette","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Innkeeper_Etiquette");

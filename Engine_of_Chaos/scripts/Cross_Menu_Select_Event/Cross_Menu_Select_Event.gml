@@ -23,14 +23,13 @@ function Cross_Menu_Select_Event() {
 	    case "Display_Item_Menu": Create_Item_Town_Menu(id,current_character,current_npc); break;//display item menu (use, give, equip, drop)
 	    case "Display_Church_Menu": Create_Church_Menu(id,current_character,current_npc); break;
     
-	    //case "Talk_To_Advisor": Update_Cutscene_Controller('Default','Advisor_Dialogue',0,current_character,current_npc); instance_destroy(); break;//call advisor dialogue
-	    case "Talk_To_Advisor": Update_Cutscene_Controller(current_npc.other_dialogue_ID,"NPC_Dialogue",0,current_character,current_npc); instance_destroy(); break;//call advisor dialogue
+	    case "Talk_To_Advisor": Update_Cutscene(obj_Cutscene_Controller,current_npc.talk_menu_script,current_character,current_npc); instance_destroy(); break;//call advisor dialogue
 	    case "Search": Search_Event(current_character,"menu_trigger"); break;//Search chests / talk to npcs
 	    case "Search_In_Battle": Pan_Out_Land_Effect_Window("Search"); instance_destroy(); break;//Search chests / talk to npcs
     
 	    case "Display_Options_Menu": Create_Options_Menu(id); break;//cursor menu (options)
 	    case "Display_Minimap": Create_Minimap_Controller(id); break;//minimap
-	    case "Quit": Create_Cutscene_Controller("Quit_Game","Battle_Cutscene",0,id); break;//cursor menu (quit)
+	    case "Quit": Start_Cutscene("Quit_Game_Cutscene",id); break;//cursor menu (quit)
     
 	    case "Attack": Generate_Target_Range(current_character,round(current_character.x),round(current_character.y),Get_Character_Max_Attack_Range("Local",current_character,"Total"),Get_Character_Min_Attack_Range("Local",current_character,"Total"),Get_Character_Attack_Range_Type("Local",current_character,"Total"),true); Create_Target_Selection_Controller(current_character,"Attack",id); break;
 	    case "End_Turn": End_Turn(current_character,"End_Turn"); instance_destroy(); break;//end turn in battle (stay / defend)

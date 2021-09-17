@@ -42,22 +42,22 @@ function Buy_Item_Event() {
 	                //if can equip to either main hand or offhand
 	                if(Can_Equip_Item(lookup_type,character_list[start_index + index],obj_Shop_Controller.item_array[(obj_Shop_Controller.page_number*obj_Shop_Controller.items_per_page)+obj_Shop_Controller.item_index])){
 	                    state = "Equip_Message";
-	                    Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Equip_Item?"),id,false,false);//message, arrow, auto pan
+	                    Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Equip_Item?"),id,false,false);//message, arrow, auto pan
 	                }
 	                else{
 	                    state = "Cant_Equip_Message";
-	                    Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Cant_Equip",Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,false,false);//message, arrow, auto pan
+	                    Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Cant_Equip",Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,false,false);//message, arrow, auto pan
 	                }
 	            }
 	            else{
 	                state = "Return_To_Shop";
 	                Buy_Item(false);
-	                Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Buy_Item"),id,true,true);//message, arrow, auto pan
+	                Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Buy_Item"),id,true,true);//message, arrow, auto pan
 	            }
 	        }
 	        else{//they cant hold the item
 	            state = "Hands_Full";
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Hands_Full",Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,false,false);//message, arrow, auto pan
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Hands_Full",Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,false,false);//message, arrow, auto pan
 	        }
 	    break;
 	    case "Return_To_Shop":

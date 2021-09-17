@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Taxidermy_Guide","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Taxidermy_Guide");

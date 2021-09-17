@@ -1,0 +1,1 @@
+Effect_Stats_Default(id);

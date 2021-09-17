@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Art_of_Saddle_Making","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Art_of_Saddle_Making");

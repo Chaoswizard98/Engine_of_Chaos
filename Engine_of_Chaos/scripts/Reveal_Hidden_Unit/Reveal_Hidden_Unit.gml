@@ -1,6 +1,6 @@
 function Reveal_Hidden_Unit() {
 	var _character = Get_Current_Turn();
-
+	//show_message(string(state));
 	switch(state){
 	    case 0:
 	        instance_activate_object(_character);//activate the character
@@ -11,7 +11,7 @@ function Reveal_Hidden_Unit() {
 	        state += 1;
 	    break;
 	    case 1:
-	        Create_Dialogue("none",Get_Voice("Monster_Has_Appeared"),Get_General_Messages("Generic_Battle","Reveal_Hidden_Unit",string(Get_Character_Name("Local",_character,"Total"))),id,true,true);
+	        Create_Dialogue(noone,Get_Generic_Voice("Monster_Has_Appeared"),Get_General_Messages("Generic_Battle","Reveal_Hidden_Unit",string(Get_Character_Name("Local",_character,"Total"))),id,true,true);
 	        state += 1;
 	    break;
 	    case 2:
@@ -27,7 +27,4 @@ function Reveal_Hidden_Unit() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

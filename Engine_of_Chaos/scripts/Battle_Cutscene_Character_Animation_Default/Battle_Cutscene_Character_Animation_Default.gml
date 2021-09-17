@@ -16,7 +16,4 @@ function Battle_Cutscene_Character_Animation_Default() {
 	        }
 	    }
 	}
-
-
-
 }

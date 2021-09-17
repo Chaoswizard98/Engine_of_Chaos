@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Frozen_Volcano","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Frozen_Volcano");

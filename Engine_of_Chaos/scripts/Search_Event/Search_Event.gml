@@ -31,7 +31,7 @@ function Search_Event() {
 	        }
 	        else{
 	            parent_event = "Backed_Out_Of_All_Menus";
-	            Create_Dialogue("none",Get_Voice("Search"),"You find nothing of value.",id,true,true);
+	            Create_Dialogue(noone,Get_Generic_Voice("Search"),"You find nothing of value.",id,true,true);
 	        }
 	    break;
 	}

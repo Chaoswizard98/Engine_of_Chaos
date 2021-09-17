@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Ashenwood_Inn","Notice_Board");
+Set_Bookshelf(id,"Notice_Board","Ashenwood_Inn");

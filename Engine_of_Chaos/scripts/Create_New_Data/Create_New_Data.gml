@@ -10,7 +10,7 @@ function Create_New_Data() {
 
 	for(i = 0; i < global.Number_Of_Chapters; i += 1){//Loop through all chapters
 	    for(j = 0; j < global.Number_Of_Chapter_Flags; j += 1){//Loop through all chapter Flags
-	        global.Story_Flags[0,0] = "none";//extra flags [chapter,flag]
+	        Set_Story_Flag(i,j,"none");//extra flags [chapter,flag]
 	    }
 	}
 

@@ -1,1 +1,1 @@
-Set_Up_Chest(0,false);//<ID>,<respawnable>
+Set_Lootable_Chest(id,0,"Medical_Herb",0);

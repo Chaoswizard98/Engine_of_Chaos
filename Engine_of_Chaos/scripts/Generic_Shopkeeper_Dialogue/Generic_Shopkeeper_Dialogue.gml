@@ -1,11 +1,10 @@
 function Generic_Shopkeeper_Dialogue() {
-	var _player, _npc;
-	_player = player_trigger;//set player to the npc's current object
-	_npc = npc_trigger;//set npc
+	var _player = player_trigger;//set player to the npc's current object
+	var _npc = other_trigger;//set npc
 
 	switch(state){
 	    case 0:
-	        Create_Dialogue(_npc.portrait_ID,Get_Voice(_npc.voice_ID),"What's up, boy!%#We guarantee all items to#be in good condition!",id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+			Create_Character_Dialogue("Local",_npc,Get_NPC_Dialogue_Messages(_npc,_player,"Default_Shopkeeper_Greeting"),id,true,true);
 	        state += 1;
 	    break;
 	    case 1:
@@ -13,7 +12,7 @@ function Generic_Shopkeeper_Dialogue() {
 	        Create_Shop_Menu(id,_player,_npc);//current object, current character
 	    break;
 	    case 2:
-	        Create_Dialogue(_npc.portrait_ID,Get_Voice(_npc.voice_ID),"Thank you! Come again!",id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+			Create_Character_Dialogue("Local",_npc,Get_NPC_Dialogue_Messages(_npc,_player,"Default_Shopkeeper_Farewell"),id,true,true);
 	        state += 1;
 	    break;
 	    case 3:

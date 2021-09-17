@@ -1,10 +1,10 @@
 function Retreat_From_Battle_Overworld() {
 	var _player = player_trigger;
-	var _direction = npc_trigger;
+	var _direction = other_trigger;
 
 	switch(state){
 	    case 0:
-	        Create_Dialogue("none",Get_Voice("Retreat_From_Battle"),Get_General_Messages("Generic_Battle","Retreat"),id,false,false);
+	        Create_Dialogue(noone,Get_Generic_Voice("Retreat_From_Battle"),Get_General_Messages("Generic_Battle","Retreat"),id,false,false);
 	        state += 1;
 	    break;
 	    case 1:

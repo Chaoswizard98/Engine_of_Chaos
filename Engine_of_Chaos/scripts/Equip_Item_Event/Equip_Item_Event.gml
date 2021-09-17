@@ -129,7 +129,7 @@ function Equip_Item_Event() {
 	    //You are cursed
 	    case "You_Are_Cursed":
 	        state = "End_Cursed_Message";
-	        Create_Dialogue("none",Get_Voice("Equip_Item"),string(Get_Character_Name(lookup_type,character_list[start_index + index],"Total"))+" has been cursed!",id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Equip_Item"),string(Get_Character_Name(lookup_type,character_list[start_index + index],"Total"))+" has been cursed!",id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        Stop_Dialogue_Interaction();
 	        Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
 	    break;
@@ -172,7 +172,7 @@ function Equip_Item_Event() {
 	    //Cursed Refuse Equip
 	    case "Cursed_Refuse_Equip":
 	        state = "End_Refuse_Equip";
-	        Create_Dialogue("none",Get_Voice("Equip_Item"),"The curse prevents you from switching equipment.",id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Equip_Item"),"The curse prevents you from switching equipment.",id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
     
 	    //return to selecting item

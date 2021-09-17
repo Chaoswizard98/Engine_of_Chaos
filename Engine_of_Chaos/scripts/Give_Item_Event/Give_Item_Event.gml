@@ -69,7 +69,7 @@ function Give_Item_Event() {
     
     
 	    case "Prevent_Curse_Give":
-	        Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Cancel_Give_Cursed",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Cancel_Give_Cursed",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        Stop_Dialogue_Interaction();
 	        Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
 	        state = "End_Loop";
@@ -103,7 +103,7 @@ function Give_Item_Event() {
 	    //Selected an item=
 	    //=================
 	    case "Selected_Item":
-	        Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Whom?",Get_Inventory_Item_Stats(lookup_type,selected_character,selected_item_slot,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Whom?",Get_Inventory_Item_Stats(lookup_type,selected_character,selected_item_slot,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        state = "Choose_Target";
 	    break;
     
@@ -185,12 +185,12 @@ function Give_Item_Event() {
 	    break;
     
 	    case "Gave_Item_To_Self":
-	        Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Self",Get_Item_Stats(selected_item,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Self",Get_Item_Stats(selected_item,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        state = "End_Loop";
 	    break;
     
 	    case "Gave_Item_To_Target":
-	        Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Other",Get_Item_Stats(selected_item,"Item_Name"),Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Give_To_Other",Get_Item_Stats(selected_item,"Item_Name"),Get_Character_Name(lookup_type,character_list[start_index + index],"Total")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        state = "End_Loop";
 	    break;
     
@@ -207,12 +207,12 @@ function Give_Item_Event() {
 	            _portrait_ID = Get_Character_Portrait(lookup_type,character_list[start_index + index],"Total");//get correct portrait (test for overrides)
 	            Update_Portrait_Controller(portrait_controller,_portrait_ID,Character_Is_Dead(lookup_type,character_list[start_index + index]));//set sprite of portrait controller to new character
             
-	            Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Trade_With_Other",Get_Item_Stats(selected_item,"Item_Name"),Get_Character_Name(lookup_type,character_list[start_index + index],"Total"),Get_Item_Stats(target_item,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Trade_With_Other",Get_Item_Stats(selected_item,"Item_Name"),Get_Character_Name(lookup_type,character_list[start_index + index],"Total"),Get_Item_Stats(target_item,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            state = "End_Loop";
 	        }
 	        else{
 	            state = "Selected_Item";
-	            Create_Dialogue("none",Get_Voice("Give_Item"),Get_General_Messages("Member_List","Cancel_Give_Cursed",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Give_Item"),Get_General_Messages("Member_List","Cancel_Give_Cursed",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,false,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            Stop_Dialogue_Interaction();
 	            Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
 	        }

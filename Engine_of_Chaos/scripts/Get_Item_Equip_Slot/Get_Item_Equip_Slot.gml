@@ -10,7 +10,5 @@ function Get_Item_Equip_Slot() {
 	        return i;
 	    }
 	}
-
-
-
+	return -1;
 }

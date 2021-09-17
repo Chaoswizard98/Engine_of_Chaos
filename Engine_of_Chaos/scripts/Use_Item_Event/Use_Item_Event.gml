@@ -42,7 +42,7 @@ function Use_Item_Event() {
 	        }
 	        else{
 	            input_event = "none";
-	            if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Use_In_Town")){//if we can use it
+	            if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Town_Effect") != "none"){//if we can use it
 	                state = "Selected_Item";
 	                Play_Sound(sfx_Menu_Select);
 	                pan_direction = "out";//pan the windows out
@@ -63,7 +63,7 @@ function Use_Item_Event() {
 	    //=================
 	    case "Selected_Item":
 	        if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Target_Other")){
-	            Create_Dialogue("none",Get_Voice("Use_Item"),Get_General_Messages("Member_List","Use_Item",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Use_Item"),Get_General_Messages("Member_List","Use_Item",Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Item_Name")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            state = "Choose_Target";
 	        }
 	        else{

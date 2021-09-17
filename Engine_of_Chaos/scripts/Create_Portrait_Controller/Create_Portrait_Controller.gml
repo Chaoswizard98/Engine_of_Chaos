@@ -1,7 +1,7 @@
 function Create_Portrait_Controller() {
-	var _currentObject, _portrait_ID, _displayType, _this, _dead;
+	var _currentObject, _portrait, _displayType, _this, _dead;
 
-	_portrait_ID = argument[0];
+	_portrait = argument[0];
 	_displayType = argument[1];
 	_currentObject = argument[2];
 
@@ -18,8 +18,13 @@ function Create_Portrait_Controller() {
 	}
 	
 	with(_this){
-	    portrait = Get_Portrait(_portrait_ID,false);//portrait
-	    portrait_blink = Get_Portrait(_portrait_ID,true);//blink frames
+	    portrait = _portrait;
+	    portrait_blink = noone;
+		if(portrait != noone){
+			if(sprite_exists(asset_get_index(sprite_get_name(_portrait)+"_Blink"))){
+				portrait_blink = asset_get_index(sprite_get_name(_portrait)+"_Blink");
+			}
+		}
 	    pan_direction = "in";
 	    current_object = _currentObject;
 	    display_type = _displayType;

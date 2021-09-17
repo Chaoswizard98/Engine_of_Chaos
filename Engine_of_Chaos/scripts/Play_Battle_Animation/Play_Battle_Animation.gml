@@ -19,7 +19,7 @@ function Play_Battle_Animation() {
 	    _return_to_idle = argument[4];
 	}
 
-	var _sprite = Get_Character_Battle_Cutscene_Sprite("Local",_object.character,"Total");
+	var _sprite = _object.sprite_ID;
 
 	while(_animation != Get_Battle_Cutscene_Sprite_Stats(_sprite,_animation,"Parent_Animation")){//check if it has a parent animation
 	    _animation = Get_Battle_Cutscene_Sprite_Stats(_sprite,_animation,"Parent_Animation");//set to parent animation

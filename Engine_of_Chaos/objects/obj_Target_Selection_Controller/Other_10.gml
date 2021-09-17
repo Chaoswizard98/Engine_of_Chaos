@@ -49,14 +49,14 @@ else if(state = "Pan_Out_Target_HUD"){
 //=======================
 else if(state = "Display_Cancel_Message"){
     state = "Cancel_Target_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Target_Selection","No_Targets"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("Target_Selection"),Get_General_Messages("Target_Selection","No_Targets"),id,true,true);
 }
 //=========================
 //Display No Magic Message=
 //=========================
 else if(state = "Display_No_Magic_Message"){
     state = "Cancel_Target_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Target_Selection","Not_Enough_Magic"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Target_Selection","Not_Enough_Magic"),id,true,true);
 }
 //======================
 //Pressed Cancel Button=
@@ -200,10 +200,10 @@ else if(state = "AI_Event"){
 //=====================
 else if(state = "Egress_Cutscene"){
     if(action = "Magic"){
-        Create_Cutscene_Controller("Cast_Egress_Battle","Battle_Cutscene",0,character);
+		Start_Cutscene("Cast_Egress_Battle",character);
     }
     else{
-        Create_Cutscene_Controller("Use_Egress_Item_Battle","Battle_Cutscene",0,character);
+		Start_Cutscene("Use_Egress_Item_Battle",character);
     }
 }
 

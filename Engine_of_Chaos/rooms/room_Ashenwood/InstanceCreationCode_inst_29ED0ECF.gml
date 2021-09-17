@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Item_Shop","Sign");
+Set_Bookshelf(id,"Sign","Item_Shop");

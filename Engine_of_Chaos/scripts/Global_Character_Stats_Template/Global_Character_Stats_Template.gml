@@ -63,14 +63,14 @@ function Global_Character_Stats_Template() {
 	//=========
 	//sprites =
 	//=========
-	global.Overworld_Sprite_ID[i] = "none";
-	global.Overworld_Sprite_ID_Override[i] = "none";
-	global.Portrait_ID[i] = "none";
-	global.Portrait_ID_Override[i] = "none";
-	global.Voice_ID[i] = "none";
-	global.Voice_ID_Override[i] = "none";
-	global.Battle_Cutscene_Sprite_ID[i] = "none";
-	global.Battle_Cutscene_Sprite_ID_Override[i] = "none";
+	//global.Overworld_Sprite_ID[i] = "none";
+	//global.Overworld_Sprite_ID_Override[i] = "none";
+	//global.Portrait_ID[i] = "none";
+	//global.Portrait_ID_Override[i] = "none";
+	//global.Voice_ID[i] = "none";
+	//global.Voice_ID_Override[i] = "none";
+	//global.Battle_Cutscene_Sprite_ID[i] = "none";
+	//global.Battle_Cutscene_Sprite_ID_Override[i] = "none";
     
 	//=======
 	//Magic =

@@ -3,7 +3,7 @@ function Cast_Egress_Battle() {
 
 	switch(state){
 	    case 0:
-	        Create_Dialogue("none",Get_Voice("Retreat_From_Battle"),_player.name + " casts " + Get_Spell_Slot_Stats("Local",_player,obj_Target_Selection_Controller.inventory_slot,obj_Target_Selection_Controller.inventory_level,"Spell_Name") + " level " + string(obj_Target_Selection_Controller.inventory_level) + "!",id,true,true);
+	        Create_Dialogue(noone,Get_Generic_Voice("Retreat_From_Battle"),_player.name + " casts " + Get_Spell_Slot_Stats("Local",_player,obj_Target_Selection_Controller.inventory_slot,obj_Target_Selection_Controller.inventory_level,"Spell_Name") + " level " + string(obj_Target_Selection_Controller.inventory_level) + "!",id,true,true);
 	        state += 1;
 	    break;
 	    case 1:

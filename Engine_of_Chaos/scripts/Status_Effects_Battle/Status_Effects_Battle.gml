@@ -49,7 +49,7 @@ function Status_Effects_Battle() {
 	        if(_message != ""){//if we dont have the null message
 	            _message = string_delete(_message,1,1);//delete the first character 'newline'
 	            _message = string_delete(_message,string_length(_message),1);//delete last "pause break" symbol
-	            Create_Dialogue("none",Get_Voice("none"),_message,id,true,true);
+	            Create_Dialogue(noone,Get_Generic_Voice("none"),_message,id,true,true);
 	        }
 	        else{//no status effects need updating, end event
 	            event_perform(ev_other,ev_user0);

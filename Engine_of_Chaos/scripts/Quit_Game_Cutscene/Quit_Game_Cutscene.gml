@@ -3,7 +3,7 @@ function Quit_Game_Cutscene() {
 	switch(state){
 	    case 0:
 	        state += 1;
-	        Create_Dialogue("none",Get_Voice("Quit"),Get_General_Messages("Generic_Battle","Quit"),id,false,false);
+	        Create_Dialogue(noone,Get_Generic_Voice("Quit"),Get_General_Messages("Generic_Battle","Quit"),id,false,false);
 	    break;
 	    case 1:
 	        state += 1;

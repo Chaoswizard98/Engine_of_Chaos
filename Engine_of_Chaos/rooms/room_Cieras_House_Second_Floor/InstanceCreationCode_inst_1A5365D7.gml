@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Wind_Magic","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Wind_Magic");

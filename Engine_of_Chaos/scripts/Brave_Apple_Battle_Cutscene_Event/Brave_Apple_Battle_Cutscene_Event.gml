@@ -21,7 +21,7 @@ function Brave_Apple_Battle_Cutscene_Event() {
 	                    _message = Get_General_Messages("Battle_Cutscene","Nothing_Happens",Get_Character_Name("Local",target,"Total"));
 	                }
                 
-	                Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	                Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	                Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
 	            }
 	        }

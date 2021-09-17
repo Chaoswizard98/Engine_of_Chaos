@@ -41,7 +41,7 @@ function Magic_Event() {
 	        }
 	        else{
 	            input_event = "none";
-	            if(Get_Spell_Slot_Stats(lookup_type,character_list[start_index + index],item_index,-1,"Use_In_Town")){//if we can use it
+	            if(Get_Spell_Slot_Stats(lookup_type,character_list[start_index + index],item_index,-1,"Town_Effect") != "none"){//if we can use it
 	                state = "Selecting_Spell_Level";
 	                Play_Sound(sfx_Menu_Select);
 	                selected_item_slot = item_index;//remember item slot
@@ -76,7 +76,7 @@ function Magic_Event() {
     
 	    case "Selected_Spell_Level":
 	        if(Get_Spell_Slot_Stats(lookup_type,character_list[start_index + index],item_index,selected_spell_level,"Target_Other")){
-	            Create_Dialogue("none",Get_Voice("Cast_Spell"),Get_General_Messages("Member_List","Cast_Spell"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Cast_Spell"),Get_General_Messages("Member_List","Cast_Spell"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	            state = "Choose_Target";
 	        }
 	        else{

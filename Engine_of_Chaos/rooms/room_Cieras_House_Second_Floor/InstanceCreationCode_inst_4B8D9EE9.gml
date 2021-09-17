@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Certainty_of_Twilight","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Certainty_of_Twilight");

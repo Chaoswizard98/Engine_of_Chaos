@@ -1333,7 +1333,7 @@
 ],},"visible":true,"depth":2500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Base_Tile_Layer_01","tags":[],"resourceType":"GMRTileLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "RoomCreationCode.gml",
+  "creationCodeFile": "${project_dir}/rooms/room_Battle_01/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_1AE3B35B","path":"rooms/room_Battle_01/room_Battle_01.yy",},

@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Tavern_Management","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Tavern_Management");

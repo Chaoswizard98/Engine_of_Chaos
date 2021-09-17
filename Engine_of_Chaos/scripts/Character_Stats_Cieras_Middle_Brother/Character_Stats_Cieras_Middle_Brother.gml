@@ -1,0 +1,22 @@
+function Town_Character_Stats_Cieras_Middle_Brother(){
+var _character = argument[0];
+	
+	with(_character){
+		is_npc = true;//Flag them as an NPC
+		dialogue_ID = "Cieras_Middle_Brother";//Dialogue Message ID to print when talked to
+		allow_wander = false;//Allow NPC to wander.
+		wander_radius = 6;//Set NPC's Wander Radius
+	}
+}
+
+//======================
+//Overworld Sprite Setup
+//======================
+function Get_Appearance_Cieras_Middle_Brother(_lookup_type,_character,_stat){
+	var _overworld_sprite = spr_Cieras_Middle_Brother_Overworld; 
+	var _portrait = noone;
+	var _voice = Get_Generic_Voice("Male_Mature_2");
+	var _battle_sprite = "none";
+	
+	return Get_Basic_NPC_Appearance(_lookup_type,_character,_stat,_overworld_sprite,_portrait,_voice,_battle_sprite);
+}

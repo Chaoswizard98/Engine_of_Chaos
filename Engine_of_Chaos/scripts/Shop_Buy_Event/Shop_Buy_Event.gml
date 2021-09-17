@@ -7,13 +7,13 @@ function Shop_Buy_Event() {
 	        state = "Pan_Shop_In";
 	        if(number_of_items <= 0){
 	            state = "Backed_Out_Of_Menu";
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Out_Of_Stock"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Out_Of_Stock"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else if(item_type = "Rare_Items"){
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Start_Buy_Deals"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Start_Buy_Deals"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else{
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Start_Buy"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Start_Buy"),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	    break;
 	    //============
@@ -89,11 +89,11 @@ function Shop_Buy_Event() {
 	        state = "Selecting_Character";
 	        if(Get_Item_Stats(item_array[(page_number*items_per_page)+item_index],"Shop_Type")= "Equipment"){
 	            Create_Member_List_Controller(lookup_type,current_player.faction,"Buying_Equipment","Buy_Item",id);
-	            obj_Member_List_Controller.voice_ID = voice_ID;//set controller voice to npc
+	            obj_Member_List_Controller.current_npc = current_npc;//set controller voice to npc
 	        }
 	        else{
 	            Create_Member_List_Controller(lookup_type,current_player.faction,"Buying_Item","Buy_Item",id);
-	            obj_Member_List_Controller.voice_ID = voice_ID;//set controller voice to npc
+	            obj_Member_List_Controller.current_npc = current_npc;//set controller voice to npc
 	        }
 	    break;
 	    //====================
@@ -102,7 +102,7 @@ function Shop_Buy_Event() {
 	    case "Selecting_Character":
 	        if(parent_event = "Backed_Out_Of_Menu"){
 	            state = "Start";
-	            Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Cancel_Purchase"),id,true,true);//message, arrow, auto pan
+	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Cancel_Purchase"),id,true,true);//message, arrow, auto pan
 	        }
 	        else if(parent_event = "Purchased_Item"){
 	            state = "Start";

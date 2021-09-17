@@ -43,7 +43,7 @@ function Move_Character_Town() {
 	        }
 	        if(_room != noone){
 	            allow_interaction = false;//Block Movement
-	            Create_Cutscene_Controller("Retreat_From_Battle_Overworld","Battle_Cutscene",0,id,_direction);//confirmation cutscene
+				Start_Cutscene("Retreat_From_Battle_Overworld",id,_direction);
 	        }
 	    }
 	    else{
@@ -52,7 +52,7 @@ function Move_Character_Town() {
 	            _cutscene = Get_Room_Transfer_Cutscene();
 	            if(_cutscene != "none"){
 	                allow_interaction = false;//prevent player interaction
-	                Create_Cutscene_Controller(_cutscene,"Cutscene",0,id);
+					Start_Cutscene(_cutscene,id);
 	            }
 	            else{
 	                allow_interaction = false;//prevent player interaction

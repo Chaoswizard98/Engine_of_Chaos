@@ -7,12 +7,12 @@ function Start_Game_Script() {
 	    //initial message.
 	    case "Start":
 	        state = "Create_Start_Menu";
-	        Create_Dialogue("none",sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%#I can tell just how pumped you are, so here's the menu to get started!@",id,true,false);
+	        Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%#I can tell just how pumped you are, so here's the menu to get started!@",id,true,false);
 	    break;
 	    //if we were holding space on startup, skip welcome message.
 	    case "Skip_Start":
 	        state = "Create_Start_Menu";
-	        Create_Dialogue("none",sfx_Dialogue01,"I can tell just how pumped you are, so here's the menu to get started!@",id,false,false);
+	        Create_Dialogue(noone,sfx_Dialogue01,"I can tell just how pumped you are, so here's the menu to get started!@",id,false,false);
 	    break;
 	    //Create the start menu
 	    case "Create_Start_Menu":
@@ -51,7 +51,7 @@ function Start_Game_Script() {
 	    case "Go_To_Character_Creation":
 	        state = "Creating_Character";
 	        Create_New_Data();
-	        Create_Name_Character_Controller(id,global.Portrait_ID[0],global.Name[0]);//current_object, portrait id, default name
+	        Create_Name_Character_Controller(id,Get_Character_Portrait("Global",0,"Default"),Get_Character_Name("Global",0,"Base"));//current_object, portrait id, default name
 	    break;
 	    case "Creating_Character":
 	        state = "Return_To_Start_Menu";

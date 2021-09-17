@@ -25,11 +25,12 @@ else if(display_type = "Character_Creation"){
 //Draw Code=
 //==========
 draw_set_colour(c_white);//set to normal draw color
-draw_sprite(portrait,talk_frame,_portrait_x,_portrait_y);
-if(is_dead){
-    draw_sprite(portrait_blink,floor(sprite_get_number(portrait_blink)/2),_portrait_x, _portrait_y);
+if(portrait != noone){
+	draw_sprite(portrait,talk_frame,_portrait_x,_portrait_y);
+	if(is_dead){
+	    draw_sprite(portrait_blink,floor(sprite_get_number(portrait_blink)/2),_portrait_x, _portrait_y);
+	}
+	else if(blinking){//Draw the blinking overlay frame
+	    draw_sprite(portrait_blink,blink_frame,_portrait_x, _portrait_y);
+	}
 }
-else if(blinking){//Draw the blinking overlay frame
-    draw_sprite(portrait_blink,blink_frame,_portrait_x, _portrait_y);
-}
-

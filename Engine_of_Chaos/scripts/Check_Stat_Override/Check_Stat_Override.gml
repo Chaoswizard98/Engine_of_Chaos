@@ -6,7 +6,4 @@ function Check_Stat_Override() {
 	    }
 	}
 	return argument[0];
-
-
-
 }

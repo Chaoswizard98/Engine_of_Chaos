@@ -72,7 +72,7 @@ function Default_Battle_Cutscene_Event() {
 	    }
     
 	    //Create Dialogue
-	    Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	    Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	}
 	//==================
 	//Perform Animation=
@@ -167,7 +167,7 @@ function Default_Battle_Cutscene_Event() {
 	else if(state = "No_Valid_Targets"){
 	    state = "Continue_Attack_Loop";
 	    allow_multiple_attacks = false;
-	    Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Nothing_Happens"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	    Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Nothing_Happens"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	}
 	//=================
 	//No Valid Targets=
@@ -176,7 +176,7 @@ function Default_Battle_Cutscene_Event() {
 	    state = "End_Attack_Phase";
 	    allow_multiple_attacks = false;
 	    allow_counter_attacks = false;
-	    Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Spell_Fizzles"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	    Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Spell_Fizzles"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	}
 	//===================
 	//Play Hit Animation=
@@ -328,7 +328,7 @@ function Default_Battle_Cutscene_Event() {
 	        }
 	    }
     
-	    Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	    Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	    _criteria += 1;
     
 	    Set_Battle_Cutscene_Event_Criteria(_criteria,_delay);//counter,delay
@@ -453,7 +453,7 @@ function Default_Battle_Cutscene_Event() {
 	        //==================================
 	        if(_message != ""){
 	            _counter += 1;
-	            Create_Dialogue("none",noone,string_delete(_message,1,1),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	            Create_Dialogue(noone,noone,string_delete(_message,1,1),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	        }
 	        //==================
 	        //=Test For Counter=
@@ -546,7 +546,7 @@ function Default_Battle_Cutscene_Event() {
 	        }
         
 	        //Create Dialogue
-	        Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	        Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	    }
 	    else{
 	        Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
@@ -586,7 +586,7 @@ function Default_Battle_Cutscene_Event() {
 	        target_index = number_of_targets-1;
 	        target = target_array[target_index];
         
-	        Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Counter_Attack", Get_Character_Name("Local",attacker,"Total")),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	        Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Counter_Attack", Get_Character_Name("Local",attacker,"Total")),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	        _attacker.counter_target = noone;
 	    }
 	    else{
@@ -622,7 +622,7 @@ function Default_Battle_Cutscene_Event() {
 	            target = attacker;
 	        }
         
-	        Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Burst_Rock_Exploded"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	        Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Burst_Rock_Exploded"),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	    }
 	    else{
 	        Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
@@ -681,7 +681,7 @@ function Default_Battle_Cutscene_Event() {
 	                Give_Gold(_attacker.gold_earned);
 	                _attacker.gold_earned = 0;
 	            }
-	            Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	            Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	            Set_Character_Experience("Local",_attacker.character,"Add",_attacker.experience_gained);
 	            _attacker.experience_gained = 0;
 	            if(Character_Leveled_Up("Local",attacker)){
@@ -710,7 +710,7 @@ function Default_Battle_Cutscene_Event() {
 	else if(state = "Level_Up"){
 	    if(Character_Leveled_Up("Local",attacker)){
 	        Play_Sound(sfx_Level_Up);
-	        Create_Dialogue("none",noone,Level_Up("Local",attacker,false),id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	        Create_Dialogue(noone,noone,Level_Up("Local",attacker,false),id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	    }
 	    else{
 	        state = "Finish_Attack_Animation";

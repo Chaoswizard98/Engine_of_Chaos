@@ -5,8 +5,9 @@ function Create_Battle_Cutscene_Character() {
 
 	var _this = instance_create_layer(0,0,"Battle_Cutscene_Instance_Layer",obj_Battle_Cutscene_Character);
 	_this.character = _character;
+	_this.sprite_ID = Get_Character_Battle_Cutscene_Sprite("Local",_character,"Total");
 
-	if(Get_Battle_Cutscene_Sprite_Stats(Get_Character_Battle_Cutscene_Sprite("Local",_character,"Total"),_animation,"Location")="Foreground"){//Foreground Position
+	if(Get_Battle_Cutscene_Sprite_Stats(_this.sprite_ID,_animation,"Location")="Foreground"){//Foreground Position
 	    _this.location = "Foreground";
 	    if(_position = "Normal"){
 	        _this.position = "Right";

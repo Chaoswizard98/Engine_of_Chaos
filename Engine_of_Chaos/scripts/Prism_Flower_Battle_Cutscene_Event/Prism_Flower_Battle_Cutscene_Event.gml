@@ -6,7 +6,7 @@ function Prism_Flower_Battle_Cutscene_Event() {
 	        state = "Perform_Animation";
         
 	        //Create Dialogue
-	        Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Prism_Flower_Attack"),id,false,true);
+	        Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Prism_Flower_Attack"),id,false,true);
 	    break;
 	    case "End_Animation":
 	        var _this = instance_create_layer(0,0,"Battle_Cutscene_Instance_Layer",obj_Prism_Flower_Charge);

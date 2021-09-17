@@ -10,6 +10,7 @@ function Global_Battle_Cutscene_Prop_Event() {
 	    case "Create_Event":
 	        switch(_effect){
 	            case "Blaze": Blaze_Create_Event(_object); break;
+				case "SF2_Blaze": SF2_Blaze_Create_Event(_object); break;
 	            case "Explosion_Loop": Explosion_Loop_Create_Event(_object); break;
 	            case "Burst_Rock_Explosion": Burst_Rock_Explosion_Loop_Create_Event(_object); break;
 	            case "Prism_Flower": Prism_Flower_Create_Event(_object); break;

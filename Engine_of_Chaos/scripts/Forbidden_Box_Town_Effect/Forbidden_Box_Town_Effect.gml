@@ -33,10 +33,10 @@ function Forbidden_Box_Town_Effect() {
 	            if(Item_Degrades(lookup_type,character,item_slot,"Use_Degrade_Chance")){
 	                Damage_Item(lookup_type,character,item_slot);
 	            }
-	            Create_Dialogue("none",Get_Voice("Use_Item"),_message,id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Use_Item"),_message,id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else{//otherwise, we're casting a spell
-	            Create_Dialogue("none",Get_Voice("Cast_Spell"),_message,id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	            Create_Dialogue(noone,Get_Generic_Voice("Cast_Spell"),_message,id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        Update_Character_Stats(lookup_type,character);
 	        Update_Character_Stats(lookup_type,target);

@@ -16,11 +16,11 @@ function Forbidden_Box_Battle_Cutscene_Event() {
 	                    while(Get_Character_Level("Local",target,"Derived") < global.Level_Cap){
 	                        Level_Up("Local",target,false);
 	                    }
-	                    Create_Dialogue("none",noone,Get_Character_Name("Local",target,"Total")+"'s full potential has been unlocked.",id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	                    Create_Dialogue(noone,noone,Get_Character_Name("Local",target,"Total")+"'s full potential has been unlocked.",id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	                    Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
 	                }
 	                else{
-	                    Create_Dialogue("none",noone,Get_General_Messages("Battle_Cutscene","Spell_Has_No_Effect",Get_Character_Name("Local",target,"Total")),id,false,true);
+	                    Create_Dialogue(noone,noone,Get_General_Messages("Battle_Cutscene","Spell_Has_No_Effect",Get_Character_Name("Local",target,"Total")),id,false,true);
 	                    Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
 	                }
 	            }

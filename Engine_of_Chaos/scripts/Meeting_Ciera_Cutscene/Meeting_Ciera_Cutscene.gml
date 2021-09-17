@@ -70,7 +70,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 12:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"CIERA wake up!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,"CIERA wake up!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 13:
 	        state += 1;
@@ -166,16 +166,16 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 33:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"MAX what are you doing?",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"MAX what are you doing?",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 34:
 	        state += 1;
 	        Face_Direction(_max,"Down");
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"I don't know why she isn't answering the door.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,"I don't know why she isn't answering the door.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 35:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"Because it's early and she's probably sleeping?",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"Because it's early and she's probably sleeping?",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 36:
 	        state += 1;
@@ -183,7 +183,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 37:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"I think she might have been kidnapped.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,"I think she might have been kidnapped.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 38:
 	        state += 1;
@@ -191,7 +191,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 39:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"You can't be serious.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"You can't be serious.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 40:
 	        state += 1;
@@ -205,7 +205,7 @@ function Meeting_Ciera_Cutscene() {
 	    case 42:
 	        state += 1;
 	        Face_Direction(_max,"Left");
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"You wait here.^ I'll go through the window.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,"You wait here.^ I'll go through the window.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 43:
 	        state += 1;
@@ -224,7 +224,7 @@ function Meeting_Ciera_Cutscene() {
 	    case 46:
 	        state += 1;
 	        Face_Direction(_max,"Left");
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"Yeah, you're not doing that again.",id,true,true);
+	        Create_Character_Dialogue("Local",_jason,"Yeah, you're not doing that again.",id,true,true);
 	    break;
 	    case 47:
 	        state += 1;
@@ -242,7 +242,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 49:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_ciera,"Total"),Get_Voice(Get_Character_Voice("Local",_ciera,"Total")),"Good Morning.",id,true,true);
+	        Create_Character_Dialogue("Local",_ciera,"Good Morning.",id,true,true);
 	    break;
 	    case 50:
 	        state += 1;
@@ -255,12 +255,12 @@ function Meeting_Ciera_Cutscene() {
 	    case 52:
 	        state += 1;
 	        Face_Direction(_max,"Left");
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"CIERA! Thank goodness you're awake!",id,true,true);
+	        Create_Character_Dialogue("Local",_max,"CIERA! Thank goodness you're awake!",id,true,true);
 	    break;
 	    case 53:
 	        state += 1;
 	        Face_Direction(_ciera,"Right");
-	        Create_Dialogue(Get_Character_Portrait("Local",_ciera,"Total"),Get_Voice(Get_Character_Voice("Local",_ciera,"Total")),"Barely.^ How do you have this much energy in the morning?",id,true,true);
+	        Create_Character_Dialogue("Local",_ciera,"Barely.^ How do you have this much energy in the morning?",id,true,true);
 	    break;
 	    case 54:
 	        state += 1;
@@ -268,11 +268,11 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 55:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"How can you not have energy on such a momentous day?%#Someone has specifically asked for our adventuring party!%#To think we've already achieved legendary status after only our first adventure!",id,true,true);
+	        Create_Character_Dialogue("Local",_max,"How can you not have energy on such a momentous day?%#Someone has specifically asked for our adventuring party!%#To think we've already achieved legendary status after only our first adventure!",id,true,true);
 	    break;
 	    case 56:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_ciera,"Total"),Get_Voice(Get_Character_Voice("Local",_ciera,"Total")),"Or our client lives in the area and picked a name at random.",id,true,true);
+	        Create_Character_Dialogue("Local",_ciera,"Or our client lives in the area and picked a name at random.",id,true,true);
 	    break;
 	    case 57:
 	        state += 1;
@@ -280,7 +280,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 58:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"Well that doesn't make any sense.",id,true,true);
+	        Create_Character_Dialogue("Local",_max,"Well that doesn't make any sense.",id,true,true);
 	    break;
 	    case 59:
 	        state += 1;
@@ -289,7 +289,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 60:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),"Oh shoot! I forgot to say goodbye to Milkshake!",id,true,true);
+	        Create_Character_Dialogue("Local",_max,"Oh shoot! I forgot to say goodbye to Milkshake!",id,true,true);
 	    break;
 	    case 61:
 	        state += 1;
@@ -323,11 +323,11 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 68:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_ciera,"Total"),Get_Voice(Get_Character_Voice("Local",_ciera,"Total")),"Uhm.^ Who's Milkshake?",id,true,true);
+	        Create_Character_Dialogue("Local",_ciera,"Uhm.^ Who's Milkshake?",id,true,true);
 	    break;
 	    case 69:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"Eh,^ MAX named one of my grandpa's cows Milkshake.%#He keeps trying to convince me that she's an adventurer.",id,true,true);
+	        Create_Character_Dialogue("Local",_jason,"Eh,^ MAX named one of my grandpa's cows Milkshake.%#He keeps trying to convince me that she's an adventurer.",id,true,true);
 	    break;
 	    case 70:
 	        state += 1;
@@ -335,7 +335,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 71:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_ciera,"Total"),Get_Voice(Get_Character_Voice("Local",_ciera,"Total")),"Yeah,^ that sounds like MAX to me.",id,true,true);
+	        Create_Character_Dialogue("Local",_ciera,"Yeah,^ that sounds like MAX to me.",id,true,true);
 	    break;
 	    case 72:
 	        state += 1;
@@ -347,13 +347,13 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 74:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),"Come on.^ Let's go get him.",id,true,true);
+	        Create_Character_Dialogue("Local",_jason,"Come on.^ Let's go get him.",id,true,true);
 	    break;
 	    case 75:
 	        state += 1;
 	        Join_Party("Global",2,"Player",true,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	        Follow_Character(_ciera,_jason);
-	        Create_Dialogue("none",Get_Voice("none"),"CIERA joins the party.",id,false,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,noone,"CIERA joins the party.",id,false,true);//portrait, voice, message,object,arrow,pan
 	        Stop_Dialogue_Interaction();
 	        Wait_For_Sound(sfx_Join_Party,obj_Dialogue_Controller);
 	    break;
@@ -373,17 +373,5 @@ function Meeting_Ciera_Cutscene() {
 	        global.Story_State += 1;
 	        instance_destroy();
 	    break;
-	    /*
-	    case 14:
-	        _player.cutscene_mode = false;
-	        _player.allow_interaction = true;
-	        global.Story_State += 1;
-	        Play_Music(bgm_Town,'Fade_To_Next',250,0);
-	        instance_destroy(obj_Screen_Fade_Controller);
-	        instance_destroy();
-	    break;*/
 	}
-
-
-
 }

@@ -1,2 +1,1 @@
-Set_Up_Chest(3,false);//<ID>,<respawnable>
-visible = false;
+Set_Lootable_Area(id,3,"Ring_Of_Chicken",0);

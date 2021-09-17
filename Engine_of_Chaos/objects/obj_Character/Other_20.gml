@@ -1,2 +1,1 @@
 allow_interaction = true;
-

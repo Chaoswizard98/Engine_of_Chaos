@@ -3,13 +3,16 @@ function Get_Character_Name() {
 	var _character = argument[1];
 	var _formula = argument[2];
 
-	var _base, _mainhand, _offhand;
+	var _base = ""; 
+	var _mainhand, _offhand;
 
 	if(_lookup_type = "Global"){
 	    _base = global.Name[_character];
 	}
 	else if(_lookup_type = "Local"){
-	    _base = _character.name;
+		if(_character != noone){
+			_base = _character.name;
+		}
 	}
 
 	//Can ommit certain flags here based on formula argument.
@@ -18,7 +21,4 @@ function Get_Character_Name() {
 	    case "Total": return _base; break;
 	    default: return _base; break;
 	}
-
-
-
 }

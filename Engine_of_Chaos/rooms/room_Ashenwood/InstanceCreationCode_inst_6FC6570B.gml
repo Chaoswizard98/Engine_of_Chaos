@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Fire_Festival","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Fire_Festival");

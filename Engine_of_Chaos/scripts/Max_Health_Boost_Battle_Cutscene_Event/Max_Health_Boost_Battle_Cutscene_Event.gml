@@ -16,7 +16,7 @@ function Max_Health_Boost_Battle_Cutscene_Event() {
 	                Play_Sound(sfx_Level_Up);
 	                _message = Get_Character_Name("Local",target,"Total")+"'s maximum health was boosted by " + string(_boost);
 	                target.max_health += _boost;
-	                Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	                Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	                Set_Battle_Cutscene_Event_Criteria(1,10);//counter,delay
 	            }
 	        }

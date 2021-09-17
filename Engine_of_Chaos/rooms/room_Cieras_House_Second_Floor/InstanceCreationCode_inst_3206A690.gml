@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Healing_Spells","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Healing_Spells");

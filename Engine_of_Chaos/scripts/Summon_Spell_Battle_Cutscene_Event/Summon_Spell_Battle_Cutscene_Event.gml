@@ -41,7 +41,7 @@ function Summon_Spell_Battle_Cutscene_Event() {
 	        var _target_name = Get_Character_Name("Local",target,"Total");
 	        _message = Get_General_Messages("Battle_Cutscene","Summoned_Creature", _target_name);
 
-	        Create_Dialogue("none",noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
+	        Create_Dialogue(noone,noone,_message,id,false,true,dialogue_end_delay,auto_skip_dialogue);
 	        _criteria += 1;
     
 	        Set_Battle_Cutscene_Event_Criteria(_criteria,_delay);//counter,delay

@@ -5,7 +5,7 @@ function Shop_Sell_Event() {
 	    //======
 	    case "Start":
 	        state = "Pan_In_Member_List";
-	        Create_Dialogue("none",Get_Voice(voice_ID),Get_General_Messages(dialogue_ID,"Start_Sell"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
+	        Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(dialogue_ID,"Start_Sell"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	    break;
 	    //===================
 	    //Backed Out Of Menu=
@@ -20,7 +20,7 @@ function Shop_Sell_Event() {
 	    case "Pan_In_Member_List":
 	        state = "Selecting_Character";
 	        Create_Member_List_Controller(lookup_type,current_player.faction,"Item","Sell_Item",id);
-	        obj_Member_List_Controller.voice_ID = voice_ID;//set controller voice to npc
+	        obj_Member_List_Controller.current_npc = current_npc;//set controller voice to npc
 	    break;
 	    //====================
 	    //Selecting Character=

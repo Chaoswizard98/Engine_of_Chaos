@@ -6,9 +6,9 @@ function Create_Dialogue() {
 	//3. Start Printing the given message.
 
 	//Arguments
-	var _portrait_id, _voice, _message, _object, _arrow, _auto_pan_out;
+	var _portrait, _voice, _message, _object, _arrow, _auto_pan_out;
 
-	_portrait_id = argument[0];//What portrait do we display? (none for no portrait)
+	_portrait = argument[0];//What portrait do we display? (none for no portrait)
 	_voice = argument[1];//what sound do we play as the voice?
 	_message = argument[2]; //What message are we printing out?
 	_object = argument[3]; //What object summoned the dialogue controler
@@ -30,17 +30,11 @@ function Create_Dialogue() {
 	    _this.force_end = argument[7];//delay until panning out dialogue (so the text isnt instantly removed)
 	}
 
-	if(_portrait_id = "none"){//if we arent displaying a portrait, skip the pan and start panning up the dialogue window.
+	if(_portrait = noone){//if we arent displaying a portrait, skip the pan and start panning up the dialogue window.
 	    _this.pan_direction = "in";
 	}
 	else{//We have a portrait to pan in so we pan that in first, then the dialogue window.
-	    _this.portrait_controller = Create_Portrait_Controller(_portrait_id,"Dialogue",_this);
+	    _this.portrait_controller = Create_Portrait_Controller(_portrait,"Dialogue",_this);
 	    _this.portrait_controller.play_pan_sound = true;
 	}
-
-
-
-
-
-
 }

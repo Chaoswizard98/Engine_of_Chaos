@@ -14,7 +14,7 @@ function Create_Church_Controller() {
 	_this.dialogue_ID = argument[5];//what dialogue script to use
 
 	//_this.dialogue_ID = _this.current_npc.shop_dialogue_ID[argument[0]];//set dialogue ID
-	_this.voice_ID = _this.current_npc.voice_ID;//set voice of the npc
+	//_this.voice_ID = _this.current_npc.voice_ID;//set voice of the npc
 
 	with(_this){
 	    event_perform(ev_other,ev_user0);

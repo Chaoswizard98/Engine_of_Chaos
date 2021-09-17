@@ -1,2 +1,1 @@
-Set_Up_Chest(2,false);//<ID>,<respawnable>
-visible = false;
+Set_Lootable_Barrel(id,2,"Healing_Seed",0);

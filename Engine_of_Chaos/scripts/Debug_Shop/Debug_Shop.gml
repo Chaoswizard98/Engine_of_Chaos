@@ -31,7 +31,7 @@ function Debug_Shop() {
 	Add_Item_To_Shop(id,"Forbidden_Box");
 	Add_Item_To_Shop(id,"Shining_Ball");
 	Add_Item_To_Shop(id,"Blizzard");
-	Add_Item_To_Shop(id,"Power_Water");
+	Add_Item_To_Shop(id,"Power_Wine");
 	Add_Item_To_Shop(id,"Protect_Milk");
 	Add_Item_To_Shop(id,"Quick_Chicken");
 	Add_Item_To_Shop(id,"Running_Pimento");

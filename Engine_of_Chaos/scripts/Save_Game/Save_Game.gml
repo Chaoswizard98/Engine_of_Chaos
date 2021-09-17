@@ -106,14 +106,14 @@ function Save_Game() {
 	    ini_write_real("Character_"+string(i),"Kills",global.Kills[i]);
 	    ini_write_real("Character_"+string(i),"Deaths",global.Deaths[i]);
     
-	    ini_write_string("Character_"+string(i),"Overworld_Sprite_ID",global.Overworld_Sprite_ID[i]);
-	    ini_write_string("Character_"+string(i),"Overworld_Sprite_ID_Override",global.Overworld_Sprite_ID_Override[i]);
-	    ini_write_string("Character_"+string(i),"Portrait_ID",global.Portrait_ID[i]);
-	    ini_write_string("Character_"+string(i),"Portrait_ID_Override",global.Portrait_ID_Override[i]);
-	    ini_write_string("Character_"+string(i),"Voice_ID",global.Voice_ID[i]);
-	    ini_write_string("Character_"+string(i),"Voice_ID_Override",global.Voice_ID_Override[i]);
-	    ini_write_string("Character_"+string(i),"Battle_Cutscene_Sprite_ID",global.Battle_Cutscene_Sprite_ID[i]);
-	    ini_write_string("Character_"+string(i),"Battle_Cutscene_Sprite_ID_Override",global.Battle_Cutscene_Sprite_ID_Override[i]);
+	    //ini_write_string("Character_"+string(i),"Overworld_Sprite_ID",global.Overworld_Sprite_ID[i]);
+	    //ini_write_string("Character_"+string(i),"Overworld_Sprite_ID_Override",global.Overworld_Sprite_ID_Override[i]);
+	    //ini_write_string("Character_"+string(i),"Portrait_ID",global.Portrait_ID[i]);
+	    //ini_write_string("Character_"+string(i),"Portrait_ID_Override",global.Portrait_ID_Override[i]);
+	    //ini_write_string("Character_"+string(i),"Voice_ID",global.Voice_ID[i]);
+	    //ini_write_string("Character_"+string(i),"Voice_ID_Override",global.Voice_ID_Override[i]);
+	    //ini_write_string("Character_"+string(i),"Battle_Cutscene_Sprite_ID",global.Battle_Cutscene_Sprite_ID[i]);
+	    //ini_write_string("Character_"+string(i),"Battle_Cutscene_Sprite_ID_Override",global.Battle_Cutscene_Sprite_ID_Override[i]);
     
 	    for(j = 0; j < global.Number_Of_Spell_Slots; j += 1){//loop through spell slots
 	        ini_write_string("Character_"+string(i),"Spell_"+string(j),global.Spells[i,j]);//Spell

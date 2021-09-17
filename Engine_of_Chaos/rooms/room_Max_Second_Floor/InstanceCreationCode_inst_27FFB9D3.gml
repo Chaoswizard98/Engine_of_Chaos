@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Treasures_and_Monsters","Bookshelf");
+Set_Bookshelf(id,"Bookshelf","Treasures_and_Monsters");

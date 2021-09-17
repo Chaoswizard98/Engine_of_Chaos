@@ -1,1 +1,1 @@
-Set_Up_Chest(1,false);//<ID>,<respawnable>
+Set_Lootable_Chest(id,1,"none",100);

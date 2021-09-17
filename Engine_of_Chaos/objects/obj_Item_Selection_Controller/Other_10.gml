@@ -59,15 +59,15 @@ else if(state = "Start_2"){
 
 else if(state = "Display_Cancel_Message"){
     state = "Cancel_Item_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","No_Items"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","No_Items"),id,true,true);
 }
 else if(state = "Display_Cancel_Summon_Give_Message"){
     state = "Cancel_Item_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Summon_Give"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Summon_Give"),id,true,true);
 }
 else if(state = "Display_Cancel_Equip_Message"){
     state = "Cancel_Item_Selection";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","No_Equippable_Items"),id,true,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","No_Equippable_Items"),id,true,true);
 }
 
 else if(state = "Cancel_Item_Selection"){
@@ -82,7 +82,7 @@ else if(state = "Target_Selection"){
     else if(action = "Give_Item"){
         if(Character_Is_Cursed_By_This_Item("Local",current_character,inventory_slot[current_index])){
             state = "Cancel_Give_Cursed";
-            Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Give_Cursed",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
+            Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Give_Cursed",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
             Stop_Dialogue_Interaction();
             Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
         }
@@ -93,7 +93,7 @@ else if(state = "Target_Selection"){
     else if(action = "Take_Item"){
         if(Character_Is_Cursed_By_This_Item("Local",current_character,inventory_slot[current_index])){
             state = "Cancel_Give_Cursed";
-            Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Give_Cursed",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
+            Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Give_Cursed",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
             Stop_Dialogue_Interaction();
             Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
         }
@@ -177,7 +177,7 @@ else if(state = "Cancel_Give_Cursed"){
 }
 else if(state = "Cancel_Equip_Cursed"){
     state = "Cancel_Equip_Cursed_2";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Equip_Cursed"),id,false,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Cancel_Equip_Cursed"),id,false,true);
     Stop_Dialogue_Interaction();
     Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
 }
@@ -188,7 +188,7 @@ else if(state = "Cancel_Equip_Cursed_2"){
 }
 else if(state = "Equip_Cursed"){
     state = "Equip_Cursed_2";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Character_Was_Cursed",Get_Character_Name("Local",current_character,"Total")),id,false,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Character_Was_Cursed",Get_Character_Name("Local",current_character,"Total")),id,false,true);
     Stop_Dialogue_Interaction();
     Wait_For_Sound(sfx_Cursed,obj_Dialogue_Controller);
 }
@@ -224,7 +224,7 @@ else if(state = "Equip_Cursed_3"){
 }
 else if(state = "Display_Drop_Message"){
     state = "Display_Decision_Controller";
-    Create_Dialogue("none",Get_Voice("none"),Get_General_Messages("Item_Selection","Discard_Item?",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
+    Create_Dialogue(noone,Get_Generic_Voice("none"),Get_General_Messages("Item_Selection","Discard_Item?",string(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Item_Name"))),id,false,true);
 }
 else if(state = "Display_Decision_Controller"){
     state = "Waiting_For_Decision";

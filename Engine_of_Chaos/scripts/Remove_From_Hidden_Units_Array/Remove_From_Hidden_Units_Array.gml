@@ -1,7 +1,4 @@
-function Remove_From_Hidden_Units_Array() {
-	//Removes a character from the hidden units array
-	var _character = argument[0];
-
+function Remove_From_Hidden_Units_Array(_character) {
 	var i = 0;
 	var j = 0;
 	for(i = 0; i < obj_Battle_Controller.number_of_hidden_units; i+= 1){//loop through hidden units array

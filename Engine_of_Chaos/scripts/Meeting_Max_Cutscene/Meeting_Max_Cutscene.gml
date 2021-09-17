@@ -29,7 +29,7 @@ function Meeting_Max_Cutscene() {
 	        _max.cutscene_mode = true;
 	        Face_Direction(_jason,"Left");
 	        Face_Direction(_max,"Right");
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 2:
 	        state += 1;
@@ -37,15 +37,15 @@ function Meeting_Max_Cutscene() {
 	    break;
 	    case 3:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 4:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 5:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 6:
 	        state += 1;
@@ -57,15 +57,15 @@ function Meeting_Max_Cutscene() {
 	    break;
 	    case 8:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 9:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 10:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 11:
 	        state += 1;
@@ -79,15 +79,15 @@ function Meeting_Max_Cutscene() {
 	    case 13:
 	        state += 1;
 	        Face_Direction(_jason,"Left");
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 14:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 15:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 16:
 	        state += 1;
@@ -100,7 +100,7 @@ function Meeting_Max_Cutscene() {
 	    break;
 	    case 18:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_jason,"Total"),Get_Voice(Get_Character_Voice("Local",_jason,"Total")),_message,id,true,true);
+	        Create_Character_Dialogue("Local",_jason,_message,id,true,true);
 	    break;
     
 	    case 19:
@@ -109,13 +109,13 @@ function Meeting_Max_Cutscene() {
 	    break;
 	    case 20:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Local",_max,"Total"),Get_Voice(Get_Character_Voice("Local",_max,"Total")),_message,id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_max,_message,id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 21:
 	        state += 1;
 	        Join_Party("Global",1,"Player",true,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	        Follow_Character(_max,_jason);
-	        Create_Dialogue("none",Get_Voice("none"),_message,id,false,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,noone,_message,id,false,true);//portrait, voice, message,object,arrow,pan
 	        Stop_Dialogue_Interaction();
 	        Wait_For_Sound(sfx_Join_Party,obj_Dialogue_Controller);
 	    break;

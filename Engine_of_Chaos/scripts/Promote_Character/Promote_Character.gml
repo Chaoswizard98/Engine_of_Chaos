@@ -5,10 +5,10 @@ function Promote_Character() {
 
 	global.Level_Scheme[_character] = _class;
 
-	global.Overworld_Sprite_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
-	global.Portrait_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
-	global.Voice_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
-	global.Battle_Cutscene_Sprite_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
+	//global.Overworld_Sprite_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
+	//global.Portrait_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
+	//global.Voice_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
+	//global.Battle_Cutscene_Sprite_ID[_character] = global.character_ID[_character] + "_" + Get_Character_Level_Scheme_Stats("Global",_character,"Class_Name","Base");
 	global.Level[_character] = Get_Character_Level_Scheme_Stats("Global",_character,"Starting_Level","Base");
 
 	//test for spell set changes here

@@ -3,11 +3,11 @@ function Create_Name_Character_Controller() {
 
 	with(_this){
 	    current_object = argument[0];
-	    portrait_id = argument[1];
+	    portrait = argument[1];
 	    default_name = argument[2];
 	    window_pan_direction = "in";
 	    play_pan_sound = true;
-	    portrait_controller = Create_Portrait_Controller(portrait_id,"Character_Creation",id);
+	    portrait_controller = Create_Portrait_Controller(portrait,"Character_Creation",id);
 	}
 
 

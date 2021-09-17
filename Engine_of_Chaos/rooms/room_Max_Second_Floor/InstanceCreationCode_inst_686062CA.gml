@@ -1,1 +1,1 @@
-Set_Up_Bookshelf(id,"Maxs_Desk","Note");
+Set_Bookshelf(id,"Note","Maxs_Desk");

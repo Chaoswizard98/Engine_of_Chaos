@@ -24,7 +24,7 @@ function Jasons_Room_Cutscene() {
 	    break;
 	    case 4:
 	        state += 1;
-	        Create_Dialogue("none",Get_Voice(Get_Character_Voice("Global",1,"Total")),Get_Character_Name("Global",0,"Total") + "!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,Get_Character_Voice("Global",1,"Total"),Get_Character_Name("Global",0,"Total") + "!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 5:
 	        alarm[0] = 30;
@@ -47,15 +47,15 @@ function Jasons_Room_Cutscene() {
 	    break;
 	    case 9:
 	        state += 1;
-	        Create_Dialogue("none",Get_Voice(Get_Character_Voice("Global",1,"Total")),"Hey "+Get_Character_Name("Global",0,"Total")+" wake up!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,Get_Character_Voice("Global",1,"Total"),"Hey "+Get_Character_Name("Global",0,"Total")+" wake up!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 10:
 	        state += 1;
-	        Create_Dialogue("none",Get_Voice("Jasons_Mom"),Get_Character_Name("Global",0,"Total")+"! Your friend MAX is here! You might want to answer before he breaks down our door again!",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(noone,Get_Appearance("Forced","Jasons_Mom","Voice"),Get_Character_Name("Global",0,"Total")+"! Your friend MAX is here! You might want to answer before he breaks down our door again!",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 11:
 	        state += 1;
-	        Create_Dialogue(Get_Character_Portrait("Global",0,"Total"),Get_Voice(Get_Character_Voice("Global",0,"Total")),"Yeah, I'll be right down.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(Get_Character_Portrait("Global",0,"Total"),Get_Character_Voice("Global",0,"Total"),"Yeah, I'll be right down.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 12:
 	        state += 1;
