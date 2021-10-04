@@ -10,6 +10,6 @@ function Effect_Stats_Max_Health_Boost(){
 	spell_name = Get_Spell_Display_Name("Max_Health_Boost","Spell_Name");//Get name from language script
 	menu_name = Get_Spell_Display_Name("Max_Health_Boost","Menu_Name");//Get name from language script
 	battle_cutscene_event = "Max_Health_Boost";
-	town_effect = "Max_Health_Boost";
+	town_effect = "Town_Effect_Max_Health_Boost";
 	target_other = true;
 }

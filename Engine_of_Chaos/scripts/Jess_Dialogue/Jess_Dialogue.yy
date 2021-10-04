@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Town_Cutscenes",
-    "path": "folders/Scripts/Modifyables/Cutscenes/Town_Cutscenes.yy",
+    "name": "Ashenwood",
+    "path": "folders/Scripts/Cutscene_Scripts/Ashenwood.yy",
   },
   "resourceVersion": "1.0",
   "name": "Jess_Dialogue",

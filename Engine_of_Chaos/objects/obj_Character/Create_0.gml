@@ -17,6 +17,7 @@ parent_event_trigger = "none";//parent event trigger
 movement_iterations = 0;
 direction = 270;
 can_trigger_room_transition = false;//can they trigger room transition events?
+is_battle_object = false;//Do they get deleted if a battle isn't active?
 
 //Summoned Unit Variables
 is_summon = false;//are they a summoned creature?

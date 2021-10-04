@@ -1,8 +1,4 @@
-function Edge_Of_Room() {
-	var _x,_y;
-	_x = argument[0];
-	_y = argument[1];
-
+function Edge_Of_Room(_x,_y){
 	//Room edges
 	if(_x >= room_width){
 	    return true;
@@ -16,7 +12,4 @@ function Edge_Of_Room() {
 	if(_y< 0){
 	    return true;
 	}
-
-
-
 }

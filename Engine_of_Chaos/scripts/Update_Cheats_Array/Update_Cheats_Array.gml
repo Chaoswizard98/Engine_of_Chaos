@@ -12,7 +12,4 @@ function Update_Cheats_Array() {
 	if(global.Invincibility){settings_array[3] = "Enabled";}
 	if(global.Infinite_Magic){settings_array[4] = "Enabled";}
 	if(global.Infinite_Item_Use){settings_array[5] = "Enabled";}
-
-
-
 }

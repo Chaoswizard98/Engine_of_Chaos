@@ -1,8 +1,4 @@
-function Get_Character_Attack() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Attack(_lookup_type,_character,_formula){
 	var _base, _mainhand, _offhand;
 	var _berserk = 0;
 	var _attack_up = 0;
@@ -37,7 +33,4 @@ function Get_Character_Attack() {
 	    case "Total": return (_base + _mainhand + _offhand + _berserk + _attack_up + _attack_down); break;
 	    default: return _base; break;
 	}
-
-
-
 }

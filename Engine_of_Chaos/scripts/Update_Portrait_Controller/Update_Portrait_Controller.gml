@@ -1,13 +1,4 @@
-function Update_Portrait_Controller() {
-	var _controller, _portrait, _dead;
-	_controller = argument[0];
-	_portrait = argument[1];
-
-	_dead = false;
-	if(argument_count > 2){
-	    _dead = argument[2];
-	}
-
+function Update_Portrait_Controller(_controller,_portrait,_dead = false){
 	with(_controller){//with the portrait controller, update the portrait
 	    portrait = _portrait;
 		portrait_blink = noone;
@@ -18,8 +9,4 @@ function Update_Portrait_Controller() {
 		}
 	    is_dead = _dead;//close eyes if dead
 	}
-
-
-
-
 }

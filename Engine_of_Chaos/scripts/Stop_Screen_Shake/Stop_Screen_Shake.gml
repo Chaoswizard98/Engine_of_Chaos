@@ -7,7 +7,4 @@ function Stop_Screen_Shake() {
 	    shake_timer = 0;//time left during screen shake
 	    call_cutscene = false;//do we call the cutscene controller after shaking?
 	}
-
-
-
 }

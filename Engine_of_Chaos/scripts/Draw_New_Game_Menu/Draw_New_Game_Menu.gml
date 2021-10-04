@@ -33,7 +33,4 @@ function Draw_New_Game_Menu() {
 	    draw_text(_text_x, _text_y + ((i - start_index) * _text_increment), string_hash_to_newline(menu_options[i])); //draw the message
 	}
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

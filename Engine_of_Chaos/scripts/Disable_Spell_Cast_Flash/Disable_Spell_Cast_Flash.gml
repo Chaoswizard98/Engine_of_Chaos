@@ -1,8 +1,4 @@
-function Disable_Spell_Cast_Flash() {
-	//Have the character shudder
-	var _character;
-	_character = argument[0];//character performing animation
-
+function Disable_Spell_Cast_Flash(_character){
 	_character.spell_cast = false;
 	_character.flash_speed = 0;
 
@@ -23,7 +19,4 @@ function Disable_Spell_Cast_Flash() {
 	_character.shader_tolerance[1] = 0;//g
 	_character.shader_tolerance[2] = 0;//b
 	_character.shader_tolerance[3] = 0;//a
-
-
-
 }

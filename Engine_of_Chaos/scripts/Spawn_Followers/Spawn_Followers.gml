@@ -16,7 +16,4 @@ function Spawn_Followers() {
 	        }
 	    break;
 	}
-
-
-
 }

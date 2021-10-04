@@ -29,7 +29,7 @@ function Create_Global_Game_Settings() {
 	global.Infinite_Magic = false;//no implemented
 	global.Infinite_Item_Use = false;//not implemented
 	global.Ignore_Terrain = false;
-	global.Infinite_Movement = false;
+	global.Infinite_Movement = true;
 
 	//engine settings
 	global.View_Width = 480;//Width of the game's view
@@ -41,7 +41,6 @@ function Create_Global_Game_Settings() {
 	global.Number_Of_Inventory_Slots = 4;
 	global.Number_Of_Equipment_Slots = 2;
 	global.Number_Of_Spell_Slots = 4;
-	global.Max_Battle_Party_Size = 12;
 	global.Promotion_Level = 20;//level we can promote at
 	global.Level_Cap = 40;//highest possible level per promotion tier
 	global.Xp_Per_Level = 100;//xp required to level up
@@ -61,22 +60,6 @@ function Create_Global_Game_Settings() {
 	global.Max_Target_Range = 99;//Max search distance when generating attack range
 	global.Max_AoE_Range = 99;//Max AoE Size
 	global.Egress_Room = noone;//Room we retreat back to.
-
-	//Rooms
-	global.Adjacent_Room[0] = noone;//Up
-	global.Adjacent_Room[1] = noone;//Down
-	global.Adjacent_Room[2] = noone;//Left
-	global.Adjacent_Room[3] = noone;//Right
-
-	global.Adjacent_Room_Transition[0] = "Screen_Fade";//Up
-	global.Adjacent_Room_Transition[1] = "Screen_Fade";//Down
-	global.Adjacent_Room_Transition[2] = "Screen_Fade";//Left
-	global.Adjacent_Room_Transition[3] = "Screen_Fade";//Right
-
-	global.Default_Tile[0] = "Egress";//Up
-	global.Default_Tile[1] = "Egress";//Down
-	global.Default_Tile[2] = "Egress";//Left
-	global.Default_Tile[3] = "Egress";//Right
 
 
 

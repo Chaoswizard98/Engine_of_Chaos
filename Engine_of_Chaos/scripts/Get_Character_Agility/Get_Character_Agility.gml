@@ -1,8 +1,4 @@
-function Get_Character_Agility() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Agility(_lookup_type,_character,_formula){
 	var _base, _mainhand, _offhand;
 	var _agility_up = 0;
 	var _agility_down = 0;
@@ -32,7 +28,4 @@ function Get_Character_Agility() {
 	    case "Total": return (_base + _mainhand + _offhand + _agility_up + _agility_down); break;
 	    default: return _base; break;
 	}
-
-
-
 }

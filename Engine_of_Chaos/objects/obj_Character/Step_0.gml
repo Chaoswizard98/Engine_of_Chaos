@@ -159,23 +159,23 @@ if(moving){
             }
             if(cutscene_mode){
                 //ping cutscene script
-                Global_Cutscene_Move_Script();
+                Call_Cutscene_Move_Script(id);
             }
         }
         else{//not done moving yet,
             previous_x = x;//set previous to current location
             previous_y = y;//set previous to current location
             if(move_direction = "Up"){
-                Move_Character_Town(x,y-global.Tile_Size,"Up",movement_iterations,move_speed,image_speed);
+                Move_Character_Town(x,y-global.Tile_Size,"Up",movement_iterations,move_speed,image_speed,direction);
             }
             else if(move_direction = "Down"){
-                Move_Character_Town(x,y+global.Tile_Size,"Down",movement_iterations,move_speed,image_speed);
+                Move_Character_Town(x,y+global.Tile_Size,"Down",movement_iterations,move_speed,image_speed,direction);
             }
             else if(move_direction = "Left"){
-                Move_Character_Town(x-global.Tile_Size,y,"Left",movement_iterations,move_speed,image_speed);
+                Move_Character_Town(x-global.Tile_Size,y,"Left",movement_iterations,move_speed,image_speed,direction);
             }
             else if(move_direction = "Right"){
-                Move_Character_Town(x+global.Tile_Size,y,"Right",movement_iterations,move_speed,image_speed);
+                Move_Character_Town(x+global.Tile_Size,y,"Right",movement_iterations,move_speed,image_speed,direction);
             }
         }
     }

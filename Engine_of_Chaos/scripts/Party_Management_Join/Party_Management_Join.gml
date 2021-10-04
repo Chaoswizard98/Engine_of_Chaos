@@ -25,7 +25,7 @@ function Party_Management_Join() {
 	            Create_Character_Dialogue("Local",npc,Get_General_Messages("Party_Management","Cancel"),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
 	        }
 	        else{
-	            if(Get_Battle_Party_Size(player.faction) < Get_Max_Battle_Party_Size(player.faction)){
+	            if(Get_Battle_Party_Size(player.faction) < Get_Faction_Stats(player.faction,"Max_Battle_Party_Size")){
 	                state = "Start";
 	                global.In_Battle_Party[joining_character] = true;
 	                Create_Character_Dialogue("Local",npc,Get_General_Messages("Party_Management","Joins_Party",Get_Character_Name(lookup_type,joining_character,"Total")),id,true,true);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
@@ -64,7 +64,4 @@ function Party_Management_Join() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

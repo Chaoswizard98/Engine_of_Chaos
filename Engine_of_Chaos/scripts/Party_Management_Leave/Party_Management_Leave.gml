@@ -36,7 +36,4 @@ function Party_Management_Leave() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

@@ -7,10 +7,6 @@ function Update_Game_Settings_Array() {
 	else{
 	    settings_array[2] = "Disabled";
 	}
-	//settings_array[3] = global.Difficulty;
 	settings_array[3] = round(global.Sound_Volume*100);
 	settings_array[4] = round(global.Music_Volume*100);
-
-
-
 }

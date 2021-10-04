@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Modifyables/Monster_Spawners/Functions.yy",
+    "name": "Monster_Spawners",
+    "path": "folders/Scripts/DONE/Monster_Spawners.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spawn_Monster",

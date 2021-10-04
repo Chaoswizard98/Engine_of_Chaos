@@ -1,4 +1,4 @@
-function Has_Existing_Save() {
+function Has_Existing_Save(){
 	var i;
 	for(i = 0; i < global.Number_Of_Save_Slots; i += 1){//Loop through all save slots
 	    if(file_exists("Save_Slot_"+string(i)+".sav")){//if a save exists,
@@ -6,7 +6,4 @@ function Has_Existing_Save() {
 	    }
 	}
 	return false;//no save exists
-
-
-
 }

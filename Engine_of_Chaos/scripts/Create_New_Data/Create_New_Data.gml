@@ -35,45 +35,42 @@ function Create_New_Data() {
 	//JASON=
 	//======
 	i = 0;
-	Set_Starting_Stats(i,"Jason","JASON",1,"Swordsman_1");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Jason","JASON","Swordsman_1");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Battered_Sword",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"Player",true,false);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	//====
 	//MAX=
 	//====
 	i = 1;
-	Set_Starting_Stats(i,"Max","MAX",1,"Archer_1");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Max","MAX","Archer_1");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Battered_Arrow",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"none",false,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	//======
 	//CIERA=
 	//======
 	i = 2;
-	Set_Starting_Stats(i,"Ciera","CIERA",1,"Healer_2");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Ciera","CIERA","Healer_2");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Wooden_Staff",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"none",false,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	//=====
 	//KIRA=
 	//=====
 	i = 3;
-	Set_Starting_Stats(i,"Kira","KIRA",1,"Thief_1");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Kira","KIRA","Thief_1");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Battered_Knife",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"none",false,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	//=======
 	//KARINA=
 	//=======
 	i = 4;
-	Set_Starting_Stats(i,"Karina","KARINA",1,"Mage_1");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Karina","KARINA","Mage_1");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Wooden_Staff",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"none",false,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
 	//========
 	//PHILLIP=
 	//========
 	i = 5;
-	Set_Starting_Stats(i,"Phillip","PHILLIP",1,"Knight_1");//ID, Character_ID, Name, Level, Level_Scheme
+	Set_Starting_Stats(i,"Phillip","PHILLIP","Knight_1");//ID, Character_ID, Name, Level, Level_Scheme
 	Give_Character_Item("Global",i,"Wooden_Spear",true);//lookup type, character, item, auto-equip
 	Join_Party("Global",i,"none",false,true);//lookup_type, ID, faction, in_battle_party, can_leave_battle_party
-
-
-
 }

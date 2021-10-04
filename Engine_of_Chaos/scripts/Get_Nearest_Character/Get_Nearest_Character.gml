@@ -1,7 +1,4 @@
-function Get_Nearest_Character() {
-	var _character = argument[0];
-	var _formula = argument[1];
-	var _search_range = argument[2];
+function Get_Nearest_Character(_character,_formula,_search_range) {
 	var _target;
 
 	Generate_AI_Movement_Range(_character,_search_range,_character.x,_character.y,"Default");

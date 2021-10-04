@@ -1,7 +1,4 @@
-function Can_Walk_On_Ledge() {
-	_character = argument[0];
-	_target = argument[1];
-
+function Can_Walk_On_Ledge(_character,_target){
 	if(_target != noone){
 	    if(_character.x<_target.x){
 	        if(_target.can_move_right){
@@ -25,9 +22,5 @@ function Can_Walk_On_Ledge() {
 	    }
 	    return false;
 	}
-
 	return true;
-
-
-
 }

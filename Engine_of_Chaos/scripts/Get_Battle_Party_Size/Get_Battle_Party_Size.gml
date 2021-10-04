@@ -1,5 +1,4 @@
-function Get_Battle_Party_Size() {
-	var _faction = argument[0];
+function Get_Battle_Party_Size(_faction){
 	var _count = 0;
 
 	for(i = 0; i< global.Number_Of_Characters; i+=1){//loop through all characters
@@ -9,7 +8,4 @@ function Get_Battle_Party_Size() {
 	}
 
 	return _count;
-
-
-
 }

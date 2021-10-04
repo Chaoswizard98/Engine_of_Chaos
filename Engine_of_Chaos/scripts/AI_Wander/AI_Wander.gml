@@ -1,11 +1,4 @@
-function AI_Wander() {
-	var _skip_action = argument[0];
-	var _character = argument[1];
-	var _wander_range = argument[2];
-	var _min_move = argument[3];
-	var _max_move = argument[4];
-	var _formula = argument[5];
-
+function AI_Wander(_skip_action,_character,_wander_range,_min_move,_max_move,_formula){
 	if(!_skip_action){
 	    var _array = instance_create_layer(0,0,"Terrain_Instance_Layer",obj_Temp_Array);//temp array for holding potential targets
 	    var _start_x;
@@ -49,7 +42,4 @@ function AI_Wander() {
 	}
 
 	return true;//event failed
-
-
-
 }

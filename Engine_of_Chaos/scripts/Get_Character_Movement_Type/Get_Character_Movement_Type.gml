@@ -1,8 +1,4 @@
-function Get_Character_Movement_Type() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Movement_Type(_lookup_type,_character,_formula){
 	var _base, _mainhand, _offhand;
 	var _cheat = "none";
 	var _effect = "none";
@@ -34,7 +30,4 @@ function Get_Character_Movement_Type() {
 	    case "Total": return Check_Stat_Override(_base,_offhand,_mainhand,_effect,_cheat); break;
 	    default: return _base; break;
 	}
-
-
-
 }

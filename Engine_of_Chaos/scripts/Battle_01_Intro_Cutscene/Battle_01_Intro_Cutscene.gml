@@ -1,9 +1,14 @@
 function Battle_01_Intro_Cutscene() {
-	var _wolf = other_trigger;
+	var _lookup = "Local";
 	var _jason = Get_Character("Jason","Default");
 	var _max = Get_Character("Max","Default");
 	var _ciera = Get_Character("Ciera","Default");
-	var _lookup = "Local";
+	var _wolf;
+	with(obj_Wolf){
+	    if(ai_script_ID = "AI_Battle_01_Wolf_01"){
+	        _wolf = id;
+	    }
+	}
 
 	switch(state){
 	    case 0:
@@ -23,6 +28,7 @@ function Battle_01_Intro_Cutscene() {
 	        _wolf.x -= 168;
 	        _wolf.y += 72;
 	        _wolf.cutscene_mode = true;
+			Play_Music(noone,"Fade_Out",250,0);
 	        Finish_Room_Transition(id);
 	    break;
 	    case 1:

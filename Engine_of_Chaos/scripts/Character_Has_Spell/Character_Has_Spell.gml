@@ -1,8 +1,4 @@
-function Character_Has_Spell() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _spell = argument[2];
-
+function Character_Has_Spell(_lookup_type,_character,_spell){
 	var i = 0;
 	//Give character spell
 	for(i = 0; i< global.Number_Of_Spell_Slots; i+= 1){//loop through all inventory spaces
@@ -11,7 +7,4 @@ function Character_Has_Spell() {
 	    }
 	}
 	return false;//character doesnt have spell
-
-
-
 }

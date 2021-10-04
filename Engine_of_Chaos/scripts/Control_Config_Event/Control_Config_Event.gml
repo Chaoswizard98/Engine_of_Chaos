@@ -31,7 +31,4 @@ function Control_Config_Event() {
 	    Play_Sound(sfx_Menu_Swish);//play confirmation sound
 	    Save_Config();
 	}
-
-
-
 }

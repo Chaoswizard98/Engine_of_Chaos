@@ -1,12 +1,7 @@
-function Kill_Entire_Faction() {
-	var _faction = argument[0];
-
+function Kill_Entire_Faction(_faction){
 	with(obj_Character){
 	    if(faction = _faction){
 	        death_flag = true;
 	    }
 	}
-
-
-
 }

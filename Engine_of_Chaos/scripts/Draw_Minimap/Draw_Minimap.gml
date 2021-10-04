@@ -34,7 +34,4 @@ function Draw_Minimap() {
 	        }
 	    }
 	}
-
-
-
 }

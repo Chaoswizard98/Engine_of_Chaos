@@ -11,6 +11,6 @@ function Effect_Stats_Defense_Boost(){
 	menu_name = Get_Spell_Display_Name("Defense_Boost","Menu_Name");//Get name from language script
 	
 	battle_cutscene_event = "Defense_Boost";
-	town_effect = "Defense_Boost";
+	town_effect = "Town_Effect_Defense_Boost";
 	target_other = true;
 }

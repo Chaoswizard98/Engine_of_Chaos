@@ -11,7 +11,4 @@ function Pan_Out_Dialogue() {
 	        portrait_controller.play_pan_sound = true;
 	    }
 	}
-
-
-
 }

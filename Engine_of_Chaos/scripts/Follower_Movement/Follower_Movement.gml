@@ -1,8 +1,4 @@
-function Follower_Movement() {
-	var _x_offset, _y_offset;
-	_x_offset = argument[0];
-	_y_offset = argument[1];
-
+function Follower_Movement(_x_offset,_y_offset) {
 	_y_offset = 0;//This one tends to cause issues, for now, I force it to 0. I'll fix it later
 
 	switch(object_following.direction){
@@ -31,7 +27,4 @@ function Follower_Movement() {
 	        projected_y = object_following.previous_y+(global.Tile_Size*_y_offset);//set projected y to target's previous location
 	    break;
 	}
-
-
-
 }

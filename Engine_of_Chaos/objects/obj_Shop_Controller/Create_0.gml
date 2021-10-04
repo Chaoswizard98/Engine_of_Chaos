@@ -62,6 +62,7 @@ page_number = 0;//current page of items
 item_index = 0;//current item slot
 index_offset = 32;//offset for item window panning
 number_of_items = 0;//total number of items in shop
+quantity_shop_index = 0;//Index of global array containing shop inventory
 items_per_page = 7;//number of items shown per page
 buy_value_modifier = .7;//buys for 70% of item value
 sell_value_modifier = 1;//sells for 100% of item value

@@ -1,10 +1,8 @@
-function Look_At_Target() {
+function Look_At_Target(_character,_target) {
 	//Makes object A look at object B
 	//Facing up / down takes precidence over left / right.
 
-	var _character, _target, x_difference, y_difference, x_direction, y_direction;
-	_character = argument[0];
-	_target = argument[1];
+	var x_difference, y_difference, x_direction, y_direction;
 
 	x_difference = _character.x - _target.x;
 	y_difference = _character.y - _target.y;
@@ -37,7 +35,4 @@ function Look_At_Target() {
 	else{
 	    _character.direction = x_direction;
 	}
-
-
-
 }

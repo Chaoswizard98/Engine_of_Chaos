@@ -1,4 +1,4 @@
-function Draw_Title_Screen() {
+function Draw_Title_Screen(){
 	//===============
 	//Draw Locations=
 	//===============
@@ -32,7 +32,4 @@ function Draw_Title_Screen() {
 	draw_text(_welcome_text_x, _welcome_text_y, string_hash_to_newline(welcome_message)); //draw the welcome message
 
 	draw_set_color(c_white); //Reset back to white draw
-
-
-
 }

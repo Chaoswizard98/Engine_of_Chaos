@@ -1,10 +1,5 @@
-function Get_Interactable_Object() {
-	var _x, _y, _direction,_distance;
-	_x = argument[0];
-	_y = argument[1];
-	_direction = argument[2];
-	_distance = 1;
-
+function Get_Interactable_Object(_x,_y,_direction){
+	var _distance = 1;
 	var interactable_object = noone;
 
 	switch(_direction){
@@ -33,7 +28,4 @@ function Get_Interactable_Object() {
 	}
 
 	return noone;
-
-
-
 }

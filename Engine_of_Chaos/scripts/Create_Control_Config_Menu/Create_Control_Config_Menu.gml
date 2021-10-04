@@ -1,8 +1,8 @@
-function Create_Control_Config_Menu() {
+function Create_Control_Config_Menu(_object) {
 	var _this = instance_create_layer(0,0,"UI_Instance_Layer",obj_Options_Menu);
 
 	with(_this){
-	    current_object = argument[0];
+	    current_object = _object;
 	    window_pan_direction = "in";
 	    play_pan_sound = true;
 	    display_type = "Control_Config";
@@ -43,7 +43,4 @@ function Create_Control_Config_Menu() {
 	    }
 	    Update_Control_Array();//Update the array with current controls
 	}
-
-
-
 }

@@ -1,15 +1,8 @@
-function Level_Scheme_Archer_1() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _stat = argument[2];
-	var _sub_stat = argument[3];
-
+function Level_Scheme_Archer_1(_lookup_type,_character,_stat,_sub_stat){
 	var _base = 0;//starting stat
 	var _early_gain = 0;//modifier for early levels
 	var _mid_gain = 0;//modifier for mid levels
 	var _late_gain = 0;//modifier for late levels
-	var _new_spell = "none";//what new spell do we learn?
-	var _increment_spell_level = "none";//what spell levels up?
 	var _level = 0;//initial spell / skill level
 	var _catch_up = true;//do we correct poor RNG rolls this level?
 
@@ -57,11 +50,6 @@ function Level_Scheme_Archer_1() {
 	    case "Early_Gain": return _early_gain; break;
 	    case "Mid_Gain": return _mid_gain; break;
 	    case "Late_Gain": return _late_gain; break;
-	    case "New_Spell": return _new_spell; break;
-	    case "Increment_Spell_Level": return _increment_spell_level; break;
 	    case "Catch_Up": return _catch_up; break;
 	}
-
-
-
 }

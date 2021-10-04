@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Town_Cutscenes",
-    "path": "folders/Scripts/Modifyables/Cutscenes/Town_Cutscenes.yy",
+    "name": "OBSOLETE",
+    "path": "folders/Scripts/OBSOLETE.yy",
   },
   "resourceVersion": "1.0",
   "name": "City_Guard",

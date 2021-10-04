@@ -1,4 +1,4 @@
-function Draw_Name_Character_Menu() {
+function Draw_Name_Character_Menu(){
 	//===============
 	//Draw Locations=
 	//===============
@@ -56,7 +56,4 @@ function Draw_Name_Character_Menu() {
 	    draw_sprite(spr_Character_Name_Flash,cursor_flash_state,_name_text_x+(_text_increment*current_character),_name_text_y);//Draws Dialogue window to hold letters ect
 	}
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

@@ -1,8 +1,6 @@
-function Cross_Menu_Move() {
+function Cross_Menu_Move(_menu_type){
 	//This function is called when a directional arrow is pressed on a cross menu
 	//Note, you can switch display_type if you have custom menu moves (for different sized menus)
-	var _menu_type = argument[0];
-
 	var _previous_index = current_index;
 	if(display_type != "Inventory_Icons"){
 	    menu_animated[current_index] = 0;//disable animation for old selection
@@ -35,14 +33,11 @@ function Cross_Menu_Move() {
 	        }
 	    }
 	    else if(_menu_type = "Magic"){
-	        if(Get_Spell("Local",current_character,inventory_slot[current_index]) = "none"){
+	        if(Get_Spell_Level("Local",current_character,inventory_slot[current_index]) = 0){
 	            current_index = _previous_index;
 	        }
 	    }
 	    image_index = 0;
 	}
 	Play_Sound(sfx_Menu_Move);
-
-
-
 }

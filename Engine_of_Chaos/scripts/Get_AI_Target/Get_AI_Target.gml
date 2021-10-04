@@ -1,12 +1,4 @@
-function Get_AI_Target() {
-	var _character = argument[0];
-	var _action = argument[1];
-	var _threat_formula = argument[2];
-	var _effect = argument[3];
-	var _effect_level = argument[4];
-	var _speed = argument[5];
-	var _min_threat = argument[6];
-
+function Get_AI_Target(_character,_action,_threat_formula,_effect,_effect_level,_speed,_min_threat){
 	//Base Variables
 	var _move_range;
 	var _target_type;
@@ -32,8 +24,8 @@ function Get_AI_Target() {
 	        _select_type = Get_Character_Attack_Select_Type("Local",_character,"Total");
         
 	        if(Get_Equipped_Item_Stats("Local",_character,0,"Word_of_Power") != "none"){//If using word of power
-	            effect = Get_Equipped_Item_Stats("Local",_character,0,"Word_of_Power");
-	            effect_level = Get_Equipped_Item_Stats("Local",_character,0,"Word_of_Power_Level");
+	            _effect = Get_Equipped_Item_Stats("Local",_character,0,"Word_of_Power");
+	            _effect_level = Get_Equipped_Item_Stats("Local",_character,0,"Word_of_Power_Level");
 	        }
 	    break;
 	    case "Cast_Spell":
@@ -134,7 +126,4 @@ function Get_AI_Target() {
 	}
 
 	return noone;
-
-
-
 }

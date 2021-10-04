@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Chests",
-    "path": "folders/Scripts/Modifyables/Chests.yy",
+    "name": "Generic",
+    "path": "folders/Scripts/Cutscene_Scripts/Generic.yy",
   },
   "resourceVersion": "1.0",
   "name": "Loot_Chest",

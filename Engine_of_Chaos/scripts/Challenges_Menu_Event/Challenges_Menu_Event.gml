@@ -1,4 +1,4 @@
-function Challenges_Menu_Event() {
+function Challenges_Menu_Event(){
 	if(state = "Backed_Out"){//if we are backing out of this menu
 	    UI_Cancel_Event(current_object,"Backed_Out_Of_Menu","none");
 	    instance_destroy();//destroy this object
@@ -38,7 +38,4 @@ function Challenges_Menu_Event() {
 	        state = "Selecting_Option";
 	    }
 	}
-
-
-
 }

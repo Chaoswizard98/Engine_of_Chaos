@@ -1,15 +1,8 @@
-function Level_Scheme_Healer_1() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _stat = argument[2];
-	var _sub_stat = argument[3];
-
+function Level_Scheme_Healer_1(_lookup_type,_character,_stat,_sub_stat){
 	var _base = 0;//starting stat
 	var _early_gain = 0;//modifier for early levels
 	var _mid_gain = 0;//modifier for mid levels
 	var _late_gain = 0;//modifier for late levels
-	var _new_spell = "none";//what new spell do we learn?
-	var _increment_spell_level = "none";//what spell levels up?
 	var _level = 0;//initial spell / skill level
 	var _catch_up = true;//do we correct poor RNG rolls this level?
 
@@ -31,10 +24,40 @@ function Level_Scheme_Healer_1() {
 	    case "Movement_Range": _base = 5; break;
 	    case "Movement_Type": _base = "Foot"; break;
 	    case "Reset_Spells": _base = false; break;
-	    case "Spell_1": _base = "Heal"; _level = 1; break;
-	    case "Spell_2": _base = "none"; break;
-	    case "Spell_3": _base = "none"; break;
-	    case "Spell_4": _base = "none"; break;
+		
+	    case "Spell_1": 
+			_base = "Heal";
+			_level = 1; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 7: _level = 2; break;
+				case 22: _level = 3; break;
+				case 40: _level = 4; break;
+			}
+		break;
+	    case "Spell_2": 
+			_base = "Detox"; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 4: _level = 1; break;
+				case 13: _level = 2; break;
+				case 33: _level = 3; break;
+			}
+		break;
+	    case "Spell_3": 
+			_base = "Blast"; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 10: _level = 1; break;
+				case 16: _level = 2; break;
+				case 25: _level = 3; break;
+				case 36: _level = 4; break;
+			}
+		break;
+	    case "Spell_4": 
+			_base = "Slow"; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 19: _level = 1; break;
+				case 29: _level = 2; break;
+			}
+		break;
     
 	    //Promotion options
 	    case "Promotion_1": _base = "none"; break;
@@ -48,22 +71,6 @@ function Level_Scheme_Healer_1() {
 	    case "Promotion_Event": break;//Put whatever script you want in here. (Such as removing an item upon promotion)
 	}
 
-
-	switch(Get_Character_Level(_lookup_type,_character,"Total")){
-	    case 4: _new_spell = "Detox"; break;
-	    case 7: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Heal",2); break;
-	    case 10: _new_spell = "Blast"; break;
-	    case 13: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Detox",2); break;
-	    case 16: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blast",2); break;
-	    case 19: _new_spell = "Slow"; break;
-	    case 22: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Heal",3); break;
-	    case 25: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blast",3); break;
-	    case 29: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Slow",2); break;
-	    case 33: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Detox",3); break;
-	    case 36: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blast",4); break;
-	    case 40: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Heal",4); break;
-	}
-
 	//======================
 	//Return Requested Stat=
 	//======================
@@ -73,11 +80,6 @@ function Level_Scheme_Healer_1() {
 	    case "Early_Gain": return _early_gain; break;
 	    case "Mid_Gain": return _mid_gain; break;
 	    case "Late_Gain": return _late_gain; break;
-	    case "New_Spell": return _new_spell; break;
-	    case "Increment_Spell_Level": return _increment_spell_level; break;
 	    case "Catch_Up": return _catch_up; break;
 	}
-
-
-
 }

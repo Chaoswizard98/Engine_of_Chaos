@@ -1,8 +1,5 @@
-function Pressed_Key() {
+function Pressed_Key(_key,_auto_move) {
 	//checks if we pressed a key under certain parameters
-	var _key = argument[0];
-	var _auto_move = argument[1];
-
 	switch(_key){
 	    case "Up_Right_Buttons":
 	        if((keyboard_check_pressed(global.Up_Button)||(keyboard_check(global.Up_Button)&&(_auto_move)))&&(keyboard_check_pressed(global.Right_Button)||(keyboard_check(global.Right_Button)&&(_auto_move)))){ return true; }
@@ -49,7 +46,4 @@ function Pressed_Key() {
 	}
 
 	return false;
-
-
-
 }

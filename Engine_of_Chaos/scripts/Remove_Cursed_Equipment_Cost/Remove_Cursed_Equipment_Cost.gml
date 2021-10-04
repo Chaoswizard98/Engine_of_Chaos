@@ -1,8 +1,5 @@
-function Remove_Cursed_Equipment_Cost() {
+function Remove_Cursed_Equipment_Cost(_lookup_type,_character,_cost_modifier){
 	//checks to see if a character is cursed
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _cost_modifier = argument[2];
 	var _cost = 0;
 	var i = 0;
 
@@ -11,9 +8,5 @@ function Remove_Cursed_Equipment_Cost() {
 	        _cost += floor(Get_Inventory_Item_Stats(_lookup_type,_character,i,"Value")*_cost_modifier);
 	    }
 	}
-
 	return _cost;
-
-
-
 }

@@ -1,8 +1,4 @@
-function Level_Up() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _force_average = argument[2];
-
+function Level_Up(_lookup_type,_character,_force_average){
 	if(Get_Character_Level(_lookup_type,_character,"Derived") >= global.Level_Cap){//if we're at level cap already
 	    return "";//Return null message
 	}
@@ -29,8 +25,6 @@ function Level_Up() {
 	var _agility = Get_Stat_Gain(_lookup_type,_character,"Agility",Get_Character_Agility(_lookup_type,_character,"Base"),_force_average);
 	var _max_health = Get_Stat_Gain(_lookup_type,_character,"Max_Health",Get_Character_Max_Health(_lookup_type,_character,"Base"),_force_average);
 	var _max_magic = Get_Stat_Gain(_lookup_type,_character,"Max_Magic",Get_Character_Max_Magic(_lookup_type,_character,"Base"),_force_average);
-	var _new_spell = Get_Stat_Gain(_lookup_type,_character,"New_Spell",0,false);
-	var _increment_spell_level = Get_Stat_Gain(_lookup_type,_character,"Increment_Spell_Level",0,false);
 
 	if(_attack > 0){
 	    _message += Get_General_Messages("Level_Up","Gain_Attack",string(_attack));
@@ -58,21 +52,21 @@ function Level_Up() {
 	        Set_Character_Magic(_lookup_type,_character,"Add",_max_magic);
 	    }
 	}
-	if(_new_spell != "none"){
-	    if((!Spell_Slots_Are_Full(_lookup_type,_character))&&(!Character_Has_Spell(_lookup_type,_character,_new_spell))){
-	        _message += Get_General_Messages("Level_Up","Learn_Spell",string(_new_spell));
-	        Give_Character_Spell(_lookup_type,_character,_new_spell,1);
-	    }
-	}
-	if(_increment_spell_level != "none"){
-	    if(Character_Has_Spell(_lookup_type,_character,_increment_spell_level)){//if the character has the spell,
-	        Set_Spell_Level(_lookup_type,_character,_increment_spell_level,"Add",1);
-	        _message += Get_General_Messages("Level_Up","Increase_Spell_Level",_increment_spell_level,string(Get_Spell_Level(_lookup_type,_character,Get_Spell_Slot(_lookup_type,_character,_increment_spell_level))));
-	    }
+	
+	var i;
+	var _level = 0;
+	for(i = 0; i < global.Number_Of_Spell_Slots; i+=1){
+		_level = Get_Character_Level_Scheme_Stats(_lookup_type,_character,"Spell_"+string(i+1),"Level");
+		Set_Spell_Level(_lookup_type,_character,i,"Set",1);
+		if(_level > Get_Spell_Level(_lookup_type,_character,i)){
+			if(_level = 1){//New spell
+				_message += Get_General_Messages("Level_Up","Learn_Spell",Get_Spell_Slot_Stats(_lookup_type,_character,i,_level,"Spell_Name"));
+			}
+			else{
+				_message += Get_General_Messages("Level_Up","Increase_Spell_Level",Get_Spell_Slot_Stats(_lookup_type,_character,i,_level,"Spell_Name"),string(_level));
+			}
+		}
 	}
 
 	return _message;
-
-
-
 }

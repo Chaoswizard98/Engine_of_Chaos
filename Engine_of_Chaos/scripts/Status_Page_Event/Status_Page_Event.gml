@@ -39,7 +39,4 @@ function Status_Page_Event() {
 	        Create_Status_Page(lookup_type,character_list[start_index + index],id);
 	    break;
 	}
-
-
-
 }

@@ -165,10 +165,7 @@ function Equip_Item_Event() {
 	            play_pan_sound = true;
 	        }
 	    break;
-        
-    
-    
-    
+
 	    //Cursed Refuse Equip
 	    case "Cursed_Refuse_Equip":
 	        state = "End_Refuse_Equip";
@@ -182,14 +179,7 @@ function Equip_Item_Event() {
 	        pan_direction = "in";
 	    break;
 	    //bottom panned in, 
-    
-    
-    
-    
-    
-    
-    
-    
+
 	    //========================
 	    //Cancel Choosing an item=
 	    //========================
@@ -242,7 +232,4 @@ function Equip_Item_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

@@ -132,7 +132,4 @@ function Drop_Item_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

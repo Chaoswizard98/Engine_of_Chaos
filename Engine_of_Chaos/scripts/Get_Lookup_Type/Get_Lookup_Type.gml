@@ -1,8 +1,4 @@
-function Get_Lookup_Type() {
-	//gives us the proper variable lookup type
-	//do we use local or global variables?
-	var _faction = argument[0];
-
+function Get_Lookup_Type(_faction) {
 	if(global.In_Battle){//if we are in battle,
 	    return "Local";
 	}
@@ -14,7 +10,4 @@ function Get_Lookup_Type() {
 	        return "Local";
 	    }
 	}
-
-
-
 }

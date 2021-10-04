@@ -71,7 +71,4 @@ function Get_Battle_Cutscene_Prop_Stats() {
 	    case "Animation_Speed": return _animation_speed; break;
 	    case "Flash_Color": return _flash_color; break;
 	}
-
-
-
 }

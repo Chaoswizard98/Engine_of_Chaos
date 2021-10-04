@@ -21,7 +21,7 @@ function Default_Battle_Cutscene_Event() {
 	        _target = _attacker;
 	    }
     
-	    background_sprite = Get_Battle_Background_Sprite(Get_Battle_Background(_attacker, _target));//get battle background
+	    background_sprite = Get_Terrain_Stats(Get_Battle_Background(_attacker, _target),"Background_Sprite");//get battle background
 	    _attacker.display_HUD = true;//Show HUD for attacker (note target can also be the attacker (heal self))
     
 	    if(_attacker.location != _target.location){//If both attacker and target are not in the same location (enemies)
@@ -29,7 +29,7 @@ function Default_Battle_Cutscene_Event() {
 	    }
     
 	    if(!target_starts_on_screen){
-	        background_sprite = Get_Battle_Background_Sprite(Get_Battle_Background(Get_Battle_Cutscene_Character(attacker), noone));//use attacker background at start (target not on screen)
+	        background_sprite = Get_Terrain_Stats(Get_Battle_Background(Get_Battle_Cutscene_Character(attacker), noone),"Background_Sprite");//use attacker background at start (target not on screen)
 	        _target.display_HUD = false;//Hide target HUD, they arent on screen
 	    }
 	    Continue_Screen_Fade(0,.04,"in",id);//color, start, end, speed, direction, object

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "AI",
-    "path": "folders/Scripts/Modifyables/AI.yy",
+    "name": "OBSOLETE",
+    "path": "folders/Scripts/OBSOLETE.yy",
   },
   "resourceVersion": "1.0",
   "name": "AI_Test",

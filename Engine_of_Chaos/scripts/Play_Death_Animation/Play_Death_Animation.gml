@@ -1,7 +1,4 @@
-function Play_Death_Animation() {
-	var _character = argument[0];
-
-
+function Play_Death_Animation(_character){
 	if(_character.death_animation = "Beam"){
 	    if(!audio_is_playing(sfx_Spell_Cast)){
 	        Play_Sound(sfx_Spell_Cast);
@@ -13,7 +10,4 @@ function Play_Death_Animation() {
 	    Spin(_character,3);
 	    _character.chained_animation = "Explode";
 	}
-
-
-
 }

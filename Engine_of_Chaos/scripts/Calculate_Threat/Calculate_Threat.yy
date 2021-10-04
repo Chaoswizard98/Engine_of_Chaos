@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Threat_Formulas",
-    "path": "folders/Scripts/Modifyables/AI/Threat_Formulas.yy",
+    "name": "AI",
+    "path": "folders/Scripts/DONE/AI.yy",
   },
   "resourceVersion": "1.0",
   "name": "Calculate_Threat",

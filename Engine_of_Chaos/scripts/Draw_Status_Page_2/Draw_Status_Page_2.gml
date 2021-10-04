@@ -9,7 +9,4 @@ function Draw_Status_Page_2() {
 	draw_set_color(c_white); //reset draw color
 
 	draw_text(_title_field_x,_title_field_y,string_hash_to_newline("Page 3"));//CLASS, NAME
-
-
-
 }

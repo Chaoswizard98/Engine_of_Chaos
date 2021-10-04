@@ -9,7 +9,4 @@ function Set_Shader() {
 	        shader_set_uniform_f(shader_get_uniform(sh_Spell_Cast_Flash,"colorBlend"),1.0);
 	    break;
 	}
-
-
-
 }

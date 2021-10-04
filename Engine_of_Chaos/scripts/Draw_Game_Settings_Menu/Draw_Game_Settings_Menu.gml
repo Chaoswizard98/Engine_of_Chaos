@@ -57,7 +57,4 @@ function Draw_Game_Settings_Menu() {
 	    draw_text(_config_text_x, _config_text_y + ((i - start_index) * _text_increment), string_hash_to_newline(settings_array[i])); //draw the message
 	}
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

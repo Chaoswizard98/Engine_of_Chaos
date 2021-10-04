@@ -41,7 +41,4 @@ function Promote_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

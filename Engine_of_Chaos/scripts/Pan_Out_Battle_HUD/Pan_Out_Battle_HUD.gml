@@ -1,11 +1,5 @@
-function Pan_Out_Battle_HUD() {
-	var _object = argument[0];
-	var _action = argument[1];
-
+function Pan_Out_Battle_HUD(_object,_action){
 	_object.window_pan_direction = "out";
 	_object.play_pan_sound = true;
 	_object.action = _action;
-
-
-
 }

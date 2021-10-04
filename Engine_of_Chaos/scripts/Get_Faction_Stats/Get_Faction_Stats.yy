@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Factions",
-    "path": "folders/Scripts/Modifyables/Factions.yy",
+    "path": "folders/Scripts/DONE/Factions.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Faction_Stats",

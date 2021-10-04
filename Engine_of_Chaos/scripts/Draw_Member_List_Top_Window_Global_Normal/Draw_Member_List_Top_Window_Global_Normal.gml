@@ -79,9 +79,4 @@ function Draw_Member_List_Top_Window_Global_Normal() {
 	}
 
 	draw_set_color(c_white);
-
-
-
-
-
 }

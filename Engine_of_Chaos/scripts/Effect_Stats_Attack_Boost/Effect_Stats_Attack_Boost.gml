@@ -10,6 +10,6 @@ function Effect_Stats_Attack_Boost(){
 	spell_name = Get_Spell_Display_Name("Attack_Boost","Spell_Name");//Get name from language script
 	menu_name = Get_Spell_Display_Name("Attack_Boost","Menu_Name");//Get name from language script
 	battle_cutscene_event = "Attack_Boost";
-	town_effect = "Attack_Boost";
+	town_effect = "Town_Effect_Attack_Boost";
 	target_other = true;
 }

@@ -10,7 +10,6 @@ function Game_Settings_Event() {
 	            case 0: Reset_Game_Settings(); state = "Selecting_Option"; Update_Game_Settings_Array(); Update_Music_Volume(); Save_Config(); break;
 	            case 1: old_setting = global.Dialogue_Speed; break;
 	            case 2: old_setting = global.Perma_Death; break;
-	            //case 3: old_setting = global.Difficulty; break;
 	            case 3: old_setting = global.Sound_Volume; break;
 	            case 4: old_setting = global.Music_Volume; break;
 	        }
@@ -29,7 +28,6 @@ function Game_Settings_Event() {
 	            case 0: break;
 	            case 1: Increase_Dialogue_Speed(); Play_Sound(sfx_Menu_Move); break;//Dialogue Speed Control
 	            case 2: Toggle_Perma_Death(); Play_Sound(sfx_Menu_Move); break;//Perma-death
-	            //case 3: Increase_Difficulty(); Play_Sound(sfx_Menu_Move); break;//Difficulty
 	            case 3: Increase_Sound_Volume(); Play_Sound(sfx_Menu_Move); break;//SFX Control
 	            case 4: Increase_Music_Volume(); Play_Sound(sfx_Menu_Move); break;//BGM Control
 	        }
@@ -40,7 +38,6 @@ function Game_Settings_Event() {
 	            case 0: break;
 	            case 1: Decrease_Dialogue_Speed(); Play_Sound(sfx_Menu_Move); break;//Dialogue Speed Control
 	            case 2: Toggle_Perma_Death(); Play_Sound(sfx_Menu_Move); break;//Perma-death
-	            //case 3: Decrease_Difficulty(); Play_Sound(sfx_Menu_Move); break;//Difficulty
 	            case 3: Decrease_Sound_Volume(); Play_Sound(sfx_Menu_Move); break;//SFX Control
 	            case 4: Decrease_Music_Volume(); Play_Sound(sfx_Menu_Move); break;//BGM Control
 	        }
@@ -56,7 +53,6 @@ function Game_Settings_Event() {
 	        switch (arrow_position + start_index){//set the correct key
 	            case 1: global.Dialogue_Speed = old_setting; break;
 	            case 2: global.Perma_Death = old_setting; break;
-	            //case 3: global.Difficulty = old_setting; break;
 	            case 3: global.Sound_Volume = old_setting; break;
 	            case 4: global.Music_Volume = old_setting; Update_Music_Volume(); break;
 	        }
@@ -65,7 +61,4 @@ function Game_Settings_Event() {
 	        Play_Sound(sfx_Menu_Swish);
 	    }
 	}
-
-
-
 }

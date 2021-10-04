@@ -127,7 +127,6 @@ function Use_Item_Event() {
 	        play_pan_sound = true;
 	    break;
     
-    
 	    case "Running_Use_Item_Script":
 	        //go back to selecting character
 	        var _portrait_ID;
@@ -149,7 +148,4 @@ function Use_Item_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

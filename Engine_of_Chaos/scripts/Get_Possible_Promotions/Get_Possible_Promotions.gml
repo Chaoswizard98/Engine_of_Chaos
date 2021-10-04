@@ -1,7 +1,6 @@
-function Get_Possible_Promotions() {
+function Get_Possible_Promotions(_character) {
 	//This script gets the possible promotions a character can have
 	//and fills the church controller with said options (returns # of possible promotions)
-	var _character = argument[0];
 	var _new_class = "none";
 	number_of_promotions = 0;//set church promotion_index to 0
 
@@ -15,7 +14,4 @@ function Get_Possible_Promotions() {
 	}
 
 	return number_of_promotions;
-
-
-
 }

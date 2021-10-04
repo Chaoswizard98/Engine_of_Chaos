@@ -1,6 +1,4 @@
-function Get_Number_of_AoE_Targets() {
-	var _character = argument[0];
-	var _select_type = argument[1];
+function Get_Number_of_AoE_Targets(_character,_select_type){
 	var _target = noone;
 	var _count = 0;
 
@@ -14,7 +12,4 @@ function Get_Number_of_AoE_Targets() {
 	}
 
 	return _count;
-
-
-
 }

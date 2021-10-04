@@ -35,7 +35,4 @@ function Search_Event() {
 	        }
 	    break;
 	}
-
-
-
 }

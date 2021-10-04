@@ -10,6 +10,6 @@ function Effect_Stats_Agility_Boost(){
 	spell_name = Get_Spell_Display_Name("Agility_Boost","Spell_Name");//Get name from language script
 	menu_name = Get_Spell_Display_Name("Agility_Boost","Menu_Name");//Get name from language script
 	battle_cutscene_event = "Agility_Boost";
-	town_effect = "Agility_Boost";
+	town_effect = "Town_Effect_Agility_Boost";
 	target_other = true;
 }

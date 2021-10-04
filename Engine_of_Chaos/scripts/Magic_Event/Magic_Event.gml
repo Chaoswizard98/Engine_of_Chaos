@@ -99,9 +99,7 @@ function Magic_Event() {
 	        item_selector = 1;//flash item selector
 	        play_pan_sound = true;
 	    break;
-    
-    
-    
+
 	    //=====================
 	    //Choosing a character=
 	    //=====================
@@ -145,7 +143,6 @@ function Magic_Event() {
 	        play_pan_sound = true;
 	    break;
     
-    
 	    case "Running_Use_Item_Script":
 	        //go back to selecting character
 	        pan_direction = "in";
@@ -164,7 +161,4 @@ function Magic_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

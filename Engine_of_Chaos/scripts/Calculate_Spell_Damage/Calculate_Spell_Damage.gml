@@ -1,15 +1,7 @@
-function Calculate_Spell_Damage() {
-	var _attacker = argument[0];
-	var _target = argument[1];
-	var _effect = argument[2];
-	var _level = argument[3];
-	var _critical_hit = argument[4];
-	var _counter_attack = argument[5];
-	var _divisor = 1;
-
+function Calculate_Spell_Damage(_attacker,_target,_effect,_level,_critical_hit,_counter_attack,_divisor){
 	var _damage = 0;
-	if(Get_Effect_Stats(_effect,_level,"Damage_Formula","Local",_attacker) = "Split"){//If damage is split evenly amongst targets
-	    _divisor = argument[6];//get number of targets
+	if(Get_Effect_Stats(_effect,_level,"Damage_Formula","Local",_attacker) != "Split"){//If damage is not split evenly amongst targets
+	    _divisor = 1;//Don't split damage between targets
 	}
 	else if (Get_Effect_Stats(_effect,_level,"Damage_Formula","Local",_attacker) = "No_Damage"){
 	    return _damage;
@@ -58,7 +50,4 @@ function Calculate_Spell_Damage() {
 	}
 
 	return _damage;
-
-
-
 }

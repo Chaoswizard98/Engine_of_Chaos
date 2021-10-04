@@ -1,9 +1,7 @@
-function Fill_Member_List_Equip_Array() {
+function Fill_Member_List_Equip_Array(_lookup_type,_character,_slot) {
 	//fills the member list's equip array with only items the 
 	//selected character can equip
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _equipment_slot = Get_Equipment_Slot_Name(argument[2]);
+	var _equipment_slot = Get_Equipment_Slot_Name(_slot);
 
 	var i = 0;
 	var j = 0;
@@ -17,7 +15,4 @@ function Fill_Member_List_Equip_Array() {
 	    obj_Member_List_Controller.item_array[j] = -1;
 	    j+= 1;
 	}
-
-
-
 }

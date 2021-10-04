@@ -1,7 +1,4 @@
-function Get_Flee_Destination() {
-	var _character = argument[0];
-	var _speed = argument[1];
-	var _search_range = argument[2];
+function Get_Flee_Destination(_character,_speed,_search_range){
 	var _destination = noone;
 	var _old_cost = 999;
 	Generate_AI_Movement_Range(_character,_search_range,_character.x,_character.y,"Flee");
@@ -20,7 +17,7 @@ function Get_Flee_Destination() {
 	    }
 	}
 
-	_target = ds_priority_find_max(_list);//get least cost tile
+	var _target = ds_priority_find_max(_list);//get least cost tile
 	if(_target != undefined){
 	    if(_old_cost >= _target.number_of_steps){//if old cost is higher than new, dont move
 	        _target = noone;
@@ -34,10 +31,5 @@ function Get_Flee_Destination() {
 	}
 	ds_priority_destroy(_list);//destroy the list and free it from memory.
 	instance_destroy(obj_AI_Movement_Tile);//delete temp AI tiles
-
-
 	return _target;
-
-
-
 }

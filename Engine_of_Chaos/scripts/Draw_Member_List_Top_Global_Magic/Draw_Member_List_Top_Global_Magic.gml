@@ -80,9 +80,4 @@ function Draw_Member_List_Top_Global_Magic() {
 	}
 
 	draw_set_color(c_white);
-
-
-
-
-
 }

@@ -1,9 +1,5 @@
-function Create_Status_Ailment_Array() {
+function Create_Status_Ailment_Array(_lookup_type,_character) {
 	//Creates an array of status ailment icons for member list and status pages
-
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-
 	number_of_status_ailments = 0;
 	status_ailment_array[number_of_status_ailments] = noone;
 
@@ -43,7 +39,4 @@ function Create_Status_Ailment_Array() {
 	    status_ailment_array[number_of_status_ailments] = spr_Slowed_Icon;
 	    number_of_status_ailments += 1;
 	}*/
-
-
-
 }

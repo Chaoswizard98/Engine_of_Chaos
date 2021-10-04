@@ -1,4 +1,4 @@
-function Draw_Decision_Menu() {
+function Draw_Decision_Menu(){
 	var _center_x = Get_Anchor_X("Bottom_Middle")+floor(pan);//center draw point x
 	var _center_y = Get_Anchor_Y("Bottom_Middle") - sprite_get_height(spr_Dialogue_Window) -30 - sprite_get_height(spr_Empty_Menu_Icon);//center draw point y
 
@@ -11,12 +11,12 @@ function Draw_Decision_Menu() {
 	var i;
 	for(i = 0; i<number_of_icons; i+= 1){//loop draw all icons
 	    if(menu_index = i){//if we're hovering over this option
-	        draw_sprite(menu_icon[i],-1,_x_pos+(i*_icon_separation),_y_pos);//animate it
+	        draw_sprite(menu_icon[i],image_index,_x_pos+(i*_icon_separation),_y_pos);//animate it
 	    }
 	    else{//otherwise, dont animate it
 	        draw_sprite(menu_icon[i],0,_x_pos+(i*_icon_separation),_y_pos);
 	    }
-    
+		
 	    if(i = number_of_icons-1){//if we've just drawn the last icon
 	        draw_sprite(spr_Menu_Name_Window,0,_x_pos+(((i+1)*_icon_separation)),_y_pos);
 	        draw_set_font(menu_font);
@@ -25,7 +25,4 @@ function Draw_Decision_Menu() {
 	        draw_set_color(c_white);//reset draw color
 	    }
 	}
-
-
-
 }

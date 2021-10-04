@@ -1,7 +1,4 @@
-function Chained_Animation() {
-	var _character = argument[0];
-
-
+function Chained_Animation(_character){
 	if(_character.chained_animation = "Explode"){
 	    _character.chained_animation = "none";
 	    if(!audio_is_playing(sfx_Boom)){
@@ -17,7 +14,4 @@ function Chained_Animation() {
 	    _character.chained_animation = "none";
 	    Sprite_Animation(_character,spr_Magic_Beam_Fade_Overworld,1,.25,true,true);
 	}
-
-
-
 }

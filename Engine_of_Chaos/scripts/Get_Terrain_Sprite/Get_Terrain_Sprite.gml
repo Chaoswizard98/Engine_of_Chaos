@@ -12,7 +12,4 @@ function Get_Terrain_Sprite() {
 	    case "City": return spr_Terrain_City; break;
 	    default: return noone; break;
 	}
-
-
-
 }

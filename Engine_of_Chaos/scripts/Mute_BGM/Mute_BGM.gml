@@ -3,7 +3,4 @@ function Mute_BGM() {
 	with(obj_Audio_Controller){
 	    audio_sound_gain(current_music,0,0);
 	}
-
-
-
 }

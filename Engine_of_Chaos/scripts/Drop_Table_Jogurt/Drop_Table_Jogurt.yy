@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Tables",
-    "path": "folders/Scripts/Modifyables/Drop_Tables/Tables.yy",
+    "name": "Drop_Table_Properties",
+    "path": "folders/Scripts/Drop_Table_Properties.yy",
   },
   "resourceVersion": "1.0",
   "name": "Drop_Table_Jogurt",

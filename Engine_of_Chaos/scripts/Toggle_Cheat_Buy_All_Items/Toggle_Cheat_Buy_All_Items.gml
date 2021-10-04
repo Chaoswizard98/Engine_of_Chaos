@@ -5,7 +5,4 @@ function Toggle_Cheat_Buy_All_Items() {
 	else{
 	    global.Buy_All_Items = false;
 	}
-
-
-
 }

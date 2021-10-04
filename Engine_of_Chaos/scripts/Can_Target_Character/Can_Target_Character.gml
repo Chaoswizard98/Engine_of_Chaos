@@ -1,9 +1,4 @@
-function Can_Target_Character() {
-	var _target_type = argument[0];
-	var _character = argument[1];
-	var _target = argument[2];
-
-
+function Can_Target_Character(_target_type,_character,_target){
 	if((_target_type = "All")||(_target_type = "All_Characters")){//Target All Units
 	    return true;
 	}
@@ -15,7 +10,4 @@ function Can_Target_Character() {
 	}
 
 	return false;
-
-
-
 }

@@ -28,7 +28,4 @@ function Draw_Dialogue_Window() {
 	}
 
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

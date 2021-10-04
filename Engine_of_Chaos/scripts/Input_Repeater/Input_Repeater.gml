@@ -11,7 +11,4 @@ function Input_Repeater() {
 	        input_delay = min_input_delay;//set delay to minimum delay
 	    }
 	}
-
-
-
 }

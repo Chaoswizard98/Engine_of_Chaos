@@ -1,19 +1,4 @@
-function Create_Battle_Cutscene_Prop() {
-	/*
-	prop
-	x
-	y
-	start sound
-	*/
-
-	var _prop = argument[0];
-	var _x_pos = argument[1];
-	var _y_pos = argument[2];
-	var _rotation = argument[3];
-	var _mirror = argument[4];
-	var _loop_animation = argument[5];
-	var _call_event = argument[6];
-	var _start_sound = argument[7];
+function Create_Battle_Cutscene_Prop(_prop,_x_pos,_y_pos,_rotation,_mirror,_loop_animation,_call_event,_start_sound){
 	var _this;
 
 	switch(_prop){
@@ -41,7 +26,4 @@ function Create_Battle_Cutscene_Prop() {
 	}
 
 	return _this;
-
-
-
 }

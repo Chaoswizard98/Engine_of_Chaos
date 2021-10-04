@@ -1,15 +1,5 @@
-function Continue_Screen_Fade(argument0, argument1, argument2, argument3) {
+function Continue_Screen_Fade(_stop,_speed,_direction,_object){
 	//For continuing an existing screen fade
-	//Arguments:
-	//Color, Alpha, Stop, Speed, Direction, Current Object
-
-	var _stop, _speed, _direction, _object;
-
-	_stop = argument0;
-	_speed = argument1;
-	_direction = argument2;
-	_object = argument3;
-
 	//Assign new variables.
 	with(obj_Screen_Fade_Controller){
 	    fade_stop = _stop;
@@ -17,7 +7,4 @@ function Continue_Screen_Fade(argument0, argument1, argument2, argument3) {
 	    fade_direction = _direction;
 	    current_object = _object;
 	}
-
-
-
 }

@@ -77,9 +77,4 @@ function Draw_Member_List_Top_Global_Item() {
 	}
 
 	draw_set_color(c_white);
-
-
-
-
-
 }

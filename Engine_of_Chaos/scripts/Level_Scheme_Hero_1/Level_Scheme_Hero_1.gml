@@ -1,15 +1,8 @@
-function Level_Scheme_Hero_1() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _stat = argument[2];
-	var _sub_stat = argument[3];
-
+function Level_Scheme_Hero_1(_lookup_type,_character,_stat,_sub_stat){
 	var _base = 0;//starting stat
 	var _early_gain = 0;//modifier for early levels
 	var _mid_gain = 0;//modifier for mid levels
 	var _late_gain = 0;//modifier for late levels
-	var _new_spell = "none";//what new spell do we learn?
-	var _increment_spell_level = "none";//what spell levels up?
 	var _catch_up = true;//do we correct poor RNG rolls this level?
 	var _level = 0;//initial spell / skill level
 
@@ -31,8 +24,19 @@ function Level_Scheme_Hero_1() {
 	    case "Movement_Range": _base = 6; break;
 	    case "Movement_Type": _base = "Foot"; break;
 	    case "Reset_Spells": _base = false; break;
+		
 	    case "Spell_1": _base = "Escape"; _level = 1; break;
-	    case "Spell_2": _base = "none"; break;
+		
+	    case "Spell_2": 
+			_base = "Bolt"; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 22: _level = 1; break;
+				case 31: _level = 2; break;
+				case 42: _level = 3; break;
+				case 51: _level = 4; break;
+			}
+		break;
+		
 	    case "Spell_3": _base = "none"; break;
 	    case "Spell_4": _base = "none"; break;
     
@@ -52,14 +56,6 @@ function Level_Scheme_Hero_1() {
 	    case "Promotion_Event": break;//Put whatever script you want in here. (Such as removing an item upon promotion)
 	}
 
-
-	switch(Get_Character_Level(_lookup_type,_character,"Total")){
-	    case 22: _new_spell = "Bolt"; break;
-	    case 31: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Bolt",2); break;
-	    case 42: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Bolt",3); break;
-	    case 51: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Bolt",4); break;
-	}
-
 	//======================
 	//Return Requested Stat=
 	//======================
@@ -69,11 +65,6 @@ function Level_Scheme_Hero_1() {
 	    case "Early_Gain": return _early_gain; break;
 	    case "Mid_Gain": return _mid_gain; break;
 	    case "Late_Gain": return _late_gain; break;
-	    case "New_Spell": return _new_spell; break;
-	    case "Increment_Spell_Level": return _increment_spell_level; break;
 	    case "Catch_Up": return _catch_up; break;
 	}
-
-
-
 }

@@ -7,7 +7,4 @@ function Update_Control_Array() {
 	settings_array[5] = global.Cancel_Button;
 	settings_array[6] = global.Inspect_Button;
 	settings_array[7] = global.Main_Menu_Button;
-
-
-
 }

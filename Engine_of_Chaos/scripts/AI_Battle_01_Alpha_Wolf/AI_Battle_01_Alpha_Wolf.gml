@@ -1,5 +1,4 @@
-function AI_Battle_01_Alpha_Wolf() {
-	var _character = argument[0];
+function AI_Battle_01_Alpha_Wolf(_character){
 	var _skip_action = false;
 
 	if(Player_Entered_Region(4)){//If player has been to region 2
@@ -17,7 +16,4 @@ function AI_Battle_01_Alpha_Wolf() {
 	    _skip_action = AI_Move_To_Location(_skip_action,_character,600,264,2,60);//<skip_action>, <character>, <x>, <y>, <speed>, <search_range>
 	    _skip_action = AI_Do_Nothing(_skip_action,_character);//<skip_action>, <character>
 	}
-
-
-
 }

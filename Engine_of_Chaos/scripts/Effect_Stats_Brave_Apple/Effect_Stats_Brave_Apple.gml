@@ -9,12 +9,12 @@ function Effect_Stats_Brave_Apple(){
 	//================
 	spell_name = Get_Spell_Display_Name("Brave_Apple","Spell_Name");//Get name from language script
 	menu_name = Get_Spell_Display_Name("Brave_Apple","Menu_Name");//Get name from language script
-	town_effect = "Brave_Apple";
+	town_effect = "Town_Effect_Brave_Apple";
 	target_other = true;
 	switch(_effect_level){
 	    case 1: battle_cutscene_event = "Brave_Apple"; break;
 	    case 2: battle_cutscene_event = "Brave_Apple"; break;
 	    case 3: battle_cutscene_event = "Brave_Apple"; break;
-	    case 4: battle_cutscene_event = "Forbidden_Box"; town_effect = "Forbidden_Box"; target_other = false; break;
+	    case 4: battle_cutscene_event = "Forbidden_Box"; town_effect = "Town_Effect_Forbidden_Box"; target_other = false; break;
 	}
 }

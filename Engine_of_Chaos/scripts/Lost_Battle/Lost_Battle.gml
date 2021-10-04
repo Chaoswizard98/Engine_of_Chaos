@@ -1,14 +1,15 @@
-function Lost_Battle() {
-	var _script = argument[0];
-
-	if(_script = "none"){//if another script isnt already running
-	    switch(obj_Battle_Controller.battle_ID){//Different script per battle
-	        default: _script = Player_Was_Defeated(_script); break;//Default's to Important character's death
-	    }
+function Lost_Battle(_script){
+	if(_script = "none"){
+		_script = asset_get_index("Battle_Loss_Conditions_Default");
+		var _new_script = asset_get_index("Battle_Loss_Conditions_"+obj_Battle_Controller.battle_ID);
+		if(_new_script != -1){//If the asset exists
+			if(script_exists(_new_script)){//If the asset is a script
+				_script = _new_script;
+			}
+		}
+		return script_execute(_script);//run the script
 	}
-
-	return _script;
-
-
-
+	else{
+		return _script;
+	}
 }

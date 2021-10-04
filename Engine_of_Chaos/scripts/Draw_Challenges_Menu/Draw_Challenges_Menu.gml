@@ -1,4 +1,4 @@
-function Draw_Challenges_Menu() {
+function Draw_Challenges_Menu(){
 	//===============
 	//Draw Locations=
 	//===============
@@ -46,7 +46,4 @@ function Draw_Challenges_Menu() {
 	}
 
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

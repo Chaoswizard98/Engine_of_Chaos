@@ -1,13 +1,9 @@
-function Get_Character_Max_Attack_Range() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Max_Attack_Range(_lookup_type,_character,_formula,_equipment_slot = -1){
 	var _removal = 0;
-	if(argument_count > 3){
-	    _removal = Get_Equipped_Item_Stats(_lookup_type,_character,argument[3],"Max_Attack_Range");
+	if(_equipment_slot != -1){
+		_removal = Get_Equipped_Item_Stats(_lookup_type,_character,_equipment_slot,"Max_Attack_Range");
 	}
-
+	
 	var _base, _mainhand, _offhand;
 
 	if(_lookup_type = "Global"){
@@ -28,7 +24,4 @@ function Get_Character_Max_Attack_Range() {
 	    case "Total": return (_base + _mainhand + _offhand); break;
 	    default: return _base; break;
 	}
-
-
-
 }

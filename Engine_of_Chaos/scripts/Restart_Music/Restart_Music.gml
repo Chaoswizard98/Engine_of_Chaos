@@ -5,7 +5,4 @@ function Restart_Music() {
 	    action = "Update_Volume";
 	    event_perform(ev_other,ev_user0);
 	}
-
-
-
 }

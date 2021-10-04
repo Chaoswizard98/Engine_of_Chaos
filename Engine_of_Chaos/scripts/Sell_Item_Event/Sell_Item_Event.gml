@@ -84,8 +84,7 @@ function Sell_Item_Event() {
 	        state = "Awaiting_Decision";
 	        Create_YesNo_Menu(id);
 	    break;
-    
-    
+        
 	    case "Awaiting_Decision":
 	        if(decision = "Yes"){
 	            state = "Return_To_Shop";
@@ -102,13 +101,7 @@ function Sell_Item_Event() {
 	            Start_New_Dialogue(Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Cancel_Sell_Item"),true,true);//message, arrow, auto pan
 	        }
 	    break;
-    
-    
-    
-    
-    
-    
-    
+
 	    case "Return_To_Shop":
 	        with(portrait_controller){//delete portrait controller
 	            instance_destroy();
@@ -116,15 +109,5 @@ function Sell_Item_Event() {
 	        UI_Cancel_Event(current_object,"Sold_Item","none");
 	        instance_destroy();//delete self
 	    break;
-    
-    
-    
-    
-    
-    
-    
 	}
-
-
-
 }

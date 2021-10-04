@@ -16,7 +16,7 @@ else if(pathfinding_end_action = "Walking_To_Start_Location"){
 else if(pathfinding_end_action = "Perform_AI_Action"){
     pathfinding = false;//no longer pathfinding
     AStar_free();//Clear the path from memory.
-    End_Character_Movement(_character,"End_Movement");//reset depth and clear movement tiles
+    End_Character_Movement(id,"End_Movement");//reset depth and clear movement tiles
     switch(ai_action){
         case "Attack":
             Generate_Target_Range(id,round(x),round(y),Get_Character_Max_Attack_Range("Local",id,"Total"),Get_Character_Min_Attack_Range("Local",id,"Total"),Get_Character_Attack_Range_Type("Local",id,"Total"),true);
@@ -31,7 +31,7 @@ else if(pathfinding_end_action = "Perform_AI_Action"){
             Create_Target_Selection_Controller(id,"AI_Use_Item",id);
         break;
         default:
-            End_Turn(_character,"End_Turn");
+            End_Turn(id,"End_Turn");
         break;
     }
 }

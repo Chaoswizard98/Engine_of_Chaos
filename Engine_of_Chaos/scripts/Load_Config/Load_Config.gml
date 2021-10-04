@@ -1,4 +1,4 @@
-function Load_Config() {
+function Load_Config(){
 	//==================
 	//Save Configuration
 	//==================
@@ -24,7 +24,4 @@ function Load_Config() {
     
 	    ini_close();
 	}
-
-
-
 }

@@ -1,8 +1,4 @@
-function Global_Battle_Cutscene_Prop_Event() {
-	var _effect = argument[0];
-	var _event = argument[1];
-	var _object = argument[2];
-
+function Global_Battle_Cutscene_Prop_Event(_effect,_event,_object){
 	switch(_event){
 	    //===============
 	    //Spell Creation= (called from spell controller)
@@ -58,7 +54,4 @@ function Global_Battle_Cutscene_Prop_Event() {
 	        }
 	    break;
 	}
-
-
-
 }

@@ -1,11 +1,10 @@
-function Create_Shop_Menu() {
-	var _new_menu;
-	_new_menu = instance_create_layer(0,0,"UI_Instance_Layer",obj_Cross_Menu);
+function Create_Shop_Menu(_object,_character,_npc) {
+	var _new_menu = instance_create_layer(0,0,"UI_Instance_Layer",obj_Cross_Menu);
 
 	with(_new_menu){
-	    current_object = argument[0];
-	    current_character = argument[1];
-	    current_npc = argument[2];
+	    current_object = _object;
+	    current_character = _character;
+	    current_npc = _npc;
     
 	    pan_y = max_y_pan;
 	    pan_direction = "up";

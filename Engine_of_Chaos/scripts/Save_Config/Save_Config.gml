@@ -1,4 +1,4 @@
-function Save_Config() {
+function Save_Config(){
 	//==================
 	//Save Configuration
 	//==================
@@ -22,7 +22,4 @@ function Save_Config() {
 	ini_write_string("Settings","Language",global.Language);
 
 	ini_close();
-
-
-
 }

@@ -1,48 +1,30 @@
-function Move_Character() {
-	//character,direction,tiles,speed,[maintain direction]
-	var _character = argument[0];
-	var _direction = argument[1];
-	var _tiles = argument[2];
-	var _move_speed = argument[3];
-	var _face_direction = _direction;
-	var _animation_speed = _character.player_walking_animation_speed;
-
-	if(argument_count > 4){
-	    _face_direction = argument[4];
+function Move_Character(_character,_direction,_tiles,_speed,_looking = _direction,_animation_speed = _character.player_walking_animation_speed,_call_cutscene = _character.call_cutscene){
+	if(_animation_speed = -1){
+		_animation_speed = _character.player_walking_animation_speed;
 	}
-	if(argument_count > 5){
-	    if(argument[5] != -1){
-	        _animation_speed = argument[5];
-	    }
-	}
-	if(argument_count > 6){
-	    _character.call_cutscene = argument[6];
-	}
-
+	
+	_character.call_cutscene = _call_cutscene;
 
 	switch(_direction){
 	    case "Up":
 	        with(_character){
-	            Move_Character_Town(x,y-(global.Tile_Size),"Up",_tiles,_move_speed,_animation_speed,_face_direction);
+	            Move_Character_Town(x,y-(global.Tile_Size),"Up",_tiles,_speed,_animation_speed,_looking);
 	        }
 	    break;
 	    case "Down":
 	        with(_character){
-	            Move_Character_Town(x,y+(global.Tile_Size),"Down",_tiles,_move_speed,_animation_speed,_face_direction);
+	            Move_Character_Town(x,y+(global.Tile_Size),"Down",_tiles,_speed,_animation_speed,_looking);
 	        }
 	    break;
 	    case "Left":
 	        with(_character){
-	            Move_Character_Town(x-global.Tile_Size,y,"Left",_tiles,_move_speed,_animation_speed,_face_direction);
+	            Move_Character_Town(x-global.Tile_Size,y,"Left",_tiles,_speed,_animation_speed,_looking);
 	        }
 	    break;
 	    case "Right":
 	        with(_character){
-	            Move_Character_Town(x+global.Tile_Size,y,"Right",_tiles,_move_speed,_animation_speed,_face_direction);
+	            Move_Character_Town(x+global.Tile_Size,y,"Right",_tiles,_speed,_animation_speed,_looking);
 	        }
 	    break;
 	}
-
-
-
 }

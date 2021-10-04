@@ -1,6 +1,4 @@
-function Town_Character_Stats_NPCName(){
-	var _character = argument[0];
-	
+function Town_Character_Stats_NPCName(_character){
 	with(_character){
 		is_npc = true;//Flag them as an NPC
 		dialogue_ID = "Message_ID";//Dialogue Message ID to print when talked to

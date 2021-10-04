@@ -1,8 +1,4 @@
-function Get_Character_Defense() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Defense(_lookup_type,_character,_formula){
 	var _base, _mainhand, _offhand;
 	var _defense_up = 0;
 	var _defense_down = 0;
@@ -32,7 +28,4 @@ function Get_Character_Defense() {
 	    case "Total": return (_base + _mainhand + _offhand + _defense_up + _defense_down); break;
 	    default: return _base; break;
 	}
-
-
-
 }

@@ -60,7 +60,4 @@ function Draw_Cross_Menu_Item_Icons() {
 	    draw_text(_text2_x,_text2_y,string_hash_to_newline(_text2));
 	}
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

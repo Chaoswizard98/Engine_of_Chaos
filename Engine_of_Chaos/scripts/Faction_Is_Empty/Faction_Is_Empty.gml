@@ -1,7 +1,4 @@
-function Faction_Is_Empty() {
-	var _lookup_type = argument[0];
-	var _faction = argument[1];
-
+function Faction_Is_Empty(_lookup_type,_faction){
 	if(_faction = "none"){
 	    return true;
 	}
@@ -22,7 +19,4 @@ function Faction_Is_Empty() {
 	    }
 	}
 	return true;
-
-
-
 }

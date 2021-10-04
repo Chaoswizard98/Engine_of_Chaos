@@ -35,28 +35,9 @@ function Room_Transfer() {
 	        _image_index = _character.image_index;
 	        _x_pos = _character.x;
 	        _y_pos = _character.y;
-	        switch(_direction){
-	            case "Up":
-	                _next_room = global.Adjacent_Room[0];
-	                _transition_type = global.Adjacent_Room_Transition[0];
-	                _tile_ID = global.Default_Tile[0];
-	            break;
-	            case "Down":
-	                _next_room = global.Adjacent_Room[1];
-	                _transition_type = global.Adjacent_Room_Transition[1];
-	                _tile_ID = global.Default_Tile[1];
-	            break;
-	            case "Left":
-	                _next_room = global.Adjacent_Room[2];
-	                _transition_type = global.Adjacent_Room_Transition[2];
-	                _tile_ID = global.Default_Tile[2];
-	            break;
-	            case "Right":
-	                _next_room = global.Adjacent_Room[3];
-	                _transition_type = global.Adjacent_Room_Transition[3];
-	                _tile_ID = global.Default_Tile[3];
-	            break;
-	        }
+			_next_room = Get_Room_Stats("Room",_direction);
+			_transition_type = Get_Room_Stats("Transition",_direction);
+			_tile_ID = Get_Room_Stats("Tile",_direction);
 	        if(global.In_Battle){
 	            _transition_type = "Screen_Fade";
 	        }

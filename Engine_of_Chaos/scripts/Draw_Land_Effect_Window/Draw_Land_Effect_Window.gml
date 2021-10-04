@@ -1,7 +1,4 @@
-function Draw_Land_Effect_Window() {
-	var _character = argument[0];
-
-
+function Draw_Land_Effect_Window(_character){
 	var _window_x = (Get_Anchor_X("Top_Left") + window_x + floor(window_pan));
 	var _window_y = (Get_Anchor_Y("Top_Left") + window_y);
 
@@ -12,7 +9,7 @@ function Draw_Land_Effect_Window() {
 	var _land_effect_text_y = _title_text_y + 16;
 
 	var _title_text = Get_Menu_Display_Message("Generic","LAND_EFFECT");
-	var _land_effect_text = (string(floor(Get_Land_Effect(Get_Terrain_Type(round(_character.x),round(_character.y)),Get_Character_Movement_Type("Local",_character,"Total"))*100))+"%");
+	var _land_effect_text = (string(floor(Get_Terrain_Stats(Get_Terrain_Type(round(_character.x),round(_character.y)),"Land_Effect",Get_Character_Movement_Type("Local",_character,"Total"))*100))+"%");
 
 	draw_set_color(c_white); //Default to white draw color for sprites
 
@@ -30,7 +27,4 @@ function Draw_Land_Effect_Window() {
 
 	draw_set_halign(fa_left); //reset Alignment
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

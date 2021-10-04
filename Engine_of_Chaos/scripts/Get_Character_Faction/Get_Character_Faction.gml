@@ -1,8 +1,4 @@
-function Get_Character_Faction() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Faction(_lookup_type,_character,_formula){
 	var _base, _mainhand, _offhand;
 
 	if(_lookup_type = "Global"){
@@ -18,7 +14,4 @@ function Get_Character_Faction() {
 	    case "Total": return _base; break;
 	    default: return _base; break;
 	}
-
-
-
 }

@@ -1,16 +1,10 @@
-function Save_Character_Stats() {
-	var _character = argument[0];
+function Save_Character_Stats(_character){
 	var i,j;
 	if(_character.global_ID != -1){//Valid character,
 	    i = _character.global_ID;
     
 	    global.Name[i] = name;
 	    global.Faction[i] = faction;
-	    //global.Overworld_Sprite_ID[i] = overworld_sprite_ID;
-	    //global.Portrait_ID[i] = portrait_ID;
-	    //global.Voice_ID[i] = voice_ID;
-	    //global.Battle_Cutscene_Sprite_ID[i] = battle_cutscene_sprite_ID;
-	    //global.Battle_Cutscene_Sprite_ID_Override[i] = battle_cutscene_sprite_ID_override;
     
 	    //class;
 	    global.Level[i] = level;
@@ -133,15 +127,7 @@ function Save_Character_Stats() {
 	    Cure_Status_Effect("Global",i,"Curse_Suppression");
 		
 		if(!Character_Is_Dead("Local",_character)||(_character.character_ID = global.Player_ID)){//if the character isnt dead, or if they are the main controlled character
-	        //global.Current_Health[i] = global.Max_Health[i];//heal them to full HP
 			Revive_Character(i);
 	    }
 	}
-
-
-
-
-
-
-
 }

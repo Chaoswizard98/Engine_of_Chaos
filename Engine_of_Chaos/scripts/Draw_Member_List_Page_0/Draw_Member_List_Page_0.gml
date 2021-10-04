@@ -87,7 +87,4 @@ function Draw_Member_List_Page_0() {
 	if((start_index + max_characters_displayed) < number_of_characters){
 	    draw_sprite(spr_Menu_Arrow_Down,character_selector_state,_scroll_arrow_down_x,_scroll_arrow_down_y);
 	}
-
-
-
 }

@@ -47,7 +47,4 @@ function Word_Wrap(argument0, argument1, argument2, argument3) {
 	     if (string_length(text_current) > 0) text_output += text_current;
 	     return text_output;
 	}
-
-
-
 }

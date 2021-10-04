@@ -2,8 +2,6 @@ function Draw_Status_Page_0() {
 	var _page_window_x = Get_Anchor_X("Top_Left") + status_page_x + floor(page_window_pan);
 	var _page_window_y = Get_Anchor_Y("Top_Left") + status_page_y;
 
-
-
 	var _title_field_x = _page_window_x + 18;//Name Class
 	var _title_field_y = _page_window_y + 12;//Name Class
 
@@ -142,12 +140,11 @@ function Draw_Status_Page_0() {
 	draw_text(_item_title_x,_item_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","ITEMS")));//items title
 
 	//Magic / Items 'nothing' test
-	if(Get_Spell(lookup_type,characterID,0) = "none"){//if we dont have any magic
+	if(Get_Spell_Level(lookup_type,characterID,0) = 0){//if we dont have any magic
 	    draw_set_color(equipped_font_color);
 	    draw_text(_no_magic_x,_no_magic_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//display 'nothing'
 	    draw_set_color(font_color);
 	}
-
 	if(Inventory_Is_Empty(lookup_type,characterID)){//If we dont have any items
 	    draw_set_color(equipped_font_color);
 	    draw_text(_no_item_x,_no_item_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//display 'nothing'
@@ -157,7 +154,7 @@ function Draw_Status_Page_0() {
 	//Magic / Items Loop
 	var i = 0;
 	for (i=0; i< global.Number_Of_Spell_Slots; i+= 1){
-	    if(Get_Spell(lookup_type,characterID,i) != "none"){//Magic
+	    if(Get_Spell_Level(lookup_type,characterID,i) != 0){//Magic
 	        draw_text(_spell_name_x,_spell_name_y+(i*_icon_spacing),string_hash_to_newline(Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Menu_Name")));
 	        draw_sprite(Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Spell_Icon"),Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Frame_Number"),_spell_icon_x,_spell_icon_y+(i*_icon_spacing));
         
@@ -178,7 +175,4 @@ function Draw_Status_Page_0() {
 	    }
 	}
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

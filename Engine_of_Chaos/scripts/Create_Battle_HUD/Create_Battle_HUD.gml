@@ -1,8 +1,4 @@
-function Create_Battle_HUD() {
-	var _object = argument[0];
-	var _character = argument[1];
-	var _action = argument[2];
-	var _display_type = argument[3];
+function Create_Battle_HUD(_object,_character,_action,_display_type){
 	var _this = instance_create_layer(0,0,"UI_Instance_Layer",obj_Battle_HUD);
 
 	_this.current_object = _object;
@@ -16,7 +12,4 @@ function Create_Battle_HUD() {
 	_this.display_type = _display_type;
 	_this.window_pan = _this.max_pan;
 	_this.action = _action;
-
-
-
 }

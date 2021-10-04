@@ -1,7 +1,4 @@
-function Can_Open_Door() {
-	_character = argument[0];
-	_target = argument[1];
-
+function Can_Open_Door(_character,_target){
 	if(_target != noone){
 	    if(_character.player_controlled){//if character is controlled by the player (prevents npcs from opening doors)
 	        with(_target){
@@ -12,7 +9,4 @@ function Can_Open_Door() {
 	    return false;
 	}
 	return true;
-
-
-
 }

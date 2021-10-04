@@ -1,14 +1,8 @@
-function Defeated_All_Enemies() {
-	var _script = argument[0];
-
-	if(_script = "none"){
-	    if(!Faction_Still_Alive("Enemy")){//if all enemies were defeated
-	        _script = "Default_Battle_Victory";
+function Defeated_All_Enemies(_faction){
+	with(obj_Character){//loop through all characters
+	    if(Get_Faction_Stats(_faction,"Relation",faction) = "Enemy"){//if character is enemy of faction
+	        return false;//Enemy still alive
 	    }
 	}
-
-	return _script;
-
-
-
+	return true;
 }

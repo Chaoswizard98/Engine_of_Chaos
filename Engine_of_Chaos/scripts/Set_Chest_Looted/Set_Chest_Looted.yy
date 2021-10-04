@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Chests",
-    "path": "folders/Scripts/Modifyables/Chests.yy",
+    "path": "folders/Scripts/DONE/Chests.yy",
   },
   "resourceVersion": "1.0",
   "name": "Set_Chest_Looted",

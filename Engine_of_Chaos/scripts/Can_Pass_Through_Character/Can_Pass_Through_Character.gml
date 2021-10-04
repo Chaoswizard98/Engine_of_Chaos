@@ -1,7 +1,4 @@
-function Can_Pass_Through_Character() {
-	_character = argument[0];
-	_target = argument[1];
-
+function Can_Pass_Through_Character(_character,_target){
 	if(_target != noone){
 	    if(global.In_Battle){
 	        if(Target_Is_Ally(_character,_target)){
@@ -15,9 +12,5 @@ function Can_Pass_Through_Character() {
 	    }
 	    return false;
 	}
-
 	return true;
-
-
-
 }

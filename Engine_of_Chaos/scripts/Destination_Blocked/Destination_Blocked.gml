@@ -1,10 +1,4 @@
-function Destination_Blocked() {
-	var _x = argument[0];//destination x coordinate
-	var _y = argument[1];//destination y coordinate
-	var _movement_type = argument[2];//movement type
-	var _object = argument[3];//object we're trying to move
-	var _formula = argument[4];//object type (Cursor, Player)
-
+function Destination_Blocked(_x,_y,_movement_type,_object,_formula){
 	if(_formula = "Cursor"){
 	    if(!Can_Walk_On_Terrain(Get_Terrain_Type(_x,_y),_movement_type)){//if we cant walk on the terrain
 	        return true;
@@ -63,7 +57,4 @@ function Destination_Blocked() {
 	}
 
 	return false;
-
-
-
 }

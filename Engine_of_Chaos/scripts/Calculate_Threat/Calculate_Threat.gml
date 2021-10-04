@@ -1,19 +1,10 @@
-function Calculate_Threat() {
-	var _formula = argument[0];
-	var _character = argument[1];
-	var _target = argument[2];
-	var _effect = argument[3];
-	var _effect_level = argument[4];
-	var _divisor = argument[5];
-	var _threat = 0;
-	var _damage = 0;
-
-	switch(_formula){
-	    case "Healer": return Healer_Threat(_character,_target,_effect,_effect_level,_divisor); break;//basic threat calc
-	    case "Default": return Default_Threat(_character,_target,_effect,_effect_level,_divisor); break;//basic threat calc
-	    default: return Default_Threat(_character,_target,_effect,_effect_level,_divisor);break;//default threat calc
+function Calculate_Threat(_threat_formula,_character,_target,_effect,_effect_level,_divisor){
+	var _script = asset_get_index("Calculate_Threat_Default");
+	var _new_script = asset_get_index("Calculate_Threat_" + _threat_formula);
+	if(_new_script != -1){//If the asset exists
+		if(script_exists(_new_script)){//If the asset is a script
+			_script = _new_script;
+		}
 	}
-
-
-
+	return script_execute(_script,_character,_target,_effect,_effect_level,_divisor);//run the script
 }

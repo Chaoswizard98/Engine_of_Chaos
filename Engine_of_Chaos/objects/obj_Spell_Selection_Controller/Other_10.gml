@@ -1,5 +1,5 @@
 if(state = "Start"){
-    if(Get_Spell("Local",current_character,0) = "none"){//character has no magic
+    if(Get_Spell_Level("Local",current_character,0) = 0){//character has no magic
         state = "Display_Cancel_Message";
         event_perform(ev_other,ev_user0);
     }

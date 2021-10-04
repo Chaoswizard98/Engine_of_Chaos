@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Items",
-    "path": "folders/Scripts/Modifyables/Items.yy",
+    "path": "folders/Scripts/DONE/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Item_Stats",

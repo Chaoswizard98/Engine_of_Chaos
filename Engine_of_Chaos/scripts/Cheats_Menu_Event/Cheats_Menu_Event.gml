@@ -55,7 +55,4 @@ function Cheats_Menu_Event() {
 	        Update_Cheats_Array();
 	    }
 	}
-
-
-
 }

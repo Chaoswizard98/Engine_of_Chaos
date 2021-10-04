@@ -1,10 +1,7 @@
-function Get_Anchor_X() {
+function Get_Anchor_X(_anchor_point) {
 	//===============================================================
 	//calculates and returns the x anchor point given screen location
 	//===============================================================
-	var _anchor_point;
-	_anchor_point = argument[0];
-
 	switch(_anchor_point){
 	    case "Top_Left": return Get_Camera_X() + 0; break;
 	    case "Middle_Left": return Get_Camera_X() + 0; break;
@@ -20,5 +17,4 @@ function Get_Anchor_X() {
 	
 	    default: return 0; break;//default 'no anchor' returns origin
 	}
-
 }

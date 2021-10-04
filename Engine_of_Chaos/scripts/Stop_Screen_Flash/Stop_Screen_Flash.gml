@@ -13,7 +13,4 @@ function Stop_Screen_Flash() {
 	        instance_destroy();
 	    }
 	}
-
-
-
 }

@@ -6,7 +6,7 @@ function Default_Battle_Victory() {
 	    break;
 	    case 1:
 	        state += 1;
-	        Set_Battle_Victory_Flags("Default",noone);
+	        Set_Battle_Victory_Flags("Default");
 	        with(obj_Character){
 	            Save_Character_Stats(id);
 	            if(character_ID = global.Player_ID){

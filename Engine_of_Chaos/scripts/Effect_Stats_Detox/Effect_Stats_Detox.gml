@@ -17,7 +17,7 @@ function Effect_Stats_Detox(){
 	flash_color = make_color_rgb(222,182,222);
 	cure_poison = true;
 	damage_formula = "No_Damage";
-	town_effect = "Detox";
+	town_effect = "Town_Effect_Detox";
 	target_other = true;
         
 	switch(_effect_level){

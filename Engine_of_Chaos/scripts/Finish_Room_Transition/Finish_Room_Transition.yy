@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Room_Transitions",
-    "path": "folders/Scripts/Modifyables/Room_Transitions.yy",
+    "path": "folders/Scripts/DONE/Room_Transitions.yy",
   },
   "resourceVersion": "1.0",
   "name": "Finish_Room_Transition",

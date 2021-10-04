@@ -1,9 +1,4 @@
-function Effect_Stats_Heal(){
-	var _effect_level = argument[0];//level of effect
-	var _lookup_type = argument[1];//Lookup type for character stats (if provided)
-	var _character = argument[2];//Character (if provided)
-
-
+function Effect_Stats_Heal(_effect_level,_lookup_type,_character){
 	//================
 	//Set Spell Stats=
 	//================

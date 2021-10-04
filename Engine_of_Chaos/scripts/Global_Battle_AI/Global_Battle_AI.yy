@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "AI",
-    "path": "folders/Scripts/Modifyables/AI.yy",
+    "path": "folders/Scripts/DONE/AI.yy",
   },
   "resourceVersion": "1.0",
   "name": "Global_Battle_AI",

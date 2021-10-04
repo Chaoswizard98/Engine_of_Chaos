@@ -1,8 +1,8 @@
-function Create_Options_Menu() {
+function Create_Options_Menu(_object){
 	var _this = instance_create_layer(0,0,"UI_Instance_Layer",obj_Options_Menu);
 
 	with(_this){
-	    current_object = argument[0];
+	    current_object = _object;
 	    window_pan_direction = "in";
 	    play_pan_sound = true;
 	    display_type = "Options";
@@ -27,7 +27,4 @@ function Create_Options_Menu() {
 	        max_options_on_screen = number_of_menu_options;//shrink max to the total number of options
 	    }
 	}
-
-
-
 }

@@ -48,7 +48,4 @@ function Join_Battle_Party_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

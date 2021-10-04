@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Terrain_Functions",
-    "path": "folders/Scripts/Modifyables/Terrain/Terrain_Functions.yy",
+    "name": "Terrain",
+    "path": "folders/Scripts/DONE/Terrain.yy",
   },
   "resourceVersion": "1.0",
   "name": "Update_Terrain_Type",

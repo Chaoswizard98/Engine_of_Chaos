@@ -1,8 +1,7 @@
-function Get_Control_Names(argument0) {
+function Get_Control_Names(_key){
 	//This is basically a list of all valid keys for mapping.
 	//If a key you want to use is not here then just add another case...
-	switch argument0
-	{
+	switch(_key){
 	    case vk_control: name="Ctrl"; break;
 	    case vk_space: name="Space"; break;
 	    case vk_pageup: name="PgUp"; break;
@@ -77,7 +76,4 @@ function Get_Control_Names(argument0) {
 	    default: name= "Unnamed Key";
 	}
 	return name;
-
-
-
 }

@@ -1,8 +1,4 @@
-function AI_Flee() {
-	var _skip_action = argument[0];
-	var _character = argument[1];
-	var _speed = argument[2];
-	var _search_range = argument[3];
+function AI_Flee(_skip_action,_character,_speed,_search_range){
 	var _destination = noone;
 
 	if(!_skip_action){
@@ -13,7 +9,4 @@ function AI_Flee() {
 	    return false;
 	}
 	return true;
-
-
-
 }

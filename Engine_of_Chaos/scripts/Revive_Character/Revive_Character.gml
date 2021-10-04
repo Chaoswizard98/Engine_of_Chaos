@@ -1,6 +1,5 @@
-function Revive_Character() {
+function Revive_Character(_character) {
 	//this script revives a character
-	var _character = argument[0];
 	global.Current_Health[_character] = global.Max_Health[_character];
 	global.Current_Magic[_character] = global.Max_Magic[_character];
 	with(obj_Character){
@@ -8,7 +7,4 @@ function Revive_Character() {
 	        Set_Character_Stats(id);
 	    }
 	}
-
-
-
 }

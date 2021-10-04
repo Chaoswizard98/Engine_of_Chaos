@@ -1,26 +1,4 @@
-function Enable_Spell_Cast_Flash() {
-	//Have the character shudder
-	var _character, _flash_speed, _inColor, _outColor, _tolerance;
-	_character = argument[0];//character performing animation
-
-	_flash_speed = 3;
-	_inColor = c_black;
-	_outColor = c_white;
-	_tolerance = 0;
-
-	if(argument_count > 1){
-	    _flash_speed = argument[1];
-	}
-	if(argument_count > 2){
-	    _inColor = argument[2];
-	}
-	if(argument_count > 3){
-	    _outColor = argument[3];
-	}
-	if(argument_count > 4){
-	    _tolerance = argument[4];
-	}
-
+function Enable_Spell_Cast_Flash(_character,_speed = 3,_inColor = c_black, _outColor = c_white, _tolerance = 0){
 	//r,g,b,a [Color to replace]
 	_character.shader_color_in[0] = colour_get_red(_inColor);//r
 	_character.shader_color_in[1] = colour_get_green(_inColor);//g
@@ -37,11 +15,7 @@ function Enable_Spell_Cast_Flash() {
 	_character.shader_tolerance[2] = _tolerance;//b
 	_character.shader_tolerance[3] = 0;//a
 
-
 	_character.spell_cast = true;
-	_character.flash_speed = _flash_speed;
+	_character.flash_speed = _speed;
 	_character.shader_type = "sh_Spell_Cast_Flash";//shader to use
-
-
-
 }

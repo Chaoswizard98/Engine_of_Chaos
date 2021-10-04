@@ -80,7 +80,4 @@ function Draw_Member_List_Equipment_Shop_Page_0() {
 
 	//draw selector
 	draw_sprite(spr_Force_Member_Selector,character_selector_state,_character_selector_x,_character_selector_y + (character_index_offset_y * index));
-
-
-
 }

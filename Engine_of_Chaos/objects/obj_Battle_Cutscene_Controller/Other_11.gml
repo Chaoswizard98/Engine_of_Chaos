@@ -46,13 +46,13 @@ else{
         else if(camera_state = "Background_Transition"){
             if(pan_direction = "Left"){//Left transition
                 old_background_sprite = background_sprite;
-                background_sprite = Get_Battle_Background_Sprite(Get_Battle_Background(Get_Battle_Cutscene_Character(camera_target), noone));
+                background_sprite = Get_Terrain_Stats(Get_Battle_Background(Get_Battle_Cutscene_Character(camera_target), noone),"Background_Sprite");
                 x_pan = max_x_pan;
                 pan_camera = true;
             }
             else if(pan_direction = "Right"){//Right transition
                 old_background_sprite = background_sprite;
-                background_sprite = Get_Battle_Background_Sprite(Get_Battle_Background(Get_Battle_Cutscene_Character(camera_target), noone));
+                background_sprite = Get_Terrain_Stats(Get_Battle_Background(Get_Battle_Cutscene_Character(camera_target), noone),"Background_Sprite");
                 x_pan = -(max_x_pan);
                 pan_camera = true;
             }

@@ -83,9 +83,6 @@ if(allow_interaction){
         }
         else if(Pressed_Key("Select_Button",false)||Pressed_Key("Inspect_Button",false)){
             input_event = "Select_Button";
-            //allow_interaction = false;
-            //pan_direction = 'right';
-            //play_pan_sound = true;
             Play_Sound(sfx_Menu_Select);
             state = "Selecting_Spell_Level";
         }

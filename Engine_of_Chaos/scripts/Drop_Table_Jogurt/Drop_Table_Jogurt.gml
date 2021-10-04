@@ -1,17 +1,11 @@
-function Drop_Table_Jogurt() {
-	var _attacker = argument[0];
-	var _target = argument[1];
+function Drop_Table_Jogurt(_attacker,_target){
 	var _message = "";
 
 	if(_attacker.can_recieve_drops){//if they can recieve drops (NPCs cannot)
 	    if(_attacker.name = "JOGURT"){
-	        //Can further test drop chance
-	        _message += Give_Item_Drop(_attacker,_target,"Jogurt_Ring",100);//attacker, target, item, drop_chance, [shop ID]
+	        _message += Give_Item_Drop(_attacker,_target,"Jogurt_Ring",1);//attacker, target, item, drop_chance (1 = 100%, .5 = 50%)
 	    }
 	}
 
 	return _message;
-
-
-
 }

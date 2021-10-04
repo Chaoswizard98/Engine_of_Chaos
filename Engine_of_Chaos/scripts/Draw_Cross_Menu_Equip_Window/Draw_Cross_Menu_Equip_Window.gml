@@ -53,7 +53,4 @@ function Draw_Cross_Menu_Equip_Window() {
 
 	draw_set_halign(fa_left);
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Shop_Inventories",
-    "path": "folders/Scripts/Modifyables/Shops/Shop_Inventories.yy",
+    "name": "OBSOLETE",
+    "path": "folders/Scripts/OBSOLETE.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Quantity_Shop_ID",

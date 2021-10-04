@@ -1,6 +1,4 @@
-function Draw_Battle_HUD() {
-	var _character = argument[0];
-
+function Draw_Battle_HUD(_character){
 	var _spacing = 8;//spacing per iteration
 	var _max_bar_size = 100;//limit on HP bar size
 
@@ -137,7 +135,4 @@ function Draw_Battle_HUD() {
 
 	draw_set_halign(fa_left); //reset Alignment
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

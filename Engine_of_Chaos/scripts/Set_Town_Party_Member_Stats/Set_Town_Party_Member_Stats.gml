@@ -1,6 +1,4 @@
-function Set_Town_Party_Member_Stats(){
-	var _index = argument[0];
-
+function Set_Town_Party_Member_Stats(_index){
 	global_ID = _index;
 	
 	Reset_Character_Depth(id);
@@ -241,16 +239,4 @@ function Set_Town_Party_Member_Stats(){
 	curse_suppression[3] = global.Curse_Suppression[_index,3];//infliction_chance
 	curse_suppression[4] = global.Curse_Suppression[_index,4];//infliction_potency
 	curse_suppression[5] = global.Curse_Suppression[_index,5];//infliction_turns_remaining
-
-
-
-	
-	/*if(_index = 1){
-	    if(global.Story_State <= 3){
-	       dialogue_ID =  "Max_With_Milkshake";
-	    }
-	}*/
-
-
-
 }

@@ -1,14 +1,5 @@
-function Create_Portrait_Controller() {
-	var _currentObject, _portrait, _displayType, _this, _dead;
-
-	_portrait = argument[0];
-	_displayType = argument[1];
-	_currentObject = argument[2];
-
-	_dead = false;
-	if(argument_count > 3){
-	    _dead = argument[3]
-	}
+function Create_Portrait_Controller(_portrait,_displayType,_currentObject,_dead = false) {
+	var _this;
 	
 	if(_displayType = "Dialogue"){
 		_this = instance_create_layer(0,0,"Dialogue_Instance_Layer",obj_Portrait_Controller);//set temp variable in case multiple portraits exist.
@@ -47,7 +38,4 @@ function Create_Portrait_Controller() {
 	}
 
 	return _this;
-
-
-
 }

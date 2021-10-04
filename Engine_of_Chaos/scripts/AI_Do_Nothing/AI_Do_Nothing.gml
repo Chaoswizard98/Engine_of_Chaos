@@ -1,7 +1,4 @@
-function AI_Do_Nothing() {
-	var _skip_action = argument[0];
-	var _character = argument[1];
-
+function AI_Do_Nothing(_skip_action,_character) {
 	if(!_skip_action){
 	    End_Character_Movement(_character,"End_Movement");//reset depth and clear movement tiles
 	    End_Turn(_character,"End_Turn");
@@ -9,7 +6,4 @@ function AI_Do_Nothing() {
 	    return true;
 	}
 	return true;
-
-
-
 }

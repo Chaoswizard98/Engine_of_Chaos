@@ -1,8 +1,8 @@
-function Global_Character_Stats_Template() {
+function Global_Character_Stats_Template(_index) {
 	//toss default stats for all characters here.
 	//This way you dont need to dupe shared variables (like status ailments, resistances, etc)
 
-	var i = argument[0];
+	var i = _index;
 
 	//================
 	//Character Info =
@@ -59,18 +59,6 @@ function Global_Character_Stats_Template() {
 	//===================
 	global.Kills[i] = 0;
 	global.Deaths[i] = 0;
-
-	//=========
-	//sprites =
-	//=========
-	//global.Overworld_Sprite_ID[i] = "none";
-	//global.Overworld_Sprite_ID_Override[i] = "none";
-	//global.Portrait_ID[i] = "none";
-	//global.Portrait_ID_Override[i] = "none";
-	//global.Voice_ID[i] = "none";
-	//global.Voice_ID_Override[i] = "none";
-	//global.Battle_Cutscene_Sprite_ID[i] = "none";
-	//global.Battle_Cutscene_Sprite_ID_Override[i] = "none";
     
 	//=======
 	//Magic =

@@ -17,4 +17,6 @@ function Effect_Stats_Escape(){
 	min_target_range = -1;
 	max_target_range = 0;
 	retreat_from_battle = true;
+	
+	magic_cost = 8;
 }

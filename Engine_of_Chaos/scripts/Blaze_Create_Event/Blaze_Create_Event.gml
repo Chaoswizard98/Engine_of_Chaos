@@ -1,6 +1,4 @@
-function Blaze_Create_Event() {
-	var _object = argument[0];//spell controller OR battle cutscene prop
-
+function Blaze_Create_Event(_object){
 	var _target = Get_Battle_Cutscene_Character(obj_Battle_Cutscene_Controller.target);
 	var _x_pos = Get_Battle_Cutscene_Character_Draw_Location(_target,"X_Pos",0);
 	var _y_pos = Get_Battle_Cutscene_Character_Draw_Location(_target,"Y_Pos",0);

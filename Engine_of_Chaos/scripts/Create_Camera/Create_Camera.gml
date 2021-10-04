@@ -1,7 +1,4 @@
-function Create_Camera() {
-	var _target,_centered;
-	_target = argument[0];//object we're following
-
+function Create_Camera(_target){
 	if(!instance_exists(obj_Camera)){
 	    instance_create_layer(0,0,"Camera_Instance_Layer",obj_Camera);
 	    if(_target = noone){
@@ -20,7 +17,4 @@ function Create_Camera() {
 	    }
 	    obj_Camera.camera_target = _target;
 	}
-
-
-
 }

@@ -1,6 +1,4 @@
-function Blaze_Fireball_Animation_Event() {
-	var _object = argument[0];
-
+function Blaze_Fireball_Animation_Event(_object){
 	with(_object){
 	    if(current_frame = 9){
 	        if(call_event){
@@ -15,7 +13,4 @@ function Blaze_Fireball_Animation_Event() {
 	        Flash_Battle_Cutscene(flash_color,2);
 	    }
 	}
-
-
-
 }

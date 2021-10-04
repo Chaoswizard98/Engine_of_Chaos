@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dialogue_Functions",
-    "path": "folders/Scripts/Modifyables/Dialogue/Dialogue_Functions.yy",
+    "name": "Character_Properties",
+    "path": "folders/Scripts/Character_Properties.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Generic_Voice",

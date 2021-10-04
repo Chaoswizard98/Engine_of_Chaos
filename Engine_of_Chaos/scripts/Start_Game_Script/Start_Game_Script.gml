@@ -1,4 +1,4 @@
-function Start_Game_Script() {
+function Start_Game_Script(){
 	switch(state){
 	    //============
 	    //Intro Stuff=
@@ -110,7 +110,4 @@ function Start_Game_Script() {
 	        room_goto_next();
 	    break;
 	}
-
-
-
 }

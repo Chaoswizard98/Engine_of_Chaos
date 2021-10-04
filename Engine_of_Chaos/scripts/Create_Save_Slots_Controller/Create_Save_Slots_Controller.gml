@@ -1,7 +1,4 @@
-function Create_Save_Slots_Controller() {
-	var _current_object = argument[0];
-	var _event_type = argument[1];
-
+function Create_Save_Slots_Controller(_current_object,_event_type){
 	var _this = instance_create_layer(0,0,"UI_Instance_Layer",obj_Save_Slots_Controller);
 
 	with(_this){
@@ -49,7 +46,4 @@ function Create_Save_Slots_Controller() {
 	}
 
 	return _this;
-
-
-
 }

@@ -1,8 +1,4 @@
-function Get_Character() {
-	//Gets a character based on arguments
-	var _character_ID = argument[0];
-	var _formula = argument[1];
-
+function Get_Character(_character_ID,_formula){
 	switch(_formula){
 	    default://return character based on ID
 	        with(obj_Character){
@@ -12,9 +8,5 @@ function Get_Character() {
 	        }
 	    break;
 	}
-
 	return noone;
-
-
-
 }

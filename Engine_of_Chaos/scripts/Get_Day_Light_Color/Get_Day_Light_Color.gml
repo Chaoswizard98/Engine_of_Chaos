@@ -1,6 +1,4 @@
-function Get_Day_Light_Color() {
-	var _hour = argument[0];
-
+function Get_Day_Light_Color(_hour){
 	var day = c_white;
 	var sunrise = c_orange;
 	var sunset = c_orange;
@@ -34,7 +32,4 @@ function Get_Day_Light_Color() {
 	    case 23: return absolute_night; break;
 	    case 24: return absolute_night; break;
 	}
-
-
-
 }

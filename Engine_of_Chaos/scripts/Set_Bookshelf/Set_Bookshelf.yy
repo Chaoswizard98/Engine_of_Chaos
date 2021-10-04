@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Bookshelves",
-    "path": "folders/Scripts/Modifyables/Bookshelves.yy",
+    "path": "folders/Scripts/DONE/Bookshelves.yy",
   },
   "resourceVersion": "1.0",
   "name": "Set_Bookshelf",

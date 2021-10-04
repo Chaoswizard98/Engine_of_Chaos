@@ -1,10 +1,4 @@
-function AI_Move_To_Location() {
-	var _skip_action = argument[0];
-	var _character = argument[1];
-	var _destination_x = argument[2];
-	var _destination_y = argument[3];
-	var _speed = argument[4];
-	var _search_range = argument[5];
+function AI_Move_To_Location(_skip_action,_character,_destination_x,_destination_y,_speed,_search_range){
 
 	if(!_skip_action){
 	    var _destination = undefined;
@@ -42,7 +36,4 @@ function AI_Move_To_Location() {
 	    return false;
 	}
 	return true;
-
-
-
 }

@@ -1,12 +1,8 @@
-function Get_Direction() {
+function Get_Direction(_x1,_y1,_x2,_y2) {
 	//Figures out which direction to look given start and end location
 	//Facing up / down takes precidence over left / right.
 
 	var x_difference, y_difference, x_direction, y_direction;
-	var _x1 = argument[0];
-	var _y1 = argument[1];
-	var _x2 = argument[2];
-	var _y2 = argument[3];
 
 	x_difference = _x1 - _x2;
 	y_difference = _y1 - _y2;
@@ -39,7 +35,4 @@ function Get_Direction() {
 	else{
 	    return x_direction;
 	}
-
-
-
 }

@@ -1,8 +1,4 @@
-function Get_Character_Name() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-
+function Get_Character_Name(_lookup_type,_character,_formula){
 	var _base = ""; 
 	var _mainhand, _offhand;
 

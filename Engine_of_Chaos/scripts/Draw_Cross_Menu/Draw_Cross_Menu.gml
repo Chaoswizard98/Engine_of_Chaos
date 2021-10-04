@@ -41,7 +41,4 @@ function Draw_Cross_Menu() {
 	draw_set_color(font_color);
 	draw_text(_text_x,_text_y,string_hash_to_newline(menu_name[current_index]));
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

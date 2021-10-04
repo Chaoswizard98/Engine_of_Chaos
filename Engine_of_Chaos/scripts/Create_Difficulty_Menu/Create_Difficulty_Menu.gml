@@ -1,10 +1,10 @@
-function Create_Difficulty_Menu() {
+function Create_Difficulty_Menu(_object) {
 	//Creates the decision controler
 	var _this;
 	_this = instance_create_layer(0,0,"UI_Instance_Layer",obj_Decision_Controller);
 
 	with(_this){
-	    current_object = argument[0];//object that created this one
+	    current_object = _object;//object that created this one
     
 	    display_type = "Yes/No";
 	    number_of_icons = 4;
@@ -34,7 +34,4 @@ function Create_Difficulty_Menu() {
 	    pan_direction = "in";
 	    play_pan_sound = true;
 	}
-
-
-
 }

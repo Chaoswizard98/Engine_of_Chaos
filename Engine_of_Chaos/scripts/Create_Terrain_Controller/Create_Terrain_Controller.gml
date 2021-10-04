@@ -12,7 +12,7 @@ function Create_Terrain_Controller() {
 	            _this.terrain_map[i,j] = instance_position(i*global.Tile_Size,j*global.Tile_Size,obj_Terrain_Parent).terrain_type;
 	        }
 	        else{//otherwise treat it as a free tile
-	            _this.terrain_map[i,j] = "Free";
+	            _this.terrain_map[i,j] = "Default";
 	        }
 	        //===================
 	        //check for AI tiles=
@@ -36,7 +36,4 @@ function Create_Terrain_Controller() {
 	with(obj_AI_Region_Parent){
 	    instance_destroy();
 	}
-
-
-
 }

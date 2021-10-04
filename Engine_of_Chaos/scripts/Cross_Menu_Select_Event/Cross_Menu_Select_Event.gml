@@ -40,7 +40,4 @@ function Cross_Menu_Select_Event() {
 	    case "Equip_Items_Battle": Create_Item_Selection_Controller(current_character,id,"Equip_Item");break;
 	    case "Drop_Items_Battle": Create_Item_Selection_Controller(current_character,id,"Drop_Item");break;
 	}
-
-
-
 }

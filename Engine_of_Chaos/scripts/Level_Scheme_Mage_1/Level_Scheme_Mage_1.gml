@@ -1,15 +1,8 @@
-function Level_Scheme_Mage_1() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _stat = argument[2];
-	var _sub_stat = argument[3];
-
+function Level_Scheme_Mage_1(_lookup_type,_character,_stat,_sub_stat){
 	var _base = 0;//starting stat
 	var _early_gain = 0;//modifier for early levels
 	var _mid_gain = 0;//modifier for mid levels
 	var _late_gain = 0;//modifier for late levels
-	var _new_spell = "none";//what new spell do we learn?
-	var _increment_spell_level = "none";//what spell levels up?
 	var _level = 0;//initial spell / skill level
 	var _catch_up = true;//do we correct poor RNG rolls this level?
 
@@ -31,9 +24,36 @@ function Level_Scheme_Mage_1() {
 	    case "Movement_Range": _base = 5; break;
 	    case "Movement_Type": _base = "Foot"; break;
 	    case "Reset_Spells": _base = false; break;
-	    case "Spell_1": _base = "Blaze"; _level = 1; break;
-	    case "Spell_2": _base = "none"; break;
-	    case "Spell_3": _base = "none"; break;
+		
+	    case "Spell_1": 
+			_base = "Blaze"; 
+			_level = 1;
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 5: _level = 2; break;
+				case 20: _level = 3; break;
+				case 35: _level = 4; break;
+			}
+		break;
+		
+	    case "Spell_2": 
+			_base = "Freeze"; 
+			_level = 0; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 7: _level = 1; break;
+				case 13: _level = 2; break;
+				case 31: _level = 3; break;
+				case 38: _level = 4; break;
+			}
+		break;
+		
+	    case "Spell_3": 
+			_base = "Silence"; 
+			_level = 0; 
+			switch(Get_Character_Level(_lookup_type,_character,"Total")){
+				case 25: _level = 1; break;
+			}
+		break;
+		
 	    case "Spell_4": _base = "none"; break;
     
 	    //Promotion options
@@ -48,21 +68,6 @@ function Level_Scheme_Mage_1() {
 	    case "Promotion_Event": break;//Put whatever script you want in here. (Such as removing an item upon promotion)
 	}
 
-
-	switch(Get_Character_Level(_lookup_type,_character,"Total")){
-	    case 5: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blaze",2); break;
-	    case 7: _new_spell = "Freeze"; break;
-	    case 13: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Freeze",2); break;
-	    case 20: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blaze",3); break;
-	    case 25: _new_spell = "Silence"; break;
-	    case 31: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Freeze",3); break;
-	    case 35: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Blaze",4); break;
-	    case 38: _increment_spell_level = Increment_Spell_Level(_lookup_type,_character,"Freeze",4); break;
-    
-	    //41 Snowstorm (Atlas)
-	    //52 Snowstorm 2
-	}
-
 	//======================
 	//Return Requested Stat=
 	//======================
@@ -72,11 +77,6 @@ function Level_Scheme_Mage_1() {
 	    case "Early_Gain": return _early_gain; break;
 	    case "Mid_Gain": return _mid_gain; break;
 	    case "Late_Gain": return _late_gain; break;
-	    case "New_Spell": return _new_spell; break;
-	    case "Increment_Spell_Level": return _increment_spell_level; break;
 	    case "Catch_Up": return _catch_up; break;
 	}
-
-
-
 }

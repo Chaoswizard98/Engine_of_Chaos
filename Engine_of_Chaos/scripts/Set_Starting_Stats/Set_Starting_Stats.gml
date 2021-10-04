@@ -1,15 +1,14 @@
-function Set_Starting_Stats() {
+function Set_Starting_Stats(_global_ID,_character_ID,_name,_level_scheme,_level = 1){
 	//Sets a character's initial stats when starting a new game.
-	var i = argument[0];
+	var i = _global_ID;
 	Global_Character_Stats_Template(i);//set all stats to default
 
 	//======================================
 	//Info needed to build a new character =
 	//======================================
-	global.character_ID[i] = argument[1];
-	global.Name[i] = argument[2];
-	var _level = argument[3];
-	global.Level_Scheme[i] = argument[4];
+	global.character_ID[i] = _character_ID;
+	global.Name[i] = _name;
+	global.Level_Scheme[i] = _level_scheme;
 	global.Level[i] = Get_Character_Level_Scheme_Stats("Global",i,"Starting_Level","Base");//level temp set to base level.
 
 	//=========================================
@@ -23,8 +22,8 @@ function Set_Starting_Stats() {
 	global.Movement_Range[i] = Get_Character_Level_Scheme_Stats("Global",i,"Movement_Range","Base");
 	global.Movement_Type[i] = Get_Character_Level_Scheme_Stats("Global",i,"Movement_Type","Base");
 
-
 	var _spell;
+	var _spell_level;
 	var j;//Loop fill spell slots
 	for(j = 0; j< global.Number_Of_Spell_Slots; j+=1){
 	    _spell = Get_Character_Level_Scheme_Stats("Global",i,"Spell_"+string(j+1),"Base");
@@ -45,15 +44,4 @@ function Set_Starting_Stats() {
 	//Set HP/MP to their max values
 	global.Current_Health[i] = global.Max_Health[i];
 	global.Current_Magic[i] = global.Max_Magic[i];
-
-	//==========================
-	//Set initial Sprite Stats =
-	//==========================
-	//global.Overworld_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	//global.Portrait_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	//global.Voice_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-	//global.Battle_Cutscene_Sprite_ID[i] = global.character_ID[i] + "_" + Get_Character_Level_Scheme_Stats("Global",i,"Class_Name","Base");
-
-
-
 }

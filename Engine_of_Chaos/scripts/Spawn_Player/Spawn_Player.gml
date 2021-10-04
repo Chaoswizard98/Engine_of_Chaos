@@ -1,6 +1,4 @@
-function Spawn_Player() {
-	var _character_ID = argument[0];
-	var _location = argument[1];
+function Spawn_Player(_character_ID,_location){
 	var _this = noone;
 	var _x_pos = 0;
 	var _y_pos = 0;
@@ -18,7 +16,7 @@ function Spawn_Player() {
 	                _allow_interaction = false;
 	                _cutscene_mode = true;
 	                _direction = pan_direction;
-	                _movement_script = "Overworld_Room_Transition";
+	                _movement_script = "Character_Movement_Overworld_Transition";
 	                with(obj_Character){//disable movement for ALL characters (otherwise they move while transition is playing and appear to teleport)
 	                    cutscene_mode = true;//set them to cutscene mode (so they dont run event code)
 	                }
@@ -78,7 +76,4 @@ function Spawn_Player() {
 	}
 
 	return _this;
-
-
-
 }

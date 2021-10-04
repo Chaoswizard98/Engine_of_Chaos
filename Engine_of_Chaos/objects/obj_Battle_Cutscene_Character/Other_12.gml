@@ -7,7 +7,7 @@ var _draw_alpha = alpha;
 var _draw_color = Multiply_Colors(c_white,obj_Battle_Cutscene_Controller.tint_color);
 
 if(location = "Foreground"){
-    draw_sprite_ext(Get_Battle_Foreground_Sprite(Get_Terrain_Type(character.x,character.y)),0,_x_pos,_y_pos,_mirror,1,0,_draw_color,1);
+    draw_sprite_ext(Get_Terrain_Stats(Get_Terrain_Type(character.x,character.y),"Foreground_Sprite"),0,_x_pos,_y_pos,_mirror,1,0,_draw_color,1);
 }
 
 _x_pos += shake_x;

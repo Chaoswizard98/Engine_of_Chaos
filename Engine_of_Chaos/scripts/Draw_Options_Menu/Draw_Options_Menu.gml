@@ -46,7 +46,4 @@ function Draw_Options_Menu() {
 	}
 
 	draw_set_color(c_white); //reset draw color
-
-
-
 }

@@ -1,10 +1,7 @@
-function Get_Anchor_Y() {
+function Get_Anchor_Y(_anchor_point) {
 	//===============================================================
 	//calculates and returns the y anchor point given screen location
 	//===============================================================
-	var _anchor_point;
-	_anchor_point = argument[0];
-
 	switch(_anchor_point){
 	    case "Top_Left": return Get_Camera_Y() + 0; break;
 	    case "Middle_Left": return Get_Camera_Y() + round(Get_Camera_Height() /2); break;
@@ -20,9 +17,4 @@ function Get_Anchor_Y() {
     
 	    default: return 0; break;//default 'no anchor' returns origin
 	}
-
-
-
-
-
 }

@@ -74,7 +74,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 13:
 	        state += 1;
-	        _jason.custom_move_script = "Jason_Movement_01";
+	        _jason.custom_move_script = "Character_Movement_Jason_01";
 	        Move_Character(_jason,"Right",1,2);
 	        Move_Character(_max,"Up",.5,6,"Up");
 	    break;

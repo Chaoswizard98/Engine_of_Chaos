@@ -1,16 +1,8 @@
-function Give_Item_Drop() {
-	var _attacker = argument[0];
-	var _target = argument[1];
-	var _item = argument[2];
-	var _drop_chance = argument[3];
+function Give_Item_Drop(_attacker,_target,_item,_drop_chance){
 	var _message = "";
 	var _shop_ID = Get_Item_Stats(_item,"Shop_ID");
 
-	if(argument_count > 4){
-	    _shop_ID = argument[4];
-	}
-
-	if(_drop_chance > random_range(0,99)){
+	if(Chance(_drop_chance)){
 	    _message += Get_General_Messages("Battle_Cutscene","Item_Dropped",Get_Character_Name("Local",_target,"Total"),Get_Item_Stats(_item,"Item_Name"));//x dropped the y
 	    if(!Inventory_Is_Full("Local",_attacker)){//if their inventory is not full
 	        _message += Get_General_Messages("Battle_Cutscene","Item_Recieved",Get_Character_Name("Local",_attacker,"Total"),Get_Item_Stats(_item,"Item_Name"));//x recieve the y
@@ -25,7 +17,4 @@ function Give_Item_Drop() {
 	}
 
 	return _message;
-
-
-
 }

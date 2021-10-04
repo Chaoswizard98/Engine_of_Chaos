@@ -11,7 +11,7 @@ function Effect_Stats_Detox_Item(){
 	menu_name = Get_Spell_Display_Name("Detox_Item","Menu_Name");//Get name from language script
 	cure_poison = true;
 	damage_formula = "No_Damage";
-	town_effect = "Detox";
+	town_effect = "Town_Effect_Detox";
 	target_other = true;
 	switch(_effect_level){
 	    case 2: 

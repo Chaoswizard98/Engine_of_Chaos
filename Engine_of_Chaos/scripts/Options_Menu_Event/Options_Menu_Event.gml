@@ -33,7 +33,4 @@ function Options_Menu_Event() {
 	        state = "Selecting_Option";
 	    }
 	}
-
-
-
 }
