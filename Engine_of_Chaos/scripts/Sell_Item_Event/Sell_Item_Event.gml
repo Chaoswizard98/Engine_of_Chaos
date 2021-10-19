@@ -64,7 +64,6 @@ function Sell_Item_Event() {
     
 	    case "Selected_Item":
 	        if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Can_Sell")){//if we can sell it
-	            //I'll pay X gold coins#for it, OK?@
 	            state = "Create_Decision";
 	            if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Shop_ID") != -1){//if it's a rare item
 	                Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Buy_For_X_Rare",string(floor(Get_Item_Stats(Get_Item(lookup_type,character_list[start_index + index],item_index),"Value")*obj_Shop_Controller.buy_value_modifier))),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]

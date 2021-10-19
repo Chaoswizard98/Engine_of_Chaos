@@ -1,1 +1,1 @@
-Effect_Stats_Default(id);
+Spell_Stats_Default(id);

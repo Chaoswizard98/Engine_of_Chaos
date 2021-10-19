@@ -24,7 +24,7 @@ function Level_Scheme_Swordsman_1(_lookup_type,_character,_stat,_sub_stat){
 	    case "Movement_Range": _base = 6; break;
 	    case "Movement_Type": _base = "Foot"; break;
 	    case "Reset_Spells": _base = false; break;
-	    case "Spell_1": _base = "Escape"; _level = 1; break;
+	    case "Spell_1": _base = "AU_Escape"; _level = 1; break;
 		
 	    case "Spell_2": 
 			_base = "Bolt"; 

@@ -8,5 +8,5 @@ function Draw_Status_Page_1() {
 	draw_sprite(spr_Status_Page_Window,0,_page_window_x,_page_window_y);
 	draw_set_color(c_white); //reset draw color
 
-	draw_text(_title_field_x,_title_field_y,string_hash_to_newline("Page 2"));//CLASS, NAME
+	draw_text(_title_field_x,_title_field_y,"Page 2");//CLASS, NAME
 }

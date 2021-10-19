@@ -1,41 +1,10 @@
-function Get_Projectile_Stats() {
-	var _projectile = argument[0];
-	var _return_stat = argument[1];
-
-	//==============
-	//Default Stats=
-	//==============
-
-	var _sprite = spr_Battered_Arrow;
-	var _animation_speed = 0;
-	var _movement_speed = 15;
-	var _end_effect = "none";
-
-
-	switch(_projectile){
-	    case "Battered_Arrow":
-	        _sprite = spr_Battered_Arrow;
-	        //_end_effect = 'Blaze_Level_2';
-	    break;
+function Get_Projectile_Stats(_projectile,_stat){
+	var _script = asset_get_index("Projectile_Stats_Default");
+	var _new_script = asset_get_index("Projectile_Stats_" + _projectile);
+	if(_new_script != -1){//If the asset exists
+		if(script_exists(_new_script)){//If the asset is a script
+			_script = _new_script;
+		}
 	}
-
-	//=============
-	//Return Stats=
-	//=============
-	if(_return_stat = "Object"){
-	    switch(_projectile){
-	        default: return instance_create_layer(0,0,"Battle_Cutscene_Instance_Layer",obj_Projectile); break;
-	    }
-	}
-	else{
-	    switch(_return_stat){
-	        case "Sprite": return _sprite break;
-	        case "Animation_Speed": return _animation_speed break;
-	        case "Movement_Speed": return _movement_speed break;
-	        case "End_Effect": return _end_effect break;
-	    }
-	}
-
-
-
+	return script_execute(_script,_stat);//run the script
 }

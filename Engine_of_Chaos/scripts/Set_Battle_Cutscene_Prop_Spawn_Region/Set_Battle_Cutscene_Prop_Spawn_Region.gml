@@ -1,11 +1,4 @@
-function Set_Battle_Cutscene_Prop_Spawn_Region(){
-	var _object = argument[0];
-	var _x = argument[1];
-	var _y = argument[2];
-	var _w = argument[3];
-	var _h = argument[4];
-	var _mirror = argument[5];
-	
+function Set_Battle_Cutscene_Prop_Spawn_Region(_object,_x,_y,_w,_h,_mirror){
 	with(_object){
 		if(!_mirror){
 			min_x = obj_Battle_Cutscene_Controller.scene_x + _x;

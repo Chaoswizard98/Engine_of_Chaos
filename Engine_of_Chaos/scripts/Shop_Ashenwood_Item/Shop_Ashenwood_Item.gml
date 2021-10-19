@@ -7,7 +7,7 @@ function Shop_Ashenwood_Item(){
 	sell_value_modifier = current_npc.sell_value_modifier;//sells for 100% of item value (Set via NPC variables)
 	repair_value_modifier = current_npc.repair_value_modifier;//repairs for 50% of item value (Set via NPC variables)
 
-	Add_Item_To_Shop(id,"Medical_Herb");
-	Add_Item_To_Shop(id,"Healing_Seed");
-	Add_Item_To_Shop(id,"Antidote");
+	Add_Item_To_Shop(id,"SF2_Medical_Herb");
+	Add_Item_To_Shop(id,"SF2_Healing_Seed");
+	Add_Item_To_Shop(id,"SF2_Antidote");
 }

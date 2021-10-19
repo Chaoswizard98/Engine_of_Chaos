@@ -34,8 +34,8 @@ function Draw_Member_List_Top_Global_Equip() {
 	draw_sprite(spr_Member_List_Top,0,_member_list_top_x,_member_list_top_y);
 	draw_set_color(font_color);
 
-	draw_text(_main_title_x,_main_title_y,string_hash_to_newline(string(Get_Character_Name(lookup_type,_character,"Total")) +" "+ string(Get_Character_Class(lookup_type,_character,"Abbreviation")) +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived"))));//draw title text
-	draw_text(_title_x,_title_y,string_hash_to_newline("- "+Get_Menu_Display_Message("Generic","ITEMS")+" -"));//draw magic title
+	draw_text(_main_title_x,_main_title_y,string(Get_Character_Name(lookup_type,_character,"Total")) +" "+ string(Get_Character_Class(lookup_type,_character,"Abbreviation")) +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived")));//draw title text
+	draw_text(_title_x,_title_y,"- "+Get_Menu_Display_Message("Generic","ITEMS")+" -");//draw magic title
 
 	Create_Status_Ailment_Array(lookup_type,character_list[start_index + index]);
 	for(i = 0; i < number_of_status_ailments; i+= 1){
@@ -68,21 +68,21 @@ function Draw_Member_List_Top_Global_Equip() {
 
 	if(item_index = 3){
 	    draw_set_color(equipped_font_color);
-	    draw_text(_item_name_x,_item_name_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//draw item name
+	    draw_text(_item_name_x,_item_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw item name
 	    draw_set_color(font_color);
     
-	    draw_text(_item_name_x,_item_name_y +(1*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","ATT")+"  0"));//draw item name
-	    draw_text(_item_name_x,_item_name_y +(2*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","DEF")+"  0"));//draw item name
-	    draw_text(_item_name_x,_item_name_y +(3*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","AGI")+"  0"));//draw item name
-	    draw_text(_item_name_x,_item_name_y +(4*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","MOV")+"  0"));//draw item name
+	    draw_text(_item_name_x,_item_name_y +(1*_index_offset),Get_Menu_Display_Message("Generic","ATT")+"  0");//draw item name
+	    draw_text(_item_name_x,_item_name_y +(2*_index_offset),Get_Menu_Display_Message("Generic","DEF")+"  0");//draw item name
+	    draw_text(_item_name_x,_item_name_y +(3*_index_offset),Get_Menu_Display_Message("Generic","AGI")+"  0");//draw item name
+	    draw_text(_item_name_x,_item_name_y +(4*_index_offset),Get_Menu_Display_Message("Generic","MOV")+"  0");//draw item name
 	}
 	else{
-	draw_text(_item_name_x,_item_name_y,string_hash_to_newline(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Menu_Name")));//draw item name
+	draw_text(_item_name_x,_item_name_y,Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Menu_Name"));//draw item name
 
-	draw_text(_item_name_x,_item_name_y +(1*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","ATT")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Attack"))));//draw item name
-	draw_text(_item_name_x,_item_name_y +(2*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","DEF")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Defense"))));//draw item name
-	draw_text(_item_name_x,_item_name_y +(3*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","AGI")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Agility"))));//draw item name
-	draw_text(_item_name_x,_item_name_y +(4*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","MOV")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Movement_Range"))));//draw item name
+	draw_text(_item_name_x,_item_name_y +(1*_index_offset),Get_Menu_Display_Message("Generic","ATT")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Attack")));//draw item name
+	draw_text(_item_name_x,_item_name_y +(2*_index_offset),Get_Menu_Display_Message("Generic","DEF")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Defense")));//draw item name
+	draw_text(_item_name_x,_item_name_y +(3*_index_offset),Get_Menu_Display_Message("Generic","AGI")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Agility")));//draw item name
+	draw_text(_item_name_x,_item_name_y +(4*_index_offset),Get_Menu_Display_Message("Generic","MOV")+"  "+string(Get_Inventory_Item_Stats(lookup_type,_character,item_array[item_index],"Movement_Range")));//draw item name
 	}
 
 	draw_set_color(c_white);

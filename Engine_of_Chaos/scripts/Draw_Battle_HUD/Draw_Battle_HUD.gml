@@ -94,9 +94,9 @@ function Draw_Battle_HUD(_character){
 	draw_set_color(font_color);//font color
 	draw_set_halign(fa_left); //Alignment
 
-	draw_text(_title_text_x,_title_text_y,string_hash_to_newline(_title_text));
-	draw_text(_hp_text_x,_hp_text_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","HP")));
-	draw_text(_mp_text_x,_mp_text_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MP")));
+	draw_text(_title_text_x,_title_text_y,_title_text);
+	draw_text(_hp_text_x,_hp_text_y,Get_Menu_Display_Message("Generic","HP"));
+	draw_text(_mp_text_x,_mp_text_y,Get_Menu_Display_Message("Generic","MP"));
 
 
 
@@ -127,11 +127,11 @@ function Draw_Battle_HUD(_character){
 	var _mp_number_text_x = _hp_number_text_x;
 
 	draw_set_halign(fa_right); //Alignment
-	draw_text(_max_hp_number_text_x,_hp_text_y,string_hash_to_newline(_max_health_text));
-	draw_text(_max_mp_number_text_x,_mp_text_y,string_hash_to_newline(_max_magic_text));
+	draw_text(_max_hp_number_text_x,_hp_text_y,_max_health_text);
+	draw_text(_max_mp_number_text_x,_mp_text_y,_max_magic_text);
 
-	draw_text(_hp_number_text_x,_hp_text_y,string_hash_to_newline(string(_health_text)+"/"));
-	draw_text(_mp_number_text_x,_mp_text_y,string_hash_to_newline(string(_magic_text)+"/"));
+	draw_text(_hp_number_text_x,_hp_text_y,string(_health_text)+"/");
+	draw_text(_mp_number_text_x,_mp_text_y,string(_magic_text)+"/");
 
 	draw_set_halign(fa_left); //reset Alignment
 	draw_set_color(c_white); //reset draw color

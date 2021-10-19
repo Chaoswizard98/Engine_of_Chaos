@@ -1,7 +1,4 @@
-function Get_Projectile_Setup() {
-	var _character = argument[0];
-	var _animation = argument[1];
-	var _return_stat = argument[2];
+function Get_Projectile_Setup(_character,_animation,_stat) {
 	var _cutscene_character = Get_Battle_Cutscene_Character(_character);
 	var _character_sprite = _cutscene_character.sprite_ID;
 
@@ -17,18 +14,10 @@ function Get_Projectile_Setup() {
 	    _projectile = Get_Equipped_Item_Stats("Local",_character,0,"Projectile");//use item stats (mainhand)
 	}
 
-
-	switch(_return_stat){
+	switch(_stat){
 	    case "Start_X": return _start_x break;
 	    case "Start_Y": return _start_y break;
 	    case "Projectile": return _projectile; break;
 	    case "Projectile_Path": return _projectile_path break;
 	}
-
-
-
-
-
-
-
 }

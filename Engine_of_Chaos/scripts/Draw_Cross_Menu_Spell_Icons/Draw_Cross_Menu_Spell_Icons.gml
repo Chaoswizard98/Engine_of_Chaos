@@ -48,7 +48,7 @@ function Draw_Cross_Menu_Spell_Icons() {
 			draw_sprite(Get_Spell_Slot_Stats("Local",current_character,inventory_slot[i],Get_Spell_Level("Local",current_character,inventory_slot[i]),"Spell_Icon"),Get_Spell_Slot_Stats("Local",current_character,inventory_slot[i],Get_Spell_Level("Local",current_character,inventory_slot[i]),"Frame_Number"),menu_x[i],menu_y[i]);
 		}
 		else{ 
-			draw_sprite(Get_Effect_Stats("none",0,"Spell_Icon"),Get_Effect_Stats("none",0,"Frame_Number"),menu_x[i],menu_y[i]);
+			draw_sprite(Get_Spell_Stats("none",0,"Spell_Icon"),Get_Spell_Stats("none",0,"Frame_Number"),menu_x[i],menu_y[i]);
 		}
 	}
 
@@ -61,7 +61,7 @@ function Draw_Cross_Menu_Spell_Icons() {
 	draw_sprite(spr_Item_Name_Window,0,_menu_name_x,_menu_name_y);
 
 	draw_set_color(font_color);
-	draw_text(_text_x,_text_y,string_hash_to_newline(Get_Spell_Slot_Stats("Local",current_character,inventory_slot[current_index],Get_Spell_Level("Local",current_character,inventory_slot[current_index]),"Menu_Name")));//menu name
+	draw_text(_text_x,_text_y,Get_Spell_Slot_Stats("Local",current_character,inventory_slot[current_index],Get_Spell_Level("Local",current_character,inventory_slot[current_index]),"Menu_Name"));//menu name
 	var i = 0;
 	for(i=0; i<Get_Spell_Level("Local",current_character,inventory_slot[current_index]); i+=1){
 	    if(spell_level > i){
@@ -71,9 +71,9 @@ function Draw_Cross_Menu_Spell_Icons() {
 	        draw_sprite(spr_Magic_Level,1,_spell_level_x+(i*sprite_get_width(spr_Magic_Level)),_spell_level_y);
 	    }
 	}
-	draw_text(_text2_x,_text2_y,string_hash_to_newline(_text2));//mp cost
+	draw_text(_text2_x,_text2_y,_text2);//mp cost
 	draw_set_halign(fa_right);
-	draw_text(_text3_x,_text3_y,string_hash_to_newline(_text3));
+	draw_text(_text3_x,_text3_y,_text3);
 	draw_set_halign(fa_left);
 	if(state = "Selecting_Spell_Level"){
 	    draw_sprite(spr_Force_Member_Selector,-1,_spell_level_x,_spell_level_y-6);

@@ -25,11 +25,11 @@ function Draw_Title_Screen(){
 	draw_set_color(font_color); //Color
 	draw_set_halign(fa_center); //Alignment
 
-	draw_text(_start_text_x, _start_text_y, string_hash_to_newline(start_button_text)); //draw the start button text
+	draw_text(_start_text_x, _start_text_y, start_button_text); //draw the start button text
 
 	draw_set_halign(fa_left); //Alignment
 	draw_set_color(c_lime); //Color
-	draw_text(_welcome_text_x, _welcome_text_y, string_hash_to_newline(welcome_message)); //draw the welcome message
+	draw_text(_welcome_text_x, _welcome_text_y, welcome_message); //draw the welcome message
 
 	draw_set_color(c_white); //Reset back to white draw
 }

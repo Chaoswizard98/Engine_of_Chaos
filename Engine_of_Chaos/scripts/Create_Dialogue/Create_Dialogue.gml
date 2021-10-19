@@ -1,6 +1,6 @@
 function Create_Dialogue(_portrait,_voice,_message,_object,_arrow,_auto_pan,_delay = 5,_force_end = false) {
 	var _this = instance_create_layer(0,0,"Dialogue_Instance_Layer",obj_Dialogue_Controller);//Create the Dialogue Controler
-	_this.message = Word_Wrap(_message,_this.word_wrap_length,"#",false);
+	_this.message = Word_Wrap(_message,_this.word_wrap_length,"\n",false);
 	_this.message_length = string_length(_this.message); 
 	_this.current_object = _object;//Self is a reference to whatever object called this script. 
 	_this.voice = _voice;

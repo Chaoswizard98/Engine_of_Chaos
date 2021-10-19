@@ -1,5 +1,5 @@
 function Append_Dialogue(_message,_arrow,_auto_pan,_delay = obj_Dialogue_Controller.end_message_delay){
-	obj_Dialogue_Controller.message = Word_Wrap(obj_Dialogue_Controller.message + _message,obj_Dialogue_Controller.word_wrap_length,"#",false);
+	obj_Dialogue_Controller.message = Word_Wrap(obj_Dialogue_Controller.message + _message,obj_Dialogue_Controller.word_wrap_length,"\n",false);
 	obj_Dialogue_Controller.message_length = string_length(obj_Dialogue_Controller.message);
 	obj_Dialogue_Controller.display_arrow = _arrow;//Do we display the continue arrow or not?
 	obj_Dialogue_Controller.auto_pan_out = _auto_pan;

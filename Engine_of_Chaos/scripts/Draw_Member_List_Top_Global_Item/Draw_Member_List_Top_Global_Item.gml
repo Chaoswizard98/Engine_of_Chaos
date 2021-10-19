@@ -38,8 +38,8 @@ function Draw_Member_List_Top_Global_Item() {
 	var _character = character_list[start_index + index];
 
 
-	draw_text(_main_title_x,_main_title_y,string_hash_to_newline(Get_Character_Name(lookup_type,_character,"Total") +" "+ Get_Character_Class(lookup_type,_character,"Abbreviation") +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived"))));//draw title text
-	draw_text(_title_x,_title_y,string_hash_to_newline("- "+Get_Menu_Display_Message("Generic","ITEMS")+" -"));//draw magic title
+	draw_text(_main_title_x,_main_title_y,Get_Character_Name(lookup_type,_character,"Total") +" "+ Get_Character_Class(lookup_type,_character,"Abbreviation") +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived")));//draw title text
+	draw_text(_title_x,_title_y,"- "+Get_Menu_Display_Message("Generic","ITEMS")+" -");//draw magic title
 
 	Create_Status_Ailment_Array(lookup_type,character_list[start_index + index]);
 	for(i = 0; i < number_of_status_ailments; i+= 1){
@@ -55,7 +55,7 @@ function Draw_Member_List_Top_Global_Item() {
 	for (i = 0; i<4; i+= 1){//loop through item / magic inventory
 	    //Draw Items
 	    if(Get_Item(lookup_type, _character,i)!= "none"){//if we have an item in slot i
-	        draw_text(_item_name_x,_item_name_y+(i*_index_offset),string_hash_to_newline(Get_Inventory_Item_Stats(lookup_type,_character,i,"Menu_Name")));//draw item name
+	        draw_text(_item_name_x,_item_name_y+(i*_index_offset),Get_Inventory_Item_Stats(lookup_type,_character,i,"Menu_Name"));//draw item name
 	        draw_sprite(Get_Inventory_Item_Stats(lookup_type,_character,i,"Item_Icon"),Get_Inventory_Item_Stats(lookup_type,_character,i,"Frame_Number"),_item_icon_x[i],_item_icon_y[i]);
 	        if(Has_Item_Slot_Equipped(lookup_type,_character,i)){
 	            draw_sprite(spr_Equipped_Icon,0,_equipped_icon_x,_equipped_icon_y+(i*_index_offset));
@@ -73,7 +73,7 @@ function Draw_Member_List_Top_Global_Item() {
 	draw_set_color(equipped_font_color);
 
 	if(Get_Item(lookup_type, _character,0)= "none"){//if we dont have an item in slot i
-	    draw_text(_item_name_x,_item_name_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//draw item name
+	    draw_text(_item_name_x,_item_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw item name
 	}
 
 	draw_set_color(c_white);

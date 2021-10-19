@@ -39,17 +39,17 @@ function Draw_Cross_Menu_Equip_Window() {
 	draw_set_font(menu_font);
 	draw_set_color(font_color);
 
-	draw_text(_text_x,_text_y,string_hash_to_newline("ATT"));
-	draw_text(_text2_x,_text2_y,string_hash_to_newline("DEF"));
-	draw_text(_text3_x,_text3_y,string_hash_to_newline("AGI"));
-	draw_text(_text4_x,_text4_y,string_hash_to_newline("MOV"));
+	draw_text(_text_x,_text_y,"ATT");
+	draw_text(_text2_x,_text2_y,"DEF");
+	draw_text(_text3_x,_text3_y,"AGI");
+	draw_text(_text4_x,_text4_y,"MOV");
 
 	draw_set_halign(fa_right);
 
-	draw_text(_stat_text_x,_stat_text_y,string_hash_to_newline(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Attack")));
-	draw_text(_stat_text2_x,_stat_text2_y,string_hash_to_newline(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Defense")));
-	draw_text(_stat_text3_x,_stat_text3_y,string_hash_to_newline(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Agility")));
-	draw_text(_stat_text4_x,_stat_text4_y,string_hash_to_newline(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Movement_Range")));
+	draw_text(_stat_text_x,_stat_text_y,Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Attack"));
+	draw_text(_stat_text2_x,_stat_text2_y,Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Defense"));
+	draw_text(_stat_text3_x,_stat_text3_y,Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Agility"));
+	draw_text(_stat_text4_x,_stat_text4_y,Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Movement_Range"));
 
 	draw_set_halign(fa_left);
 	draw_set_color(c_white); //reset draw color

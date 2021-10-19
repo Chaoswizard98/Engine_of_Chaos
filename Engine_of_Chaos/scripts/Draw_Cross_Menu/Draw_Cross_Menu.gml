@@ -39,6 +39,6 @@ function Draw_Cross_Menu() {
 	draw_sprite(spr_Menu_Name_Window,0,_menu_name_x,_menu_name_y);
 
 	draw_set_color(font_color);
-	draw_text(_text_x,_text_y,string_hash_to_newline(menu_name[current_index]));
+	draw_text(_text_x,_text_y,menu_name[current_index]);
 	draw_set_color(c_white); //reset draw color
 }

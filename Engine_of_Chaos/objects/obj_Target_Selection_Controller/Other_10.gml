@@ -150,7 +150,7 @@ else if(state = "Select_Button"){
     //=========
     else if(action = "Use_Item"){
         Play_Sound(sfx_Menu_Select);
-        if(Get_Effect_Stats(Get_Inventory_Item_Stats("Local",character,inventory_slot,"Use_Effect"),Get_Inventory_Item_Stats("Local",character,inventory_slot,"Use_Effect_Level"),"Retreat_From_Battle")){
+        if(Get_Spell_Stats(Get_Inventory_Item_Stats("Local",character,inventory_slot,"Use_Effect"),Get_Inventory_Item_Stats("Local",character,inventory_slot,"Use_Effect_Level"),"Retreat_From_Battle")){
             state = "Egress_Cutscene";
             with(obj_Battle_HUD){
                 if(display_type = "Target_Selection"){

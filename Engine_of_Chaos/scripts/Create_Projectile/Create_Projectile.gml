@@ -1,30 +1,14 @@
-function Create_Projectile() {
-	var _projectile = argument[0];
-	var _start_x = argument[1];
-	var _start_y = argument[2];
-	var _projectile_path = argument[3];
-	var _projectile_direction = argument[4];
+function Create_Projectile(_projectile,_x,_y,_path,_direction){
 	var _this = noone;
-
 	if(_projectile != "none"){//create only if we have a valid projectile
-	    //switch(_projectile){
-	        //case 'Tornado': _this = instance_create_layer(obj_Projectile_Tornado,x,y); break;
-	        //default: _this = instance_create_layer(0,0,obj_Projectile); break;
-	        _this = Get_Projectile_Stats(_projectile,"Object");//creates the actual projectile object
-	    //}
-	    _this.projectile = _projectile;
-	    _this.projectile_path = _projectile_path;
-	    _this.projectile_direction = _projectile_direction;
-	    _this.start_x = _start_x;
-	    _this.start_y = _start_y;
-	    _this.state = "Start";
-	    with(_this){
-	        event_perform(ev_other,ev_user0);
-	    }
+		var _script = asset_get_index("Projectile_Create_Event_Default");
+		var _new_script = asset_get_index("Projectile_Create_Event_" + _projectile);
+		if(_new_script != -1){//If the asset exists
+			if(script_exists(_new_script)){//If the asset is a script
+				_script = _new_script;
+			}
+		}
+		_this = script_execute(_script,_projectile,_x,_y,_path,_direction);//run the script
 	}
-
 	return _this;
-
-
-
 }

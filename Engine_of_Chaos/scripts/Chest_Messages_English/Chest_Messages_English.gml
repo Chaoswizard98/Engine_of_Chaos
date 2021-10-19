@@ -13,8 +13,8 @@ function Chest_Messages_English(_cutscene_object,_message_ID){
 		break;
 		case "Empty": return ("Unfortunately it was empty!"); break;
 		case "Recieves_Gold": return (_player_name + " recieves " + string(_chest.gold) + " Gold!"); break;
-		case "Found_Item": return (_player_name + " found the#" + Get_Item_Stats(_chest.item,"Item_Name") + "."); break;
-		case "Recieves_Item": return (_player_name + " recieves the#" + Get_Item_Stats(_chest.item,"Item_Name") + "!");break;
+		case "Found_Item": return (_player_name + " found the\n" + Get_Item_Stats(_chest.item,"Item_Name") + "."); break;
+		case "Recieves_Item": return (_player_name + " recieves the\n" + Get_Item_Stats(_chest.item,"Item_Name") + "!");break;
 		case "Inventory_Full": return ("But no one can hold it!"); break;
 	}
 

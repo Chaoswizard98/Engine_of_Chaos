@@ -5,7 +5,6 @@ state = "none";//event state
 display = true;//do we draw the projectile?
 
 movement_speed = 1;//how fast the projectile moves
-end_effect = "none";//what effect happens at the end of path? (explosive arrows, etc)
 
 start_x = 0;
 start_y = 0;

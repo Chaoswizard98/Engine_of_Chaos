@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Prism_Flower_Projectile",
-    "path": "sprites/spr_Prism_Flower_Projectile/spr_Prism_Flower_Projectile.yy",
+    "name": "spr_SF2_Prism_Flower_Projectile",
+    "path": "sprites/spr_SF2_Prism_Flower_Projectile/spr_SF2_Prism_Flower_Projectile.yy",
   },
   "solid": false,
   "visible": true,

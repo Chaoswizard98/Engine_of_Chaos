@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Enemies",
-    "path": "folders/Scripts/Character_Properties/Enemies.yy",
+    "path": "folders/Scripts/Character_Properties/AU/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "Character_Properties_Enemy_Wolf",

@@ -1,4 +1,4 @@
-function Default_Battle_Cutscene_Event() {
+function Default_Battle_Cutscene_Event(){
 	//Calls from screen fade controller.
 	if(state = "Start"){
 	    Prepare_For_Battle_Cutscene();//End character turn, clear menus, etc.
@@ -147,7 +147,7 @@ function Default_Battle_Cutscene_Event() {
 	        break;
 	        case "Cast_Spell": case "Use_Item": case "Word_of_Power": //Magical Attacks
 	            if(action = "Cast_Spell"){
-	                Set_Character_Magic("Local",attacker,"Remove",Get_Effect_Stats(effect,effect_level,"Magic_Cost","Local",attacker));
+	                Set_Character_Magic("Local",attacker,"Remove",Get_Spell_Stats(effect,effect_level,"Magic_Cost","Local",attacker));
 	            }
 	            if(((action = "Cast_Spell")||(action = "Word_of_Power"))&&(Character_Is_Under_Effect("Local",attacker,"Silence"))){//if character is silenced
 	                state = "Spell_Fizzles";//skip all other events
@@ -218,7 +218,7 @@ function Default_Battle_Cutscene_Event() {
 	                    break;
 	                    case "Cast_Spell": case "Use_Item": case "Word_of_Power":
 	                        _damage = Calculate_Spell_Damage(attacker,target,effect,effect_level,critical_hit,counter_attack,number_of_targets);
-	                        _magic_restored = Get_Effect_Stats(effect,effect_level,"Magic_Restored","Local",attacker);
+	                        _magic_restored = Get_Spell_Stats(effect,effect_level,"Magic_Restored","Local",attacker);
 	                    break;
 	                }
                 
@@ -318,7 +318,7 @@ function Default_Battle_Cutscene_Event() {
 	        }
         
 	        if(_message != ""){
-	            if(string_char_at(_message,1) = "#"){//if we're starting with a line break
+	            if(string_char_at(_message,1) = "\n"){//if we're starting with a line break
 	                _message = string_delete(_message,1,1);//remove the leading # symbol
 	            }
 	        }
@@ -442,7 +442,7 @@ function Default_Battle_Cutscene_Event() {
 	                    }
 	                    Damage_Item("Local",attacker,inventory_slot);//Damage the item
                     
-	                    if(_message = "#"){//if null message,
+	                    if(_message = "\n"){//if null message,
 	                        _message = "";//reset
 	                    }
 	                }

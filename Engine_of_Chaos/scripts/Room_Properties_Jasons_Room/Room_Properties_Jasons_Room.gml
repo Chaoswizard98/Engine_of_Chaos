@@ -12,7 +12,7 @@ function Room_Creation_Jasons_House_Second_Floor(){
 	    break;
 	    default:
 	        _player = Spawn_Player("Jason","Egress");
-	        Spawn_Followers();
+	        Spawn_Followers("Chapter_1");
 	        Play_Music(bgm_Town,"Fade_To_Next",250,0);
 	    break;
 	}

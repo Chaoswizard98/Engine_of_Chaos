@@ -7,9 +7,9 @@ function Shop_Ashenwood_Weapon(){
 	sell_value_modifier = current_npc.sell_value_modifier;//sells for 100% of item value (Set via NPC variables)
 	repair_value_modifier = current_npc.repair_value_modifier;//repairs for 50% of item value (Set via NPC variables)
 
-	Add_Item_To_Shop(id,"Battered_Sword");
-	Add_Item_To_Shop(id,"Battered_Arrow");
-	Add_Item_To_Shop(id,"Wooden_Staff");
-	Add_Item_To_Shop(id,"Battered_Knife");
-	Add_Item_To_Shop(id,"Wooden_Spear");
+	Add_Item_To_Shop(id,"AU_Battered_Sword");
+	Add_Item_To_Shop(id,"AU_Battered_Arrow");
+	Add_Item_To_Shop(id,"AU_Wooden_Staff");
+	Add_Item_To_Shop(id,"AU_Battered_Knife");
+	Add_Item_To_Shop(id,"AU_Wooden_Spear");
 }

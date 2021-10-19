@@ -57,7 +57,6 @@ path_timer = 0;//timer for moving on path (to play step sound)
 pathfind_loop = false;//for transfer tiles
 pathfinding_end_action = "none";//what do we do during 'end of path' event?
 
-
 //Character stuff
 character_ID = "Default";//Unique ID of the character
 global_ID = -1;//Global ID of the character (for party members / any character that has stats saved globally)

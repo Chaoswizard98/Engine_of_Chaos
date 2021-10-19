@@ -36,14 +36,14 @@ function Draw_Sidebar_Window() {
 	draw_sprite(spr_Status_Sidebar_Window,0,_sidebar_window_x,_sidebar_window_y);
 
 	draw_set_halign(fa_left);//kills
-	draw_text(_kills_title_x,_kills_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","KILLS")));//KILLS
+	draw_text(_kills_title_x,_kills_title_y,Get_Menu_Display_Message("Generic","KILLS"));//KILLS
 	draw_set_halign(fa_right);
-	draw_text(_kills_x,_kills_y,string_hash_to_newline(Get_Character_Kills(lookup_type,characterID,"Total")));//number of kills
+	draw_text(_kills_x,_kills_y,Get_Character_Kills(lookup_type,characterID,"Total"));//number of kills
 
 	draw_set_halign(fa_left);//defeats
-	draw_text(_defeats_title_x,_defeats_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","DEATHS")));//DEFEATS
+	draw_text(_defeats_title_x,_defeats_title_y,Get_Menu_Display_Message("Generic","DEATHS"));//DEFEATS
 	draw_set_halign(fa_right);
-	draw_text(_defeats_x,_defeats_y,string_hash_to_newline(Get_Character_Deaths(lookup_type,characterID,"Total")));//number of deaths
+	draw_text(_defeats_x,_defeats_y,Get_Character_Deaths(lookup_type,characterID,"Total"));//number of deaths
 
 	draw_set_halign(fa_left);
 
@@ -53,9 +53,9 @@ function Draw_Sidebar_Window() {
 
 	draw_set_color(font_color);
 	draw_set_halign(fa_left);
-	draw_text(_gold_title_x,_gold_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","GOLD")));//GOLD
+	draw_text(_gold_title_x,_gold_title_y,Get_Menu_Display_Message("Generic","GOLD"));//GOLD
 	draw_set_halign(fa_right);
-	draw_text(_gold_x,_gold_y,string_hash_to_newline(string(global.Gold)));//Ammount
+	draw_text(_gold_x,_gold_y,string(global.Gold));//Ammount
 	draw_set_halign(fa_left);
 	draw_set_color(c_white); //reset draw color
 }

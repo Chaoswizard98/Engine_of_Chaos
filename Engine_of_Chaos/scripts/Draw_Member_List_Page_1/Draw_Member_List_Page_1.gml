@@ -69,18 +69,18 @@ function Draw_Member_List_Page_1() {
 	draw_sprite(spr_Member_List_Bottom,0,_member_list_bottom_x,_member_list_bottom_y);
 
 	//Draw titles
-	draw_text(_name_title_x,_name_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","NAME")));//NAME
-	draw_text(_health_title_x,_health_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","HP")));//HP
-	draw_text(_magic_title_x,_magic_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MP")));//MP
-	draw_text(_attack_title_x,_attack_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","ATT")));//ATT
-	draw_text(_defense_title_x,_defense_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","DEF")));//DEF
-	draw_text(_agility_title_x,_agility_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","AGI")));//AGI
-	draw_text(_move_title_x,_move_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MOV")));//MOV
+	draw_text(_name_title_x,_name_title_y,Get_Menu_Display_Message("Generic","NAME"));//NAME
+	draw_text(_health_title_x,_health_title_y,Get_Menu_Display_Message("Generic","HP"));//HP
+	draw_text(_magic_title_x,_magic_title_y,Get_Menu_Display_Message("Generic","MP"));//MP
+	draw_text(_attack_title_x,_attack_title_y,Get_Menu_Display_Message("Generic","ATT"));//ATT
+	draw_text(_defense_title_x,_defense_title_y,Get_Menu_Display_Message("Generic","DEF"));//DEF
+	draw_text(_agility_title_x,_agility_title_y,Get_Menu_Display_Message("Generic","AGI"));//AGI
+	draw_text(_move_title_x,_move_title_y,Get_Menu_Display_Message("Generic","MOV"));//MOV
 
 	//Character Loop
 	var i = start_index;
 	for (i = start_index; i < min((start_index + max_characters_displayed),number_of_characters); i+= 1){
-	    draw_text(_name_field_x,_name_field_y + y_scroll + bottom_window_pan + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Name(lookup_type,character_list[i],"Total"))));//Character's name
+	    draw_text(_name_field_x,_name_field_y + y_scroll + bottom_window_pan + (character_index_offset_y * (i - start_index)),string(Get_Character_Name(lookup_type,character_list[i],"Total")));//Character's name
     
 	    if(lookup_type = "Global"){
 	        if(global.In_Battle_Party[character_list[i]]){
@@ -92,12 +92,12 @@ function Draw_Member_List_Page_1() {
 	    }
     
 	    draw_set_halign(fa_right);
-	    draw_text(_health_field_x,_health_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Health(lookup_type,character_list[i],"Base+Equipment"))));//Character's Health
-	    draw_text(_magic_field_x,_magic_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Magic(lookup_type,character_list[i],"Base+Equipment"))));//Character's Magic
-	    draw_text(_attack_field_x,_attack_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Attack(lookup_type,character_list[i],"Base+Equipment"))));//Character's Attack
-	    draw_text(_defense_field_x,_defense_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Defense(lookup_type,character_list[i],"Base+Equipment"))));//Character's Defense
-	    draw_text(_agility_field_x,_agility_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Agility(lookup_type,character_list[i],"Base+Equipment"))));//Character's Agility
-	    draw_text(_move_field_x,_move_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Movement_Range(lookup_type,character_list[i],"Base+Equipment"))));//Character's Move Range
+	    draw_text(_health_field_x,_health_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Health(lookup_type,character_list[i],"Base+Equipment")));//Character's Health
+	    draw_text(_magic_field_x,_magic_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Magic(lookup_type,character_list[i],"Base+Equipment")));//Character's Magic
+	    draw_text(_attack_field_x,_attack_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Attack(lookup_type,character_list[i],"Base+Equipment")));//Character's Attack
+	    draw_text(_defense_field_x,_defense_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Defense(lookup_type,character_list[i],"Base+Equipment")));//Character's Defense
+	    draw_text(_agility_field_x,_agility_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Agility(lookup_type,character_list[i],"Base+Equipment")));//Character's Agility
+	    draw_text(_move_field_x,_move_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Movement_Range(lookup_type,character_list[i],"Base+Equipment")));//Character's Move Range
 	    draw_set_halign(fa_left);
 	}
 

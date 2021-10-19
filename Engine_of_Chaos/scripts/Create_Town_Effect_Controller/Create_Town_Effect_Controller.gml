@@ -12,14 +12,14 @@ function Create_Town_Effect_Controller(_lookup_type,_character,_target,_action,_
 	    _this.spell_slot = _inventory_slot;
 	    _this.spell_level = _inventory_level;
 	    _this.spell = Get_Spell(_this.lookup_type,_this.character,_this.spell_slot)
-	    _this.effect = Get_Effect_Stats(_this.spell,_this.spell_level,"Town_Effect",_this.lookup_type,_this.character);
+	    _this.effect = Get_Spell_Stats(_this.spell,_this.spell_level,"Town_Effect",_this.lookup_type,_this.character);
 	    _this.effect_level = _this.spell_level;
 	}
 	else if(_this.action = "Use_Item"){
 	    _this.item_slot = _inventory_slot;
 	    _this.item = Get_Item(_this.lookup_type,_this.character,_this.item_slot);
-	    _this.effect = Get_Effect_Stats(Get_Item_Stats(_this.item,"Town_Effect",_this.lookup_type,_this.character),Get_Item_Stats(_this.item,"Town_Effect_Level",_this.lookup_type,_this.character),"Town_Effect",_this.lookup_type,_this.character);
-	    _this.effect_level = Get_Item_Stats(_this.item,"Town_Effect_Level",_this.lookup_type,_this.character);
+	    _this.effect = Get_Spell_Stats(Get_Item_Stats(_this.item,"Town_Effect",_this.lookup_type,_this.character),Get_Item_Stats(_this.item,"Use_Effect_Level",_this.lookup_type,_this.character),"Town_Effect",_this.lookup_type,_this.character);
+	    _this.effect_level = Get_Item_Stats(_this.item,"Use_Effect_Level",_this.lookup_type,_this.character);
 	}
 
 	with(_this){//start item use sequence

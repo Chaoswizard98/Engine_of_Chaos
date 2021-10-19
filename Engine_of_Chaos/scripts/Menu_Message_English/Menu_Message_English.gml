@@ -34,7 +34,7 @@ function Menu_Message_English() {
 	            case "DEFENSE": return ("DEFENSE"); break;
 	            case "unequippable": return ("unequippable"); break;
 	            case "Equipped": return ("Equipped"); break;
-	            case "LAND_EFFECT": return ("LAND#EFFECT"); break;
+	            case "LAND_EFFECT": return ("LAND\nEFFECT"); break;
 	            case "Gold": return ("Gold"); break;
             
 	            case "MEMBER": return ("MEMBER"); break;

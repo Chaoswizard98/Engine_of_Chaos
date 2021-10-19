@@ -26,7 +26,7 @@ function Level_Scheme_Mage_1(_lookup_type,_character,_stat,_sub_stat){
 	    case "Reset_Spells": _base = false; break;
 		
 	    case "Spell_1": 
-			_base = "Blaze"; 
+			_base = "AU_Blaze"; 
 			_level = 1;
 			switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 5: _level = 2; break;
@@ -36,7 +36,7 @@ function Level_Scheme_Mage_1(_lookup_type,_character,_stat,_sub_stat){
 		break;
 		
 	    case "Spell_2": 
-			_base = "Freeze"; 
+			_base = "AU_Freeze"; 
 			_level = 0; 
 			switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 7: _level = 1; break;
@@ -47,7 +47,7 @@ function Level_Scheme_Mage_1(_lookup_type,_character,_stat,_sub_stat){
 		break;
 		
 	    case "Spell_3": 
-			_base = "Silence"; 
+			_base = "AU_Silence"; 
 			_level = 0; 
 			switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 25: _level = 1; break;

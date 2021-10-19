@@ -30,20 +30,22 @@ if(display){
         draw_sprite_ext(old_background_sprite,0,_x_pos-(2*scene_width),_y_pos,1,1,0,_draw_color,1);
     }
     
-    
-    
     //draw black border (bottom)
     draw_rectangle_colour(Get_Anchor_X("Top_Left")+scene_x,Get_Anchor_Y("Top_Left")+scene_y+scene_height,Get_Anchor_X("Top_Left")+scene_x+scene_width-1,Get_Anchor_Y("Bottom_Right"),border_color,border_color,border_color,border_color,false);//bottom
-    //draw_rectangle_colour(scene_x,scene_y+scene_height,scene_x+scene_width-1,Get_Anchor_Y('Bottom_Right'),border_color,border_color,border_color,border_color,false);//bottom
     
-    
+	//Draw Props (Spell Effects)
+    with(obj_Battle_Cutscene_Prop){
+		if(draw_location = "Background"){
+			event_perform(ev_other,ev_user2);
+		}
+    }
+	
     //Draw Battle cutscene Characters
     with(obj_Battle_Cutscene_Character){
         if(location = "Background"){
             event_perform(ev_other,ev_user2);
         }
     }
-    
     
     //Draw Battle cutscene Characters
     with(obj_Battle_Cutscene_Character){
@@ -56,19 +58,25 @@ if(display){
     with(obj_Projectile){
         event_perform(ev_other,ev_user2);
     }
-    
-    //Draw Props (Spell Effects)
+	
+	//Draw Props (Spell Effects)
     with(obj_Battle_Cutscene_Prop){
-        event_perform(ev_other,ev_user2);
+		if(draw_location = "Foreground"){
+			event_perform(ev_other,ev_user2);
+		}
+    }
+	
+	//Draw Props (Spell Effects)
+    with(obj_Battle_Cutscene_Prop){
+		if(draw_location = "Highest"){
+			event_perform(ev_other,ev_user2);
+		}
     }
     
     //Draw black border
     draw_rectangle_colour(Get_Anchor_X("Top_Left"),Get_Anchor_Y("Top_Left"),Get_Anchor_X("Top_Left")+scene_x-1,Get_Anchor_Y("Bottom_Left"),c_black,c_black,c_black,c_black,false);//left
     draw_rectangle_colour(Get_Anchor_X("Top_Right"),Get_Anchor_Y("Top_Right"),Get_Anchor_X("Top_Left")+scene_x+scene_width-1,Get_Anchor_Y("Bottom_Right"),c_black,c_black,c_black,c_black,false);//right
     draw_rectangle_colour(Get_Anchor_X("Top_Left")+scene_x,Get_Anchor_Y("Top_Left"),Get_Anchor_X("Top_Left")+scene_x+scene_width-1,Get_Anchor_Y("Top_Left")+scene_y-1,border_color,border_color,border_color,border_color,false);//top
-    //draw_rectangle_colour(Get_Anchor_X('Top_Left'),Get_Anchor_Y('Top_Left'),scene_x-1,Get_Anchor_Y('Bottom_Left'),c_black,c_black,c_black,c_black,false);//left
-    //draw_rectangle_colour(Get_Anchor_X('Top_Right'),Get_Anchor_Y('Top_Right'),scene_x+scene_width-1,Get_Anchor_Y('Bottom_Right'),c_black,c_black,c_black,c_black,false);//right
-    //draw_rectangle_colour(scene_x,Get_Anchor_Y('Top_Left'),scene_x+scene_width-1,scene_y-1,border_color,border_color,border_color,border_color,false);//top
     
     //Draw Battle HUD
     with(obj_Battle_Cutscene_Character){

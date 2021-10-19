@@ -6,16 +6,16 @@ function Meeting_Max_Cutscene() {
 	switch(state){
 	    case 0: _message = (_jason.name + "!^ It's about time you got up!^ We're going to be late!"); break;
 	    case 3: _message = ("Late for what?"); break;
-	    case 4: _message = ("Our first official job request!%#Out of all the other adventuring groups in existence, our client specifically chose US for this mission.%#We must have built up quite the reputation after our first adventure!"); break;
+	    case 4: _message = ("Our first official job request!%\nOut of all the other adventuring groups in existence, our client specifically chose US for this mission.%\nWe must have built up quite the reputation after our first adventure!"); break;
 	    case 5: _message = ("MAX.^ That's several days away.^ We've got plenty of time."); break;
-	    case 8: _message = ("You can never start too early!^#We might have to disarm some traps along the way!"); break;
+	    case 8: _message = ("You can never start too early!^\nWe might have to disarm some traps along the way!"); break;
 	    case 9: _message = ("When was the last time you've seen a trap around here?"); break;
 	    case 10: _message = ("I had to disarm your door last time."); break;
 	    case 13: _message = ("MAX,^ our door wasn't trapped.^ It was locked.^ There's a difference."); break;
 	    case 14: _message = ("Well that didn't stop me from getting in."); break;
 	    case 15: _message = ("That's not the point."); break;
 	    case 18: _message = ("(sigh)^ Well since I'm already awake,^ I guess it can't hurt to head out early."); break;
-	    case 20: _message = ("That's the spirit!^#We'll meet Ciera at her house and then head towards Hillford!"); break;
+	    case 20: _message = ("That's the spirit!^\nWe'll meet Ciera at her house and then head towards Hillford!"); break;
 	    case 21: _message = ("MAX joins the party."); break;
 	}
 

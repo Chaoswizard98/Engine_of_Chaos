@@ -29,7 +29,7 @@ for(i = start_index; i < (start_index + max_options_on_screen); i += 1){
     else{
         draw_set_color(font_color); //Color
     }
-    draw_text(_text_x, _text_y + ((i - start_index) * _text_increment), string_hash_to_newline(menu_options[i])); //draw the message
+    draw_text(_text_x, _text_y + ((i - start_index) * _text_increment), menu_options[i]); //draw the message
 }
 draw_set_color(c_white); //reset draw color
 

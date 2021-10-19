@@ -29,11 +29,8 @@ if(screen_flash){
 //===================
 //Prop Creation Loop=
 //===================
-if(looping_effect != "none"){
-    prop_timer -= 1;
-    if(prop_timer <= 0){
-        prop_timer = max_prop_timer;
-        Global_Battle_Cutscene_Prop_Event(looping_effect,"Loop_Event",id);
-    }
+if(display_spell){
+	if(effect != "none"){
+		Run_Battle_Cutscene_Spell_Event(effect,"Loop",id);
+	}
 }
-

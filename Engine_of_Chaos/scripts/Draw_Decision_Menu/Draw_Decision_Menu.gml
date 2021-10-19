@@ -21,7 +21,7 @@ function Draw_Decision_Menu(){
 	        draw_sprite(spr_Menu_Name_Window,0,_x_pos+(((i+1)*_icon_separation)),_y_pos);
 	        draw_set_font(menu_font);
 	        draw_set_color(font_color);
-	        draw_text(_x_pos+(((i+1)*_icon_separation))+9,_y_pos+9,string_hash_to_newline(menu_name[menu_index]));
+	        draw_text(_x_pos+(((i+1)*_icon_separation))+9,_y_pos+9,menu_name[menu_index]);
 	        draw_set_color(c_white);//reset draw color
 	    }
 	}

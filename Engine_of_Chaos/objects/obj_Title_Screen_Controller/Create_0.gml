@@ -28,16 +28,16 @@ welcome_message = "Default Message!";//default message
 
 switch(temp){
     case 0: welcome_message = "Default Message!"; break;
-    case 1: welcome_message = "Now with random# title messages!"; break;
+    case 1: welcome_message = "Now with random\n title messages!"; break;
     case 2: welcome_message = "Release or riot!"; break;
-    case 3: welcome_message = "Now with complimentary# bugs!"; break;
+    case 3: welcome_message = "Now with complimentary\n bugs!"; break;
     case 4: welcome_message = "Chaos! Fix the typos!"; break;
-    case 5: welcome_message = "Contains at least 3# lines of code!"; break;
+    case 5: welcome_message = "Contains at least 3\n lines of code!"; break;
     case 6: welcome_message = "Welcome to Alpha!"; break;
-    case 7: welcome_message = "It's not a bug# it's a feature."; break;
-    case 8: welcome_message = "Is the next update# ready yet?"; break; 
+    case 7: welcome_message = "It's not a bug\n it's a feature."; break;
+    case 8: welcome_message = "Is the next update\n ready yet?"; break; 
     case 9: welcome_message = "You are reading this."; break;
-    case 10: welcome_message = "Wolf has obtained#the healing rain!"; break;//~Tyadran
+    case 10: welcome_message = "Wolf has obtained\nthe healing rain!"; break;//~Tyadran
 }
 
 //===========

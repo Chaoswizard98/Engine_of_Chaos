@@ -1,6 +1,5 @@
 function Reveal_Hidden_Unit() {
 	var _character = Get_Current_Turn();
-	//show_message(string(state));
 	switch(state){
 	    case 0:
 	        instance_activate_object(_character);//activate the character

@@ -64,7 +64,6 @@ function Repair_Item_Event() {
     
 	    case "Selected_Item":
 	        if(Get_Inventory_Item_Stats(lookup_type,character_list[start_index + index],item_index,"Repairs_To") != "none"){//if we can repair it
-	            //I'll pay X gold coins#for it, OK?@
 	            state = "Create_Decision";
 	            Create_Dialogue(noone,Get_Character_Voice("Local",current_npc,"Total"),Get_General_Messages(obj_Shop_Controller.dialogue_ID,"Repair_For_X",string(floor(Get_Item_Stats(Get_Item(lookup_type,character_list[start_index + index],item_index),"Repair_Cost")*obj_Shop_Controller.repair_value_modifier))),id,false,false);//portrait, voice, message, current object, arrow, auto pan, [portrait override] [voice override]
             

@@ -2,8 +2,8 @@
 //Start Spell Flash=
 //==================
 if(state = "Start_Spell_Flash"){
-    flash_color = Get_Effect_Stats(effect,effect_level,"Flash_Color");
-    tint_color = Get_Effect_Stats(effect,effect_level,"Tint_Color");
+    flash_color = Get_Spell_Stats(effect,effect_level,"Flash_Color");
+    tint_color = Get_Spell_Stats(effect,effect_level,"Tint_Color");
     state = "End_Spell_Flash";
     screen_flash = true;
     iterations = 0;
@@ -23,7 +23,8 @@ else if(state = "End_Spell_Flash"){
         event_perform(ev_other,ev_user0);
     }
     else{
-        Global_Battle_Cutscene_Prop_Event(effect,"Create_Event",id);
+        Run_Battle_Cutscene_Spell_Event(effect,"Create",id);
+		display_spell = true;
     }
 }
 //===========
@@ -40,7 +41,7 @@ else if(state = "Spell_Loop"){
 //================
 else if(state = "Start_Spell_Hit"){
     state = "End_Spell_Hit";
-    Global_Battle_Cutscene_Prop_Event(effect,"Spell_Hit_Event",id);
+    Run_Battle_Cutscene_Spell_Event(effect,"Hit",id);
 }
 //==============
 //End Spell Hit=

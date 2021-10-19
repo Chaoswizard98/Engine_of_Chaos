@@ -1,11 +1,10 @@
-function Global_Battle_Cutscene_Character_Animation_Event(_object) {
-	if(!Get_Battle_Cutscene_Sprite_Stats(_object.sprite_ID,_object.animation,"Use_Controller_Animation")){
-	    switch(_object.sprite_ID){//switch battle sprite ID
-	        case "Noah":
-	            Battle_Cutscene_Character_Animation_Noah(_object);//Run Jason Script
-	        break;
-        
-	        default: Battle_Cutscene_Character_Animation_Default(_object); break;// run default script
-	    }
+function Global_Battle_Cutscene_Character_Animation_Event(_object){
+	var _script = asset_get_index("Battle_Sprite_Animation_Default");
+	var _new_script = asset_get_index("Battle_Sprite_Animation_"+_object.character.character_ID);
+	if(_new_script != -1){//If the asset exists
+		if(script_exists(_new_script)){//If the asset is a script
+			_script = _new_script;
+		}
 	}
+	script_execute(_script,_object);//run the script
 }

@@ -33,7 +33,7 @@ draw_set_color(font_color);//Set Font Color
 for(j=0; j<3; j+=1){
     for(i=0; i<26; i+= 1){
         if(string_char_at(characters[j,i],0) != "^"){
-            draw_text(_text_x + (_text_increment*i),_text_y+(_line_increment*j),string_hash_to_newline(characters[j,i]));//Draw all characters
+            draw_text(_text_x + (_text_increment*i),_text_y+(_line_increment*j),characters[j,i]);//Draw all characters
         }
     }
 }
@@ -47,7 +47,7 @@ else{
 
 for(i=0; i<max_letters; i+=1){
     if(name[i] != ""){
-        draw_text(_name_text_x+(_text_increment*i),_name_text_y,string_hash_to_newline(name[i]));//Draws Dialogue window to hold letters ect
+        draw_text(_name_text_x+(_text_increment*i),_name_text_y,name[i]);//Draws Dialogue window to hold letters ect
     }
     else{
         draw_sprite(spr_Character_Name,0,_name_text_x+(_text_increment*i),_name_text_y);//Draws Dialogue window to hold letters ect

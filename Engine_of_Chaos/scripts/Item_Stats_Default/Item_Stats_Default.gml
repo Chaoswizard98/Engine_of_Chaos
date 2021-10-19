@@ -1,10 +1,9 @@
-function Item_Stats_Default(){
-	var _container = argument[0];
+function Item_Stats_Default(_container){
 	with(_container){
 		item_icon = spr_Blank_Inventory_Icon;//inventory sprite
 		frame_number = 0;//frame number
-		item_name = "none";//Get_Item_Display_Name(_item,"Item_Name");//name of item (for dialogue)
-		menu_name = "none";//Get_Item_Display_Name(_item,"Menu_Name");//name as it appears in menus
+		item_name = Get_Item_Display_Name("Default","Item_Name");//name of item (for dialogue)
+		menu_name = Get_Item_Display_Name("Default","Menu_Name");//name as it appears in menus
 		main_hand = false;//can we equip it?
 		off_hand = false;//can we equip it?
 		can_drop = "true";//can we drop / sell it?
@@ -25,7 +24,6 @@ function Item_Stats_Default(){
 		//effect variables
 		target_other = false;
 		town_effect = "none";
-		town_effect_level = 1;
 		max_use_range = 0;
 		min_use_range = 0;
 		use_size = 0;

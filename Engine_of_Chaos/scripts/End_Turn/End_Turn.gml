@@ -1,7 +1,4 @@
-function End_Turn() {
-	var _character = argument[0];
-	var _event = argument[1];
-
+function End_Turn(_character,_event){
 	Update_Character_Start_Position(_character);
 	Update_Region_Flags();
 	if(_event = "Search"){//if we're searching / talking to an npc, battle HUD is already panned out
@@ -18,7 +15,4 @@ function End_Turn() {
 	else{//otherwise, we need to pan the battle hud out first
 	    Pan_Out_Land_Effect_Window("End_Turn");
 	}
-
-
-
 }

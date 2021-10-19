@@ -7,5 +7,5 @@ function Shop_Ashenwood_Inn(){
 	sell_value_modifier = current_npc.sell_value_modifier;//sells for 100% of item value
 	repair_value_modifier = current_npc.repair_value_modifier;//repairs for 50% of item value
 
-	Add_Item_To_Shop(id,"Beer");
+	Add_Item_To_Shop(id,"AU_Beer");
 }

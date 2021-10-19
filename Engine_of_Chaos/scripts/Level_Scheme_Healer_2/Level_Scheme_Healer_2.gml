@@ -26,7 +26,7 @@ function Level_Scheme_Healer_2(_lookup_type,_character,_stat,_sub_stat){
 	    case "Reset_Spells": _base = false; break;
 		
 	    case "Spell_1": 
-			_base = "Heal"; 
+			_base = "AU_Heal"; 
 			_level = 1; 
 			switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 4: _level = 2; break;
@@ -35,7 +35,7 @@ function Level_Scheme_Healer_2(_lookup_type,_character,_stat,_sub_stat){
 			}
 		break;
 	    case "Spell_2": 
-			_base = "Detox";
+			_base = "AU_Detox";
 		switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 5: _level = 1; break;
 				case 13: _level = 2; break;
@@ -43,7 +43,7 @@ function Level_Scheme_Healer_2(_lookup_type,_character,_stat,_sub_stat){
 			}
 		break;
 	    case "Spell_3": 
-			_base = "Blast"; 
+			_base = "AU_Blast"; 
 		switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 10: _level = 1; break;
 				case 16: _level = 2; break;
@@ -52,7 +52,7 @@ function Level_Scheme_Healer_2(_lookup_type,_character,_stat,_sub_stat){
 			}
 		break;
 	    case "Spell_4": 
-			_base = "Aura"; 
+			_base = "AU_Aura"; 
 		switch(Get_Character_Level(_lookup_type,_character,"Total")){
 				case 33: _level = 1; break;
 			}

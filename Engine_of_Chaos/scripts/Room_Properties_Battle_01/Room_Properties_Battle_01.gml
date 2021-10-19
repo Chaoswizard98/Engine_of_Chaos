@@ -15,7 +15,6 @@ function Room_Creation_Battle_01(){
 			Destroy_Battle_Objects();
 		    var _player = Spawn_Player("Jason","Egress");//default character, default spawn location (Overwritten by room transition controller if it exists)
 		    Start_Room(_player);
-		    Spawn_Followers();
 		break;
 	}
 }

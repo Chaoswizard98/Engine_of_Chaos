@@ -81,7 +81,6 @@ if(fade){//drawing a sprite that isnt the character (ie, explode, etc)
 
 //if we trigger a new frame in the animation (or are starting a new one) see if we trigger an event
 if(((floor(image_index) != floor(image_index + image_speed))&&(current_frame != floor(image_index + image_speed)))||(current_frame = -1)){//if new frame
-    current_frame = floor(image_index + image_speed);//set current frame to new frame
+	current_frame = floor(image_index + image_speed);//set current frame to new frame
     Global_Battle_Cutscene_Character_Animation_Event(id);//run 'new frame' event
 }
-

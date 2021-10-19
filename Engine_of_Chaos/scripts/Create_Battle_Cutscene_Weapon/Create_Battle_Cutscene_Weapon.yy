@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Game_Logic/Battle_System/Battle_Cutscenes/Battle_Cutscene_Props/Functions.yy",
+    "name": "Battle_Cutscene_Props",
+    "path": "folders/Scripts/DONE/Battle_Cutscene_Props.yy",
   },
   "resourceVersion": "1.0",
   "name": "Create_Battle_Cutscene_Weapon",

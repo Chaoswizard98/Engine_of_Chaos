@@ -26,16 +26,31 @@ else{
 //Draw Weapon
 if(weapon_object != noone){
     with(weapon_object){
-        x_pos = _x_pos - Get_Anchor_X("Top_Left");
-        y_pos = _y_pos - Get_Anchor_Y("Top_Left");
-        alpha = _draw_alpha;
-        draw_color = _draw_color;
-        event_perform(ev_other,ev_user2);
+		if(Get_Weapon_Cutscene_Position(cutscene_character,"Layer")="Below"){
+	        x_pos = _x_pos - Get_Anchor_X("Top_Left");
+	        y_pos = _y_pos - Get_Anchor_Y("Top_Left");
+	        alpha = _draw_alpha;
+	        draw_color = _draw_color;
+	        event_perform(ev_other,ev_user2);
+		}
     }
 }
 
 //Draw Character
 draw_sprite_ext(sprite_index,image_index,_x_pos,_y_pos,_mirror,1,0,_draw_color,_draw_alpha);
+
+//Draw Weapon
+if(weapon_object != noone){
+    with(weapon_object){
+		if(Get_Weapon_Cutscene_Position(cutscene_character,"Layer")="Above"){
+	        x_pos = _x_pos - Get_Anchor_X("Top_Left");
+	        y_pos = _y_pos - Get_Anchor_Y("Top_Left");
+	        alpha = _draw_alpha;
+	        draw_color = _draw_color;
+	        event_perform(ev_other,ev_user2);
+		}
+    }
+}
 
 x_pos = _x_pos - Get_Anchor_X("Top_Left");
 y_pos = _y_pos - Get_Anchor_Y("Top_Left");

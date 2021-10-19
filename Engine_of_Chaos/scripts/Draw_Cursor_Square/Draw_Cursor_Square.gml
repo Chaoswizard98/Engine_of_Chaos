@@ -17,7 +17,4 @@ function Draw_Cursor_Square() {
 	    _yPos += 1;
 	    _xPos = -1*(cursor_size -1);
 	}
-
-
-
 }

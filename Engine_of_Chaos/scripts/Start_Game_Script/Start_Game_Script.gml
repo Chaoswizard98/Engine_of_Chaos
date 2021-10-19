@@ -7,7 +7,7 @@ function Start_Game_Script(){
 	    //initial message.
 	    case "Start":
 	        state = "Create_Start_Menu";
-	        Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%#I can tell just how pumped you are, so here's the menu to get started!@",id,true,false);
+	        Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%\nI can tell just how pumped you are, so here's the menu to get started!@",id,true,false);
 	    break;
 	    //if we were holding space on startup, skip welcome message.
 	    case "Skip_Start":

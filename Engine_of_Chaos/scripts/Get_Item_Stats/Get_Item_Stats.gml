@@ -12,11 +12,6 @@ function Get_Item_Stats(_item,_stat,_lookup_type = "none", _character = noone) {
 		_container = instance_create_layer(0,0,"UI_Instance_Layer",obj_Item_Variable_Utility);
 	}
 	
-	//Get display name based on language files
-	_container.item_name = Get_Item_Display_Name(_item,"Item_Name");//name of item (for dialogue)
-	_container.menu_name = Get_Item_Display_Name(_item,"Menu_Name");//name as it appears in menus
-	
-	
 	//================
 	//Run Stat Script=
 	//================
@@ -48,7 +43,6 @@ function Get_Item_Stats(_item,_stat,_lookup_type = "none", _character = noone) {
 	        case "Movement_Type": return movement_type; break;
 	        case "Target_Other": return target_other; break;
 	        case "Town_Effect": return town_effect; break;
-	        case "Town_Effect_Level": return town_effect_level; break;
 	        case "Value": return value; break;
 	        case "Shop_Type": return shop_type; break;
 	        case "Can_Sell": return can_sell; break;

@@ -1,2 +1,1 @@
-Global_Town_Effect();
-
+Global_Town_Effect(id);

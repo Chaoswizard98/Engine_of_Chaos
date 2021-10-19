@@ -85,7 +85,8 @@ function Get_Weapon_Position_Default(_object,_stat){
 	var _animation_speed = 0;//animation speed
 	var _mirror = 1;//scale of the weapon (-1 for mirror)
 	var _hidden = true;//If we hide the weapons this frame. (Arrows are no longer drawn once fired)
-
+	var _layer = "Below";//Do we draw the weapon above or below the character?
+	
 	switch(_stat){
 	    case "X_Pos": return _x_pos; break;
 	    case "Y_Pos": return _y_pos; break;
@@ -94,5 +95,29 @@ function Get_Weapon_Position_Default(_object,_stat){
 	    case "Animation_Speed": return _animation_speed; break;
 	    case "Mirror": return _mirror; break;
 	    case "Hidden": return _hidden; break;
+		case "Layer": return _layer; break;
+		default: return 0; break;
+	}
+}
+
+//=============================
+//Battle Animation Frame Events
+//=============================
+function Battle_Sprite_Animation_Default(_object){
+	if(_object.current_frame >= _object.image_number-1){//if final frame
+		if(_object.current_frame >= _object.image_number){//If we go over the frame limit
+			_object.current_frame = 0;//reset event ping to 0
+		}
+		if(_object.freeze_final_frame){
+			_object.freeze_final_frame = false;
+	        Pause_Battle_Animation(_object);
+	        event_perform(ev_other,ev_user0);//call cutscene controller
+	    }
+		else{
+			event_perform(ev_other,ev_user0);
+	        if(_object.return_to_idle){
+	            Play_Battle_Animation(_object,"Idle",false,false,false);//return to idle
+	        }
+		}
 	}
 }

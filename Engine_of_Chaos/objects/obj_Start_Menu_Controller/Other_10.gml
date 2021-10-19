@@ -147,7 +147,7 @@ else{
     else if(state = "Waiting_For_Tutorial_Decision"){
         if(decision = "Yes"){
             state = "Tutorial";
-            Start_New_Dialogue("Cool!^ I'll let you play it as soon as I finish making it!%#For now, just hit buttons on your keyboard until something happens.%#Have fun!",true,true);
+            Start_New_Dialogue("Cool!^ I'll let you play it as soon as I finish making it!%\nFor now, just hit buttons on your keyboard until something happens.%\nHave fun!",true,true);
         }
         else{
             state = "New_Game";

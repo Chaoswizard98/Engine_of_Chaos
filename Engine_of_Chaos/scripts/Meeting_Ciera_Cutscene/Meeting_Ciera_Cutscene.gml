@@ -268,7 +268,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 55:
 	        state += 1;
-	        Create_Character_Dialogue("Local",_max,"How can you not have energy on such a momentous day?%#Someone has specifically asked for our adventuring party!%#To think we've already achieved legendary status after only our first adventure!",id,true,true);
+	        Create_Character_Dialogue("Local",_max,"How can you not have energy on such a momentous day?%\nSomeone has specifically asked for our adventuring party!%\nTo think we've already achieved legendary status after only our first adventure!",id,true,true);
 	    break;
 	    case 56:
 	        state += 1;
@@ -327,7 +327,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 69:
 	        state += 1;
-	        Create_Character_Dialogue("Local",_jason,"Eh,^ MAX named one of my grandpa's cows Milkshake.%#He keeps trying to convince me that she's an adventurer.",id,true,true);
+	        Create_Character_Dialogue("Local",_jason,"Eh,^ MAX named one of my grandpa's cows Milkshake.%\nHe keeps trying to convince me that she's an adventurer.",id,true,true);
 	    break;
 	    case 70:
 	        state += 1;

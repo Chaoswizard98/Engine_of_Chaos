@@ -1,62 +1,13 @@
-function Get_Battle_Cutscene_Prop_Stats() {
-	/*sprite
-	animation speed
-
-
-	blaze fireball
-	blaze fire
-
-	explosion_big
-	explosion_small
-	grand_cannon
-
-	tornado
-	*/
-
-	var _prop = argument[0];
-	var _return_stat = argument[1];
-
-	var _sprite = spr_Blank_Sprite;
-	var _animation_speed = 0;
-	var _flash_color = c_white;
-
-
-	switch(_prop){
-	    case "Explosion_Small":
-	        _sprite = spr_Explosion_Small;
-	        _animation_speed = .25;
-	    break;
-	    case "Explosion_Big":
-	        _sprite = spr_Explosion_Big;
-	        _animation_speed = .25;
-	    break;
-		case "SF2_Blaze_Fire_1":
-	        _sprite = spr_SF2_Blaze_Flame_1;
-	        _animation_speed = .25;
-	    break;
-	    case "Blaze_Fire_1":
-	        _sprite = spr_Blaze_Fire_1;
-	        _animation_speed = .25;
-	    break;
-	    case "Blaze_Fireball":
-	        _sprite = spr_Blaze_Fireball;
-	        _animation_speed = .25;
-	        _flash_color = c_red;
-	    break;
-	    case "Freeze_Shard_1":
-	        _sprite = spr_Freeze_Shard_1;
-	        _animation_speed = .25;
-	    break;
-	    case "Heal":
-	        _sprite = spr_Heal;
-	        _animation_speed = .5;
-	    break;
-	    case "Detox":
-	        _sprite = spr_Detox;
-	        _animation_speed = .5;
-	    break;
-    
-	    case "Prism_Flower_Start":
+function Get_Battle_Cutscene_Prop_Stats(_prop,_stat){
+	var _script = asset_get_index("Battle_Prop_Stats_Default");
+	var _new_script = asset_get_index("Battle_Prop_Stats_" + _prop);
+	if(_new_script != -1){//If the asset exists
+		if(script_exists(_new_script)){//If the asset is a script
+			_script = _new_script;
+		}
+	}
+	return script_execute(_script,_stat);//run the script
+	/*  case "Prism_Flower_Start":
 	        _sprite = spr_Prism_Flower_Particles;
 	        _animation_speed = 0;
 	    break;
@@ -64,11 +15,5 @@ function Get_Battle_Cutscene_Prop_Stats() {
 	        _sprite = spr_Prism_Flower_Shot;
 	        _animation_speed = .5;
 	    break;
-	}
-
-	switch(_return_stat){
-	    case "Sprite": return _sprite; break;
-	    case "Animation_Speed": return _animation_speed; break;
-	    case "Flash_Color": return _flash_color; break;
-	}
+	}*/
 }

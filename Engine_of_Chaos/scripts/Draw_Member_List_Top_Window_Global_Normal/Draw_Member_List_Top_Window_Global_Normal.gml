@@ -37,9 +37,9 @@ function Draw_Member_List_Top_Window_Global_Normal() {
 
 	draw_set_color(font_color);
 
-	draw_text(_main_title_x,_main_title_y,string_hash_to_newline(Get_Character_Name(lookup_type,_character,"Total") +" "+ Get_Character_Class(lookup_type,_character,"Abbreviation") +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived"))));//draw title text
-	draw_text(_magic_title_x,_magic_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MAGIC")));//draw magic title
-	draw_text(_item_title_x,_item_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","ITEM")));//draw item title
+	draw_text(_main_title_x,_main_title_y,Get_Character_Name(lookup_type,_character,"Total") +" "+ Get_Character_Class(lookup_type,_character,"Abbreviation") +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived")));//draw title text
+	draw_text(_magic_title_x,_magic_title_y,Get_Menu_Display_Message("Generic","MAGIC"));//draw magic title
+	draw_text(_item_title_x,_item_title_y,Get_Menu_Display_Message("Generic","ITEM"));//draw item title
 
 
 	Create_Status_Ailment_Array(lookup_type,_character);
@@ -57,12 +57,12 @@ function Draw_Member_List_Top_Window_Global_Normal() {
 	for (i = 0; i<4; i+= 1){//loop through item / magic inventory
 	    //Draw Magic
 	    if(Get_Spell_Level(lookup_type,_character,i) != 0){//if we have a spell in slot i
-	        draw_text(_magic_name_x ,_magic_name_y+(i*_index_offset),string_hash_to_newline(Get_Spell(lookup_type,_character,i)));//draw spell name
-	        draw_text(_magic_level_x,_magic_level_y+(i*_index_offset),string_hash_to_newline(Get_Menu_Display_Message("Generic","Level")+" "+string(Get_Spell_Level(lookup_type,_character,i))));//draw spell level
+	        draw_text(_magic_name_x ,_magic_name_y+(i*_index_offset),Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Menu_Name"));//draw spell name
+	        draw_text(_magic_level_x,_magic_level_y+(i*_index_offset),Get_Menu_Display_Message("Generic","Level")+" "+string(Get_Spell_Level(lookup_type,_character,i)));//draw spell level
 	    }
 	    //Draw Items
 	    if(Get_Item(lookup_type,_character,i)!= "none"){//if we have an item in slot i
-	        draw_text(_item_name_x,_item_name_y+(i*_index_offset),string_hash_to_newline(Get_Inventory_Item_Stats(lookup_type,_character,i,"Menu_Name")));//draw item name
+	        draw_text(_item_name_x,_item_name_y+(i*_index_offset),Get_Inventory_Item_Stats(lookup_type,_character,i,"Menu_Name"));//draw item name
 	        if(Has_Item_Slot_Equipped(lookup_type,_character,i)){
 	            draw_sprite(spr_Equipped_Icon,0,_equipped_icon_x,_equipped_icon_y+(i*_index_offset));
 	        }
@@ -72,10 +72,10 @@ function Draw_Member_List_Top_Window_Global_Normal() {
 	draw_set_color(equipped_font_color);
 
 	if(Get_Spell_Level(lookup_type,_character,0) = 0){//if we have no spells
-	    draw_text(_magic_name_x,_magic_name_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//draw spell name
+	    draw_text(_magic_name_x,_magic_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw spell name
 	}
 	if(Get_Item(lookup_type,_character,0)= "none"){//if we dont have an item in slot i
-	    draw_text(_item_name_x,_item_name_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//draw item name
+	    draw_text(_item_name_x,_item_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw item name
 	}
 
 	draw_set_color(c_white);

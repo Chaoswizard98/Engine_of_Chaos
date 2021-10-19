@@ -103,7 +103,8 @@ function Get_Weapon_Position_Ciera_HEAL(_object,_stat){
 	var _animation_speed = 0;//animation speed
 	var _mirror = 1;//scale of the weapon (-1 for mirror)
 	var _hidden = false;//If we hide the weapons this frame. (Arrows are no longer drawn once fired)
-
+	var _layer = "Below";//Do we draw the weapon above or below the character?
+	
 	if(_object.position = "Left"){//If the character is in the alt position
 	    _mirror = -1;//mirror the sprite
 	}
@@ -120,21 +121,18 @@ function Get_Weapon_Position_Ciera_HEAL(_object,_stat){
 	    case spr_Ciera_Attack:
 	        switch(_frame){
 	            case 0:  _x_pos = 86; _y_pos = 18; _rotation = 0; break;
-	            case 1: case 2: _x_pos = 61; _y_pos = 47; _rotation = 90; break;
-	            default: _x_pos = 93; _y_pos = 45; _rotation = 0; break;
+	            case 1: _x_pos = 61; _y_pos = 47; _rotation = 90; break;
 	        }
 	    break;
 	    case spr_Ciera_Block:
 	        switch(_frame){
-	            case 1: case 2: _x_pos = 84; _y_pos = 42; _rotation = 30; break;
-	            default: _x_pos = 93; _y_pos = 45; _rotation = 0; break;
+	            case 0: _x_pos = 84; _y_pos = 42; _rotation = 30; break;
 	        }
 	    break;
 	    case spr_Ciera_Cast:
 	        switch(_frame){
 	            case 0:  _x_pos = 84; _y_pos = 42; _rotation = 30; break;
-	            case 1: case 2:  _x_pos = 86; _y_pos = 18; _rotation = 0; break;
-	            default: _x_pos = 93; _y_pos = 45; _rotation = 0; break;
+	            case 1: _x_pos = 86; _y_pos = 18; _rotation = 0; break;
 	        }
 	    break;
 	    default: _hidden = true; break;
@@ -155,5 +153,7 @@ function Get_Weapon_Position_Ciera_HEAL(_object,_stat){
 	    case "Animation_Speed": return _animation_speed; break;
 	    case "Mirror": return _mirror; break;
 	    case "Hidden": return _hidden; break;
+		case "Layer": return _layer; break;
+		default: return Get_Weapon_Position_Default(_object,_stat); break;
 	}
 }

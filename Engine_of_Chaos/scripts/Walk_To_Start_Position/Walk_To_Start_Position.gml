@@ -1,6 +1,4 @@
-function Walk_To_Start_Position() {
-	var _character = argument[0];
-
+function Walk_To_Start_Position(_character){
 	_character.pathfinding_end_action = "Walking_To_Start_Location";
 	if(Object_Is_At_Location(_character,_character.turn_start_x,_character.turn_start_y)){//if we're already at the start location
 	    _character.allow_interaction = false;
@@ -18,7 +16,4 @@ function Walk_To_Start_Position() {
 	        Pathfind_To_Location(_character,_character.movement_type,_character.turn_start_x,_character.turn_start_y,false,_character.pathfinding_speed,"Character");//object,move_type,targetX,targetY,allow_diagonals,path speed
 	    }
 	}
-
-
-
 }

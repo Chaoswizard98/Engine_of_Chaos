@@ -20,10 +20,10 @@ function Draw_Land_Effect_Window(_character){
 	draw_set_color(font_color);//font color
 	draw_set_halign(fa_left); //Alignment
 
-	draw_text(_title_text_x,_title_text_y,string_hash_to_newline(_title_text));//draw title text
+	draw_text(_title_text_x,_title_text_y,_title_text);//draw title text
 
 	draw_set_halign(fa_right); //Alignment
-	draw_text(_land_effect_text_x,_land_effect_text_y,string_hash_to_newline(_land_effect_text));//draw LE text
+	draw_text(_land_effect_text_x,_land_effect_text_y,_land_effect_text);//draw LE text
 
 	draw_set_halign(fa_left); //reset Alignment
 	draw_set_color(c_white); //reset draw color

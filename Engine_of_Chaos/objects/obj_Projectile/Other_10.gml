@@ -6,7 +6,6 @@ switch(state){
         sprite_index = Get_Projectile_Stats(projectile,"Sprite");
         image_speed = Get_Projectile_Stats(projectile,"Animation_Speed");
         movement_speed = Get_Projectile_Stats(projectile,"Movement_Speed");
-        end_effect = Get_Projectile_Stats(projectile,"End_Effect");
         state = "End_Of_Path_1";
         
         if(projectile_direction = "Right"){
@@ -72,21 +71,10 @@ switch(state){
                 rotation = -arc_rotation;
             }
         }
-        
-        if(Get_Battle_Cutscene_Character(obj_Battle_Cutscene_Controller.target).location = "Background"){
-            end_x = obj_Battle_Cutscene_Controller.background_left_x + floor(sprite_get_width(sprite_index) * dcos(rotation));
-            end_y = obj_Battle_Cutscene_Controller.background_left_y + background_character_y_offset - floor(sprite_get_width(sprite_index) * dsin(rotation));
-        }
-        else{
-            if(projectile_direction = "Left"){
-                end_x = obj_Battle_Cutscene_Controller.foreground_left_x;
-                end_y = obj_Battle_Cutscene_Controller.foreground_left_y + foreground_character_y_offset;
-            }
-            else{
-                end_x = obj_Battle_Cutscene_Controller.foreground_right_x - floor(sprite_get_width(sprite_index) * dcos(rotation));
-                end_y = obj_Battle_Cutscene_Controller.foreground_right_y + foreground_character_y_offset + floor(sprite_get_width(sprite_index) * dsin(rotation));
-            }
-        }
+		
+        var _target = Get_Battle_Cutscene_Character(obj_Battle_Cutscene_Controller.target);
+		end_x = Get_Battle_Cutscene_Character_Draw_Location(_target,"X_Pos",0);
+		end_y = Get_Battle_Cutscene_Character_Draw_Location(_target,"Y_Pos",0)-30;
         event_perform(ev_other,ev_user1);
         
         state = "End_Of_Path_2";
@@ -95,14 +83,6 @@ switch(state){
     //Hit_Target=
     //===========
     case "End_Of_Path_2":
-        if(end_effect != "none"){
-            display = false;
-            event_perform(ev_other,ev_user3);//set up explosion stuff
-        }
-        with(obj_Battle_Cutscene_Controller){
-            event_perform(ev_other,ev_user0);
-        }
-        instance_destroy();
+		Run_Battle_Cutscene_Projectile_Event("Hit",id);
     break;
 }
-

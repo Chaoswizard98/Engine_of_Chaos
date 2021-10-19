@@ -115,7 +115,8 @@ function Get_Weapon_Position_Max_ARCR(_object,_stat){
 	var _animation_speed = 0;//animation speed
 	var _mirror = 1;//scale of the weapon (-1 for mirror)
 	var _hidden = false;//If we hide the weapons this frame. (Arrows are no longer drawn once fired)
-
+	var _layer = "Below";//Do we draw the weapon above or below the character?
+	
 	if(_object.position = "Left"){//If the character is in the alt position
 	    _mirror = -1;//mirror the sprite
 	}
@@ -127,19 +128,18 @@ function Get_Weapon_Position_Max_ARCR(_object,_stat){
 		case spr_Max_Idle:
 	        switch(_frame){
 	            case 1: _x_pos = 74; _y_pos = 51; _rotation = 45; break;
-	            default: _x_pos = 74; _y_pos = 52; _rotation = 45; break;
+				default: _x_pos = 74; _y_pos = 52; _rotation = 45; break;
 	        }
 	    break;
 	    case spr_Max_Attack:
 	        switch(_frame){
-	            case 1: case 2: _x_pos = 88; _y_pos = 47; _rotation = 0; _hidden = true; break;
-	            default: _x_pos = 88; _y_pos = 47; _rotation = 0; break;
+	            case 1: _x_pos = 58; _y_pos = 46; _rotation = 0; _hidden = true; break;
+				default: _x_pos = 88; _y_pos = 47; _rotation = 0; break;
 	        }
 	    break;
 	    case spr_Max_Block:
 	        switch(_frame){
-	            case 1: case 2: _x_pos = 78; _y_pos = 50; _rotation = 0; break;
-	            default: _x_pos = 74; _y_pos = 52; _rotation = 45; break;
+	            default: _x_pos = 78; _y_pos = 50; _rotation = 0; break;
 	        }
 	    break;
 	    default: _hidden = true; break;
@@ -160,5 +160,7 @@ function Get_Weapon_Position_Max_ARCR(_object,_stat){
 	    case "Animation_Speed": return _animation_speed; break;
 	    case "Mirror": return _mirror; break;
 	    case "Hidden": return _hidden; break;
+		case "Layer": return _layer; break;
+		default: return Get_Weapon_Position_Default(_object,_stat); break;
 	}
 }

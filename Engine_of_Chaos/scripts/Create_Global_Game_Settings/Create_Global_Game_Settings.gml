@@ -29,7 +29,7 @@ function Create_Global_Game_Settings() {
 	global.Infinite_Magic = false;//no implemented
 	global.Infinite_Item_Use = false;//not implemented
 	global.Ignore_Terrain = false;
-	global.Infinite_Movement = true;
+	global.Infinite_Movement = false;
 
 	//engine settings
 	global.View_Width = 480;//Width of the game's view
@@ -60,8 +60,4 @@ function Create_Global_Game_Settings() {
 	global.Max_Target_Range = 99;//Max search distance when generating attack range
 	global.Max_AoE_Range = 99;//Max AoE Size
 	global.Egress_Room = noone;//Room we retreat back to.
-
-
-
-
 }

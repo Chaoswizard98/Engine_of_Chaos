@@ -1,7 +1,7 @@
 function Global_Battle_Cutscene_Event() {
 	switch(event){
-	    case "Prism_Flower": Prism_Flower_Battle_Cutscene_Event(); break;
-	    case "Burst_Rock": Burst_Rock_Battle_Cutscene_Event(); break;
+	    case "SF2_Prism_Flower": Prism_Flower_Battle_Cutscene_Event(); break;
+	    case "SF2_Burst_Rock": Burst_Rock_Battle_Cutscene_Event(); break;
 	    case "Summon_Spell": Summon_Spell_Battle_Cutscene_Event(); break;
 	    //Stat Boosters
 	    case "Brave_Apple": Brave_Apple_Battle_Cutscene_Event(); break;

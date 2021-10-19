@@ -98,7 +98,7 @@ function Draw_Status_Page_0() {
 
 
 	draw_sprite(spr_Status_Page_Window,0,_page_window_x,_page_window_y);
-	draw_text(_title_field_x,_title_field_y,string_hash_to_newline(string(Get_Character_Class(lookup_type,characterID,"Abbreviation")) + " " + string(Get_Character_Name(lookup_type,characterID,"Total"))));//CLASS, NAME
+	draw_text(_title_field_x,_title_field_y,string(Get_Character_Class(lookup_type,characterID,"Abbreviation")) + " " + string(Get_Character_Name(lookup_type,characterID,"Total")));//CLASS, NAME
 
 	Create_Status_Ailment_Array(lookup_type,characterID);
 	for(i = 0; i < number_of_status_ailments; i+= 1){
@@ -112,42 +112,42 @@ function Draw_Status_Page_0() {
 
 
 	draw_set_halign(fa_left);//Draw Titles
-	draw_text(_level_title_x,_level_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","LV")));//LV
-	draw_text(_HP_title_x,_HP_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","HP")));//HP
-	draw_text(_MP_title_x,_MP_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MP")));//MP
-	draw_text(_experience_title_x,_experience_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","EX")));//EX
+	draw_text(_level_title_x,_level_title_y,Get_Menu_Display_Message("Generic","LV"));//LV
+	draw_text(_HP_title_x,_HP_title_y,Get_Menu_Display_Message("Generic","HP"));//HP
+	draw_text(_MP_title_x,_MP_title_y,Get_Menu_Display_Message("Generic","MP"));//MP
+	draw_text(_experience_title_x,_experience_title_y,Get_Menu_Display_Message("Generic","EX"));//EX
 
-	draw_text(_attack_title_x,_attack_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","ATT")));//ATT
-	draw_text(_defense_title_x,_defense_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","DEF")));//DEF
-	draw_text(_agility_title_x,_agility_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","AGI")));//AGI
-	draw_text(_move_title_x,_move_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MOV")));//MOV
+	draw_text(_attack_title_x,_attack_title_y,Get_Menu_Display_Message("Generic","ATT"));//ATT
+	draw_text(_defense_title_x,_defense_title_y,Get_Menu_Display_Message("Generic","DEF"));//DEF
+	draw_text(_agility_title_x,_agility_title_y,Get_Menu_Display_Message("Generic","AGI"));//AGI
+	draw_text(_move_title_x,_move_title_y,Get_Menu_Display_Message("Generic","MOV"));//MOV
 
 	draw_set_halign(fa_right);//Draw Values
-	draw_text(_level_x,_level_y,string_hash_to_newline(string(Get_Character_Level(lookup_type,characterID,"Derived"))));//LV
-	draw_text(_HP_x,_HP_y,string_hash_to_newline(string(Get_Character_Health(lookup_type,characterID,"Base+Equipment")) +"/"+ string(Get_Character_Max_Health(lookup_type,characterID,"Base+Equipment"))));//HP
-	draw_text(_MP_x,_MP_y,string_hash_to_newline(string(Get_Character_Magic(lookup_type,characterID,"Base+Equipment")) +"/"+ string(Get_Character_Max_Magic(lookup_type,characterID,"Base+Equipment"))));//MP
-	draw_text(_experience_x,_experience_y,string_hash_to_newline(string(Get_Character_Experience(lookup_type,characterID,"Total"))));//EX
+	draw_text(_level_x,_level_y,string(Get_Character_Level(lookup_type,characterID,"Derived")));//LV
+	draw_text(_HP_x,_HP_y,string(Get_Character_Health(lookup_type,characterID,"Base+Equipment")) +"/"+ string(Get_Character_Max_Health(lookup_type,characterID,"Base+Equipment")));//HP
+	draw_text(_MP_x,_MP_y,string(Get_Character_Magic(lookup_type,characterID,"Base+Equipment")) +"/"+ string(Get_Character_Max_Magic(lookup_type,characterID,"Base+Equipment")));//MP
+	draw_text(_experience_x,_experience_y,string(Get_Character_Experience(lookup_type,characterID,"Total")));//EX
 
-	draw_text(_attack_x,_attack_y,string_hash_to_newline(string(Get_Character_Attack(lookup_type,characterID,"Base+Equipment"))));//ATT
-	draw_text(_defense_x,_defense_y,string_hash_to_newline(string(Get_Character_Defense(lookup_type,characterID,"Base+Equipment"))));//DEF
-	draw_text(_agility_x,_agility_y,string_hash_to_newline(string(Get_Character_Agility(lookup_type,characterID,"Base+Equipment"))));//AGI
-	draw_text(_move_x,_move_y,string_hash_to_newline(string(Get_Character_Movement_Range(lookup_type,characterID,"Base+Equipment"))));//MOV
+	draw_text(_attack_x,_attack_y,string(Get_Character_Attack(lookup_type,characterID,"Base+Equipment")));//ATT
+	draw_text(_defense_x,_defense_y,string(Get_Character_Defense(lookup_type,characterID,"Base+Equipment")));//DEF
+	draw_text(_agility_x,_agility_y,string(Get_Character_Agility(lookup_type,characterID,"Base+Equipment")));//AGI
+	draw_text(_move_x,_move_y,string(Get_Character_Movement_Range(lookup_type,characterID,"Base+Equipment")));//MOV
 
 	draw_set_halign(fa_left);//Reset alignment
 
 	//Magic / items title
-	draw_text(_magic_title_x,_magic_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","MAGIC")));//magic title
-	draw_text(_item_title_x,_item_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","ITEMS")));//items title
+	draw_text(_magic_title_x,_magic_title_y,Get_Menu_Display_Message("Generic","MAGIC"));//magic title
+	draw_text(_item_title_x,_item_title_y,Get_Menu_Display_Message("Generic","ITEMS"));//items title
 
 	//Magic / Items 'nothing' test
 	if(Get_Spell_Level(lookup_type,characterID,0) = 0){//if we dont have any magic
 	    draw_set_color(equipped_font_color);
-	    draw_text(_no_magic_x,_no_magic_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//display 'nothing'
+	    draw_text(_no_magic_x,_no_magic_y,Get_Menu_Display_Message("Generic","Nothing"));//display 'nothing'
 	    draw_set_color(font_color);
 	}
 	if(Inventory_Is_Empty(lookup_type,characterID)){//If we dont have any items
 	    draw_set_color(equipped_font_color);
-	    draw_text(_no_item_x,_no_item_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//display 'nothing'
+	    draw_text(_no_item_x,_no_item_y,Get_Menu_Display_Message("Generic","Nothing"));//display 'nothing'
 	    draw_set_color(font_color);
 	}
 
@@ -155,7 +155,7 @@ function Draw_Status_Page_0() {
 	var i = 0;
 	for (i=0; i< global.Number_Of_Spell_Slots; i+= 1){
 	    if(Get_Spell_Level(lookup_type,characterID,i) != 0){//Magic
-	        draw_text(_spell_name_x,_spell_name_y+(i*_icon_spacing),string_hash_to_newline(Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Menu_Name")));
+	        draw_text(_spell_name_x,_spell_name_y+(i*_icon_spacing),Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Menu_Name"));
 	        draw_sprite(Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Spell_Icon"),Get_Spell_Slot_Stats(lookup_type,characterID,i,-1,"Frame_Number"),_spell_icon_x,_spell_icon_y+(i*_icon_spacing));
         
 	        for(j=0; j<Get_Spell_Level(lookup_type,characterID,i); j+=1){
@@ -165,11 +165,11 @@ function Draw_Status_Page_0() {
 	}
 	for (i=0; i< global.Number_Of_Inventory_Slots; i+= 1){
 	    if(Get_Item(lookup_type,characterID,i) != "none"){//Items
-	        draw_text(_item_name_x,_item_name_y+(i*_icon_spacing),string_hash_to_newline(Get_Inventory_Item_Stats(lookup_type,characterID,i,"Menu_Name")));
+	        draw_text(_item_name_x,_item_name_y+(i*_icon_spacing),Get_Inventory_Item_Stats(lookup_type,characterID,i,"Menu_Name"));
 	        draw_sprite(Get_Inventory_Item_Stats(lookup_type,characterID,i,"Item_Icon"),Get_Inventory_Item_Stats(lookup_type,characterID,i,"Frame_Number"),_item_icon_x,_item_icon_y+(i*_icon_spacing));
 	        if(Has_Item_Slot_Equipped(lookup_type,characterID,i)){
 	            draw_set_color(equipped_font_color);
-	            draw_text(_item_equipped_text_x,_item_equipped_text_y+(i*_icon_spacing),string_hash_to_newline(Get_Menu_Display_Message("Generic","Equipped")));
+	            draw_text(_item_equipped_text_x,_item_equipped_text_y+(i*_icon_spacing),Get_Menu_Display_Message("Generic","Equipped"));
 	            draw_set_color(font_color);
 	        }
 	    }

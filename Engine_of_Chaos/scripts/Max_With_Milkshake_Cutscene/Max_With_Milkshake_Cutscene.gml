@@ -41,13 +41,13 @@ function Max_With_Milkshake_Cutscene(){
 	    break;
 	    case 7:
 	        state += 1;
-	        Create_Character_Dialogue("Local",_jason,"Alright then.^ We'll head east towards Hillford.%#The rest of our party is going to meet us in the tavern there.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_jason,"Alright then.^ We'll head east towards Hillford.%\nThe rest of our party is going to meet us in the tavern there.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 8:
 	        state += 1;
 	        Look_At_Target(_ciera,_jason);
 	        Look_At_Target(_jason,_ciera);
-	        Create_Character_Dialogue("Local",_ciera,"We might want to pick up a few healing items at the shop as well.%#It sounds like wolves are taking up residence in the forest again.",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Character_Dialogue("Local",_ciera,"We might want to pick up a few healing items at the shop as well.%\nIt sounds like wolves are taking up residence in the forest again.",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 9:
 	        state += 1;

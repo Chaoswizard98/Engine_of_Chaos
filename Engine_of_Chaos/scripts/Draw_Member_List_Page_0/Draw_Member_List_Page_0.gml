@@ -51,16 +51,16 @@ function Draw_Member_List_Page_0() {
 	draw_sprite(spr_Member_List_Bottom,0,_member_list_bottom_x,_member_list_bottom_y);
 
 	//draw titles
-	draw_text(_name_title_x,_name_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","NAME")));//NAME
-	draw_text(_class_title_x,_class_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","CLASS")));//CLASS
-	draw_text(_level_title_x,_level_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","LEV")));//LEVEL
-	draw_text(_exp_title_x,_exp_title_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","EXP")));//EXP
+	draw_text(_name_title_x,_name_title_y,Get_Menu_Display_Message("Generic","NAME"));//NAME
+	draw_text(_class_title_x,_class_title_y,Get_Menu_Display_Message("Generic","CLASS"));//CLASS
+	draw_text(_level_title_x,_level_title_y,Get_Menu_Display_Message("Generic","LEV"));//LEVEL
+	draw_text(_exp_title_x,_exp_title_y,Get_Menu_Display_Message("Generic","EXP"));//EXP
 
 	//Character Loop
 	var i = start_index;
 	for (i = start_index; i < min((start_index + max_characters_displayed),number_of_characters); i+= 1){
-	    draw_text(_name_field_x,_name_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Name(lookup_type,character_list[i],"Total"))));
-	    draw_text(_class_field_x,_class_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Class(lookup_type,character_list[i],"Abbreviation"))));
+	    draw_text(_name_field_x,_name_field_y + y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Name(lookup_type,character_list[i],"Total")));
+	    draw_text(_class_field_x,_class_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Class(lookup_type,character_list[i],"Abbreviation")));
     
 	    if(lookup_type = "Global"){
 	        if(global.In_Battle_Party[character_list[i]]){
@@ -72,8 +72,8 @@ function Draw_Member_List_Page_0() {
 	    }
     
 	    draw_set_halign(fa_right);
-	    draw_text(_level_field_x,_level_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Level(lookup_type,character_list[i],"Derived"))));
-	    draw_text(_exp_field_x,_exp_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string_hash_to_newline(string(Get_Character_Experience(lookup_type,character_list[i],"Total"))));
+	    draw_text(_level_field_x,_level_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Level(lookup_type,character_list[i],"Derived")));
+	    draw_text(_exp_field_x,_exp_field_y+ y_scroll + (character_index_offset_y * (i - start_index)),string(Get_Character_Experience(lookup_type,character_list[i],"Total")));
 	    draw_set_halign(fa_left);
 	}
 

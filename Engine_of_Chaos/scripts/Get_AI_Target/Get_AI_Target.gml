@@ -30,27 +30,27 @@ function Get_AI_Target(_character,_action,_threat_formula,_effect,_effect_level,
 	    break;
 	    case "Cast_Spell":
 	        _move_range = Get_Character_Movement_Range("Local",_character,"Total");
-	        _target_type = Get_Effect_Stats(_effect,_effect_level,"Target_Type","Local",_character);
-	        _min_attack_range = Get_Effect_Stats(_effect,_effect_level,"Min_Target_Range","Local",_character);
-	        _max_attack_range = Get_Effect_Stats(_effect,_effect_level,"Max_Target_Range","Local",_character);
+	        _target_type = Get_Spell_Stats(_effect,_effect_level,"Target_Type","Local",_character);
+	        _min_attack_range = Get_Spell_Stats(_effect,_effect_level,"Min_Target_Range","Local",_character);
+	        _max_attack_range = Get_Spell_Stats(_effect,_effect_level,"Max_Target_Range","Local",_character);
 	        _attack_range_type = "Magic";
 	        _min_aoe_range = -1;
-	        _max_aoe_range = Get_Effect_Stats(_effect,_effect_level,"Area","Local",_character);
-	        _aoe_pattern = Get_Effect_Stats(_effect,_effect_level,"Cursor_Pattern","Local",_character);
-	        _select_type = Get_Effect_Stats(_effect,_effect_level,"Select_Type","Local",_character);
+	        _max_aoe_range = Get_Spell_Stats(_effect,_effect_level,"Area","Local",_character);
+	        _aoe_pattern = Get_Spell_Stats(_effect,_effect_level,"Cursor_Pattern","Local",_character);
+	        _select_type = Get_Spell_Stats(_effect,_effect_level,"Select_Type","Local",_character);
 	    break;
 	    case "Use_Item":
 	        _effect_level = Get_Item_Stats(_effect,"Use_Effect_Level","Local",_character);
 	        _effect = Get_Item_Stats(_effect,"Use_Effect","Local",_character);
 	        _move_range = Get_Character_Movement_Range("Local",_character,"Total");
-	        _target_type = Get_Effect_Stats(_effect,_effect_level,"Target_Type","Local",_character);
-	        _min_attack_range = Get_Effect_Stats(_effect,_effect_level,"Min_Target_Range","Local",_character);
-	        _max_attack_range = Get_Effect_Stats(_effect,_effect_level,"Max_Target_Range","Local",_character);
+	        _target_type = Get_Spell_Stats(_effect,_effect_level,"Target_Type","Local",_character);
+	        _min_attack_range = Get_Spell_Stats(_effect,_effect_level,"Min_Target_Range","Local",_character);
+	        _max_attack_range = Get_Spell_Stats(_effect,_effect_level,"Max_Target_Range","Local",_character);
 	        _attack_range_type = "Use_Item";
 	        _min_aoe_range = -1;
-	        _max_aoe_range = Get_Effect_Stats(_effect,_effect_level,"Area","Local",_character);
-	        _aoe_pattern = Get_Effect_Stats(_effect,_effect_level,"Cursor_Pattern","Local",_character);
-	        _select_type = Get_Effect_Stats(_effect,_effect_level,"Select_Type","Local",_character);
+	        _max_aoe_range = Get_Spell_Stats(_effect,_effect_level,"Area","Local",_character);
+	        _aoe_pattern = Get_Spell_Stats(_effect,_effect_level,"Cursor_Pattern","Local",_character);
+	        _select_type = Get_Spell_Stats(_effect,_effect_level,"Select_Type","Local",_character);
 	    break;
 	    default: return noone; break;
 	}
@@ -67,7 +67,7 @@ function Get_AI_Target(_character,_action,_threat_formula,_effect,_effect_level,
 	//=====================
 	with(obj_Character){//Loop through all characters
 	    if(Can_Target_Character(_target_type,_character,id)){//If we can target this character
-	        if(Find_Distance(_character.x,_character.y,x,y) <= (_move_range + _max_attack_range)){//if character is close enough to *maybe* be attacked (ignore anyone too far away to save on processing time)
+	        if((Find_Distance(_character.x,_character.y,x,y) <= (_move_range + _max_attack_range))||(_max_attack_range = -1)){//if character is close enough to *maybe* be attacked (ignore anyone too far away to save on processing time)
 	            _threat = 0;
 	            Generate_AoE_Range(_character,x,y,_max_aoe_range,_min_aoe_range,_aoe_pattern);//Generate AoE on target
 	            _divisor = max(Get_Number_of_AoE_Targets(_character,_select_type),1);

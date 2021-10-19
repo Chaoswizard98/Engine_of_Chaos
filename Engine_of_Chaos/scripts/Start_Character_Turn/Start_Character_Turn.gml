@@ -1,6 +1,4 @@
-function Start_Character_Turn() {
-	var _character = argument[0];
-
+function Start_Character_Turn(_character){
 	Generate_Movement_Range(_character);
 	Set_Active_Character_Depth(_character);//they appear above all other characters
 
@@ -12,10 +10,5 @@ function Start_Character_Turn() {
 	        waiting_for_AI = true;
 	        ai_timer = max_ai_timer;
 	    }
-	    //End_Character_Movement(_character,'End_Movement');//reset depth and clear movement tiles
-	    //End_Turn(_character,'End_Turn');
 	}
-
-
-
 }

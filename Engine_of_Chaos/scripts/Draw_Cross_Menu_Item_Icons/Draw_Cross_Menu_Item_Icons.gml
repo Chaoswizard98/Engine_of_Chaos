@@ -53,11 +53,11 @@ function Draw_Cross_Menu_Item_Icons() {
 	draw_sprite(spr_Item_Name_Window,0,_menu_name_x,_menu_name_y);
 
 	draw_set_color(font_color);
-	draw_text(_text_x,_text_y,string_hash_to_newline(Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Menu_Name")));//menu name
+	draw_text(_text_x,_text_y,Get_Inventory_Item_Stats("Local",current_character,inventory_slot[current_index],"Menu_Name"));//menu name
 
 	if(Has_Item_Slot_Equipped("Local",current_character,inventory_slot[current_index])){
 	    draw_set_color(c_orange);
-	    draw_text(_text2_x,_text2_y,string_hash_to_newline(_text2));
+	    draw_text(_text2_x,_text2_y,_text2);
 	}
 	draw_set_color(c_white); //reset draw color
 }

@@ -1,6 +1,3 @@
-function Show_Cursor() {
+function Show_Cursor(){
 	obj_Cursor.visible = true;
-
-
-
 }

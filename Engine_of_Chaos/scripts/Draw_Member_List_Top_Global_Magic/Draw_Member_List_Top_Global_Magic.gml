@@ -44,8 +44,8 @@ function Draw_Member_List_Top_Global_Magic() {
 	draw_sprite(spr_Member_List_Top,0,_member_list_top_x,_member_list_top_y);
 	draw_set_color(font_color);
 
-	draw_text(_main_title_x,_main_title_y,string_hash_to_newline(string(Get_Character_Name(lookup_type,_character,"Total")) +" "+ string(Get_Character_Class(lookup_type,_character,"Abbreviation")) +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived"))));//draw title text
-	draw_text(_title_x,_title_y,string_hash_to_newline("- "+Get_Menu_Display_Message("Generic","MAGIC")+" -"));//draw magic title
+	draw_text(_main_title_x,_main_title_y,string(Get_Character_Name(lookup_type,_character,"Total")) +" "+ string(Get_Character_Class(lookup_type,_character,"Abbreviation")) +" "+Get_Menu_Display_Message("Generic","LV")+ string(Get_Character_Level(lookup_type,_character,"Derived")));//draw title text
+	draw_text(_title_x,_title_y,"- "+Get_Menu_Display_Message("Generic","MAGIC")+" -");//draw magic title
 
 	Create_Status_Ailment_Array(lookup_type,character_list[start_index + index]);
 	for(i = 0; i < number_of_status_ailments; i+= 1){
@@ -61,11 +61,11 @@ function Draw_Member_List_Top_Global_Magic() {
 	for (i = 0; i<4; i+= 1){//loop through item / magic inventory
 	    //Draw Items
 	    if(Get_Spell(lookup_type,_character,i)!= "none"){//if we have an item in slot i
-	        draw_text(_item_name_x,_item_name_y +(i*_index_offset),string_hash_to_newline(Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Menu_Name")+"# "+Get_Menu_Display_Message("Generic","Level")+" " + string(_spell_level[i])));//draw item name
+	        draw_text(_item_name_x,_item_name_y +(i*_index_offset),Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Menu_Name")+"\n "+Get_Menu_Display_Message("Generic","Level")+" " + string(_spell_level[i]));//draw item name
 	        draw_sprite(Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Spell_Icon"),Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Frame_Number"),_item_icon_x[i],_item_icon_y[i]);
 	    }
 	    else{
-	        draw_sprite(Get_Effect_Stats("default",1,"Spell_Icon"),Get_Effect_Stats("default",1,"Frame_Number"),_item_icon_x[i],_item_icon_y[i]);
+	        draw_sprite(Get_Spell_Stats("default",1,"Spell_Icon"),Get_Spell_Stats("default",1,"Frame_Number"),_item_icon_x[i],_item_icon_y[i]);
 	    }
 	}
 
@@ -76,7 +76,7 @@ function Draw_Member_List_Top_Global_Magic() {
 	draw_set_color(equipped_font_color);
 
 	if(Get_Spell(lookup_type,_character,0)= "none"){//if we dont have an item in slot i
-	    draw_text(_item_name_x,_item_name_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Nothing")));//draw item name
+	    draw_text(_item_name_x,_item_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw item name
 	}
 
 	draw_set_color(c_white);

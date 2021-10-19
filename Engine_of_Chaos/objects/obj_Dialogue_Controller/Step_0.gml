@@ -109,8 +109,8 @@ if(printing){
                     characters += 1; //Display a new letter.
                     
                     if(string_char_at(message,characters) = "\\"){//In case we want to print out # or @ or ^ as a symbol instead of newline / perform action / half second delay
-                        if((string_char_at(message,characters+1) = "#") || (string_char_at(message,characters+1) = "@")|| (string_char_at(message,characters+1) = "%")||  (string_char_at(message,characters+1) = "^")){
-                            if((string_char_at(message,characters+1) = "@")|| (string_char_at(message,characters+1) = "%")||  (string_char_at(message,characters+1) = "^")){
+                        if((string_char_at(message,characters+1) = "@")|| (string_char_at(message,characters+1) = "%")||  (string_char_at(message,characters+1) = "^")){
+							if((string_char_at(message,characters+1) = "@")|| (string_char_at(message,characters+1) = "%")||  (string_char_at(message,characters+1) = "^")){
                                 message = string_delete(message,characters,1);//delete the \ symbol if not newline character
                             }
                             else{
@@ -177,7 +177,7 @@ if(printing){
                     
                     
                     else{//if no event, continue with the other stuff
-                        if(temp = "#"){//If we have more than 3 lines, Delete the first and pan the message up a line.
+                        if(temp = "\n"){//If we have more than 3 lines, Delete the first and pan the message up a line.
                             line_number += 1;
                             if(line_number = 4){
                                 line_number -= 1;
@@ -185,12 +185,12 @@ if(printing){
                                 characters_to_remove = 0;
                                 index = string_char_at(message_draw,characters_to_remove);//the last letter in the message
                                 
-                                while(index != "#"){
-                                    if(index = "\\"){//if we run into the \ symbol
+                                while(index != "\n"){
+                                    /*if(index = "\\"){//if we run into the \ symbol
                                         if(string_char_at(message_draw,characters_to_remove+1) = "#"){//if the next is an overwritten newline,
                                             characters_to_remove += 1;//dont break here.
                                         }
-                                    }
+                                    }*/
                                     characters_to_remove += 1;
                                     index = string_char_at(message_draw,characters_to_remove);//the last letter in the message
                                 }
@@ -207,7 +207,7 @@ if(printing){
                             }
                         }
                        
-                        if((temp != " ")&&(temp != "#")&&(temp != ".")){//Dont "talk" for spaces or newlines, or periods
+                        if((temp != " ")&&(temp != "\n")&&(temp != ".")){//Dont "talk" for spaces or newlines, or periods
                             if(portrait_controller != noone){
                                 portrait_controller.talking = true;
                             }
@@ -228,7 +228,7 @@ if(printing){
                 }
             } 
             //This junk basically just spreads out the bleeps at higher speeds so you dont get a memory error. 
-            if((temp = " ")||(temp = "#")||(temp = "^")||(temp = "%")){//Dont play bleeps for spaces or newlines, Play the sound directly afterwords
+            if((temp = " ")||(temp = "\n")||(temp = "^")||(temp = "%")){//Dont play bleeps for spaces or newlines, Play the sound directly afterwords
                sound_delay = 1;
             }
             else if(sound_delay != 0){

@@ -1,11 +1,5 @@
 function Create_Battle_Cutscene_Prop(_prop,_x_pos,_y_pos,_rotation,_mirror,_loop_animation,_call_event,_start_sound){
-	var _this;
-
-	switch(_prop){
-	    default:
-	        _this = instance_create_layer(0,0,"Battle_Cutscene_Instance_Layer",obj_Battle_Cutscene_Prop);
-	    break;
-	}
+	var _this = instance_create_layer(0,0,"Battle_Cutscene_Instance_Layer",obj_Battle_Cutscene_Prop);
 
 	_this.x_pos = _x_pos;
 	_this.y_pos = _y_pos;
@@ -17,7 +11,7 @@ function Create_Battle_Cutscene_Prop(_prop,_x_pos,_y_pos,_rotation,_mirror,_loop
 	with(_this){
 	    sprite_index = Get_Battle_Cutscene_Prop_Stats(prop,"Sprite");
 	    image_speed = Get_Battle_Cutscene_Prop_Stats(prop,"Animation_Speed");
-	    flash_color = Get_Battle_Cutscene_Prop_Stats(prop,"Flash_Color");
+		draw_location = Get_Battle_Cutscene_Prop_Stats(prop,"Draw_Location");
 	}
 
 	//Play start sound if we have one

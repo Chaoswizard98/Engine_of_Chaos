@@ -1,18 +1,17 @@
 if(action = "Move_To_Location"){//move from point A to point B
-    x_pos += x_speed;
-    y_pos += y_speed;
-    if(((x_pos >= end_x)&&(x_speed > 0))||((x_pos <= end_x)&&(x_speed < 0))){
+    x_pos = Approach(x_pos,end_x,x_speed);
+	y_pos = Approach(y_pos,end_y,y_speed);
+	if(x_pos = end_x){
         x_pos = end_x;
         y_pos = end_y;
-        //is_moving = false;
-        instance_destroy();//destroy this object
+		Run_Battle_Prop_Movement_End_Event(id);
     }
 }
 else{
     //if we trigger a new frame in the animation (or are starting a new one) see if we trigger an event
     if(((floor(image_index) != floor(image_index + image_speed))&&(current_frame != floor(image_index + image_speed)))||(current_frame = -1)){//if new frame
         current_frame = floor(image_index + image_speed);//set current frame to new frame
-        Global_Battle_Cutscene_Prop_Event(prop,"Animation_Event",id);
+		Run_Battle_Prop_Animation_Event(id);
     }
     
     //if we arent looping the event, destroy the object
@@ -28,3 +27,4 @@ else{
         }
     }
 }
+Run_Battle_Prop_Loop_Event(id);

@@ -1,24 +1,4 @@
-function Play_Battle_Animation() {
-	var _object = argument[0];//Object performing the animation
-	var _animation = argument[1];//Animation to perform
-	var _trigger_event = argument[2];//do we ping the cutscene controller?
-
-	var _freeze_final_frame = true;//do we freeze the final frame?
-	var _return_to_idle = true;//return to idle frame after animation?
-
-	if(_animation = "Idle"){
-	    _return_to_idle = false;//already playing idle animation, no point in force-setting it (plus it solves a frame skip issue)
-	    _freeze_final_frame = false;//dont freeze idle animation
-	}
-
-
-	if(argument_count > 3){
-	    _freeze_final_frame = argument[3];
-	}
-	if(argument_count > 4){
-	    _return_to_idle = argument[4];
-	}
-
+function Play_Battle_Animation(_object,_animation,_trigger_event,_freeze_final_frame,_return_to_idle){
 	var _sprite = _object.sprite_ID;
 
 	while(_animation != Get_Battle_Cutscene_Sprite_Stats(_sprite,_animation,"Parent_Animation")){//check if it has a parent animation
@@ -38,23 +18,20 @@ function Play_Battle_Animation() {
 	    if(_animation = "Take_Hit"){//Set up take hit animation
 	        Hit_Flash(_object,.125);
 	        _object.hit_timer = _object.max_hit_timer;
+			_object.freeze_final_frame = false;
 	    }
 	    else if(_animation = "Death"){//set up death animation
 	        _object.end_alpha = 0;
 	        _object.fade = true;
+			_object.freeze_final_frame = false;
 	    }
 	    else if(_animation = "Appear"){//set up death animation
 	        _object.end_alpha = 1;
 	        _object.fade = true;
+			_object.freeze_final_frame = false;
 	    }
 	}
 
-
-
-
 	_object.current_frame = -1;//set frame to -1 so that frame 0 can trigger an event
 	_object.image_index = 0;//start at frame 0
-
-
-
 }

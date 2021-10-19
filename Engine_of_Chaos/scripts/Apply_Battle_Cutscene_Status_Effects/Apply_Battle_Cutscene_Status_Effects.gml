@@ -1,10 +1,4 @@
-function Apply_Battle_Cutscene_Status_Effects() {
-	var _attacker = argument[0];
-	var _target = argument[1];
-	var _action = argument[2];
-	var _effect = argument[3];
-	var _effect_level = argument[4];
-
+function Apply_Battle_Cutscene_Status_Effects(_attacker,_target,_action,_effect,_effect_level){
 	var _message = "";
 	var _name = "";
 	var _potency = "";
@@ -45,7 +39,7 @@ function Apply_Battle_Cutscene_Status_Effects() {
 	    }
 	    if((_action = "Cast_Spell")||(_action = "Use_Item")||(_action = "Word_of_Power")){
 	        if(!Character_Is_Under_Effect("Local",_target,"Magic_Immunity")){//if character isnt immune to magic
-	            if(Apply_Status_Effect("Local",_target,_name,Get_Effect_Stats(_effect,_effect_level,_potency,"Local",_attacker),Get_Effect_Stats(_effect,_effect_level,_turns_remaining,"Local",_attacker))){
+	            if(Apply_Status_Effect("Local",_target,_name,Get_Spell_Stats(_effect,_effect_level,_potency,"Local",_attacker),Get_Spell_Stats(_effect,_effect_level,_turns_remaining,"Local",_attacker))){
 	                _message += Global_Status_Effect_Message("Local",_target,_name,"Apply_Effect");
 	                _message = string_delete(_message,string_length(_message),1);
 	            }
@@ -81,7 +75,7 @@ function Apply_Battle_Cutscene_Status_Effects() {
 	        }
 	        //Cure effect
 	        if(Character_Is_Under_Effect("Local",_target,_name)){
-	            if(Get_Effect_Stats(_effect,_effect_level,_cure,"Local",_attacker)){
+	            if(Get_Spell_Stats(_effect,_effect_level,_cure,"Local",_attacker)){
 	                Cure_Status_Effect("Local",_target,_name);
 	                _message += Global_Status_Effect_Message("Local",_target,_name,"Cure_Effect");
 	                _message = string_delete(_message,string_length(_message),1);//delete last "pause break" symbol
@@ -91,7 +85,4 @@ function Apply_Battle_Cutscene_Status_Effects() {
 	}
 
 	return _message;
-
-
-
 }

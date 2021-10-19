@@ -76,7 +76,7 @@ function Draw_Shop_Window() {
 	for(i=0; i<min(items_per_page,number_of_items - (page_number*items_per_page)); i+=1){
 	    draw_sprite(Get_Item_Stats(item_array[(page_number*items_per_page)+i],"Item_Icon"),Get_Item_Stats(item_array[(page_number*items_per_page)+i],"Frame_Number"),item_icon_x+(i*index_offset),item_icon_y);
 	    draw_sprite(spr_Price_Tag,0,price_tag_x+(i*index_offset),price_tag_y);
-	    draw_text_transformed(price_tag_text_x+(i*index_offset),price_tag_text_y,string_hash_to_newline(string(floor(Get_Item_Stats(item_array[(page_number*items_per_page)+i],"Value")*sell_value_modifier))),1,1,270);
+	    draw_text_transformed(price_tag_text_x+(i*index_offset),price_tag_text_y,string(floor(Get_Item_Stats(item_array[(page_number*items_per_page)+i],"Value")*sell_value_modifier)),1,1,270);
 	}
 	surface_reset_target();
 	if(scrolling_page_direction = "down"){
@@ -92,17 +92,17 @@ function Draw_Shop_Window() {
 
 	draw_set_font(fnt_MenuFont);
 	draw_set_halign(fa_left);
-	draw_text(item_name_x+(item_index*index_offset),item_name_y,string_hash_to_newline(Get_Item_Stats(item_array[(page_number*items_per_page)+item_index],"Menu_Name")));
+	draw_text(item_name_x+(item_index*index_offset),item_name_y,Get_Item_Stats(item_array[(page_number*items_per_page)+item_index],"Menu_Name"));
 	draw_set_halign(fa_right);
-	draw_text(item_price_x+(item_index*index_offset),item_price_y,string_hash_to_newline(string(floor(Get_Item_Stats(item_array[(page_number*items_per_page)+item_index],"Value")*sell_value_modifier))));
+	draw_text(item_price_x+(item_index*index_offset),item_price_y,string(floor(Get_Item_Stats(item_array[(page_number*items_per_page)+item_index],"Value")*sell_value_modifier)));
 
 
 	draw_sprite(spr_Shop_Gold_Window,0,_gold_window_x,_gold_window_y);
 	draw_set_font(fnt_MenuFont);
 	draw_set_halign(fa_left);
-	draw_text(gold_text_x,gold_text_y,string_hash_to_newline(Get_Menu_Display_Message("Generic","Gold")));
+	draw_text(gold_text_x,gold_text_y,Get_Menu_Display_Message("Generic","Gold"));
 	draw_set_halign(fa_right);
-	draw_text(gold_ammount_x,gold_ammount_y,string_hash_to_newline(string(global.Gold)));
+	draw_text(gold_ammount_x,gold_ammount_y,string(global.Gold));
 	draw_set_halign(fa_left);
 	draw_set_color(c_white); //reset draw color
 

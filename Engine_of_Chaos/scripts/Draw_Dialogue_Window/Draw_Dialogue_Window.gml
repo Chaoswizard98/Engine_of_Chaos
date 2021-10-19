@@ -21,7 +21,7 @@ function Draw_Dialogue_Window() {
 	draw_set_color(font_color); //Color
 	draw_set_halign(fa_left); //Alignment
 
-	draw_text(_text_x, _text_y,string_hash_to_newline(message_draw)); //draw the message
+	draw_text(_text_x, _text_y,message_draw); //draw the message
 
 	if(!printing && (display_arrow||wait_for_input) && characters != 0){//If not printing the message, display continue arrow (character check to prevent intial arrow flash before it starts printing)
 	    draw_sprite(spr_Menu_Arrow_Down,arrow_state,_arrow_x, _arrow_y);// "ArrowState" is the frame to be drawn. 0-1

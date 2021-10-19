@@ -16,7 +16,7 @@ switch(state){
             Create_Dialogue(noone,sfx_Dialogue01,"I can tell just how pumped you are, so here's the menu to get started!@",id,false,false); 
         }
         else{
-            Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%#I can tell just how pumped you are, so here's the menu to get started!@",id,false,false);//skip to final dialogue state
+            Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%\nI can tell just how pumped you are, so here's the menu to get started!@",id,false,false);//skip to final dialogue state
         }
     break;
     //===================

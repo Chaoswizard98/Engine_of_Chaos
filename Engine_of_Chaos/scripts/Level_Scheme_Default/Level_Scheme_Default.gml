@@ -24,7 +24,7 @@ function Level_Scheme_Default(_lookup_type,_character,_stat,_sub_stat){
 	    case "Movement_Range": _base = 5; break;
 	    case "Movement_Type": _base = "Foot"; break;
 	    case "Reset_Spells": _base = false; break;
-	    case "Spell_1": _base = "Escape"; break;
+	    case "Spell_1": _base = "AU_Escape"; break;
 	    case "Spell_2": _base = "Heal"; break;
 	    case "Spell_3": _base = "none"; break;
 	    case "Spell_4": _base = "none"; break;
