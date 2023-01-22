@@ -24,6 +24,13 @@ function Get_Terrain_Stats_City(_movement_type,_stat){
 	    case "Amphibious": _movement_cost = 1; _land_effect = .5; break;
 	}
 	
+	//=========
+	//Overrides
+	//=========
+	switch(global.Battle_Cutscene_Terrain){
+		case "AU_Cave":  _background_sprite = spr_Battle_Background_AU_Cave; _foreground_sprite = spr_Battle_Foreground_AU_Cave; break;	
+	}
+	
 	//============
 	//Return Stats
 	//============

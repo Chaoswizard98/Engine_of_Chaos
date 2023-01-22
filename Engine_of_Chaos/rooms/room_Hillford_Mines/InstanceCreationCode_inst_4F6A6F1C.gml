@@ -1,0 +1,1 @@
+Setup_Room_Transfer_Tile(id,room_Battle_02,"Hillford_Caves","Left");

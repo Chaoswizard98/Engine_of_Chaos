@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_AU_Blaze_Fireball_Small",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,57 +28,27 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"beea7222-73cf-4b0a-954f-59205b14529b","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"beea7222-73cf-4b0a-954f-59205b14529b","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"beea7222-73cf-4b0a-954f-59205b14529b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b750f56-cc5d-4cdc-86c7-1587272e7df3","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b750f56-cc5d-4cdc-86c7-1587272e7df3","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"7b750f56-cc5d-4cdc-86c7-1587272e7df3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5509a432-5921-47d7-95c1-ccb5a3416132","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5509a432-5921-47d7-95c1-ccb5a3416132","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"5509a432-5921-47d7-95c1-ccb5a3416132","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ef408c8-b379-474f-86b5-b612405952d3","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ef408c8-b379-474f-86b5-b612405952d3","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"4ef408c8-b379-474f-86b5-b612405952d3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1262a1b-f47a-46e6-9a73-2e0b63ab7ddf","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1262a1b-f47a-46e6-9a73-2e0b63ab7ddf","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"c1262a1b-f47a-46e6-9a73-2e0b63ab7ddf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"46fdae20-c24f-4b24-bf76-600ea0223727","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"46fdae20-c24f-4b24-bf76-600ea0223727","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"46fdae20-c24f-4b24-bf76-600ea0223727","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"487fb2a0-259e-4e8f-bebd-0e1db88420df","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"487fb2a0-259e-4e8f-bebd-0e1db88420df","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"487fb2a0-259e-4e8f-bebd-0e1db88420df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9e81030c-d8ba-4133-a4d6-cd8bc3f611cf","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9e81030c-d8ba-4133-a4d6-cd8bc3f611cf","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"9e81030c-d8ba-4133-a4d6-cd8bc3f611cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"474ac6fd-8194-44dc-8640-a1a26f216737","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"474ac6fd-8194-44dc-8640-a1a26f216737","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"474ac6fd-8194-44dc-8640-a1a26f216737","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"60df2d34-c83d-4d66-bc1e-af07b4262308","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60df2d34-c83d-4d66-bc1e-af07b4262308","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"60df2d34-c83d-4d66-bc1e-af07b4262308","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb76b354-7cd3-493a-a5d4-ad5c5f630f9c","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb76b354-7cd3-493a-a5d4-ad5c5f630f9c","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"cb76b354-7cd3-493a-a5d4-ad5c5f630f9c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"220103f9-f49b-4daf-b12d-8b412868e9fa","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"220103f9-f49b-4daf-b12d-8b412868e9fa","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"220103f9-f49b-4daf-b12d-8b412868e9fa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b3fa9b1d-bce3-481e-89d9-88fcd7b9f5ef","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b3fa9b1d-bce3-481e-89d9-88fcd7b9f5ef","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"b3fa9b1d-bce3-481e-89d9-88fcd7b9f5ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fc374b1a-07a3-41f2-bf7d-4764a5c2bde0","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc374b1a-07a3-41f2-bf7d-4764a5c2bde0","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"fc374b1a-07a3-41f2-bf7d-4764a5c2bde0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"59d2ca5e-04cb-4f62-9972-974fe45a325f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59d2ca5e-04cb-4f62-9972-974fe45a325f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"59d2ca5e-04cb-4f62-9972-974fe45a325f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bccac42c-0701-4d81-b32b-1ad369344e7f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bccac42c-0701-4d81-b32b-1ad369344e7f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"LayerId":{"name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","name":"bccac42c-0701-4d81-b32b-1ad369344e7f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"beea7222-73cf-4b0a-954f-59205b14529b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b750f56-cc5d-4cdc-86c7-1587272e7df3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5509a432-5921-47d7-95c1-ccb5a3416132",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ef408c8-b379-474f-86b5-b612405952d3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1262a1b-f47a-46e6-9a73-2e0b63ab7ddf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"46fdae20-c24f-4b24-bf76-600ea0223727",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"487fb2a0-259e-4e8f-bebd-0e1db88420df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e81030c-d8ba-4133-a4d6-cd8bc3f611cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"474ac6fd-8194-44dc-8640-a1a26f216737",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60df2d34-c83d-4d66-bc1e-af07b4262308",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb76b354-7cd3-493a-a5d4-ad5c5f630f9c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"220103f9-f49b-4daf-b12d-8b412868e9fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3fa9b1d-bce3-481e-89d9-88fcd7b9f5ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc374b1a-07a3-41f2-bf7d-4764a5c2bde0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59d2ca5e-04cb-4f62-9972-974fe45a325f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bccac42c-0701-4d81-b32b-1ad369344e7f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_AU_Blaze_Fireball_Small",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -85,7 +59,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"75d75ffe-67eb-48ab-9ced-ffcf7d0b83ec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"beea7222-73cf-4b0a-954f-59205b14529b","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"89cbb50c-1abc-4bb1-89e6-a047bf3a6a4d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b750f56-cc5d-4cdc-86c7-1587272e7df3","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"61c49f95-1fef-404c-b02e-c4b1b4292691","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5509a432-5921-47d7-95c1-ccb5a3416132","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -102,7 +76,7 @@
             {"id":"09122d7e-21ea-429e-a8b6-2a522b831cc0","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc374b1a-07a3-41f2-bf7d-4764a5c2bde0","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1b84b789-750c-4ee8-a84b-70681e15031d","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59d2ca5e-04cb-4f62-9972-974fe45a325f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"abbd44c9-af26-4932-9502-6123071c4339","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bccac42c-0701-4d81-b32b-1ad369344e7f","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -118,22 +92,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_AU_Blaze_Fireball_Small","path":"sprites/spr_AU_Blaze_Fireball_Small/spr_AU_Blaze_Fireball_Small.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_AU_Blaze_Fireball_Small",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"623007aa-5fd9-475e-baff-b0397aa5a0b1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Spell_Animations",
-    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations.yy",
+    "name": "AU_Spells",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/AU_Spells.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_AU_Blaze_Fireball_Small",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

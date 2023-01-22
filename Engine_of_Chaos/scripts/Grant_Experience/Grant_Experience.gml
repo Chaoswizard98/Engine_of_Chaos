@@ -1,4 +1,4 @@
-function Grant_Experience() {
+function Grant_Experience(_character,_target,_formula,_damage) {
 	//XP = (Z*D)/M;
 	//Z = value based on level difference between attacker / target
 	//D = Damage dealt / healed
@@ -6,10 +6,10 @@ function Grant_Experience() {
 	//Slight RNG reduction of the total, 0-2
 	//Minimum 1 xp granted.
 
-	var _character = argument[0];
-	var _target = argument[1];
-	var _formula = argument[2];
-	var _damage = argument[3];
+	//var _character = argument[0];
+	//var _target = argument[1];
+	//var _formula = argument[2];
+	//var _damage = argument[3];
 
 	var _object = Get_Battle_Cutscene_Character(_character);//store xp gained in battle cutscene object
 	var _z_value = Calculate_Z_Value(_character,_target);
@@ -31,7 +31,7 @@ function Grant_Experience() {
 	}
 
 	if(_formula = "Brave_Apple"){
-	    _object.highest_z_value = 100 * global.Level_Cap;
+	    _object.highest_z_value = 100 * Get_Character_Level_Scheme_Stats("Local",_character,"Max_Level","Base",1);
 	    _object.experience_gained += _damage;
 	}
 	else{

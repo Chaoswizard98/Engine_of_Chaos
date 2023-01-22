@@ -19,9 +19,11 @@ function Draw_Minimap() {
 	    if(show_character_markers){
 	        with(obj_Character){
 	            _object = id;
-	            with(obj_Minimap_Controller){
-	                draw_sprite(Get_Faction_Stats(Get_Character_Faction("Local",_object,"Total"),"Minimap_Sprite"),marker_flash_state,_border_size + _window_x+(round(_object.x/global.Tile_Size)*minimap_tile_size),_border_size + _window_y+(round(_object.y/global.Tile_Size)*minimap_tile_size));
-	            }
+				if(!_object.hidden){
+		            with(obj_Minimap_Controller){
+		                draw_sprite(Get_Faction_Stats(Get_Character_Faction("Local",_object,"Total"),"Minimap_Sprite"),marker_flash_state,_border_size + _window_x+(round(_object.x/global.Tile_Size)*minimap_tile_size),_border_size + _window_y+(round(_object.y/global.Tile_Size)*minimap_tile_size));
+		            }
+				}
 	        }
 	    }
 	    //Draw Chest Markers

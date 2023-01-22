@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Battle_Foreground_Water",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 96,
   "height": 32,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6aac8682-5c74-4c50-8bcb-af26fe4b04da","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6aac8682-5c74-4c50-8bcb-af26fe4b04da","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},"LayerId":{"name":"8968c838-d0af-4eb4-8f2b-fff0d42414a5","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Battle_Foreground_Water","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},"resourceVersion":"1.0","name":"6aac8682-5c74-4c50-8bcb-af26fe4b04da","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6aac8682-5c74-4c50-8bcb-af26fe4b04da",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Battle_Foreground_Water","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,11 +44,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7f061eb3-d23e-4ece-b779-1eb12a3c46c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6aac8682-5c74-4c50-8bcb-af26fe4b04da","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -58,22 +62,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Battle_Foreground_Water","path":"sprites/spr_Battle_Foreground_Water/spr_Battle_Foreground_Water.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8968c838-d0af-4eb4-8f2b-fff0d42414a5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8968c838-d0af-4eb4-8f2b-fff0d42414a5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Battle_Foregrounds",
     "path": "folders/Sprites/Battle_Cutscenes/Battle_Foregrounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Battle_Foreground_Water",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

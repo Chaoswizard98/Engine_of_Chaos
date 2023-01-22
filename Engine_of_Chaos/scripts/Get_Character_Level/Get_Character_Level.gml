@@ -9,8 +9,8 @@ function Get_Character_Level(_lookup_type,_character,_formula){
 	}
 
 	switch(_formula){
-	    case "Total": return _base; break;//total level
-	    case "Derived": return (_base - (global.Promotion_Level * Get_Character_Class_Tier(_lookup_type,_character,"Total"))); break;//derived level (promotion resets display to 1)
+	    case "Total": return (_base + Get_Character_Level_Scheme_Stats(_lookup_type,_character,"Level_Offset","Base",1)); break;//total level
+	    case "Derived": return _base; break;//derived level (promotion resets display to 1)
 	    default: return _base; break;
 	}
 }

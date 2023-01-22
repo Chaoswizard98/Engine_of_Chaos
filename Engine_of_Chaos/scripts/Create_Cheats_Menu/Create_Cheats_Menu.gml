@@ -7,7 +7,7 @@ function Create_Cheats_Menu(_object) {
 	    play_pan_sound = true;
 	    display_type = "Cheats";
     
-	    number_of_menu_options = 6;//Number of options in array below
+	    number_of_menu_options = 7;//Number of options in array below
 	    max_options_on_screen = 8; //Maximum number of options that will fit in the window
     
 	    menu_options[0] = Get_Menu_Display_Message("Cheats_Menu","Control_All_Units");
@@ -16,13 +16,15 @@ function Create_Cheats_Menu(_object) {
 	    menu_options[3] = Get_Menu_Display_Message("Cheats_Menu","Invincibility");
 	    menu_options[4] = Get_Menu_Display_Message("Cheats_Menu","Infinite_Magic");
 	    menu_options[5] = Get_Menu_Display_Message("Cheats_Menu","Infinite_Item_Use");
+		menu_options[6] = Get_Menu_Display_Message("Cheats_Menu","Unlimited_Movement");
     
 	    menu_locked[0] = false;//Certain slots can be 'locked'
 	    menu_locked[1] = false;
 	    menu_locked[2] = false;
-	    menu_locked[3] = true;
-	    menu_locked[4] = true;
-	    menu_locked[5] = true;
+	    menu_locked[3] = false;
+	    menu_locked[4] = false;
+	    menu_locked[5] = false;
+		menu_locked[6] = false;
 
 	    //============================
 	    //Post Modifyable Calculations

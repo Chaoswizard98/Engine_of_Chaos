@@ -21,7 +21,7 @@ function Create_Save_Slots_Controller(_current_object,_event_type){
 	        }
 	        else{
 	            menu_options[i] = Get_Menu_Display_Message("Generic","EMPTY");
-	            if((_event_type = "Load_Game")||(_event_type = "Delete_Game")){
+	            if((_event_type = "Load_Game")||(_event_type = "Delete_Game")||(_event_type = "Challenges")){
 	                menu_locked[i] = true;
 	            }
 	        }

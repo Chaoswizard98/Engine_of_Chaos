@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Weapon_Sign",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,14 +11,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 14,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 14,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "DynamicTexturePage": false,
+  "width": 15,
+  "height": 15,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ed99b104-92b5-40f2-83ff-111f6aa2bc5f","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed99b104-92b5-40f2-83ff-111f6aa2bc5f","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},"LayerId":{"name":"ca348d40-6730-4b69-aac3-8b8717af140c","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Weapon_Sign","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},"resourceVersion":"1.0","name":"ed99b104-92b5-40f2-83ff-111f6aa2bc5f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed99b104-92b5-40f2-83ff-111f6aa2bc5f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Weapon_Sign","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Weapon_Sign",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2bac83e9-2e4d-4314-a73a-51c71530d94d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed99b104-92b5-40f2-83ff-111f6aa2bc5f","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Weapon_Sign","path":"sprites/spr_Weapon_Sign/spr_Weapon_Sign.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_Weapon_Sign",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ca348d40-6730-4b69-aac3-8b8717af140c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ca348d40-6730-4b69-aac3-8b8717af140c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Decor",
     "path": "folders/Sprites/Decor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Weapon_Sign",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

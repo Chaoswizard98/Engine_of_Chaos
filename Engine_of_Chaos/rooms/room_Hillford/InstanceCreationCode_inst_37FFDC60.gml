@@ -1,0 +1,1 @@
+Set_Character_Stats(id,"Hillford_Weapon_Vendor");

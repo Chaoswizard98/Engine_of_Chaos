@@ -26,8 +26,8 @@ if((!moving)&&(allow_interaction)&&(!pathfinding)){//if we arent moving and we c
 	    }
 		
 		else if(Pressed_Key("Select_Button",false)){
-			var _character = instance_position(x,y,obj_Character);    
-            if(_character != noone){
+			var _character = instance_position(x,y,obj_Character);
+            if(_character != noone && !_character.hidden){
                 allow_interaction = false;
                 Create_Status_Page("Local",_character,id);
             }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Dog_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d99d5fa2-a631-4652-8167-f7b7143b0e1f","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d99d5fa2-a631-4652-8167-f7b7143b0e1f","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"d99d5fa2-a631-4652-8167-f7b7143b0e1f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6e7264c6-1e20-4ca4-a1c5-5b3bb5294e26","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6e7264c6-1e20-4ca4-a1c5-5b3bb5294e26","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"6e7264c6-1e20-4ca4-a1c5-5b3bb5294e26","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0b7aac4-0132-4d4c-95f6-e22b950bfa5c","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0b7aac4-0132-4d4c-95f6-e22b950bfa5c","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"d0b7aac4-0132-4d4c-95f6-e22b950bfa5c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a5bb04bd-8b25-4f02-9fb6-a3d01ec0a1bc","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5bb04bd-8b25-4f02-9fb6-a3d01ec0a1bc","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"a5bb04bd-8b25-4f02-9fb6-a3d01ec0a1bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d3a490d8-1487-4e4e-8cb5-95db0133ba17","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3a490d8-1487-4e4e-8cb5-95db0133ba17","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"d3a490d8-1487-4e4e-8cb5-95db0133ba17","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"56c9a908-72c3-49e7-863f-6bbd10eb75ae","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"56c9a908-72c3-49e7-863f-6bbd10eb75ae","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"LayerId":{"name":"8a074655-822b-4199-a129-98b3415d6a36","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","name":"56c9a908-72c3-49e7-863f-6bbd10eb75ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d99d5fa2-a631-4652-8167-f7b7143b0e1f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6e7264c6-1e20-4ca4-a1c5-5b3bb5294e26",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0b7aac4-0132-4d4c-95f6-e22b950bfa5c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5bb04bd-8b25-4f02-9fb6-a3d01ec0a1bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3a490d8-1487-4e4e-8cb5-95db0133ba17",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56c9a908-72c3-49e7-863f-6bbd10eb75ae",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3f81ed47-af1d-45f8-85ec-c2893f55cefa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d99d5fa2-a631-4652-8167-f7b7143b0e1f","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dd6d9e23-4619-41ff-a2d7-1e667f6b8c06","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6e7264c6-1e20-4ca4-a1c5-5b3bb5294e26","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7882217a-7ade-4981-8e1f-c575ff7d918e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0b7aac4-0132-4d4c-95f6-e22b950bfa5c","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fcdf34ff-6d00-48dd-9257-64709c49b51c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5bb04bd-8b25-4f02-9fb6-a3d01ec0a1bc","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"86b5dd34-34f9-438e-a107-985d9a9c2a12","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3a490d8-1487-4e4e-8cb5-95db0133ba17","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8591d780-2eb2-4668-ac31-d7f042ec80ce","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56c9a908-72c3-49e7-863f-6bbd10eb75ae","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Dog_Overworld","path":"sprites/spr_Dog_Overworld/spr_Dog_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a074655-822b-4199-a129-98b3415d6a36","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a074655-822b-4199-a129-98b3415d6a36","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Dog_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

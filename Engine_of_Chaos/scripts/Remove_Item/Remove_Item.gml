@@ -1,7 +1,4 @@
-function Remove_Item() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _item_slot = argument[2];
+function Remove_Item(_lookup_type,_character,_item_slot) {
 	var i = 0;
 
 	//remove item

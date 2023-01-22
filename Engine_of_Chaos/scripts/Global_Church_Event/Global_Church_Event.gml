@@ -8,7 +8,4 @@ function Global_Church_Event() {
 	    case "Promote": Church_Promote_Event(); break;
 	    case "Save": Church_Save_Event(); break;
 	}
-
-
-
 }

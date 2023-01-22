@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Bandit_Archer_Idle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8c8d6890-531a-4840-b44a-5b02512bd4ca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8c8d6890-531a-4840-b44a-5b02512bd4ca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"LayerId":{"name":"0a2624a2-2b36-4860-976f-9987507ff7f3","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Idle","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","name":"8c8d6890-531a-4840-b44a-5b02512bd4ca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f82e7930-8e49-4afb-b929-29efc5794bca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f82e7930-8e49-4afb-b929-29efc5794bca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"LayerId":{"name":"0a2624a2-2b36-4860-976f-9987507ff7f3","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Idle","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","name":"f82e7930-8e49-4afb-b929-29efc5794bca","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c8d6890-531a-4840-b44a-5b02512bd4ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f82e7930-8e49-4afb-b929-29efc5794bca",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Bandit_Archer_Idle","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c921e923-c45c-4abd-ae27-6b2c4847f1a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c8d6890-531a-4840-b44a-5b02512bd4ca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2e2ddc3d-ef2f-4d4f-9572-3338eb978993","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f82e7930-8e49-4afb-b929-29efc5794bca","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 86,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Bandit_Archer_Idle","path":"sprites/spr_Bandit_Archer_Idle/spr_Bandit_Archer_Idle.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0a2624a2-2b36-4860-976f-9987507ff7f3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0a2624a2-2b36-4860-976f-9987507ff7f3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Bandit_Archer",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Bandit_Archer.yy",
+    "name": "AU_Bandit_Archer",
+    "path": "folders/Sprites/Characters/AU/Enemies/AU_Bandit_Archer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Bandit_Archer_Idle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Chester_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"addce046-cd2c-4030-93e8-302f197e4452","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"addce046-cd2c-4030-93e8-302f197e4452","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"addce046-cd2c-4030-93e8-302f197e4452","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d38559c5-6a94-4aee-97b9-ade5427204dc","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d38559c5-6a94-4aee-97b9-ade5427204dc","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"d38559c5-6a94-4aee-97b9-ade5427204dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e7cde40f-ab57-43f4-a8ec-040722631eac","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7cde40f-ab57-43f4-a8ec-040722631eac","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"e7cde40f-ab57-43f4-a8ec-040722631eac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3060c6db-2ba1-41f7-b831-87b1bd82d53b","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3060c6db-2ba1-41f7-b831-87b1bd82d53b","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"3060c6db-2ba1-41f7-b831-87b1bd82d53b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a25f1448-d7ea-4400-80c2-ed4144e48233","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a25f1448-d7ea-4400-80c2-ed4144e48233","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"a25f1448-d7ea-4400-80c2-ed4144e48233","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"da80a886-d981-4743-883b-ff1ead977ae2","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da80a886-d981-4743-883b-ff1ead977ae2","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"LayerId":{"name":"ab7dd617-8446-4187-b861-4a80d3246bef","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","name":"da80a886-d981-4743-883b-ff1ead977ae2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"addce046-cd2c-4030-93e8-302f197e4452",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d38559c5-6a94-4aee-97b9-ade5427204dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7cde40f-ab57-43f4-a8ec-040722631eac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3060c6db-2ba1-41f7-b831-87b1bd82d53b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a25f1448-d7ea-4400-80c2-ed4144e48233",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da80a886-d981-4743-883b-ff1ead977ae2",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"be854f60-fc95-42fd-8f16-2cb45d808e19","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"addce046-cd2c-4030-93e8-302f197e4452","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dbb09c87-19c3-43b2-a20a-3135562bfa7c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d38559c5-6a94-4aee-97b9-ade5427204dc","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"14ea3039-c127-4343-9176-bd16675ef8e8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7cde40f-ab57-43f4-a8ec-040722631eac","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8cde7322-aba7-40cf-9925-45dc6eae363e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3060c6db-2ba1-41f7-b831-87b1bd82d53b","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"eb2ef65f-5c94-4136-a0ac-a28c541d7439","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a25f1448-d7ea-4400-80c2-ed4144e48233","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3fc2f641-4e82-4631-8d65-5b5d23143735","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da80a886-d981-4743-883b-ff1ead977ae2","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Chester_Overworld","path":"sprites/spr_Chester_Overworld/spr_Chester_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ab7dd617-8446-4187-b861-4a80d3246bef","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ab7dd617-8446-4187-b861-4a80d3246bef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Allies",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Allies.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Chester_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

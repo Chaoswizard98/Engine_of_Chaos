@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Portrait_Functions",
-    "path": "folders/Scripts/DONE/Dialogue/Portrait_Functions.yy",
+    "path": "folders/Scripts/Game_Logic/UI/Dialogue/Portrait_Functions.yy",
   },
   "resourceVersion": "1.0",
   "name": "Update_Portrait_Controller",

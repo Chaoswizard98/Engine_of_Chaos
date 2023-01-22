@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Ciera_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8c26f34b-3f35-4132-8cfb-0c616da8c1cc","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8c26f34b-3f35-4132-8cfb-0c616da8c1cc","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"LayerId":{"name":"2d57110e-049b-4af9-9dc9-583edc93d9ba","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ciera_Attack","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","name":"8c26f34b-3f35-4132-8cfb-0c616da8c1cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"01b1f53b-76e7-4dd6-9290-c339cb1b3419","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01b1f53b-76e7-4dd6-9290-c339cb1b3419","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"LayerId":{"name":"2d57110e-049b-4af9-9dc9-583edc93d9ba","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ciera_Attack","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","name":"01b1f53b-76e7-4dd6-9290-c339cb1b3419","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c26f34b-3f35-4132-8cfb-0c616da8c1cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01b1f53b-76e7-4dd6-9290-c339cb1b3419",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Ciera_Attack","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e21a1d5d-92b2-4106-a910-6d476a64bc2e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c26f34b-3f35-4132-8cfb-0c616da8c1cc","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4c080610-eb18-4f13-8f5e-f701c955cb3d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01b1f53b-76e7-4dd6-9290-c339cb1b3419","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 93,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Ciera_Attack","path":"sprites/spr_Ciera_Attack/spr_Ciera_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d57110e-049b-4af9-9dc9-583edc93d9ba","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d57110e-049b-4af9-9dc9-583edc93d9ba","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ciera",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Ciera.yy",
+    "name": "AU_Ciera",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Ciera.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Ciera_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

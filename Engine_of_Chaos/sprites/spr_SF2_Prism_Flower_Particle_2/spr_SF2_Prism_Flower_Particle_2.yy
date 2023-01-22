@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Prism_Flower_Particle_2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 5,
   "height": 5,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"19a10446-89dc-43a0-87ae-4d1a35f7bfcd","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19a10446-89dc-43a0-87ae-4d1a35f7bfcd","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},"LayerId":{"name":"390fa29b-67eb-4d32-a80f-7d92eadb883d","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Prism_Flower_Particle_2","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},"resourceVersion":"1.0","name":"19a10446-89dc-43a0-87ae-4d1a35f7bfcd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"19a10446-89dc-43a0-87ae-4d1a35f7bfcd",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Prism_Flower_Particle_2","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Prism_Flower_Particle_2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a6e23ac5-f16e-490a-b6a4-de1100f2ac58","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19a10446-89dc-43a0-87ae-4d1a35f7bfcd","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Prism_Flower_Particle_2","path":"sprites/spr_SF2_Prism_Flower_Particle_2/spr_SF2_Prism_Flower_Particle_2.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Prism_Flower_Particle_2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"390fa29b-67eb-4d32-a80f-7d92eadb883d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"390fa29b-67eb-4d32-a80f-7d92eadb883d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Prism_Flowers",
-    "path": "folders/Sprites/Prism_Flowers.yy",
+    "name": "SF2_Prism_Flowers",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/SF2_Spells/SF2_Prism_Flowers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Prism_Flower_Particle_2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

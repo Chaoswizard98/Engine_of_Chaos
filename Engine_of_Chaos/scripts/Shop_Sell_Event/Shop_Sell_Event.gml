@@ -37,7 +37,4 @@ function Shop_Sell_Event() {
 	        }
 	    break;
 	}
-
-
-
 }

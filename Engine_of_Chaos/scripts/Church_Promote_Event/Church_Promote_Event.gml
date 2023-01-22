@@ -51,7 +51,7 @@ function Church_Promote_Event() {
 	    case "Promote?":
 	        if(decision = "Yes"){
 	            state = "Create_Decision";
-	            Start_New_Dialogue(Get_General_Messages(dialogue_ID,"Can_Promote_To_X",Get_Character_Name(lookup_type,character_index,"Total"),Get_Level_Scheme_Stats(lookup_type,character_index,promotion_array[number_of_promotions-1],"Class_Name","Base")),false,false);
+	            Start_New_Dialogue(Get_General_Messages(dialogue_ID,"Can_Promote_To_X",Get_Character_Name(lookup_type,character_index,"Total"),Get_Level_Scheme_Stats(lookup_type,character_index,promotion_array[number_of_promotions-1],"Class_Name","Base",Get_Character_Level(lookup_type,character_index,"Total"))),false,false);
 	            //X can be promoted to Y with the Z. OK?
 	            //X can be promoted to Y. OK?
 	        }
@@ -69,7 +69,7 @@ function Church_Promote_Event() {
 	    case "Promote_To_Class?":
 	        if(decision = "Yes"){
 	            state = "Promote_Character";
-	            Start_New_Dialogue(Get_General_Messages(dialogue_ID,"Promote",Get_Character_Class(lookup_type,character_index,"Total"),Get_Character_Name(lookup_type,character_index,"Total"),Get_Level_Scheme_Stats(lookup_type,character_index,promotion_array[number_of_promotions-1],"Class_Name","Base")),false,false);
+	            Start_New_Dialogue(Get_General_Messages(dialogue_ID,"Promote",Get_Character_Class(lookup_type,character_index,"Total"),Get_Character_Name(lookup_type,character_index,"Total"),Get_Level_Scheme_Stats(lookup_type,character_index,promotion_array[number_of_promotions-1],"Class_Name","Base",Get_Character_Level(lookup_type,character_index,"Total"))),false,false);
 	        }
 	        else{
 	            number_of_promotions -= 1;

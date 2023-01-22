@@ -10,5 +10,6 @@ function Finish_Room_Transition(_current_object) {
 	        global.Player_ID = player_ID;
 	        Create_Screen_Fade(c_black,1,0,.04,"in",id);//color, start, end, speed, direction, object
 	    }
+		
 	}
 }

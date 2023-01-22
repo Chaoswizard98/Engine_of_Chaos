@@ -11,6 +11,9 @@ function Item_Stats_AU_Battered_Knife(_lookup_type,_character){
 	value = 80;
 	shop_type = "Equipment";
 	attack = 3;
+	max_attack_range = 1;
+	projectile = "Battered_Knife";
+	battle_sprite = spr_Battered_Knife;
 	switch(_class){
 	    case "THIF": main_hand = true; break;
 	}

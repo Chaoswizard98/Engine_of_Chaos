@@ -16,7 +16,7 @@ if(!halt_y_movement){
 //================
 if(camera_speed = -1){
     x_pos = _target_x;
-    y_pos = TargetY;
+    y_pos = _target_y;
 }
 else{
     if(x_pos > _target_x){

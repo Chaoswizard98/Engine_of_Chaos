@@ -5,6 +5,7 @@ function Update_Cheats_Array() {
 	settings_array[3] = "Disabled";
 	settings_array[4] = "Disabled";
 	settings_array[5] = "Disabled";
+	settings_array[6] = "Disabled";
 
 	if(global.Control_All_Units){settings_array[0] = "Enabled";}
 	if(global.Unlimited_Gold){settings_array[1] = "Enabled";}
@@ -12,4 +13,5 @@ function Update_Cheats_Array() {
 	if(global.Invincibility){settings_array[3] = "Enabled";}
 	if(global.Infinite_Magic){settings_array[4] = "Enabled";}
 	if(global.Infinite_Item_Use){settings_array[5] = "Enabled";}
+	if(global.Infinite_Movement){settings_array[6] = "Enabled";}
 }

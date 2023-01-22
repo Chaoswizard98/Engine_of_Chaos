@@ -1,7 +1,7 @@
 function Can_Pass_Through_Character(_character,_target){
 	if(_target != noone){
 	    if(global.In_Battle){
-	        if(Target_Is_Ally(_character,_target)){
+	        if(Target_Is_Ally(_character,_target)&&(!_target.hidden)){
 	            return true;
 	        }
 	    }

@@ -1,0 +1,1 @@
+Set_Lootable_Chest(id,12,"AU_Magic_Wand",0);

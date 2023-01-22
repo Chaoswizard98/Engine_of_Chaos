@@ -1,33 +1,15 @@
-function Get_General_Messages() {
-	var _menu = argument[0];//Menu we're calling from
-	var _message_ID = argument[1];//Message to look up
-	var _data1 = "";
-	var _data2 = "";
-	var _data3 = "";
-	var _data4 = "";
-	var _data5 = "";
-
-	if(argument_count > 2){
-	    _data1 = argument[2];
+function Get_General_Messages(_menu,_message_ID,_data1 = "",_data2 = "",_data3 = "",_data4 = "",_data5 = "") {
+	//switch(global.Language){
+	    //case "English": return General_Messages_English(_menu,_message_ID,_data1,_data2,_data3,_data4,_data5); break;
+	    //default: return General_Messages_English(_menu,_message_ID,_data1,_data2,_data3,_data4,_data5); break;
+	//}
+	
+	var _script = asset_get_index("General_Messages_"+global.Default_Language);
+	var _new_script = asset_get_index("General_Messages_"+global.Language);
+	if(_new_script != -1){//If the asset exists
+		if(script_exists(_new_script)){//If the asset is a script
+			_script = _new_script;//Use the script
+		}
 	}
-	if(argument_count > 3){
-	    _data2 = argument[3];
-	}
-	if(argument_count > 4){
-	    _data3 = argument[4];
-	}
-	if(argument_count > 5){
-	    _data4 = argument[5];
-	}
-	if(argument_count > 6){
-	    _data5 = argument[6];
-	}
-
-	switch(global.Language){
-	    case "English": return General_Messages_English(_menu,_message_ID,_data1,_data2,_data3,_data4,_data5); break;
-	    default: return General_Messages_English(_menu,_message_ID,_data1,_data2,_data3,_data4,_data5); break;
-	}
-
-
-
+	return script_execute(_script,_menu,_message_ID,_data1,_data2,_data3,_data4,_data5);//Run set script
 }

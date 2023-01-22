@@ -9,9 +9,8 @@ function Disable_Hidden_Units() {
 
 	var i = 0;
 	for(i = 0; i<obj_Battle_Controller.number_of_hidden_units; i += 1){//loop through all hidden units
-	    instance_deactivate_object(obj_Battle_Controller.hidden_units[i]);//deactivate them
+		if(obj_Battle_Controller.hidden_units[i].disable_on_hide){
+			instance_deactivate_object(obj_Battle_Controller.hidden_units[i]);//deactivate them
+		}
 	}
-
-
-
 }

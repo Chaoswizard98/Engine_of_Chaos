@@ -24,7 +24,7 @@ else{
             switch(arrow_position){
                 case 0: state = "Select_New_Game_Message"; obj_Dialogue_Controller.current_object = id; Start_New_Dialogue("Choose a save slot.@",false,false); break;//New Game
                 case 1: state = "Select_Load_Game_Message"; obj_Dialogue_Controller.current_object = id; Start_New_Dialogue("Choose a save slot.@",false,false); break;//Load Game
-                case 2: break;//Challenges
+                case 2: state = "Select_Challenges_Message"; obj_Dialogue_Controller.current_object = id; Start_New_Dialogue("Choose a save slot.@",false,false);break;//Challenges
                 case 3: state = "Waiting_For_Options_Menu"; Create_Options_Menu(id); break;//Options
             }
         }
@@ -52,6 +52,14 @@ else{
     else if(state = "Select_Load_Game_Message"){
         state = "Waiting_For_Parent";
         Create_Save_Slots_Controller(id,"Load_Game");
+    }
+	//==============================
+    //Wait for challenges Controller
+    //==============================
+    else if(state = "Select_Challenges_Message"){
+        state = "Waiting_For_Parent";
+		//input_event = "Challenges";
+        Create_Save_Slots_Controller(id,"Challenges");
     }
     //==========================
     //Wait for delete Controller
@@ -92,6 +100,12 @@ else{
                 Start_New_Dialogue("Alright then!^ Let's continue the adventure!",true,true);
             }
         }
+		else if(parent_event = "Challenges"){
+			state = "Waiting_For_Challenges_Menu";
+            parent_event = "none";
+			Load_Game();//Load the game
+			Create_Challenges_Menu(id);
+		}
         else if(parent_event = "Delete_Game"){
             state = "Create_Delete_Game_Decision";
             parent_event = "none";
@@ -104,7 +118,7 @@ else{
     //==========================
     else if(state = "Display_Difficulty_Message"){
         state = "Choose_Difficulty";
-        Start_New_Dialogue("What level of difficulty do you want to go with?@",true,false);
+        Start_New_Dialogue("What level of difficulty do you want to go with?\n(Note this currently has no effect)@",true,false);
     }
     //=================
     //Choose Difficulty
@@ -159,14 +173,14 @@ else{
     //========
     else if(state = "Tutorial"){
         state = "none";
-        Room_Transfer("Jason","Force",tutorial_room,"Egress");
+        Room_Transfer("AU_Jason","Force",tutorial_room,"Egress");
     }
     //========
     //New Game
     //========
     else if(state = "New_Game"){
         state = "none";
-        Room_Transfer("Jason","Force",new_game_room,"Egress");
+        Room_Transfer("AU_Jason","Force",new_game_room,"Egress");
     }
     //=========
     //Load Game
@@ -200,6 +214,7 @@ else{
             }
             if(!Has_Existing_Save()){//if a save exists,
                 menu_locked[1] = true;//Lock load game if no slots remain
+				menu_locked[2] = true;//Lock challenges if no slots remain
                 start_index = 0;
                 arrow_position = 0;
             }
@@ -213,5 +228,17 @@ else{
             Start_New_Dialogue("Change your mind?@",false,false);
         }
     }
+	//======================
+	//Create Challenges Menu
+	//======================
+	else if(state = "Waiting_For_Challenges_Menu"){
+		if(parent_event = "Backed_Out_Of_Menu"){
+            state = "Selecting_Option";
+            input_event = "Reset";
+            parent_event = "none";
+            obj_Dialogue_Controller.current_object = id; 
+            Start_New_Dialogue("Change your mind?@",false,false);
+        }
+	}
 }
 

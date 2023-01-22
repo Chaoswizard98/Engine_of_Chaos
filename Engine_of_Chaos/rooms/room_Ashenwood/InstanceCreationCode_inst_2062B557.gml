@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Notice_Board","Ashenwood_Inn");
+Set_Searchable_Message(id,"Notice_Board","Ashenwood_Inn");

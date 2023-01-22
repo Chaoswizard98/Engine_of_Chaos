@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Fairy_1",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 30,
   "height": 32,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7c4e5095-67ca-4a7b-8cea-302a03f3a4f0","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c4e5095-67ca-4a7b-8cea-302a03f3a4f0","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"LayerId":{"name":"883c992f-c769-4621-9339-54c35dcd277f","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Fairy_1","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","name":"7c4e5095-67ca-4a7b-8cea-302a03f3a4f0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16ebad81-f573-4233-83ce-91a3e029104f","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16ebad81-f573-4233-83ce-91a3e029104f","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"LayerId":{"name":"883c992f-c769-4621-9339-54c35dcd277f","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Fairy_1","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","name":"16ebad81-f573-4233-83ce-91a3e029104f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7c4e5095-67ca-4a7b-8cea-302a03f3a4f0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16ebad81-f573-4233-83ce-91a3e029104f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Fairy_1","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Fairy_1",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8ff91560-2602-4412-b290-8e8772c807be","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c4e5095-67ca-4a7b-8cea-302a03f3a4f0","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fbbe47fd-5572-4688-b885-c44e20cbe62e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16ebad81-f573-4233-83ce-91a3e029104f","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Fairy_1","path":"sprites/spr_SF2_Fairy_1/spr_SF2_Fairy_1.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Fairy_1",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"883c992f-c769-4621-9339-54c35dcd277f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"883c992f-c769-4621-9339-54c35dcd277f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SF2_Heal",
-    "path": "folders/Sprites/SF2_Spells/SF2_Heal.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/SF2_Spells/SF2_Heal.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Fairy_1",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

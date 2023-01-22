@@ -23,7 +23,7 @@ start_button = vk_space;//button that starts the game
 randomize();//generate a seed for RNG calculations
 
 var temp;
-temp = round(random_range(0,11));//Random number between 0 and N+1
+temp = round(random_range(0,12));//Random number between 0 and N+1
 welcome_message = "Default Message!";//default message
 
 switch(temp){
@@ -38,6 +38,7 @@ switch(temp){
     case 8: welcome_message = "Is the next update\n ready yet?"; break; 
     case 9: welcome_message = "You are reading this."; break;
     case 10: welcome_message = "Wolf has obtained\nthe healing rain!"; break;//~Tyadran
+	case 11: welcome_message = "Doesn't work on\nmobile devices!"; break;//Nihil
 }
 
 //===========

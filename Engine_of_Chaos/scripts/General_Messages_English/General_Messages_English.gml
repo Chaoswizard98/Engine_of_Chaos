@@ -1,17 +1,24 @@
-function General_Messages_English() {
-	var _menu = argument[0];//Menu we're calling from
-	var _message_ID = argument[1];//Message to look up
+function General_Messages_English(_menu, _message_ID, _data1, _data2, _data3, _data4, _data5) {
+	//Menu: Menu we're calling from
+	//Message_ID: Message to look up
 
-	//Extra data provided by the menu object
+	//Data#: Extra data provided by the menu object
 	//things like character names, items, prices, etc.
-	var _data1 = argument[2];
-	var _data2 = argument[3];
-	var _data3 = argument[4];
-	var _data4 = argument[5];
-	var _data5 = argument[6];
 
 
 	switch(_menu){
+		//===========
+		//Intro Menu=
+		//===========
+		case "Intro_Menu":
+			switch(_message_ID){
+				case "Intro_Dialogue_Short": return ("I can tell just how pumped you are, so here's the menu to get started!@") break;	
+				case "Intro_Dialogue": return ("Did you know that you can skip this message by holding space on the previous screen?%\nI can tell just how pumped you are, so here's the menu to get started!@") break;	
+			}
+		break;
+		
+		
+		
 	    //=================
 	    //Party_Management=
 	    //=================
@@ -188,7 +195,7 @@ function General_Messages_English() {
 	            case "Ranged_Attack": return (_data1 + " attacks!"); break;
 	            case "Cast_Spell": return (_data1 + " casts " + _data2 + " level " + _data3 + "!"); break;
 	            case "Use_Item": return (_data1 + " uses the " + _data2 + "!"); break;
-	            case "Word_of_Power": return (_data1 + " speaks a word of power!"); break;
+	            case "Word_of_Power": return (_data1 + " casts a spell!"); break;
 	            case "Blocked_Attack": return (_data1 + " blocked the attack."); break;
 	            case "Critical_Hit": return ("Critical Hit! "); break;
 	            case "Took_Damage": return (_data1 + " took " + _data2 + " damage."); break;
@@ -203,7 +210,7 @@ function General_Messages_English() {
 	            case "Attacks_Again_Ranged": return (_data1 + " attacks again!"); break;
 	            case "Attacks_Again_Cast_Spell": return (_data1 + " attacks again!"); break;
 	            case "Attacks_Again_Use_Item": return (_data1 + " attacks again!"); break;
-	            case "Attacks_Again_Word_of_Power": return (_data1 + " attacks again!"); break;
+	            case "Attacks_Again_Word_of_Power": return (_data1 + " casts again!"); break;
 	            case "Counter_Attack": return (_data1 + " counters!"); break;
 	            case "Gains_XP": return (_data1 + " gains " + _data2 + " xp!"); break;
 	            case "Found_Gold": return ("\nFound " + _data1 + " gold."); break;

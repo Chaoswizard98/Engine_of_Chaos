@@ -1,9 +1,4 @@
-function Set_Character_Magic() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _ammount = argument[3];
-
+function Set_Character_Magic(_lookup_type,_character,_formula,_ammount) {
 	var _base;
 
 	//Get Base Stat
@@ -18,7 +13,7 @@ function Set_Character_Magic() {
 	switch(_formula){
 	    case "Set": _base = _ammount; break;
 	    case "Add": _base += _ammount; break;
-	    case "Remove": _base -= _ammount; break;
+	    case "Remove": if(!global.Infinite_Magic){_base -= _ammount;} break;
 	    default: _base = _ammount; break;
 	}
 

@@ -1,6 +1,4 @@
-function Faction_Inventory_Is_Full() {
-	var _lookup_type = argument[0];
-	var _faction = argument[1];
+function Faction_Inventory_Is_Full(_lookup_type,_faction) {
 	var i = 0;
 
 	if(_faction = "none"){//if the character is factionless, they dont have an inventory
@@ -30,7 +28,4 @@ function Faction_Inventory_Is_Full() {
 	}
 
 	return true;//party inventory is full
-
-
-
 }

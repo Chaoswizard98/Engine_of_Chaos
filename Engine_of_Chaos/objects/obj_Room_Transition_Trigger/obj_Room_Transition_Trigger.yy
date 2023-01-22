@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_Controller",
-    "path": "sprites/spr_Controller/spr_Controller.yy",
+    "name": "spr_Room_Transition",
+    "path": "sprites/spr_Room_Transition/spr_Room_Transition.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

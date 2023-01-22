@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Cat_Orange_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"98a259c2-2628-4462-9c64-faf9fc3455cf","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98a259c2-2628-4462-9c64-faf9fc3455cf","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"98a259c2-2628-4462-9c64-faf9fc3455cf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3ba60f1b-f67c-4edd-b5e7-34dae942f493","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ba60f1b-f67c-4edd-b5e7-34dae942f493","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"3ba60f1b-f67c-4edd-b5e7-34dae942f493","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"22b494b2-5298-47af-bd26-4f806009679c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22b494b2-5298-47af-bd26-4f806009679c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"22b494b2-5298-47af-bd26-4f806009679c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bc727a93-6477-44f9-9d2c-25983ef3d80c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bc727a93-6477-44f9-9d2c-25983ef3d80c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"bc727a93-6477-44f9-9d2c-25983ef3d80c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1f8d5d06-9efe-4ce2-abd6-c0168375dda0","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1f8d5d06-9efe-4ce2-abd6-c0168375dda0","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"1f8d5d06-9efe-4ce2-abd6-c0168375dda0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3286041f-9cf3-4a7b-9d31-10613a44d3b5","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3286041f-9cf3-4a7b-9d31-10613a44d3b5","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"LayerId":{"name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","name":"3286041f-9cf3-4a7b-9d31-10613a44d3b5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98a259c2-2628-4462-9c64-faf9fc3455cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ba60f1b-f67c-4edd-b5e7-34dae942f493",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"22b494b2-5298-47af-bd26-4f806009679c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc727a93-6477-44f9-9d2c-25983ef3d80c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f8d5d06-9efe-4ce2-abd6-c0168375dda0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3286041f-9cf3-4a7b-9d31-10613a44d3b5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"48a387ad-345b-4222-863c-b56dcb6ed38d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98a259c2-2628-4462-9c64-faf9fc3455cf","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b8266efd-4d9c-49a7-87ac-823b9f01311b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ba60f1b-f67c-4edd-b5e7-34dae942f493","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4e9e85a2-9997-49a1-a3e7-d179798aae43","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22b494b2-5298-47af-bd26-4f806009679c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b43a723a-9a54-4b43-b57e-c3e296b6ae85","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc727a93-6477-44f9-9d2c-25983ef3d80c","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f295853c-72e6-4fbe-abbe-c1cd529df360","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f8d5d06-9efe-4ce2-abd6-c0168375dda0","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8e2c106e-0250-4b31-a3b7-131a39393714","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3286041f-9cf3-4a7b-9d31-10613a44d3b5","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Cat_Orange_Overworld","path":"sprites/spr_Cat_Orange_Overworld/spr_Cat_Orange_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d1aa2ed7-14aa-4493-b77b-e2a8d962c53b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Cat_Orange_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

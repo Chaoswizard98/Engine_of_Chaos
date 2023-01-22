@@ -50,6 +50,10 @@ function Spawn_Player(_character_ID,_location){
 	                        _direction = start_direction;
 	                        break;
 	                    }
+						else if(obj_Room_Transition_Controller.action = "Restart"){
+							_x_pos = obj_Room_Transition_Controller.previous_x;
+	                        _y_pos = obj_Room_Transition_Controller.previous_y;
+						}
 	                }
 	            break;
 	        }

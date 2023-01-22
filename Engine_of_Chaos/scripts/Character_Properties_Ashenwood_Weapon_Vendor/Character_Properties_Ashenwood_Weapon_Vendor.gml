@@ -12,8 +12,8 @@ function Town_Character_Stats_Ashenwood_Weapon_Vendor(_character){
 //Overworld Sprite Setup
 //======================
 function Get_Appearance_Ashenwood_Weapon_Vendor(_lookup_type,_character,_stat){
-	var _overworld_sprite = spr_Shopkeeper_Overworld;
-	var _portrait = spr_Shopkeeper_Portrait;
+	var _overworld_sprite = spr_SF2_Shopkeeper_Overworld;
+	var _portrait = spr_SF2_Shopkeeper_Portrait;
 	var _voice = Get_Generic_Voice("Male_Mature_3");
 	var _battle_sprite = "none";
 	

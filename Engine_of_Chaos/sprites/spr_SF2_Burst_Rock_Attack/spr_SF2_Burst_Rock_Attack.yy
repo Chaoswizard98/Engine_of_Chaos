@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Burst_Rock_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 125,
   "height": 96,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"38c932ed-2913-4743-bc17-fa9e944e2043","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38c932ed-2913-4743-bc17-fa9e944e2043","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":{"name":"c21e5848-c984-461d-b390-18168edeb321","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Burst_Rock_Attack","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"38c932ed-2913-4743-bc17-fa9e944e2043","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"386ed78d-2963-4f70-9048-0cdc1ad39290","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"386ed78d-2963-4f70-9048-0cdc1ad39290","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":{"name":"c21e5848-c984-461d-b390-18168edeb321","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Burst_Rock_Attack","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"386ed78d-2963-4f70-9048-0cdc1ad39290","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"405393e5-9bce-4962-a659-3e4375abacca","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"405393e5-9bce-4962-a659-3e4375abacca","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"LayerId":{"name":"c21e5848-c984-461d-b390-18168edeb321","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Burst_Rock_Attack","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","name":"405393e5-9bce-4962-a659-3e4375abacca","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38c932ed-2913-4743-bc17-fa9e944e2043",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"386ed78d-2963-4f70-9048-0cdc1ad39290",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"405393e5-9bce-4962-a659-3e4375abacca",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Burst_Rock_Attack","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Burst_Rock_Attack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1ad5fc91-ab1e-4f36-abf0-de536f7db6a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38c932ed-2913-4743-bc17-fa9e944e2043","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6e618f1b-8380-4893-b3e6-c9d1b7c68319","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"386ed78d-2963-4f70-9048-0cdc1ad39290","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0d94bd05-c1b6-49ab-a784-068d46cbc661","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"405393e5-9bce-4962-a659-3e4375abacca","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 85,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Burst_Rock_Attack","path":"sprites/spr_SF2_Burst_Rock_Attack/spr_SF2_Burst_Rock_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Burst_Rock_Attack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c21e5848-c984-461d-b390-18168edeb321","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c21e5848-c984-461d-b390-18168edeb321","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Burst_Rock",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Burst_Rock.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Burst_Rock.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Burst_Rock_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

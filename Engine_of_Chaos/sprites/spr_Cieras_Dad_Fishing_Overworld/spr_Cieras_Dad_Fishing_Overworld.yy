@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Cieras_Dad_Fishing_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,33 +28,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6fe8419b-5fcb-4095-b5b3-39fb5749f184","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6fe8419b-5fcb-4095-b5b3-39fb5749f184","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"6fe8419b-5fcb-4095-b5b3-39fb5749f184","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1175d50a-2ebb-4da0-865c-fdd6f90b9837","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1175d50a-2ebb-4da0-865c-fdd6f90b9837","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"1175d50a-2ebb-4da0-865c-fdd6f90b9837","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38b68fc2-6f61-41c2-8242-4595f3441af8","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38b68fc2-6f61-41c2-8242-4595f3441af8","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"38b68fc2-6f61-41c2-8242-4595f3441af8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"96a21736-d7d6-4fb1-b738-d6e35bf81b00","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"96a21736-d7d6-4fb1-b738-d6e35bf81b00","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"96a21736-d7d6-4fb1-b738-d6e35bf81b00","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a1eed4d9-7f0a-41c8-a529-310f7b6a299a","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1eed4d9-7f0a-41c8-a529-310f7b6a299a","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"a1eed4d9-7f0a-41c8-a529-310f7b6a299a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a8b0aec1-bb55-4085-860a-ed8d962ba05e","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a8b0aec1-bb55-4085-860a-ed8d962ba05e","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"a8b0aec1-bb55-4085-860a-ed8d962ba05e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"806ad3c0-b176-4f83-b9f8-f85ca2ea857a","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"806ad3c0-b176-4f83-b9f8-f85ca2ea857a","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"806ad3c0-b176-4f83-b9f8-f85ca2ea857a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"60974c6f-d664-4509-9ee9-c29f067f737d","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60974c6f-d664-4509-9ee9-c29f067f737d","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"LayerId":{"name":"74a5e108-6013-4964-a208-034da73e8bb3","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","name":"60974c6f-d664-4509-9ee9-c29f067f737d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6fe8419b-5fcb-4095-b5b3-39fb5749f184",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1175d50a-2ebb-4da0-865c-fdd6f90b9837",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38b68fc2-6f61-41c2-8242-4595f3441af8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"96a21736-d7d6-4fb1-b738-d6e35bf81b00",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a1eed4d9-7f0a-41c8-a529-310f7b6a299a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8b0aec1-bb55-4085-860a-ed8d962ba05e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"806ad3c0-b176-4f83-b9f8-f85ca2ea857a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60974c6f-d664-4509-9ee9-c29f067f737d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -61,7 +51,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0bda3857-e907-46c2-b8b2-67be38a920da","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6fe8419b-5fcb-4095-b5b3-39fb5749f184","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"65044b68-bffe-4e35-9663-f53d2b5741c8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1175d50a-2ebb-4da0-865c-fdd6f90b9837","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1dabc84f-6f1d-418d-bd75-2f58c3583d74","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38b68fc2-6f61-41c2-8242-4595f3441af8","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +60,7 @@
             {"id":"b14b6db9-8ec7-4f9c-8025-143fbf70a3df","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a8b0aec1-bb55-4085-860a-ed8d962ba05e","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0ff4c4e4-0d2e-4f2d-a77b-4f016c885c8f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"806ad3c0-b176-4f83-b9f8-f85ca2ea857a","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3c89a8ac-e196-4923-a813-d3a5989aea72","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60974c6f-d664-4509-9ee9-c29f067f737d","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -86,22 +76,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Cieras_Dad_Fishing_Overworld","path":"sprites/spr_Cieras_Dad_Fishing_Overworld/spr_Cieras_Dad_Fishing_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74a5e108-6013-4964-a208-034da73e8bb3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"74a5e108-6013-4964-a208-034da73e8bb3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Cieras_Dad_Fishing_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

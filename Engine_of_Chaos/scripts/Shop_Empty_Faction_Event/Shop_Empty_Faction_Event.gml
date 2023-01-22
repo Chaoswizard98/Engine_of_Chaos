@@ -15,7 +15,4 @@ function Shop_Empty_Faction_Event() {
 	        instance_destroy();
 	    break;
 	}
-
-
-
 }

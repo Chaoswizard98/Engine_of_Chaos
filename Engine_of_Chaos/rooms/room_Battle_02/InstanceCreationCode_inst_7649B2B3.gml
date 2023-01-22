@@ -1,0 +1,1 @@
+Set_Party_Spawn_Tile(id,"Player",1,"Battle_Party");

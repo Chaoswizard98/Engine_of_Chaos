@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","The_Adventurers_Lifestyle");
+Set_Searchable_Message(id,"Bookshelf","The_Adventurers_Lifestyle");

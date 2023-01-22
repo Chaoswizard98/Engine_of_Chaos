@@ -1,13 +1,12 @@
 function Level_Up(_lookup_type,_character,_force_average){
-	if(Get_Character_Level(_lookup_type,_character,"Derived") >= global.Level_Cap){//if we're at level cap already
+	if(Character_At_Max_Level(_lookup_type,_character)){//if we're at level cap already
 	    return "";//Return null message
 	}
-
 	//==========================
 	//Increment Character Level=
 	//==========================
 	Set_Character_Level(_lookup_type,_character,"Add",1);
-	if(Get_Character_Level(_lookup_type,_character,"Derived") < global.Level_Cap){//if they're not at level cap
+	if(Character_At_Max_Level(_lookup_type,_character)){//if they're not at level cap
 	    Set_Character_Experience(_lookup_type,_character,"Remove",global.Xp_Per_Level);//keep remaining xp
 	}
 	else{//they're at level cap, set xp to 0
@@ -56,9 +55,10 @@ function Level_Up(_lookup_type,_character,_force_average){
 	var i;
 	var _level = 0;
 	for(i = 0; i < global.Number_Of_Spell_Slots; i+=1){
-		_level = Get_Character_Level_Scheme_Stats(_lookup_type,_character,"Spell_"+string(i+1),"Level");
-		Set_Spell_Level(_lookup_type,_character,i,"Set",1);
+		_level = Get_Character_Level_Scheme_Stats(_lookup_type,_character,"Spell_"+string(i+1),"Level",Get_Character_Level(_lookup_type,_character,"Total"));
+		//Set_Spell_Level(_lookup_type,_character,i,"Set",1);
 		if(_level > Get_Spell_Level(_lookup_type,_character,i)){
+			Set_Spell_Level(_lookup_type,_character,i,"Set",_level);
 			if(_level = 1){//New spell
 				_message += Get_General_Messages("Level_Up","Learn_Spell",Get_Spell_Slot_Stats(_lookup_type,_character,i,_level,"Spell_Name"));
 			}

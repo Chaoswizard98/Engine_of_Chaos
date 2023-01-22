@@ -1,9 +1,10 @@
 function Calculate_Spell_Damage(_attacker,_target,_effect,_level,_critical_hit,_counter_attack,_divisor){
 	var _damage = 0;
+	
 	if(Get_Spell_Stats(_effect,_level,"Damage_Formula","Local",_attacker) != "Split"){//If damage is not split evenly amongst targets
 	    _divisor = 1;//Don't split damage between targets
 	}
-	else if (Get_Spell_Stats(_effect,_level,"Damage_Formula","Local",_attacker) = "No_Damage"){
+	if (Get_Spell_Stats(_effect,_level,"Damage_Formula","Local",_attacker) = "No_Damage"){
 	    return _damage;
 	}
 

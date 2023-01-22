@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Controller",
-    "path": "sprites/spr_Controller/spr_Controller.yy",
+    "name": "spr_Roof_On",
+    "path": "sprites/spr_Roof_On/spr_Roof_On.yy",
   },
   "solid": false,
   "visible": true,

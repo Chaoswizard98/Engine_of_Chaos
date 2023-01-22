@@ -7,11 +7,15 @@ function Town_Character_Stats_Enemy_Alpha_Wolf(_character){
 	    max_health = 12;
 	    current_health = max_health;
 	    attack = 9;
-	    defense = 7;
+	    defense = 6;
 	    agility = 5;
 	    movement_range = 5;
 	    movement_type = "Fast";
 		death_flag_script = "Important_Character_1";
+		evasion = 0;
+		crit = 0;
+		counter = 0;
+		multi_strike = 0;
 	}
 }
 

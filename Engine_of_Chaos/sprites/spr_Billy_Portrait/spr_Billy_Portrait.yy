@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Billy_Portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 78,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8934ddd-102e-474b-ae11-1e24c39264a2","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8934ddd-102e-474b-ae11-1e24c39264a2","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":{"name":"6e60bdb1-fb60-42fd-8fb4-0280806a5299","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Billy_Portrait","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"f8934ddd-102e-474b-ae11-1e24c39264a2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cc93a8a2-9bca-42bc-8280-975f86909bcb","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc93a8a2-9bca-42bc-8280-975f86909bcb","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":{"name":"6e60bdb1-fb60-42fd-8fb4-0280806a5299","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Billy_Portrait","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"cc93a8a2-9bca-42bc-8280-975f86909bcb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0ab5df48-903a-4d40-aca6-5430f175b4b4","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0ab5df48-903a-4d40-aca6-5430f175b4b4","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"LayerId":{"name":"6e60bdb1-fb60-42fd-8fb4-0280806a5299","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Billy_Portrait","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","name":"0ab5df48-903a-4d40-aca6-5430f175b4b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8934ddd-102e-474b-ae11-1e24c39264a2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc93a8a2-9bca-42bc-8280-975f86909bcb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ab5df48-903a-4d40-aca6-5430f175b4b4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Billy_Portrait","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d0e4534d-aea5-4747-9422-fb507b31ea20","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8934ddd-102e-474b-ae11-1e24c39264a2","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"038be794-fdbc-4097-b9f4-9591214d65c8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc93a8a2-9bca-42bc-8280-975f86909bcb","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0e7a0de1-7094-4e67-918a-85bd1f63efeb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ab5df48-903a-4d40-aca6-5430f175b4b4","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Billy_Portrait","path":"sprites/spr_Billy_Portrait/spr_Billy_Portrait.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e60bdb1-fb60-42fd-8fb4-0280806a5299","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6e60bdb1-fb60-42fd-8fb4-0280806a5299","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "Temp",
+    "path": "folders/Sprites/Characters/Temp.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Billy_Portrait",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

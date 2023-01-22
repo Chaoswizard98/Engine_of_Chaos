@@ -16,4 +16,4 @@ previous_y = 0;
 player_direction = "Up";
 player_image_index = 0;
 player_ID = "none";
-
+action = "none";

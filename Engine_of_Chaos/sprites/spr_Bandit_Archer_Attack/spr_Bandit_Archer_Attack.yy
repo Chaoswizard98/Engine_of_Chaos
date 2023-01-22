@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Bandit_Archer_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,21 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8ad23cbd-fef3-4f34-a53b-599523de18d9","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ad23cbd-fef3-4f34-a53b-599523de18d9","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":{"name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"8ad23cbd-fef3-4f34-a53b-599523de18d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"55628374-bf1e-4179-a418-4a1e37f040eb","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"55628374-bf1e-4179-a418-4a1e37f040eb","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":{"name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"55628374-bf1e-4179-a418-4a1e37f040eb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"37f37234-a3f3-48dd-8323-d3e7b659fdf8","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37f37234-a3f3-48dd-8323-d3e7b659fdf8","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":{"name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"37f37234-a3f3-48dd-8323-d3e7b659fdf8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f0b9dd5-bbec-46e8-9c4b-507a449824ac","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f0b9dd5-bbec-46e8-9c4b-507a449824ac","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"LayerId":{"name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","name":"6f0b9dd5-bbec-46e8-9c4b-507a449824ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ad23cbd-fef3-4f34-a53b-599523de18d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"55628374-bf1e-4179-a418-4a1e37f040eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"37f37234-a3f3-48dd-8323-d3e7b659fdf8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f0b9dd5-bbec-46e8-9c4b-507a449824ac",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d51825cc-ce7f-4c5b-8242-8598d56ddc8b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ad23cbd-fef3-4f34-a53b-599523de18d9","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3121162c-59e7-4435-a194-33189085480d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"55628374-bf1e-4179-a418-4a1e37f040eb","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f0625869-f812-4ce2-a0aa-7109f6acb190","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37f37234-a3f3-48dd-8323-d3e7b659fdf8","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fcb04d5b-2202-4c0b-ad81-eb6763e55f0c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f0b9dd5-bbec-46e8-9c4b-507a449824ac","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 86,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Bandit_Archer_Attack","path":"sprites/spr_Bandit_Archer_Attack/spr_Bandit_Archer_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"789fdc49-bc1b-4fca-afc2-f82c6c452c79","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Bandit_Archer",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Bandit_Archer.yy",
+    "name": "AU_Bandit_Archer",
+    "path": "folders/Sprites/Characters/AU/Enemies/AU_Bandit_Archer.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Bandit_Archer_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

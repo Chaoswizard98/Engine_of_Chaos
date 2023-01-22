@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Battle_Background_Hills",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 256,
   "height": 96,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1bbe52e9-3aa6-4fff-9a0d-4f736468062e","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1bbe52e9-3aa6-4fff-9a0d-4f736468062e","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},"LayerId":{"name":"84409708-0c3a-4fd8-ad02-0cf5338786c8","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Battle_Background_Hills","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},"resourceVersion":"1.0","name":"1bbe52e9-3aa6-4fff-9a0d-4f736468062e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1bbe52e9-3aa6-4fff-9a0d-4f736468062e",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Battle_Background_Hills","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d0717b97-8bd0-431b-b41d-8f45086ae95f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bbe52e9-3aa6-4fff-9a0d-4f736468062e","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Battle_Background_Hills","path":"sprites/spr_Battle_Background_Hills/spr_Battle_Background_Hills.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84409708-0c3a-4fd8-ad02-0cf5338786c8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84409708-0c3a-4fd8-ad02-0cf5338786c8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Battle_Backgrounds",
     "path": "folders/Sprites/Battle_Cutscenes/Battle_Backgrounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Battle_Background_Hills",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,0 +1,1 @@
+Set_Lootable_Chest(id,7,"AU_Magic_Berries",0);

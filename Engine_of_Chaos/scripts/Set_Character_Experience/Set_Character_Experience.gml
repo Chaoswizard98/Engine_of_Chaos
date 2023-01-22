@@ -1,9 +1,4 @@
-function Set_Character_Experience() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _ammount = argument[3];
-
+function Set_Character_Experience(_lookup_type,_character,_formula,_ammount) {
 	var _base;
 
 	//Get Base Stat
@@ -18,7 +13,7 @@ function Set_Character_Experience() {
 	switch(_formula){
 	    case "Set": _base = _ammount; break;
 	    case "Add": 
-	        if(Get_Character_Level(_lookup_type,_character,"Derived") < global.Level_Cap){//if they are max level, dont grant xp
+	        if(Get_Character_Level(_lookup_type,_character,"Derived") < Get_Character_Level_Scheme_Stats(_lookup_type,_character,"Max_Level","Base",1)){//if they are max level, dont grant xp
 	            _base += _ammount;//In the rare case of gaining multiple levels (xp values over 100) xp is corrected in level up code.
 	        }
 	        break;

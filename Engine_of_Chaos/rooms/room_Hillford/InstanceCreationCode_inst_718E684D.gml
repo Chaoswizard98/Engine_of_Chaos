@@ -1,0 +1,1 @@
+Set_Searchable_Message(id,"Notice_Board","Hillford_Monsters");

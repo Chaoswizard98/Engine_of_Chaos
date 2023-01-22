@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Jasons_Mom_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5caf26dd-9fc0-4e90-a2f0-18da02f48ebc","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5caf26dd-9fc0-4e90-a2f0-18da02f48ebc","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"5caf26dd-9fc0-4e90-a2f0-18da02f48ebc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f997e9b0-43e4-4276-9a72-a8f9ba720e54","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f997e9b0-43e4-4276-9a72-a8f9ba720e54","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"f997e9b0-43e4-4276-9a72-a8f9ba720e54","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b4ac7115-6c9d-4d8f-9589-47c4a3bd3e07","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b4ac7115-6c9d-4d8f-9589-47c4a3bd3e07","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"b4ac7115-6c9d-4d8f-9589-47c4a3bd3e07","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dfe83ed8-703b-49a2-9611-dc2f0cb1b48a","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dfe83ed8-703b-49a2-9611-dc2f0cb1b48a","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"dfe83ed8-703b-49a2-9611-dc2f0cb1b48a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86a7bf31-d101-4f94-b5ee-1b1f10935292","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86a7bf31-d101-4f94-b5ee-1b1f10935292","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"86a7bf31-d101-4f94-b5ee-1b1f10935292","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ccc2af64-ee8c-429d-bc82-c2802c1b122b","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ccc2af64-ee8c-429d-bc82-c2802c1b122b","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"LayerId":{"name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"ccc2af64-ee8c-429d-bc82-c2802c1b122b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5caf26dd-9fc0-4e90-a2f0-18da02f48ebc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f997e9b0-43e4-4276-9a72-a8f9ba720e54",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b4ac7115-6c9d-4d8f-9589-47c4a3bd3e07",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dfe83ed8-703b-49a2-9611-dc2f0cb1b48a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86a7bf31-d101-4f94-b5ee-1b1f10935292",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccc2af64-ee8c-429d-bc82-c2802c1b122b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"3a3f0a8f-f8c3-4b17-bb6d-815114f0010b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5caf26dd-9fc0-4e90-a2f0-18da02f48ebc","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a07d510b-1a8f-4fd3-b41a-1972738b113b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f997e9b0-43e4-4276-9a72-a8f9ba720e54","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"38c0d7cf-a7ee-4c32-b909-afe8373b0672","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4ac7115-6c9d-4d8f-9589-47c4a3bd3e07","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c5f49f03-49e0-4ce2-9b95-a0e704516403","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dfe83ed8-703b-49a2-9611-dc2f0cb1b48a","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"537d854a-8341-4593-9800-57fe4b54b908","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86a7bf31-d101-4f94-b5ee-1b1f10935292","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fd06cf85-a354-46ed-8bea-a3b18e0b742e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ccc2af64-ee8c-429d-bc82-c2802c1b122b","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Jasons_Mom_Overworld","path":"sprites/spr_Jasons_Mom_Overworld/spr_Jasons_Mom_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e061423b-1981-42e0-bcfe-bb4d2c20f657","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Jasons_Mom_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

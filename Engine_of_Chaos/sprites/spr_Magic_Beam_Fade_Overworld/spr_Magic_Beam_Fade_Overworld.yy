@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Magic_Beam_Fade_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,24 +28,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4dcac018-520b-42db-9c16-6b645578d795","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4dcac018-520b-42db-9c16-6b645578d795","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":{"name":"85838d11-c76a-490a-b98c-088cb1726668","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"4dcac018-520b-42db-9c16-6b645578d795","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"52e37d1a-c39b-4626-b17d-ca8b232bcf3e","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52e37d1a-c39b-4626-b17d-ca8b232bcf3e","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":{"name":"85838d11-c76a-490a-b98c-088cb1726668","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"52e37d1a-c39b-4626-b17d-ca8b232bcf3e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d142d639-4470-436f-8c55-dc444560d0cb","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d142d639-4470-436f-8c55-dc444560d0cb","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":{"name":"85838d11-c76a-490a-b98c-088cb1726668","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"d142d639-4470-436f-8c55-dc444560d0cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0c08c1eb-0bef-4686-86bc-b716e34acadd","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0c08c1eb-0bef-4686-86bc-b716e34acadd","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":{"name":"85838d11-c76a-490a-b98c-088cb1726668","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"0c08c1eb-0bef-4686-86bc-b716e34acadd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6c6b137f-5251-4eb5-b983-57a5c8070769","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c6b137f-5251-4eb5-b983-57a5c8070769","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"LayerId":{"name":"85838d11-c76a-490a-b98c-088cb1726668","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","name":"6c6b137f-5251-4eb5-b983-57a5c8070769","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4dcac018-520b-42db-9c16-6b645578d795",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52e37d1a-c39b-4626-b17d-ca8b232bcf3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d142d639-4470-436f-8c55-dc444560d0cb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c08c1eb-0bef-4686-86bc-b716e34acadd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c6b137f-5251-4eb5-b983-57a5c8070769",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,15 +48,15 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5c8ae2ee-5786-4931-af2e-f5ecd80e4702","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4dcac018-520b-42db-9c16-6b645578d795","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fce481a6-6309-429b-8dd6-040dea6fb32e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52e37d1a-c39b-4626-b17d-ca8b232bcf3e","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"56c39c0f-5a75-4929-8c19-92c0eaa58486","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d142d639-4470-436f-8c55-dc444560d0cb","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f0f49582-dc55-49e7-836a-eb457490bf87","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c08c1eb-0bef-4686-86bc-b716e34acadd","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"52b17ae9-8279-412c-90fb-065cb41f0517","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c6b137f-5251-4eb5-b983-57a5c8070769","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -74,22 +70,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Magic_Beam_Fade_Overworld","path":"sprites/spr_Magic_Beam_Fade_Overworld/spr_Magic_Beam_Fade_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85838d11-c76a-490a-b98c-088cb1726668","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"85838d11-c76a-490a-b98c-088cb1726668","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Overworld_Animations",
     "path": "folders/Sprites/Overworld_Animations.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Magic_Beam_Fade_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

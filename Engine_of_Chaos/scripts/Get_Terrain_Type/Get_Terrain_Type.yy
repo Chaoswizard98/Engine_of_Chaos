@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Terrain",
-    "path": "folders/Scripts/DONE/Terrain.yy",
+    "path": "folders/Scripts/Game_Logic/Terrain.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Terrain_Type",

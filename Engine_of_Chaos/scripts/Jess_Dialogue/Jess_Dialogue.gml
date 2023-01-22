@@ -12,7 +12,7 @@ function Jess_Dialogue() {
 	    break;
 	    case 1:
 	        state += 1;
-	        Give_Faction_Item("Global","Player","Healing_Seed");
+	        Give_Faction_Item("Global","Player","SF2_Healing_Seed");
 	        Create_Dialogue(noone,noone,Get_Cutscene_Messages(id,"02"),id,false,true);//portrait, voice, message,object,arrow,pan
 	        Stop_Dialogue_Interaction();
 	        Wait_For_Sound(sfx_Loot_Item,obj_Dialogue_Controller);

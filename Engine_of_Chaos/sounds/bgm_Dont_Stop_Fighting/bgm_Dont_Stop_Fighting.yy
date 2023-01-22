@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 3,
   "volume": 1.0,
   "preload": true,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_Dont_Stop_Fighting",
-  "duration": 163.400925,
+  "duration": 163.39592,
   "parent": {
     "name": "BGM",
     "path": "folders/Sounds/BGM.yy",

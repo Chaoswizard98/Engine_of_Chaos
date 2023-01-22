@@ -1,0 +1,1 @@
+Set_Lootable_Chest(id,6,"SF2_Medical_Herb",0);

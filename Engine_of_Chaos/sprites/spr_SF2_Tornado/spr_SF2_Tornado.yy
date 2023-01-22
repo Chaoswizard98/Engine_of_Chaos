@@ -1,8 +1,11 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Tornado",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 31,
   "height": 60,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69dd1a5a-239f-4836-96f8-8bafad9b0aa7","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69dd1a5a-239f-4836-96f8-8bafad9b0aa7","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":{"name":"8075adb6-f06a-4f35-83a9-4b8deac93d07","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Tornado","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"69dd1a5a-239f-4836-96f8-8bafad9b0aa7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dc2a512b-42bf-47fe-a6df-7515c9c74c91","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc2a512b-42bf-47fe-a6df-7515c9c74c91","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":{"name":"8075adb6-f06a-4f35-83a9-4b8deac93d07","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Tornado","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"dc2a512b-42bf-47fe-a6df-7515c9c74c91","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ac6995b-60c5-443e-a22c-8dca0dbbf801","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ac6995b-60c5-443e-a22c-8dca0dbbf801","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"LayerId":{"name":"8075adb6-f06a-4f35-83a9-4b8deac93d07","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Tornado","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","name":"4ac6995b-60c5-443e-a22c-8dca0dbbf801","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69dd1a5a-239f-4836-96f8-8bafad9b0aa7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dc2a512b-42bf-47fe-a6df-7515c9c74c91",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ac6995b-60c5-443e-a22c-8dca0dbbf801",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Tornado","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Tornado",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1598168b-04ce-40b6-871a-be7919184aa5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69dd1a5a-239f-4836-96f8-8bafad9b0aa7","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"aa27a131-c62c-4e6d-b64c-922aa9f188f5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc2a512b-42bf-47fe-a6df-7515c9c74c91","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"85bdb3d5-2a62-4ad5-a207-b684449234b5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ac6995b-60c5-443e-a22c-8dca0dbbf801","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,26 +62,17 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 60,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Tornado","path":"sprites/spr_SF2_Tornado/spr_SF2_Tornado.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Tornado",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8075adb6-f06a-4f35-83a9-4b8deac93d07","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8075adb6-f06a-4f35-83a9-4b8deac93d07","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SF2_Blast",
-    "path": "folders/Sprites/SF2_Spells/SF2_Blast.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/SF2_Spells/SF2_Blast.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Tornado",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

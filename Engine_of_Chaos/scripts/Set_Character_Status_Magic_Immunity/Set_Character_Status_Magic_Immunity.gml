@@ -1,10 +1,4 @@
-function Set_Character_Status_Magic_Immunity() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _ammount = argument[3];
-	var _stat = argument[4];
-
+function Set_Character_Status_Magic_Immunity(_lookup_type,_character,_formula,_ammount,_stat) {
 	var _base, _index;
 
 	switch(_stat){//get correct array slot

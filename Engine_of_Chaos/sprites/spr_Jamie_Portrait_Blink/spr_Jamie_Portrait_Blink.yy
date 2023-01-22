@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Jamie_Portrait_Blink",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 51,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"309e5d92-3e15-4d51-931d-08b2d74ad6f8","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"309e5d92-3e15-4d51-931d-08b2d74ad6f8","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},"LayerId":{"name":"6fb8e32a-aef0-4265-9d78-7d8667beabf8","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jamie_Portrait_Blink","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},"resourceVersion":"1.0","name":"309e5d92-3e15-4d51-931d-08b2d74ad6f8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"309e5d92-3e15-4d51-931d-08b2d74ad6f8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Jamie_Portrait_Blink","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"91fa2fcd-fd5a-40ee-a56c-ad85908a12f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"309e5d92-3e15-4d51-931d-08b2d74ad6f8","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Jamie_Portrait_Blink","path":"sprites/spr_Jamie_Portrait_Blink/spr_Jamie_Portrait_Blink.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6fb8e32a-aef0-4265-9d78-7d8667beabf8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6fb8e32a-aef0-4265-9d78-7d8667beabf8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "AU_Jamie",
+    "path": "folders/Sprites/Characters/AU/AU_Jamie.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Jamie_Portrait_Blink",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -13,7 +13,7 @@ function Forbidden_Box_Battle_Cutscene_Event() {
 	                state = "Continue_Attack_Loop";
 	                if(target.can_gain_xp){
 	                    Play_Sound(sfx_Level_Up);
-	                    while(Get_Character_Level("Local",target,"Derived") < global.Level_Cap){
+	                    while(Get_Character_Level("Local",target,"Derived") < Get_Character_Level_Scheme_Stats("Local",target,"Max_Level","Base",1)){
 	                        Level_Up("Local",target,false);
 	                    }
 	                    Create_Dialogue(noone,noone,Get_Character_Name("Local",target,"Total")+"'s full potential has been unlocked.",id,false,true,dialogue_end_delay,auto_skip_dialogue);

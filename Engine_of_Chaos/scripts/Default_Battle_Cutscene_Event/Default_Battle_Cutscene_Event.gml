@@ -223,6 +223,7 @@ function Default_Battle_Cutscene_Event(){
 	                }
                 
 	                //
+					
                 
 	                if(_damage > 0){//If target took damage
 	                    if(_target.location = "Foreground"){
@@ -314,6 +315,8 @@ function Default_Battle_Cutscene_Event(){
 	            Play_Battle_Animation(_target,"Death",true,true,true);//play death animation
 	            _message += Get_Item_Drops(attacker,target);
 	            Grant_Gold(attacker,target);
+				attacker.kills += 1;
+				target.deaths += 1;
 	            _criteria += 1;
 	        }
         

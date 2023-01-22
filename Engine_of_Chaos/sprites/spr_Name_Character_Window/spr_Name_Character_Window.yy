@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Name_Character_Window",
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 232,
   "height": 58,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ae949aaa-c44d-4450-8207-eb4e481e1716","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae949aaa-c44d-4450-8207-eb4e481e1716","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},"LayerId":{"name":"de3e4f74-cf9c-4f87-9bc3-b4e07144cf4a","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Name_Character_Window","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},"resourceVersion":"1.0","name":"ae949aaa-c44d-4450-8207-eb4e481e1716","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae949aaa-c44d-4450-8207-eb4e481e1716",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Name_Character_Window","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f24bfc06-32c4-40ec-8471-a36ade7dc8a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae949aaa-c44d-4450-8207-eb4e481e1716","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Name_Character_Window","path":"sprites/spr_Name_Character_Window/spr_Name_Character_Window.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"de3e4f74-cf9c-4f87-9bc3-b4e07144cf4a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"de3e4f74-cf9c-4f87-9bc3-b4e07144cf4a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Name_Character",
     "path": "folders/Sprites/UI/Name_Character.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Name_Character_Window",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

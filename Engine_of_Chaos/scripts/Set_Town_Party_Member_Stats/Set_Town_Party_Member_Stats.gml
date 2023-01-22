@@ -9,6 +9,7 @@ function Set_Town_Party_Member_Stats(_index){
 	can_gain_xp = true;//all players can gain xp
 	can_recieve_drops = true;
 	can_recieve_gold = true;
+	display_level = true;
 
 	class = Get_Character_Class("Global",_index,"Base");
 	level = Get_Character_Level("Global",_index,"Total");

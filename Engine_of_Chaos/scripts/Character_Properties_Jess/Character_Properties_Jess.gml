@@ -13,6 +13,7 @@ function Town_Character_Stats_Jess(_character){
 	}
 }
 
+
 //======================
 //Overworld Sprite Setup
 //======================

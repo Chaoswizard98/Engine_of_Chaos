@@ -12,6 +12,7 @@ function Cheats_Menu_Event() {
 	            case 3: old_setting = global.Invincibility; break;
 	            case 4: old_setting = global.Infinite_Magic; break;
 	            case 5: old_setting = global.Infinite_Item_Use; break;
+				case 6: old_setting = global.Infinite_Movement; break;
 	        }
 	        state = "Mapping";
 	        Play_Sound(sfx_Menu_Select);
@@ -32,6 +33,7 @@ function Cheats_Menu_Event() {
 	            case 3: Toggle_Cheat_Infinite_Health(); break;//infinite health
 	            case 4: Toggle_Cheat_Infinite_Magic(); break;//infinite magic
 	            case 5: Toggle_Cheat_Infinite_Item_Use(); break;//infinite item use
+				case 6: Toggle_Cheat_Unlimited_Movement(); break;//infinite item use
 	        }
 	        Play_Sound(sfx_Menu_Move); 
 	        Update_Cheats_Array();
@@ -49,6 +51,7 @@ function Cheats_Menu_Event() {
 	            case 3: global.Invincibility = old_setting; break;
 	            case 4: global.Infinite_Magic = old_setting; break;
 	            case 5: global.Infinite_Item_Use = old_setting; break;
+				case 6: global.Infinite_Movement = old_setting; break;
 	        }
 	        state = "Selecting_Option";
 	        Play_Sound(sfx_Menu_Swish); 

@@ -1,10 +1,5 @@
-function Update_Item() {
+function Update_Item(_lookup_type,_character,_item_slot,_item) {
 	//updates the item in the given item slot
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _item_slot = argument[2];
-	var _item = argument[3];
-
 	if(_item_slot != -1){//if the item slot is not invalid
 	    if(_item = "none"){//if new item is 'none' remove it
 	        Remove_Item(_lookup_type,_character,_item_slot);
@@ -18,7 +13,4 @@ function Update_Item() {
 	        }
 	    }
 	}
-
-
-
 }

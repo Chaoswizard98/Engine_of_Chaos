@@ -1,7 +1,7 @@
 if(action = "Move_To_Location"){//move from point A to point B
     x_pos = Approach(x_pos,end_x,x_speed);
 	y_pos = Approach(y_pos,end_y,y_speed);
-	if(x_pos = end_x){
+	if((x_pos = end_x)&&(y_pos = end_y)){
         x_pos = end_x;
         y_pos = end_y;
 		Run_Battle_Prop_Movement_End_Event(id);

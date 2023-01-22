@@ -1,8 +1,13 @@
 function Draw_Battle_HUD(_character){
 	var _spacing = 8;//spacing per iteration
 	var _max_bar_size = 100;//limit on HP bar size
-
-	var _title_text = Get_Character_Name("Local",_character,"Total")+" "+ Get_Character_Class("Local",_character,"Abbreviation")+string(Get_Character_Level("Local",_character,"Derived"));
+	
+	var _level = "";
+	if(_character.display_level){
+		_level = string(Get_Character_Level("Local",_character,"Derived"));
+	}
+	
+	var _title_text = Get_Character_Name("Local",_character,"Total")+" "+ Get_Character_Class("Local",_character,"Abbreviation")+_level;
 
 	var _current_health = Get_Character_Health("Local",_character,"Total");
 	var _max_health = Get_Character_Max_Health("Local",_character,"Total");

@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Recipe_For_Disaster");
+Set_Searchable_Message(id,"Bookshelf","Recipe_For_Disaster");

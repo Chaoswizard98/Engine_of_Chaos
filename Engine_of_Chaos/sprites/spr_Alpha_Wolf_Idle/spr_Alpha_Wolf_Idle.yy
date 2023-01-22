@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Alpha_Wolf_Idle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f02dea59-19a9-44c9-afdc-7f7ac8d359f9","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f02dea59-19a9-44c9-afdc-7f7ac8d359f9","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":{"name":"39836a07-08e8-4438-8f23-50bda7d593be","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Alpha_Wolf_Idle","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"f02dea59-19a9-44c9-afdc-7f7ac8d359f9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9d3169e9-4801-40e1-b694-5fccfb44bfd3","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d3169e9-4801-40e1-b694-5fccfb44bfd3","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":{"name":"39836a07-08e8-4438-8f23-50bda7d593be","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Alpha_Wolf_Idle","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"9d3169e9-4801-40e1-b694-5fccfb44bfd3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"189976ef-fb3f-4b65-80cd-766d00966f12","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"189976ef-fb3f-4b65-80cd-766d00966f12","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"LayerId":{"name":"39836a07-08e8-4438-8f23-50bda7d593be","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Alpha_Wolf_Idle","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","name":"189976ef-fb3f-4b65-80cd-766d00966f12","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f02dea59-19a9-44c9-afdc-7f7ac8d359f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d3169e9-4801-40e1-b694-5fccfb44bfd3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"189976ef-fb3f-4b65-80cd-766d00966f12",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Alpha_Wolf_Idle","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2c476ead-542a-4420-94a7-0fc392effca7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f02dea59-19a9-44c9-afdc-7f7ac8d359f9","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f3158ed8-5a0d-442d-9848-00e7a8d730ef","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d3169e9-4801-40e1-b694-5fccfb44bfd3","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f43b3ad1-d9de-43b3-af27-e44126d33977","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"189976ef-fb3f-4b65-80cd-766d00966f12","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 77,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Alpha_Wolf_Idle","path":"sprites/spr_Alpha_Wolf_Idle/spr_Alpha_Wolf_Idle.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39836a07-08e8-4438-8f23-50bda7d593be","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39836a07-08e8-4438-8f23-50bda7d593be","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Alpha_Wolf",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Alpha_Wolf.yy",
+    "name": "AU_Alpha_Wolf",
+    "path": "folders/Sprites/Characters/AU/Enemies/AU_Alpha_Wolf.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Alpha_Wolf_Idle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

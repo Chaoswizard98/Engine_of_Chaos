@@ -8,7 +8,7 @@ function Spell_Stats_Healing_Item(_effect_level,_lookup_type,_character){
 	select_type = "Ally";
 	min_target_range = -1; 
 	cure_bleed = true;
-        
+ 
 	switch(_effect_level){
 	    case 1: heal_ammount = 10; break;
 	    case 2: heal_ammount = 20; break;

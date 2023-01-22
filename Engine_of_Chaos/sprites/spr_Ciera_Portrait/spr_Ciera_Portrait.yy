@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Ciera_Portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 78,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7b246a76-0f52-49ed-a4f1-e47cf08c62af","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b246a76-0f52-49ed-a4f1-e47cf08c62af","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":{"name":"53d72b6f-619b-4012-962b-6c41b5d0b58f","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ciera_Portrait","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"7b246a76-0f52-49ed-a4f1-e47cf08c62af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fba0a166-5483-4736-99ec-d88ff44c0a08","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fba0a166-5483-4736-99ec-d88ff44c0a08","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":{"name":"53d72b6f-619b-4012-962b-6c41b5d0b58f","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ciera_Portrait","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"fba0a166-5483-4736-99ec-d88ff44c0a08","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"592e6f54-1e9d-4a61-9042-08103c1b04f3","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"592e6f54-1e9d-4a61-9042-08103c1b04f3","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"LayerId":{"name":"53d72b6f-619b-4012-962b-6c41b5d0b58f","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ciera_Portrait","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","name":"592e6f54-1e9d-4a61-9042-08103c1b04f3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b246a76-0f52-49ed-a4f1-e47cf08c62af",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fba0a166-5483-4736-99ec-d88ff44c0a08",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"592e6f54-1e9d-4a61-9042-08103c1b04f3",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Ciera_Portrait","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"347db22c-4e5e-4bbb-abe5-36dcf2a6fa19","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b246a76-0f52-49ed-a4f1-e47cf08c62af","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a9804e69-e64b-4f02-8e81-b3be983f2c34","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fba0a166-5483-4736-99ec-d88ff44c0a08","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2d0898ac-bdf1-4ef1-9f7e-244230ee1619","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"592e6f54-1e9d-4a61-9042-08103c1b04f3","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Ciera_Portrait","path":"sprites/spr_Ciera_Portrait/spr_Ciera_Portrait.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53d72b6f-619b-4012-962b-6c41b5d0b58f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"53d72b6f-619b-4012-962b-6c41b5d0b58f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "AU_Ciera",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Ciera.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Ciera_Portrait",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

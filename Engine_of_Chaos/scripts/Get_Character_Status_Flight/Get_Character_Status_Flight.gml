@@ -1,9 +1,4 @@
-function Get_Character_Status_Flight() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _stat = argument[3];
-
+function Get_Character_Status_Flight(_lookup_type,_character,_formula,_stat) {
 	var _base, _mainhand, _offhand, _index;
 
 	switch(_stat){//get correct array slot

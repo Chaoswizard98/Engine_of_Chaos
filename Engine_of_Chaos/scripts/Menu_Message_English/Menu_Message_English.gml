@@ -1,6 +1,6 @@
-function Menu_Message_English() {
-	var _menu = argument[0];//Menu we're calling from
-	var _message_ID = argument[1];//Message to look up
+function Menu_Message_English(_menu,_message_ID) {
+	//Menu we're calling from
+	//Message to look up
 
 	switch(_menu){
 	    case "Generic":
@@ -85,7 +85,7 @@ function Menu_Message_English() {
 	            case "Challenge_1": return ("Chapter 1 Challenge"); break;
 	            case "Challenge_2": return (""); break;
 	            case "Challenge_3": return (""); break;
-	            case "Debug_Room": return ("Debug_Room"); break;
+	            case "Debug_Room": return ("Debug Room"); break;
 	        }
 	    break;
 	    case "Game_Settings_Menu":
@@ -106,6 +106,7 @@ function Menu_Message_English() {
 	            case "Invincibility": return ("Invincibility"); break;
 	            case "Infinite_Magic": return ("Infinite Magic"); break;
 	            case "Infinite_Item_Use": return ("Infinite Item Use"); break;
+				case "Unlimited_Movement": return ("Unlimited Movement"); break;
 	        }
 	    break;
 	}

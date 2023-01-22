@@ -1,8 +1,8 @@
 function Battle_01_Intro_Cutscene() {
 	var _lookup = "Local";
-	var _jason = Get_Character("Jason","Default");
-	var _max = Get_Character("Max","Default");
-	var _ciera = Get_Character("Ciera","Default");
+	var _jason = Get_Character("AU_Jason","Default");
+	var _max = Get_Character("AU_Max","Default");
+	var _ciera = Get_Character("AU_Ciera","Default");
 	var _wolf;
 	with(obj_Wolf){
 	    if(ai_script_ID = "AI_Battle_01_Wolf_01"){

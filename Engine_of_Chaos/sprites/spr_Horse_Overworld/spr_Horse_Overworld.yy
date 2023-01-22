@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Horse_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5327cd35-3dae-42b4-b68e-55798a2f976e","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5327cd35-3dae-42b4-b68e-55798a2f976e","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"5327cd35-3dae-42b4-b68e-55798a2f976e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f5c1ce30-f5b9-4bdf-b80a-fa9a13eac154","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5c1ce30-f5b9-4bdf-b80a-fa9a13eac154","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"f5c1ce30-f5b9-4bdf-b80a-fa9a13eac154","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"00c781fc-abc7-4a1c-b63d-856c1dc74eae","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"00c781fc-abc7-4a1c-b63d-856c1dc74eae","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"00c781fc-abc7-4a1c-b63d-856c1dc74eae","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8ed0bb48-31b7-45d4-ba04-d18f4c207c34","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ed0bb48-31b7-45d4-ba04-d18f4c207c34","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"8ed0bb48-31b7-45d4-ba04-d18f4c207c34","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"94b7d352-e07f-4b29-9b57-dbfb42b84366","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"94b7d352-e07f-4b29-9b57-dbfb42b84366","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"94b7d352-e07f-4b29-9b57-dbfb42b84366","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dd19bfe4-b6a1-42bf-8bdd-839203333286","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd19bfe4-b6a1-42bf-8bdd-839203333286","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"LayerId":{"name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","name":"dd19bfe4-b6a1-42bf-8bdd-839203333286","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5327cd35-3dae-42b4-b68e-55798a2f976e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5c1ce30-f5b9-4bdf-b80a-fa9a13eac154",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00c781fc-abc7-4a1c-b63d-856c1dc74eae",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ed0bb48-31b7-45d4-ba04-d18f4c207c34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94b7d352-e07f-4b29-9b57-dbfb42b84366",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd19bfe4-b6a1-42bf-8bdd-839203333286",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c156c3e0-f8ca-4c56-9ca1-aff37527b421","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5327cd35-3dae-42b4-b68e-55798a2f976e","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"52f1fc9f-ef75-4fd2-8fce-50a20c2e9e99","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5c1ce30-f5b9-4bdf-b80a-fa9a13eac154","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ef16e8d8-3896-4cfc-be9e-3cb7b83bd845","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00c781fc-abc7-4a1c-b63d-856c1dc74eae","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3f0be0e6-d768-40b1-a3ac-c52390d05b4b","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ed0bb48-31b7-45d4-ba04-d18f4c207c34","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4b8078e7-078f-4a91-a39a-d02812ddb5ba","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94b7d352-e07f-4b29-9b57-dbfb42b84366","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"799d86f4-629e-4126-ae36-ce3c03869761","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd19bfe4-b6a1-42bf-8bdd-839203333286","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Horse_Overworld","path":"sprites/spr_Horse_Overworld/spr_Horse_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ae5e882d-bb7a-4326-8d0e-c68351a8101a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Horse_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

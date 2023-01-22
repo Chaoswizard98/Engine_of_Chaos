@@ -1,0 +1,1 @@
+Setup_Room_Transfer_Tile(id,room_Moorenfirch,"Moorenfirch_01","Up");

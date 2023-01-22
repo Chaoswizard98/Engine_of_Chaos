@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "bg_Terrain_Tiles",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -8,12 +11,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 719,
+  "bbox_right": 1439,
   "bbox_top": 0,
-  "bbox_bottom": 1271,
+  "bbox_bottom": 1535,
   "HTile": true,
   "VTile": true,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 1536,
   "height": 1536,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 24,
   "gridY": 24,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0bb21cd8-b116-4ded-a6e9-7249d337f2ec","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0bb21cd8-b116-4ded-a6e9-7249d337f2ec","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},"LayerId":{"name":"02995676-039d-46b0-9edf-d0e99e1f14e7","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_Terrain_Tiles","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},"resourceVersion":"1.0","name":"0bb21cd8-b116-4ded-a6e9-7249d337f2ec","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0bb21cd8-b116-4ded-a6e9-7249d337f2ec",},
   ],
   "sequence": {
-    "spriteId": {"name":"bg_Terrain_Tiles","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "bg_Terrain_Tiles",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"acaf84b2-f916-40cf-832f-19f8db5b740c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0bb21cd8-b116-4ded-a6e9-7249d337f2ec","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bg_Terrain_Tiles","path":"sprites/bg_Terrain_Tiles/bg_Terrain_Tiles.yy",},
-    "resourceVersion": "1.3",
-    "name": "bg_Terrain_Tiles",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"02995676-039d-46b0-9edf-d0e99e1f14e7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"02995676-039d-46b0-9edf-d0e99e1f14e7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tilesets",
-    "path": "folders/Sprites/tilesets.yy",
+    "name": "Tilesets",
+    "path": "folders/Sprites/Tilesets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_Terrain_Tiles",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

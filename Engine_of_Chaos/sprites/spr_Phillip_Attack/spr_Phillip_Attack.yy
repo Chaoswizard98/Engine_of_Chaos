@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Phillip_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9b67f117-5309-4272-b2a6-0bdaea9f8592","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b67f117-5309-4272-b2a6-0bdaea9f8592","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":{"name":"eb0fb916-5c37-4d76-83e3-83f09c746514","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Attack","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"9b67f117-5309-4272-b2a6-0bdaea9f8592","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3091c441-ce4a-42fb-8f56-f884ddf40cf0","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3091c441-ce4a-42fb-8f56-f884ddf40cf0","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":{"name":"eb0fb916-5c37-4d76-83e3-83f09c746514","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Attack","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"3091c441-ce4a-42fb-8f56-f884ddf40cf0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"45e89371-8fda-4c5a-9ce1-7c696b70a611","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45e89371-8fda-4c5a-9ce1-7c696b70a611","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"LayerId":{"name":"eb0fb916-5c37-4d76-83e3-83f09c746514","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Attack","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","name":"45e89371-8fda-4c5a-9ce1-7c696b70a611","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b67f117-5309-4272-b2a6-0bdaea9f8592",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3091c441-ce4a-42fb-8f56-f884ddf40cf0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45e89371-8fda-4c5a-9ce1-7c696b70a611",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Phillip_Attack","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"677bdd49-b072-4695-9876-88379c53c0b1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b67f117-5309-4272-b2a6-0bdaea9f8592","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"33d3e03a-4f1b-447e-bf46-31ffbe928225","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3091c441-ce4a-42fb-8f56-f884ddf40cf0","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f04d8569-9c88-4302-9d0f-515b8250e739","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45e89371-8fda-4c5a-9ce1-7c696b70a611","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 86,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Phillip_Attack","path":"sprites/spr_Phillip_Attack/spr_Phillip_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eb0fb916-5c37-4d76-83e3-83f09c746514","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eb0fb916-5c37-4d76-83e3-83f09c746514","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Phillip",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Phillip.yy",
+    "name": "AU_Phillip",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Phillip.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Phillip_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

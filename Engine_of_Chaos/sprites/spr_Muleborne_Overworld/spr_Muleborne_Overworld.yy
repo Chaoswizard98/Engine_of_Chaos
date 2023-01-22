@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Muleborne_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b014f2b5-faeb-49de-bbe0-9c94103b9cba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b014f2b5-faeb-49de-bbe0-9c94103b9cba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"b014f2b5-faeb-49de-bbe0-9c94103b9cba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0579320c-4a5d-46a3-8957-f50079a8a340","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0579320c-4a5d-46a3-8957-f50079a8a340","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"0579320c-4a5d-46a3-8957-f50079a8a340","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9ef6deb9-2d96-44b3-9e8b-c4cf74641ed7","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ef6deb9-2d96-44b3-9e8b-c4cf74641ed7","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"9ef6deb9-2d96-44b3-9e8b-c4cf74641ed7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8844dfec-65ae-4819-9390-be9d46a6ad32","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8844dfec-65ae-4819-9390-be9d46a6ad32","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"8844dfec-65ae-4819-9390-be9d46a6ad32","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6287edd4-7099-4379-9e1f-64ea2c4494ba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6287edd4-7099-4379-9e1f-64ea2c4494ba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"6287edd4-7099-4379-9e1f-64ea2c4494ba","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f13a0d8-427d-43cc-abe2-992eeeb33ceb","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f13a0d8-427d-43cc-abe2-992eeeb33ceb","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"LayerId":{"name":"db829219-a88a-467c-8f79-caa406bccf3c","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","name":"6f13a0d8-427d-43cc-abe2-992eeeb33ceb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b014f2b5-faeb-49de-bbe0-9c94103b9cba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0579320c-4a5d-46a3-8957-f50079a8a340",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ef6deb9-2d96-44b3-9e8b-c4cf74641ed7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8844dfec-65ae-4819-9390-be9d46a6ad32",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6287edd4-7099-4379-9e1f-64ea2c4494ba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f13a0d8-427d-43cc-abe2-992eeeb33ceb",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Muleborne_Overworld",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"31d50e6a-36a2-4319-9af9-d475787b0f66","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b014f2b5-faeb-49de-bbe0-9c94103b9cba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5689b83b-59c1-4523-87ad-f73700823de4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0579320c-4a5d-46a3-8957-f50079a8a340","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"86bd3bc5-a169-450e-a1cc-408f6ba9ad5e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ef6deb9-2d96-44b3-9e8b-c4cf74641ed7","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1dd9651e-025c-445d-ae5a-48cabb319cd5","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8844dfec-65ae-4819-9390-be9d46a6ad32","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5c974dc3-1b64-4c6f-b25f-75d8d7367a21","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6287edd4-7099-4379-9e1f-64ea2c4494ba","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7eed91c8-5330-4b20-ab56-3a8b754cb47e","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f13a0d8-427d-43cc-abe2-992eeeb33ceb","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Muleborne_Overworld","path":"sprites/spr_Muleborne_Overworld/spr_Muleborne_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db829219-a88a-467c-8f79-caa406bccf3c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"db829219-a88a-467c-8f79-caa406bccf3c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Muleborne_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

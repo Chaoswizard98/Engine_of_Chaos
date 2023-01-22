@@ -5,7 +5,9 @@ function Create_Turn_Order() {
 	obj_Battle_Controller.number_of_turns = 0;//number of turns gets reset
 
 	with(obj_Character){//loop through all characters, add them to the list
-	    Create_Character_Turn_Objects(id,"Default");
+		if(!hidden){
+			Create_Character_Turn_Objects(id,"Default");
+		}
 	}
 
 	//Reveal Hidden Units

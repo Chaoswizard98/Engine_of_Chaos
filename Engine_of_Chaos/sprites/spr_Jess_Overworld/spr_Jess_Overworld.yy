@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Jess_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"966c7ba0-c089-41be-98df-bb9540903264","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"966c7ba0-c089-41be-98df-bb9540903264","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"966c7ba0-c089-41be-98df-bb9540903264","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"84f1bf00-c430-4bdb-a7fe-1bfa7bc19e28","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84f1bf00-c430-4bdb-a7fe-1bfa7bc19e28","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"84f1bf00-c430-4bdb-a7fe-1bfa7bc19e28","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7b9e30bb-a7f0-4a02-ae88-edef9baf4139","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7b9e30bb-a7f0-4a02-ae88-edef9baf4139","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"7b9e30bb-a7f0-4a02-ae88-edef9baf4139","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0ffc3a19-d891-4088-b942-4b23735b48ec","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0ffc3a19-d891-4088-b942-4b23735b48ec","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"0ffc3a19-d891-4088-b942-4b23735b48ec","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ad656e7e-6f03-4a18-9aae-5f614284139b","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ad656e7e-6f03-4a18-9aae-5f614284139b","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"ad656e7e-6f03-4a18-9aae-5f614284139b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9930a2d3-84f4-4b30-811f-5103706c5f59","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9930a2d3-84f4-4b30-811f-5103706c5f59","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"LayerId":{"name":"34738134-7a63-4191-9e01-195e1e19a515","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","name":"9930a2d3-84f4-4b30-811f-5103706c5f59","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"966c7ba0-c089-41be-98df-bb9540903264",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84f1bf00-c430-4bdb-a7fe-1bfa7bc19e28",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7b9e30bb-a7f0-4a02-ae88-edef9baf4139",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ffc3a19-d891-4088-b942-4b23735b48ec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad656e7e-6f03-4a18-9aae-5f614284139b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9930a2d3-84f4-4b30-811f-5103706c5f59",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e6d8ca17-f179-48e3-861d-ddc8f6a561e0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"966c7ba0-c089-41be-98df-bb9540903264","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dba2ed27-53e0-49d4-825f-657f101656a4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84f1bf00-c430-4bdb-a7fe-1bfa7bc19e28","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"35a325fb-ce1e-41b5-af6e-12f667ddf730","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7b9e30bb-a7f0-4a02-ae88-edef9baf4139","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"982089b3-ae80-45f4-a7c5-8c3d8788e751","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ffc3a19-d891-4088-b942-4b23735b48ec","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cb7d6c03-2657-4b7f-b293-98baafd84c8c","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad656e7e-6f03-4a18-9aae-5f614284139b","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5e7d85ce-224c-4ad9-b1d1-19fc660aefec","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9930a2d3-84f4-4b30-811f-5103706c5f59","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Jess_Overworld","path":"sprites/spr_Jess_Overworld/spr_Jess_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34738134-7a63-4191-9e01-195e1e19a515","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"34738134-7a63-4191-9e01-195e1e19a515","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Jess_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

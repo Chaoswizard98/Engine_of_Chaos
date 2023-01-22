@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Burst_Rock_Idle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 125,
   "height": 96,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0313b04f-4251-4c45-bd11-38dde9e07126","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0313b04f-4251-4c45-bd11-38dde9e07126","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},"LayerId":{"name":"0c6b4969-2ba7-47b5-8949-12e92a895ef4","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Burst_Rock_Idle","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},"resourceVersion":"1.0","name":"0313b04f-4251-4c45-bd11-38dde9e07126","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0313b04f-4251-4c45-bd11-38dde9e07126",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Burst_Rock_Idle","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Burst_Rock_Idle",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"31bb32fb-5f43-4cb8-8138-c2e01f3f926a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0313b04f-4251-4c45-bd11-38dde9e07126","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 85,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Burst_Rock_Idle","path":"sprites/spr_SF2_Burst_Rock_Idle/spr_SF2_Burst_Rock_Idle.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Burst_Rock_Idle",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c6b4969-2ba7-47b5-8949-12e92a895ef4","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0c6b4969-2ba7-47b5-8949-12e92a895ef4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Burst_Rock",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Burst_Rock.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Burst_Rock.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Burst_Rock_Idle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

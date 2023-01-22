@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Battle_Background_Default",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 256,
   "height": 96,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1714c6cf-2332-4388-94ba-e2d4385bab2c","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1714c6cf-2332-4388-94ba-e2d4385bab2c","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},"LayerId":{"name":"084c50d1-eede-4d12-a0db-865574201be8","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Battle_Background_Default","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},"resourceVersion":"1.0","name":"1714c6cf-2332-4388-94ba-e2d4385bab2c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1714c6cf-2332-4388-94ba-e2d4385bab2c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Battle_Background_Default","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e99124d9-28f5-4ec7-9270-12a67dc45466","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1714c6cf-2332-4388-94ba-e2d4385bab2c","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Battle_Background_Default","path":"sprites/spr_Battle_Background_Default/spr_Battle_Background_Default.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"084c50d1-eede-4d12-a0db-865574201be8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"084c50d1-eede-4d12-a0db-865574201be8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Battle_Backgrounds",
     "path": "folders/Sprites/Battle_Cutscenes/Battle_Backgrounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Battle_Background_Default",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

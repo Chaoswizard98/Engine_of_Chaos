@@ -26,7 +26,7 @@ master_summoner = id;//The original summoner (In case of a summon summoning anot
 magic_consumed = 0;//Mana consumed from the caster each turn
 persistent_summon = false;//do they stick around even after summoner death?
 summoned_turns_remaining = -1;//How many turns do they get when summoned? (-1 for infinite)
-
+display_level = false;
 
 //AI Stuff
 waiting_for_AI = false;
@@ -63,7 +63,6 @@ global_ID = -1;//Global ID of the character (for party members / any character t
 faction = "none";//Character's Faction
 name = "";//Character's Name
 class = "none";
-class_tier = 0;
 level = 1;
 level_scheme = "Default";
 experience = 0;
@@ -143,6 +142,7 @@ end_death_event_priority = 0;//for running custom death cutscenes after death an
 
 
 hidden = false;
+disable_on_hide = true;//if they are fully disabled when hidden. (basically cease to exist)
 reveal_cutscene_ID = "Reveal_Hidden_Unit";//what cutscene do we play when revealing this unit?
 reveal_criteria = "Default";//criteria for reveal
 reveal_state = -1;//what battle state do they reveal on?
@@ -219,6 +219,7 @@ follower_y_offset = 0;//when following characters, offset (in tiles) from center
 //cutscene stuff
 cutscene_mode = false;//blocks all non-cutscene events (ie, walking, player control, etc)
 animation = "none";//shudder, head nod, head shake, etc
+animation_start = false;//Gives animations a 1 frame startup delay.
 death_animation = "Default";//what animation do they play when dying?
 chained_animation = "none";//advanced animation script (For chained animations like death)
 animation_count = 0;//Number of times to run the animation

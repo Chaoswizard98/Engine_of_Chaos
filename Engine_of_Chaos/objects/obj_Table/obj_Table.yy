@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Controller",
-    "path": "sprites/spr_Controller/spr_Controller.yy",
+    "name": "spr_Inspectable",
+    "path": "sprites/spr_Inspectable/spr_Inspectable.yy",
   },
   "solid": false,
   "visible": true,

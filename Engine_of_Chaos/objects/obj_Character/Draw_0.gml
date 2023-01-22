@@ -1,54 +1,56 @@
 mirror = 1;//by default, we are not mirroring the right frames
-//====
-//Down
-//====
-if(direction = 270 && (image_index >= number_of_frames)){//if we are beyond the alloted down frames
-    image_index = 0;//reset frame to the start of the block
-}
-//==
-//Up
-//==
-else if(direction = 90){//up
-    if(image_index >= (number_of_frames * 2)){//if we are beyond the alloted up frames
-        image_index = number_of_frames;//reset frame to the start of the block
-    }
-    else if(image_index < number_of_frames){//if we are less than the minimum frame (if we changed direction)
-        image_index = number_of_frames + frac(image_index);//set image to current position in new animation to maintain walk cycle
-    }
-}
-//=====
-//Right
-//=====
-else if((direction = 0)||(direction = 45)||(direction = 315)){//right
-    if(image_index >= (number_of_frames * 3)){//if we are beyond the alloted right frames
-        image_index = number_of_frames * 2;//reset frame to the start of the block
-    }
-    else if(image_index < number_of_frames * 2){//if we are less than the minimum frame (if we changed direction)
-        image_index = (number_of_frames * 2) + frac(image_index);//set image to current position in new animation to maintain walk cycle
-    }
-}
-//====
-//Left
-//====
-else if((direction = 180)||(direction = 135)||(direction = 225)){//left
-    if(sprite_get_number(sprite_index)<(number_of_frames * 4)){//if we need to mirror the right frames
-        mirror = -1;
-        if(image_index >= (number_of_frames * 3)){//if we are beyond the alloted right frames
-            image_index = number_of_frames * 2;//reset frame to the start of the block
-        }
-        else if(image_index < number_of_frames*2){//if we are less than the minimum frame (if we changed direction)
-            image_index = (number_of_frames * 2) + frac(image_index);//set image to current position in new animation to maintain walk cycle
-        }
-    }
-    else{//otherwise we have custom left frames
-        if(image_index >= (number_of_frames * 4)){//if we are beyond the alloted left frames
-            image_index = number_of_frames * 3;//reset frame to the start of the block
-        }
-        else if(image_index < number_of_frames*3){//if we are less than the minimum frame (if we changed direction)
-            image_index = (number_of_frames * 3) + frac(image_index);//set image to current position in new animation to maintain walk cycle
-        }
-    }
-}
+
+	//====
+	//Down
+	//====
+	if(direction = 270 && (image_index >= number_of_frames)){//if we are beyond the alloted down frames
+	    image_index = 0;//reset frame to the start of the block
+	}
+	//==
+	//Up
+	//==
+	else if(direction = 90){//up
+	    if(image_index >= (number_of_frames * 2)){//if we are beyond the alloted up frames
+	        image_index = number_of_frames;//reset frame to the start of the block
+	    }
+	    else if(image_index < number_of_frames){//if we are less than the minimum frame (if we changed direction)
+	        image_index = number_of_frames + frac(image_index);//set image to current position in new animation to maintain walk cycle
+	    }
+	}
+	//=====
+	//Right
+	//=====
+	else if((direction = 0)||(direction = 45)||(direction = 315)){//right
+	    if(image_index >= (number_of_frames * 3)){//if we are beyond the alloted right frames
+	        image_index = number_of_frames * 2;//reset frame to the start of the block
+	    }
+	    else if(image_index < number_of_frames * 2){//if we are less than the minimum frame (if we changed direction)
+	        image_index = (number_of_frames * 2) + frac(image_index);//set image to current position in new animation to maintain walk cycle
+	    }
+	}
+	//====
+	//Left
+	//====
+	else if((direction = 180)||(direction = 135)||(direction = 225)){//left
+	    if(sprite_get_number(sprite_index)<(number_of_frames * 4)){//if we need to mirror the right frames
+	        mirror = -1;
+	        if(image_index >= (number_of_frames * 3)){//if we are beyond the alloted right frames
+	            image_index = number_of_frames * 2;//reset frame to the start of the block
+	        }
+	        else if(image_index < number_of_frames*2){//if we are less than the minimum frame (if we changed direction)
+	            image_index = (number_of_frames * 2) + frac(image_index);//set image to current position in new animation to maintain walk cycle
+	        }
+	    }
+	    else{//otherwise we have custom left frames
+	        if(image_index >= (number_of_frames * 4)){//if we are beyond the alloted left frames
+	            image_index = number_of_frames * 3;//reset frame to the start of the block
+	        }
+	        else if(image_index < number_of_frames*3){//if we are less than the minimum frame (if we changed direction)
+	            image_index = (number_of_frames * 3) + frac(image_index);//set image to current position in new animation to maintain walk cycle
+	        }
+	    }
+	}
+
 
 //Enable Shader
 if(use_shader){//if we're using a shader

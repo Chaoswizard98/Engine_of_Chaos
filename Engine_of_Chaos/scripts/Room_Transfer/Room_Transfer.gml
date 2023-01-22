@@ -1,9 +1,7 @@
-function Room_Transfer() {
-	var _character = argument[0];//player trigger
-	var _trigger = argument[1];//Tile, Overworld, Force
+function Room_Transfer(_character,_trigger,_data_1 = noone,_data_2 = noone) {
+	//var _character = argument[0];//player trigger
+	//var _trigger = argument[1];//Tile, Overworld, Force
 	var _transition_type = _trigger;
-	var _data_1 = noone;//Extra information
-	var _data_2 = noone;
 	var _direction = "Down";
 	var _tile_ID = "none";
 	var _next_room = noone;
@@ -11,13 +9,7 @@ function Room_Transfer() {
 	var _image_index = 0;
 	var _x_pos = 0;
 	var _y_pos = 0;
-
-	if(argument_count > 2){
-	    _data_1 = argument[2];
-	}
-	if(argument_count > 3){
-	    _data_2 = argument[3];
-	}
+	var _action = "none";
 
 	//===========================
 	//Get Transition Information=
@@ -52,6 +44,15 @@ function Room_Transfer() {
 	        _next_room = _data_1;
 	        _transition_type = "Load_Game";
 	    break;
+		case "Restart":
+			_next_room = room;
+	        _character_ID = Get_Character_ID("Local",_character,"Base");
+	        _transition_type = "Screen_Fade";
+			_image_index = _character.image_index;
+			_x_pos = _character.x;
+	        _y_pos = _character.y;
+			_action = "Restart";
+		break;
 	}
 
 
@@ -61,7 +62,7 @@ function Room_Transfer() {
 	if(_next_room != noone){//if we go to next room,
 	    instance_create_layer(0,0,"Room_Transition_Instance_Layer",obj_Room_Transition_Controller);
 	    with(obj_Room_Transition_Controller){
-	        if((_trigger != "Force")&&(_transition_type = "Screen_Fade")){
+	        if((_trigger != "Force")&&(_trigger != "Restart")&&(_transition_type = "Screen_Fade")){
 	            Play_Sound(sfx_Stair);
 	        }
 	        next_room = _next_room;
@@ -74,6 +75,7 @@ function Room_Transfer() {
 	        player_image_index = _image_index;
 	        previous_x = _x_pos;
 	        previous_y = _y_pos;
+			action = _action;
 	        event_perform(ev_other,ev_user0);
 	    }
 	}

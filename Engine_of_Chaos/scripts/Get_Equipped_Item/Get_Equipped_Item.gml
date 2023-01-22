@@ -1,8 +1,4 @@
-function Get_Equipped_Item() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _equipment_slot = argument[2];
-
+function Get_Equipped_Item(_lookup_type,_character,_equipment_slot) {
 	if(_lookup_type = "Global"){
 	    if(global.Equipment[_character,_equipment_slot] = -1){
 	        return "none";
@@ -19,7 +15,4 @@ function Get_Equipped_Item() {
 	        return _character.items[_character.equipment[_equipment_slot]];
 	    }
 	}
-
-
-
 }

@@ -12,6 +12,10 @@ function Global_Battle_Cutscene_Event() {
 	    case "Movement_Boost": Movement_Boost_Battle_Cutscene_Event(); break;
 	    case "Max_Health_Boost": Max_Health_Boost_Battle_Cutscene_Event(); break;
 	    case "Max_Magic_Boost": Max_Magic_Boost_Battle_Cutscene_Event(); break;
+		
+		//AU custom
+		case "AU_Power_Wine": AU_Power_Wine_Battle_Cutscene_Event(); break;
+	    case "AU_Protect_Milk": AU_Protect_Milk_Battle_Cutscene_Event(); break;
 	    default: Default_Battle_Cutscene_Event(); break;
 	}
 

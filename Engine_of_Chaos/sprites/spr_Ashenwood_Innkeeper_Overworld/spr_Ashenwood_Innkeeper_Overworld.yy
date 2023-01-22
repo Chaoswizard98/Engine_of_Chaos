@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Ashenwood_Innkeeper_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7bdd3520-8fcc-4c5d-90f6-166b19514e91","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7bdd3520-8fcc-4c5d-90f6-166b19514e91","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"7bdd3520-8fcc-4c5d-90f6-166b19514e91","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"19d8647b-dc90-4efa-b095-824fc92a7b3a","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19d8647b-dc90-4efa-b095-824fc92a7b3a","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"19d8647b-dc90-4efa-b095-824fc92a7b3a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"67948951-d897-44af-ba0b-692c0153db9b","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"67948951-d897-44af-ba0b-692c0153db9b","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"67948951-d897-44af-ba0b-692c0153db9b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c8f735d6-e0ea-422a-a24e-51aee0b17123","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c8f735d6-e0ea-422a-a24e-51aee0b17123","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"c8f735d6-e0ea-422a-a24e-51aee0b17123","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"988914be-e7a3-4766-b7b1-84411b15be86","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"988914be-e7a3-4766-b7b1-84411b15be86","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"988914be-e7a3-4766-b7b1-84411b15be86","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"11ccc5fc-bac7-4f45-a655-57bd391ecfc5","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11ccc5fc-bac7-4f45-a655-57bd391ecfc5","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"LayerId":{"name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","name":"11ccc5fc-bac7-4f45-a655-57bd391ecfc5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bdd3520-8fcc-4c5d-90f6-166b19514e91",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"19d8647b-dc90-4efa-b095-824fc92a7b3a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67948951-d897-44af-ba0b-692c0153db9b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c8f735d6-e0ea-422a-a24e-51aee0b17123",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"988914be-e7a3-4766-b7b1-84411b15be86",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11ccc5fc-bac7-4f45-a655-57bd391ecfc5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4f357e6c-f9e3-41e8-8d2e-9717a9ce1e23","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7bdd3520-8fcc-4c5d-90f6-166b19514e91","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3647193a-c7cd-4fbe-850b-7e7e806ff9ad","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19d8647b-dc90-4efa-b095-824fc92a7b3a","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a4575bb9-a6c7-4c5f-9f64-378099635202","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67948951-d897-44af-ba0b-692c0153db9b","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9d3c986a-5475-467d-af53-2be76cbd0039","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8f735d6-e0ea-422a-a24e-51aee0b17123","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9a4e5986-6a6b-47b4-8d21-e333b49c89fe","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"988914be-e7a3-4766-b7b1-84411b15be86","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"44a3420e-5403-4f1f-a575-1135b332a6f3","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11ccc5fc-bac7-4f45-a655-57bd391ecfc5","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Ashenwood_Innkeeper_Overworld","path":"sprites/spr_Ashenwood_Innkeeper_Overworld/spr_Ashenwood_Innkeeper_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"211d5a37-60db-4bb5-adc5-69ee2820ea47","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Ashenwood_Innkeeper_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

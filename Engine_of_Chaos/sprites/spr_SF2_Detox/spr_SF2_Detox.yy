@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_SF2_Detox",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 23,
   "height": 23,
   "textureGroupId": {
@@ -24,24 +28,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d275090-a9ae-4427-b2a1-9133143b8d35","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d275090-a9ae-4427-b2a1-9133143b8d35","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":{"name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"1d275090-a9ae-4427-b2a1-9133143b8d35","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"375b413a-31ba-467a-b426-b7081dbe33ac","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"375b413a-31ba-467a-b426-b7081dbe33ac","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":{"name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"375b413a-31ba-467a-b426-b7081dbe33ac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9fd94fcd-5f7f-452f-a1c1-64a52cde6279","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9fd94fcd-5f7f-452f-a1c1-64a52cde6279","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":{"name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"9fd94fcd-5f7f-452f-a1c1-64a52cde6279","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c51e29c6-9996-4ec1-8281-34216dbf8300","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c51e29c6-9996-4ec1-8281-34216dbf8300","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":{"name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"c51e29c6-9996-4ec1-8281-34216dbf8300","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"37384308-386f-42d6-837e-40adfc0075cc","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37384308-386f-42d6-837e-40adfc0075cc","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"LayerId":{"name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","name":"37384308-386f-42d6-837e-40adfc0075cc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d275090-a9ae-4427-b2a1-9133143b8d35",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"375b413a-31ba-467a-b426-b7081dbe33ac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9fd94fcd-5f7f-452f-a1c1-64a52cde6279",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c51e29c6-9996-4ec1-8281-34216dbf8300",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"37384308-386f-42d6-837e-40adfc0075cc",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_SF2_Detox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -52,13 +48,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"61daf933-31c9-4ce8-9393-6f1841df47a3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d275090-a9ae-4427-b2a1-9133143b8d35","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fc48ce92-5830-4944-83ee-85fcfa13cc00","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"375b413a-31ba-467a-b426-b7081dbe33ac","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"84429d75-f161-4f1b-8a88-dd5f3f22499d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fd94fcd-5f7f-452f-a1c1-64a52cde6279","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fad395c5-eb51-45cc-9f49-710f5fa2518e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c51e29c6-9996-4ec1-8281-34216dbf8300","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8390c368-4833-44fb-8565-e07f7854b2e0","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37384308-386f-42d6-837e-40adfc0075cc","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +70,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_SF2_Detox","path":"sprites/spr_SF2_Detox/spr_SF2_Detox.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_SF2_Detox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5b3299c0-84d8-4a15-a119-1a0e1cc341c5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "SF2_Spells",
-    "path": "folders/Sprites/SF2_Spells.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/SF2_Spells.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_SF2_Detox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

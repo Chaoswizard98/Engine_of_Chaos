@@ -7,13 +7,4 @@ function Get_Battle_Cutscene_Prop_Stats(_prop,_stat){
 		}
 	}
 	return script_execute(_script,_stat);//run the script
-	/*  case "Prism_Flower_Start":
-	        _sprite = spr_Prism_Flower_Particles;
-	        _animation_speed = 0;
-	    break;
-	    case "Prism_Flower_Shot":
-	        _sprite = spr_Prism_Flower_Shot;
-	        _animation_speed = .5;
-	    break;
-	}*/
 }

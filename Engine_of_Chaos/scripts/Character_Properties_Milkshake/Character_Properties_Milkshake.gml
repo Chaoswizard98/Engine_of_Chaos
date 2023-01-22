@@ -9,7 +9,11 @@ function Town_Character_Stats_Milkshake(_character){
 		    y = 672;
 		    allow_wander = false;
 		    direction = 0;
-		    dialogue_ID = "none";
+		    dialogue_ID = "Cow";
+			moving = false;//stop moving
+            speed_x = 0;//set speeds to 0
+            speed_y = 0;//set speeds to 0
+            move_speed = 0;//set move_speed to 0
 		}
 	}
 }

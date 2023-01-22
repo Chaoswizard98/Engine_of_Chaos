@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Treasures_and_Monsters");
+Set_Searchable_Message(id,"Bookshelf","Treasures_and_Monsters");

@@ -1,0 +1,1 @@
+Set_Lootable_Chest(id,5,"AU_Protect_Milk",0);

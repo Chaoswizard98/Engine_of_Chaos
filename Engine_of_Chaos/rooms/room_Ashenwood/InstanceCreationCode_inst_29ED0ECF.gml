@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Sign","Item_Shop");
+Set_Searchable_Message(id,"Sign","Item_Shop");

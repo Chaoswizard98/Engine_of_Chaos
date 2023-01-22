@@ -59,10 +59,11 @@ menu_options[3] = "Options";
 
 menu_locked[0] = false;//Certain slots can be 'locked'
 menu_locked[1] = true;//You cant choose load game until a save is created.
+menu_locked[2] = true;//Challenges temporarilly disabled.
 if(Has_Existing_Save()){//if a save exists,
     menu_locked[1] = false;//allow loading
+	//menu_locked[2] = false;//enable challenges
 }
-menu_locked[2] = true;//Challenges temporarilly disabled.
 menu_locked[3] = false;
 
 //Lock the load game button if no save exists

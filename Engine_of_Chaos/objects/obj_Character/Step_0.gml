@@ -182,141 +182,147 @@ if(moving){
 }
 
 if((animation != "none")&&(animation != "Freeze_Sprite_Animation")){//if we are playing an animation
-    if(animation_count <= number_of_animations){//if we havent hit the end
-        if(animation = "Jump"){
-            if(animation_direction = "up"){
-                animation_offset_y -= animation_speed;
-                if(animation_offset_y <= -(global.Tile_Size/2)){
-                    animation_offset_y = -(global.Tile_Size/2);
-                    animation_direction = "down";
-                }
-            }
-            else if(animation_direction = "down"){
-                animation_offset_y += animation_speed;
-                if(animation_offset_y >= 0){
-                    animation_offset_y = 0;
-                    animation_direction = "up";
-                    animation_count += 1;//increase animation count
-                }
-            }
+	if(animation_start){//Add a 1-frame delay to start animation
+		animation_start = false;
+	}
+	else{
+	    if(animation_count <= number_of_animations){//if we havent hit the end
+	        if(animation = "Jump"){
+	            if(animation_direction = "up"){
+	                animation_offset_y -= animation_speed;
+	                if(animation_offset_y <= -(global.Tile_Size/2)){
+	                    animation_offset_y = -(global.Tile_Size/2);
+	                    animation_direction = "down";
+	                }
+	            }
+	            else if(animation_direction = "down"){
+	                animation_offset_y += animation_speed;
+	                if(animation_offset_y >= 0){
+	                    animation_offset_y = 0;
+	                    animation_direction = "up";
+	                    animation_count += 1;//increase animation count
+	                }
+	            }
+	        }
+	        else if(animation = "Spin"){
+	            animation_timer -= 1;
+	            if(animation_timer <= 0){
+	                if(spin_direction = "Clockwise"){
+	                    switch(direction){
+	                        case 0: direction = 270; break;
+	                        case 90: direction = 0; break;
+	                        case 180: direction = 90; break;
+	                        case 270: direction = 180; break;
+	                    }
+	                }
+	                else{
+	                    switch(direction){
+	                        case 0: direction = 90; break;
+	                        case 90: direction = 180; break;
+	                        case 180: direction = 270; break;
+	                        case 270: direction = 0; break;
+	                    }
+	                }
+	                if(direction = end_direction){//if we completed a full spin,
+	                    animation_count += 1;//increase timer
+	                }
+	                animation_timer = animation_speed;
+	            }
+	        }
+	        else if(animation = "Sprite_Animation"){//drawing a sprite that isnt the character (ie, explode, etc)
+	            animation_frame += animation_speed;
+	            if(animation_frame >= sprite_get_number(animation_sprite)){//if at final sprite frame
+	                animation_count += 1;
+	                if(animation_count > number_of_animations){//if we ran all our animations
+	                    animation_frame = sprite_get_number(animation_sprite)-1;//set to final frame
+	                }
+	                else{
+	                    animation_frame = 0;//reset frame
+	                }
+	            }
+	        }
+	        else if(animation = "Fade_Character"){//drawing a sprite that isnt the character (ie, explode, etc)
+	            if(alpha <= end_alpha){//if we're fading in
+	                alpha += animation_speed;//increase alpha
+	                if(alpha >= end_alpha){
+	                    alpha = end_alpha;//set alpha to final alpha
+	                    animation_count += 1;//increase timer
+	                }
+	            }
+	            else{//if we're fading out
+	                alpha -= animation_speed;//increase alpha
+	                if(alpha <= end_alpha){
+	                    alpha = end_alpha;//set alpha to final alpha
+	                    animation_count += 1;//increase timer
+	                }
+	            }
+	        }
+	        else{
+	            animation_timer -= 1;//decrement timer
+	            if(animation_timer <= 0){//if timer is 0
+	                if(animation = "Shake_Head"){
+	                    if(animation_direction = "left"){//left direction
+	                        animation_offset_x -= 1;//update head position
+	                        if(animation_offset_x<= -1){//if we hit the end,
+	                            animation_direction = "right";//reverse the shake
+	                        }
+	                    }
+	                    else if(animation_direction = "right"){//right direction
+	                        animation_offset_x += 1;//update head position
+	                        if(animation_offset_x>= 1){//if we hit the end,
+	                            animation_direction = "left";//reverse the shake
+	                        }
+	                    }
+	                    animation_count += 1;//increase animation count
+	                }
+	                else if(animation = "Nod_Head"){
+	                    if(animation_direction = "down"){//left direction
+	                        animation_offset_y += 1;//update head position
+	                        if(animation_offset_y >= 1){//if we hit the end,
+	                            animation_direction = "up";//reverse the shake
+	                        }
+	                    }
+	                    else if(animation_direction = "up"){//right direction
+	                        animation_offset_y -= 1;//update head position
+	                        if(animation_offset_y <= 0){//if we hit the end,
+	                            animation_direction = "down";//reverse the shake
+	                            animation_count += 1;//increase animation count
+	                        }
+	                    }
+	                }
+	                else if(animation = "Shudder"){
+	                    if(animation_direction = "down"){
+	                        animation_offset_y = -3;
+	                        animation_direction = "up";//reverse the shake
+	                    }
+	                    else if(animation_direction = "up"){
+	                        animation_offset_y = 0;
+	                        animation_direction = "down";//reverse the shake
+	                        animation_count += 1;//increase animation count
+	                    }
+	                }
+	                animation_timer = animation_speed;//reset timer
+	            }
+			}
         }
-        else if(animation = "Spin"){
-            animation_timer -= 1;
-            if(animation_timer <= 0){
-                if(spin_direction = "Clockwise"){
-                    switch(direction){
-                        case 0: direction = 270; break;
-                        case 90: direction = 0; break;
-                        case 180: direction = 90; break;
-                        case 270: direction = 180; break;
-                    }
-                }
-                else{
-                    switch(direction){
-                        case 0: direction = 90; break;
-                        case 90: direction = 180; break;
-                        case 180: direction = 270; break;
-                        case 270: direction = 0; break;
-                    }
-                }
-                if(direction = end_direction){//if we completed a full spin,
-                    animation_count += 1;//increase timer
-                }
-                animation_timer = animation_speed;
-            }
-        }
-        else if(animation = "Sprite_Animation"){//drawing a sprite that isnt the character (ie, explode, etc)
-            animation_frame += animation_speed;
-            if(animation_frame >= sprite_get_number(animation_sprite)){//if at final sprite frame
-                animation_count += 1;
-                if(animation_count > number_of_animations){//if we ran all our animations
-                    animation_frame = sprite_get_number(animation_sprite)-1;//set to final frame
-                }
-                else{
-                    animation_frame = 0;//reset frame
-                }
-            }
-        }
-        else if(animation = "Fade_Character"){//drawing a sprite that isnt the character (ie, explode, etc)
-            if(alpha <= end_alpha){//if we're fading in
-                alpha += animation_speed;//increase alpha
-                if(alpha >= end_alpha){
-                    alpha = end_alpha;//set alpha to final alpha
-                    animation_count += 1;//increase timer
-                }
-            }
-            else{//if we're fading out
-                alpha -= animation_speed;//increase alpha
-                if(alpha <= end_alpha){
-                    alpha = end_alpha;//set alpha to final alpha
-                    animation_count += 1;//increase timer
-                }
-            }
-        }
-        else{
-            animation_timer -= 1;//decrement timer
-            if(animation_timer <= 0){//if timer is 0
-                if(animation = "Shake_Head"){
-                    if(animation_direction = "left"){//left direction
-                        animation_offset_x -= 1;//update head position
-                        if(animation_offset_x<= -1){//if we hit the end,
-                            animation_direction = "right";//reverse the shake
-                        }
-                    }
-                    else if(animation_direction = "right"){//right direction
-                        animation_offset_x += 1;//update head position
-                        if(animation_offset_x>= 1){//if we hit the end,
-                            animation_direction = "left";//reverse the shake
-                        }
-                    }
-                    animation_count += 1;//increase animation count
-                }
-                else if(animation = "Nod_Head"){
-                    if(animation_direction = "down"){//left direction
-                        animation_offset_y += 1;//update head position
-                        if(animation_offset_y >= 1){//if we hit the end,
-                            animation_direction = "up";//reverse the shake
-                        }
-                    }
-                    else if(animation_direction = "up"){//right direction
-                        animation_offset_y -= 1;//update head position
-                        if(animation_offset_y <= 0){//if we hit the end,
-                            animation_direction = "down";//reverse the shake
-                            animation_count += 1;//increase animation count
-                        }
-                    }
-                }
-                else if(animation = "Shudder"){
-                    if(animation_direction = "down"){
-                        animation_offset_y = -3;
-                        animation_direction = "up";//reverse the shake
-                    }
-                    else if(animation_direction = "up"){
-                        animation_offset_y = 0;
-                        animation_direction = "down";//reverse the shake
-                        animation_count += 1;//increase animation count
-                    }
-                }
-                animation_timer = animation_speed;//reset timer
-            }
-        }
-    }
-    else{//animation is over
-        if(!(animation = "Sprite_Animation" && freeze_last_frame)){//dont reset for sprite animation if freezing on final frame
-            Reset_Sprite_Animation(id);//reset the animation variables
-        }
-        else{
-            animation = "Freeze_Sprite_Animation";//freeze animation to break loop while maintaining persistence
-        }
-        if(chained_animation != "none"){
-            Chained_Animation(id);
-        }
-        else if(cutscene_mode){//cutscene script call
-            with(obj_Cutscene_Controller){
-                event_perform(ev_other,ev_user0);
-            }
-        }
-    }
+    
+	    else{//animation is over
+	        if(!(animation = "Sprite_Animation" && freeze_last_frame)){//dont reset for sprite animation if freezing on final frame
+	            Reset_Sprite_Animation(id);//reset the animation variables
+	        }
+	        else{
+	            animation = "Freeze_Sprite_Animation";//freeze animation to break loop while maintaining persistence
+	        }
+	        if(chained_animation != "none"){
+	            Chained_Animation(id);
+	        }
+	        else if(cutscene_mode){//cutscene script call
+	            with(obj_Cutscene_Controller){
+	                event_perform(ev_other,ev_user0);
+	            }
+	        }
+	    }
+	}
 }
 
 if(hit_flash){//if showing hit flash, animate it
@@ -390,7 +396,9 @@ if(Can_Control_Character(id)){
         }
     }
     else if(Pressed_Key("Inspect_Button",false)){
-        Search_Event(id,"player_trigger");//character,event
+		if(!global.In_Battle){//if we're not in battle,
+			Search_Event(id,"player_trigger");//character,event
+		}
     }
     else if(Pressed_Key("Cancel_Button",false)){
         if(global.In_Battle){//if we're in battle,

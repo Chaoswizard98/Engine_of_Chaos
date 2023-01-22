@@ -7,4 +7,5 @@ function Create_Character_Light(_target,_radius = 45,_alpha = 1,_inner_color = c
 	_this.alpha = _alpha;
 	_this.inner_light_color = _inner_color;
 	_this.outer_light_color = _outer_color;
+	return _this;
 }

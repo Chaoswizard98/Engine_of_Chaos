@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Archery_101");
+Set_Searchable_Message(id,"Bookshelf","Archery_101");

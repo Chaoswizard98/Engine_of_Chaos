@@ -110,7 +110,4 @@ function Shop_Buy_Event() {
 	        }
 	    break;
 	}
-
-
-
 }

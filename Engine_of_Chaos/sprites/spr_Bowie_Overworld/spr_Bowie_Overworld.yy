@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Bowie_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4b55f30b-a12a-4739-8e24-9ebb69346b2e","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b55f30b-a12a-4739-8e24-9ebb69346b2e","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"4b55f30b-a12a-4739-8e24-9ebb69346b2e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"36e8216c-7474-41d1-9a14-1d9064ec9d18","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36e8216c-7474-41d1-9a14-1d9064ec9d18","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"36e8216c-7474-41d1-9a14-1d9064ec9d18","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cf03962a-83e1-4ae6-a4c7-87b292694012","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf03962a-83e1-4ae6-a4c7-87b292694012","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"cf03962a-83e1-4ae6-a4c7-87b292694012","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fc9c3694-a246-4b40-ba53-a4cb50e5c7c6","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc9c3694-a246-4b40-ba53-a4cb50e5c7c6","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"fc9c3694-a246-4b40-ba53-a4cb50e5c7c6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d567dd49-4096-45f4-a138-f4525b181b30","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d567dd49-4096-45f4-a138-f4525b181b30","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"d567dd49-4096-45f4-a138-f4525b181b30","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6d8aa3e4-2605-45ef-8608-151588e50cd0","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d8aa3e4-2605-45ef-8608-151588e50cd0","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"LayerId":{"name":"1e587879-3451-4f35-803a-17952dfbe194","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","name":"6d8aa3e4-2605-45ef-8608-151588e50cd0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b55f30b-a12a-4739-8e24-9ebb69346b2e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36e8216c-7474-41d1-9a14-1d9064ec9d18",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf03962a-83e1-4ae6-a4c7-87b292694012",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc9c3694-a246-4b40-ba53-a4cb50e5c7c6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d567dd49-4096-45f4-a138-f4525b181b30",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d8aa3e4-2605-45ef-8608-151588e50cd0",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e78219a2-72c4-47b4-83ec-25d451208108","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b55f30b-a12a-4739-8e24-9ebb69346b2e","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c41becc5-68ae-4c92-a0b0-c870948332aa","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36e8216c-7474-41d1-9a14-1d9064ec9d18","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"23208d8f-ae83-42b0-bb5d-c56bf7d65d0b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf03962a-83e1-4ae6-a4c7-87b292694012","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"23364ad5-e3ef-434b-a165-ae2bba630d65","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc9c3694-a246-4b40-ba53-a4cb50e5c7c6","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"749c19bc-5b64-4744-8c56-4ae9018388e4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d567dd49-4096-45f4-a138-f4525b181b30","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"766965e3-4b8a-4efd-a617-652625a55d1f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d8aa3e4-2605-45ef-8608-151588e50cd0","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Bowie_Overworld","path":"sprites/spr_Bowie_Overworld/spr_Bowie_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1e587879-3451-4f35-803a-17952dfbe194","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1e587879-3451-4f35-803a-17952dfbe194","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Allies",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Allies.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Bowie_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

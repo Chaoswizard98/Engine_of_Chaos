@@ -1,7 +1,7 @@
 function Meeting_Ciera_Cutscene() {
 	var _jason = player_trigger;
-	var _max = Get_Character("Max","Default");
-	var _ciera = Get_Character("Ciera","Default");
+	var _max = Get_Character("AU_Max","Default");
+	var _ciera = Get_Character("AU_Ciera","Default");
 	var _milkshake = Get_Character("Milkshake","Default");
 
 	switch(state){
@@ -228,7 +228,7 @@ function Meeting_Ciera_Cutscene() {
 	    break;
 	    case 47:
 	        state += 1;
-	        _ciera = Create_NPC(840,240,"Down","Ciera",true);
+	        _ciera = Create_NPC(840,240,"Down","AU_Ciera",true);
 	        Move_Character(_ciera,"Down",2,1);
 	        with(instance_position(840,264,obj_Door_Parent)){
 	            event_perform(ev_other,ev_user0);
@@ -361,16 +361,10 @@ function Meeting_Ciera_Cutscene() {
 	        _jason.cutscene_mode = false;
 	        _jason.allow_interaction = true;
 	        _ciera.cutscene_mode = false;
-	        _max.cutscene_mode = false
-	        _max.x = 312;
-	        _max.y = 672;
-	        _milkshake.x = 264;
-	        _milkshake.y = 672;
-	        _milkshake.allow_wander = false;
-	        _milkshake.direction = 0;
-	        _milkshake.dialogue_ID = "none";
+			global.Story_State += 1;
+			Set_Character_Stats(_max);
+			Set_Character_Stats(_milkshake);
 	        Set_Camera_Target(_jason);
-	        global.Story_State += 1;
 	        instance_destroy();
 	    break;
 	}

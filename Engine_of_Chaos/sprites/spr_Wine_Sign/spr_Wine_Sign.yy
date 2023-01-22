@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Wine_Sign",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 42,
   "height": 23,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"17c19adb-a745-4a3a-9d48-14d1d45d0b53","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17c19adb-a745-4a3a-9d48-14d1d45d0b53","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},"LayerId":{"name":"aa0cb8e4-da4a-4103-a080-536ae7cc0fac","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wine_Sign","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},"resourceVersion":"1.0","name":"17c19adb-a745-4a3a-9d48-14d1d45d0b53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"17c19adb-a745-4a3a-9d48-14d1d45d0b53",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Wine_Sign","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_Wine_Sign",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1938f502-70c9-4744-a2aa-177f9723c6ec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17c19adb-a745-4a3a-9d48-14d1d45d0b53","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Wine_Sign","path":"sprites/spr_Wine_Sign/spr_Wine_Sign.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_Wine_Sign",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa0cb8e4-da4a-4103-a080-536ae7cc0fac","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aa0cb8e4-da4a-4103-a080-536ae7cc0fac","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Decor",
     "path": "folders/Sprites/Decor.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Wine_Sign",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

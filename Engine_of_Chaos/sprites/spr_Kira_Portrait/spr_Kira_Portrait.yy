@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Kira_Portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 78,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"43278a8a-a02f-4c69-b42a-15bf558df5df","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"43278a8a-a02f-4c69-b42a-15bf558df5df","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":{"name":"6a101bfb-99c1-4981-905b-32bd52a65ac0","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Kira_Portrait","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"43278a8a-a02f-4c69-b42a-15bf558df5df","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"07ed549c-4947-4dc1-8dc9-3abef1fb93cb","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"07ed549c-4947-4dc1-8dc9-3abef1fb93cb","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":{"name":"6a101bfb-99c1-4981-905b-32bd52a65ac0","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Kira_Portrait","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"07ed549c-4947-4dc1-8dc9-3abef1fb93cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9fc306df-e2d7-441c-a946-c6b8907abf64","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9fc306df-e2d7-441c-a946-c6b8907abf64","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"LayerId":{"name":"6a101bfb-99c1-4981-905b-32bd52a65ac0","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Kira_Portrait","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","name":"9fc306df-e2d7-441c-a946-c6b8907abf64","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43278a8a-a02f-4c69-b42a-15bf558df5df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07ed549c-4947-4dc1-8dc9-3abef1fb93cb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9fc306df-e2d7-441c-a946-c6b8907abf64",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Kira_Portrait","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ae6aa899-f531-4ccc-8b08-49c1ff580106","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"43278a8a-a02f-4c69-b42a-15bf558df5df","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"52f47731-31a4-4e47-a342-923ded67360f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"07ed549c-4947-4dc1-8dc9-3abef1fb93cb","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"27e6fc67-6b4f-4a79-bc0f-242713284058","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fc306df-e2d7-441c-a946-c6b8907abf64","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Kira_Portrait","path":"sprites/spr_Kira_Portrait/spr_Kira_Portrait.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6a101bfb-99c1-4981-905b-32bd52a65ac0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6a101bfb-99c1-4981-905b-32bd52a65ac0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "AU_Kira",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Kira.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Kira_Portrait",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

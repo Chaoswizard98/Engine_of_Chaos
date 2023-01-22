@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Max_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cb966b02-c76d-437c-84fb-30e169046eda","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb966b02-c76d-437c-84fb-30e169046eda","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"LayerId":{"name":"955cd98e-f450-478d-b215-891fe1ecce9c","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Max_Attack","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","name":"cb966b02-c76d-437c-84fb-30e169046eda","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8ed5bc1e-a57b-427c-928c-00a7cfe5f42a","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ed5bc1e-a57b-427c-928c-00a7cfe5f42a","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"LayerId":{"name":"955cd98e-f450-478d-b215-891fe1ecce9c","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Max_Attack","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","name":"8ed5bc1e-a57b-427c-928c-00a7cfe5f42a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb966b02-c76d-437c-84fb-30e169046eda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ed5bc1e-a57b-427c-928c-00a7cfe5f42a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Max_Attack","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a70e8fb9-3a49-415c-a789-05763aaa4b23","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb966b02-c76d-437c-84fb-30e169046eda","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5565903f-db72-4ac8-a543-38da2804815a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ed5bc1e-a57b-427c-928c-00a7cfe5f42a","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 94,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Max_Attack","path":"sprites/spr_Max_Attack/spr_Max_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"955cd98e-f450-478d-b215-891fe1ecce9c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"955cd98e-f450-478d-b215-891fe1ecce9c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Max.yy",
+    "name": "AU_Max",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Max.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Max_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

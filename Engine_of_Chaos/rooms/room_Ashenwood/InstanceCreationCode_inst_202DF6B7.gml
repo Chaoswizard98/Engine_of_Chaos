@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Elven_Culture");
+Set_Searchable_Message(id,"Bookshelf","Elven_Culture");

@@ -1,1 +1,1 @@
-Set_Lootable_Area(id,3,"Ring_Of_Chicken",0);
+Set_Lootable_Area(id,3,"AU_Ring_Of_Chicken",0);

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Gerbit_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c27c40e5-eb4e-436e-a3cb-571d020cb247","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c27c40e5-eb4e-436e-a3cb-571d020cb247","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"c27c40e5-eb4e-436e-a3cb-571d020cb247","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3a00ed62-6043-4595-a7eb-37f9fb422890","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3a00ed62-6043-4595-a7eb-37f9fb422890","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"3a00ed62-6043-4595-a7eb-37f9fb422890","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d115646f-7d04-4654-b359-6f3469c4a794","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d115646f-7d04-4654-b359-6f3469c4a794","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"d115646f-7d04-4654-b359-6f3469c4a794","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bb2f1aed-dbef-4956-8502-fa11603b06b2","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bb2f1aed-dbef-4956-8502-fa11603b06b2","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"bb2f1aed-dbef-4956-8502-fa11603b06b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a813e53c-7c9d-44e1-aadd-c479b740b7da","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a813e53c-7c9d-44e1-aadd-c479b740b7da","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"a813e53c-7c9d-44e1-aadd-c479b740b7da","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"97eabb2a-d35f-497c-9150-76fa92cf7a95","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"97eabb2a-d35f-497c-9150-76fa92cf7a95","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"LayerId":{"name":"b8942314-969e-48a8-96df-f9b6c86eae62","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","name":"97eabb2a-d35f-497c-9150-76fa92cf7a95","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c27c40e5-eb4e-436e-a3cb-571d020cb247",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a00ed62-6043-4595-a7eb-37f9fb422890",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d115646f-7d04-4654-b359-6f3469c4a794",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bb2f1aed-dbef-4956-8502-fa11603b06b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a813e53c-7c9d-44e1-aadd-c479b740b7da",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97eabb2a-d35f-497c-9150-76fa92cf7a95",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2e3d2f48-2d6d-4a18-a196-74dac1308b61","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c27c40e5-eb4e-436e-a3cb-571d020cb247","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7f8bcae7-af4d-4f13-9ac6-edd6bd5dac99","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a00ed62-6043-4595-a7eb-37f9fb422890","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5c44ccbf-0021-4e41-a57c-13911f2c2bbf","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d115646f-7d04-4654-b359-6f3469c4a794","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cce1fdb3-1370-4188-83e4-f2adb0472df3","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb2f1aed-dbef-4956-8502-fa11603b06b2","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"875940b4-b78e-4ce1-bf3c-e0970b1be192","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a813e53c-7c9d-44e1-aadd-c479b740b7da","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e8f05377-c5a0-4153-9082-e6e2134e5604","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"97eabb2a-d35f-497c-9150-76fa92cf7a95","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Gerbit_Overworld","path":"sprites/spr_Gerbit_Overworld/spr_Gerbit_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b8942314-969e-48a8-96df-f9b6c86eae62","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b8942314-969e-48a8-96df-f9b6c86eae62","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Gerbit_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

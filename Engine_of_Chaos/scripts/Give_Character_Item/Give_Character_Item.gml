@@ -1,13 +1,4 @@
-function Give_Character_Item() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _item = argument[2];
-	var _auto_equip = false;
-
-	if(argument_count > 3){
-	    _auto_equip = argument[3];
-	}
-
+function Give_Character_Item(_lookup_type,_character,_item,_auto_equip = false) {
 	var i = 0;
 	//Give character item
 	for(i = 0; i< global.Number_Of_Inventory_Slots; i+= 1){//loop through all inventory spaces

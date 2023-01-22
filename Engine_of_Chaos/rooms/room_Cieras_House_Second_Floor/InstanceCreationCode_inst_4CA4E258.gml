@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Glass_Citadel");
+Set_Searchable_Message(id,"Bookshelf","Glass_Citadel");

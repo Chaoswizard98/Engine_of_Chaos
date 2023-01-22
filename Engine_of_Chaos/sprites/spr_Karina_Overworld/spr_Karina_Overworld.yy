@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Karina_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a60cf76b-9d18-425d-a300-2fb083143c2c","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a60cf76b-9d18-425d-a300-2fb083143c2c","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"a60cf76b-9d18-425d-a300-2fb083143c2c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cf71aa7e-0d63-4082-92ba-94ccf459d4e1","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf71aa7e-0d63-4082-92ba-94ccf459d4e1","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"cf71aa7e-0d63-4082-92ba-94ccf459d4e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d2ef1370-57c8-4653-a6be-d6fdf56c3476","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d2ef1370-57c8-4653-a6be-d6fdf56c3476","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"d2ef1370-57c8-4653-a6be-d6fdf56c3476","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a738ac95-ec66-4cf2-808e-d31d5ab7d998","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a738ac95-ec66-4cf2-808e-d31d5ab7d998","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"a738ac95-ec66-4cf2-808e-d31d5ab7d998","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c18cdf9-7e08-4e46-95f1-d13622886627","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c18cdf9-7e08-4e46-95f1-d13622886627","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"4c18cdf9-7e08-4e46-95f1-d13622886627","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b0be5e25-6b01-4fac-a625-4cc8e8f8c161","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b0be5e25-6b01-4fac-a625-4cc8e8f8c161","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"LayerId":{"name":"5b3b4833-3354-4e03-859c-12e36c448b66","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","name":"b0be5e25-6b01-4fac-a625-4cc8e8f8c161","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a60cf76b-9d18-425d-a300-2fb083143c2c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf71aa7e-0d63-4082-92ba-94ccf459d4e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2ef1370-57c8-4653-a6be-d6fdf56c3476",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a738ac95-ec66-4cf2-808e-d31d5ab7d998",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c18cdf9-7e08-4e46-95f1-d13622886627",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0be5e25-6b01-4fac-a625-4cc8e8f8c161",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7600d12a-7c75-4032-af5a-270a44b29fcb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a60cf76b-9d18-425d-a300-2fb083143c2c","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"958705de-7edc-49f1-a51b-31ca27439a88","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf71aa7e-0d63-4082-92ba-94ccf459d4e1","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f896b4e7-96aa-4f6b-a504-cf589f13c95a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d2ef1370-57c8-4653-a6be-d6fdf56c3476","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"072eb08a-eabe-4478-a8aa-d4a4c4228124","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a738ac95-ec66-4cf2-808e-d31d5ab7d998","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4d2f4d25-2247-488f-9b6b-8f0202a81cb5","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c18cdf9-7e08-4e46-95f1-d13622886627","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a5828f5f-ff4b-4412-85c2-c48b21f9ccf4","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0be5e25-6b01-4fac-a625-4cc8e8f8c161","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Karina_Overworld","path":"sprites/spr_Karina_Overworld/spr_Karina_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5b3b4833-3354-4e03-859c-12e36c448b66","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5b3b4833-3354-4e03-859c-12e36c448b66","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Party_Members",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Party_Members.yy",
+    "name": "AU_Karina",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Karina.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Karina_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

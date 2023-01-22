@@ -1,0 +1,1 @@
+Set_Lootable_Chest(id,10,"none",100);

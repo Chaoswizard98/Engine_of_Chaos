@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Cieras_Middle_Brother_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d9151eb2-b6c8-4b66-891c-0b1e94a2adf5","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d9151eb2-b6c8-4b66-891c-0b1e94a2adf5","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"d9151eb2-b6c8-4b66-891c-0b1e94a2adf5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"58d6ca7a-67bc-44d0-bc38-d471338c3ded","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"58d6ca7a-67bc-44d0-bc38-d471338c3ded","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"58d6ca7a-67bc-44d0-bc38-d471338c3ded","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fc9e06ac-4371-4a98-aac1-4ee8db7229ce","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc9e06ac-4371-4a98-aac1-4ee8db7229ce","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"fc9e06ac-4371-4a98-aac1-4ee8db7229ce","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"385b0df5-26ca-4276-ac85-a8c427bb57db","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"385b0df5-26ca-4276-ac85-a8c427bb57db","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"385b0df5-26ca-4276-ac85-a8c427bb57db","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"776e1fc0-ea80-426c-af9e-fbcd5c8e6acf","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"776e1fc0-ea80-426c-af9e-fbcd5c8e6acf","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"776e1fc0-ea80-426c-af9e-fbcd5c8e6acf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed65a15a-6364-4911-a21f-fec1a3650728","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed65a15a-6364-4911-a21f-fec1a3650728","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"LayerId":{"name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","name":"ed65a15a-6364-4911-a21f-fec1a3650728","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d9151eb2-b6c8-4b66-891c-0b1e94a2adf5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"58d6ca7a-67bc-44d0-bc38-d471338c3ded",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc9e06ac-4371-4a98-aac1-4ee8db7229ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"385b0df5-26ca-4276-ac85-a8c427bb57db",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"776e1fc0-ea80-426c-af9e-fbcd5c8e6acf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed65a15a-6364-4911-a21f-fec1a3650728",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d6b65041-7376-4666-9ae2-78c4ab85db10","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9151eb2-b6c8-4b66-891c-0b1e94a2adf5","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7842744b-488b-42de-8808-6da879f3d74d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58d6ca7a-67bc-44d0-bc38-d471338c3ded","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"15982060-3fd5-47c3-a360-6aac68fdfd2f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc9e06ac-4371-4a98-aac1-4ee8db7229ce","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7be3da69-ded3-4813-b5f8-4e5a8eeb86ac","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"385b0df5-26ca-4276-ac85-a8c427bb57db","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2474586b-5291-4380-8ebf-029f44c248d8","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"776e1fc0-ea80-426c-af9e-fbcd5c8e6acf","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ddb8a311-c7b5-4c09-82e7-3d18e80c2409","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed65a15a-6364-4911-a21f-fec1a3650728","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Cieras_Middle_Brother_Overworld","path":"sprites/spr_Cieras_Middle_Brother_Overworld/spr_Cieras_Middle_Brother_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5c6b9a2d-e7be-435e-95df-6636cebfc87d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Cieras_Middle_Brother_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -13,8 +13,9 @@ function Room_Creation_Battle_01(){
 		break;
 		default://completed battle
 			Destroy_Battle_Objects();
-		    var _player = Spawn_Player("Jason","Egress");//default character, default spawn location (Overwritten by room transition controller if it exists)
+		    var _player = Spawn_Player("AU_Jason","Egress");//default character, default spawn location (Overwritten by room transition controller if it exists)
 		    Start_Room(_player);
+			Play_Music(bgm_Town,"Fade_To_Next",250,0);
 		break;
 	}
 }

@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Spells",
-    "path": "folders/Scripts/DONE/Spells.yy",
+    "path": "folders/Scripts/Game_Logic/Spells.yy",
   },
   "resourceVersion": "1.0",
   "name": "Get_Spell_Stats",

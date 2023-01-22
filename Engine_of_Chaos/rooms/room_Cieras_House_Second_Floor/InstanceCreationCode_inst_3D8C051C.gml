@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Frozen_Volcano");
+Set_Searchable_Message(id,"Bookshelf","Frozen_Volcano");

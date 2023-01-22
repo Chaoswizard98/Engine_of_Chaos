@@ -15,4 +15,4 @@ light_sprite = noone;//sprite to use as a light source
 sprite_light_color = c_white;//color of sprite light
 scale = 1;//scale of sprite
 
-
+visible = false;

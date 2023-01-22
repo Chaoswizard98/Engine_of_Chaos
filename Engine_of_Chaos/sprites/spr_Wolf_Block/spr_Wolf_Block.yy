@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Wolf_Block",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"04e17da7-dd7e-4846-a3cd-ee03ec8b116d","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"04e17da7-dd7e-4846-a3cd-ee03ec8b116d","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},"LayerId":{"name":"861d958f-19ca-4dbb-a651-5321683debed","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wolf_Block","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},"resourceVersion":"1.0","name":"04e17da7-dd7e-4846-a3cd-ee03ec8b116d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04e17da7-dd7e-4846-a3cd-ee03ec8b116d",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Wolf_Block","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d8b3c4c2-b2a6-4e50-b6d4-caf60ee1b216","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04e17da7-dd7e-4846-a3cd-ee03ec8b116d","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 77,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Wolf_Block","path":"sprites/spr_Wolf_Block/spr_Wolf_Block.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"861d958f-19ca-4dbb-a651-5321683debed","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"861d958f-19ca-4dbb-a651-5321683debed","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Wolf",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Wolf.yy",
+    "name": "AU_Wolf",
+    "path": "folders/Sprites/Characters/AU/Enemies/AU_Wolf.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Wolf_Block",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

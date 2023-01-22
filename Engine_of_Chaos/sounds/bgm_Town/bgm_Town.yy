@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 3,
   "volume": 1.0,
   "preload": true,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_Town",
-  "duration": 94.2846,
+  "duration": 94.2796,
   "parent": {
     "name": "BGM",
     "path": "folders/Sounds/BGM.yy",

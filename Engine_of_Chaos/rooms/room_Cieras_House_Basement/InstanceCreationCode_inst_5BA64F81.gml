@@ -1,1 +1,1 @@
-Set_Lootable_Barrel(id,2,"Healing_Seed",0);
+Set_Lootable_Barrel(id,2,"SF2_Healing_Seed",0);

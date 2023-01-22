@@ -1,9 +1,4 @@
-function Get_Character_Status_Berserk() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _stat = argument[3];
-
+function Get_Character_Status_Berserk(_lookup_type,_character,_formula,_stat) {
 	var _base, _index;
 	var _mainhand = 0;
 	var _offhand = 0;

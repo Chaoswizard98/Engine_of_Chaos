@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Certainty_of_Twilight");
+Set_Searchable_Message(id,"Bookshelf","Certainty_of_Twilight");

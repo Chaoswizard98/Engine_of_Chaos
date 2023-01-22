@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": true,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Blast",
-  "duration": 0.069739,
+  "duration": 0.064739,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

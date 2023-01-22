@@ -27,7 +27,4 @@ function Attack_Boost_Battle_Cutscene_Event() {
 	    break;
 	    default: Default_Battle_Cutscene_Event(); break;
 	}
-
-
-
 }

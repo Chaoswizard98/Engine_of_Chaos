@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Healing_Spells");
+Set_Searchable_Message(id,"Bookshelf","Healing_Spells");

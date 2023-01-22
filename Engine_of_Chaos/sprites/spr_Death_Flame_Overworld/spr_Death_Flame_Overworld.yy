@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Death_Flame_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d596cec-c281-4a84-aa21-39cee8e81a04","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d596cec-c281-4a84-aa21-39cee8e81a04","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"1d596cec-c281-4a84-aa21-39cee8e81a04","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"88ed0904-6b5c-4872-b497-7ba6143cd4a9","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88ed0904-6b5c-4872-b497-7ba6143cd4a9","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"88ed0904-6b5c-4872-b497-7ba6143cd4a9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7178839f-6a51-4487-b9ed-754f3b8e2cb6","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7178839f-6a51-4487-b9ed-754f3b8e2cb6","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"7178839f-6a51-4487-b9ed-754f3b8e2cb6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2f7b4f2a-8057-4c80-93e8-3ad892670658","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f7b4f2a-8057-4c80-93e8-3ad892670658","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"2f7b4f2a-8057-4c80-93e8-3ad892670658","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"453c07e3-f603-455f-b1b1-0297bac10a9f","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"453c07e3-f603-455f-b1b1-0297bac10a9f","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"453c07e3-f603-455f-b1b1-0297bac10a9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"14207b55-982c-4bac-9c63-543e99d36cf8","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14207b55-982c-4bac-9c63-543e99d36cf8","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"LayerId":{"name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","name":"14207b55-982c-4bac-9c63-543e99d36cf8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d596cec-c281-4a84-aa21-39cee8e81a04",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88ed0904-6b5c-4872-b497-7ba6143cd4a9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7178839f-6a51-4487-b9ed-754f3b8e2cb6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f7b4f2a-8057-4c80-93e8-3ad892670658",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"453c07e3-f603-455f-b1b1-0297bac10a9f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14207b55-982c-4bac-9c63-543e99d36cf8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,14 +49,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"418fbfd7-4670-4258-87bb-55ea9b3d5582","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d596cec-c281-4a84-aa21-39cee8e81a04","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"161a542e-91a1-495f-9aa7-49d61d09b293","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88ed0904-6b5c-4872-b497-7ba6143cd4a9","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"38346b30-c415-4844-a4aa-a5a0c30fe3cc","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7178839f-6a51-4487-b9ed-754f3b8e2cb6","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"116e868f-2779-4364-84dc-d11aa6cd90ab","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f7b4f2a-8057-4c80-93e8-3ad892670658","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e098f469-40d0-40e8-9acf-e5608374c258","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"453c07e3-f603-455f-b1b1-0297bac10a9f","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"39b24926-6740-440e-b860-2594aca9fe8c","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14207b55-982c-4bac-9c63-543e99d36cf8","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Death_Flame_Overworld","path":"sprites/spr_Death_Flame_Overworld/spr_Death_Flame_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2ec00df6-c00d-4e1e-8a0f-83f43c87fd3c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Death_Flame_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

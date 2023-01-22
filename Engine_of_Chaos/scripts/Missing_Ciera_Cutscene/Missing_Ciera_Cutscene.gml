@@ -1,6 +1,6 @@
 function Missing_Ciera_Cutscene() {
 	var _jason = player_trigger;
-	var _max = Get_Character("Max","Default");
+	var _max = Get_Character("AU_Max","Default");
 
 	switch(state){
 	    case 0:

@@ -23,4 +23,4 @@ torch_alpha2 = .8;//alpha of the light
 
 //Post-Modifyables
 alpha = torch_alpha1;
-
+visible = true;

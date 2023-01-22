@@ -22,7 +22,7 @@ function Challenges_Menu_Event(){
 	    state = "Waiting_For_Parent";
 	    switch (arrow_position + start_index){//set the correct key
 	        case 0: obj_Start_Game_Controller.selected_challenge_map = noone; break;//chapter 1 challenge battle
-	        case 1: obj_Start_Game_Controller.selected_challenge_map = Bowies_Room; break;//debug room
+	        case 1: obj_Start_Game_Controller.selected_challenge_map = noone; break;//debug room
 	    }
 	    var _this = id;
 	    with(obj_Start_Game_Controller){

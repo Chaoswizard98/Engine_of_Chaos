@@ -13,7 +13,4 @@ function Global_Shop_Event() {
 	        default: Shop_Buy_Event(); break;
 	    }
 	}
-
-
-
 }

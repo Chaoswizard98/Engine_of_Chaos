@@ -46,7 +46,7 @@ function Loot_Chest() {
 	                Start_New_Dialogue(Get_Chest_Messages(id,"Recieves_Item"),false,true);//portrait, voice, message, current object, arrow, auto pan, lookup type
 	                Stop_Dialogue_Interaction();
 	                Wait_For_Sound(sfx_Loot_Item,obj_Dialogue_Controller);
-	                Set_Chest_Looted(_chest)
+	                Set_Chest_Looted(_chest);
 	            }
 	            else{
 	                Start_New_Dialogue(Get_Chest_Messages(id,"Inventory_Full"),true,true);//portrait, voice, message, current object, arrow, auto pan, lookup type 

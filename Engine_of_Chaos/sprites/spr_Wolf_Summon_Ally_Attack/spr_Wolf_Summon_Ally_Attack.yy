@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Wolf_Summon_Ally_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 74,
   "height": 53,
   "textureGroupId": {
@@ -24,21 +28,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"80dff238-6a42-4d49-8ad2-46f5a4b2156d","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"80dff238-6a42-4d49-8ad2-46f5a4b2156d","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":{"name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"80dff238-6a42-4d49-8ad2-46f5a4b2156d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d6064b8d-b6c8-4a7c-970a-87d782e7914f","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d6064b8d-b6c8-4a7c-970a-87d782e7914f","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":{"name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"d6064b8d-b6c8-4a7c-970a-87d782e7914f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ab34553-7e56-43fe-8989-8db40ef884d4","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ab34553-7e56-43fe-8989-8db40ef884d4","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":{"name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"4ab34553-7e56-43fe-8989-8db40ef884d4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e20f3942-63d8-45ee-bd31-e2415e9886e5","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e20f3942-63d8-45ee-bd31-e2415e9886e5","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"LayerId":{"name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","name":"e20f3942-63d8-45ee-bd31-e2415e9886e5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"80dff238-6a42-4d49-8ad2-46f5a4b2156d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6064b8d-b6c8-4a7c-970a-87d782e7914f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ab34553-7e56-43fe-8989-8db40ef884d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e20f3942-63d8-45ee-bd31-e2415e9886e5",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -49,12 +47,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"bf9f0ed1-5880-419d-8044-cc31a9796003","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80dff238-6a42-4d49-8ad2-46f5a4b2156d","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1923a7a4-c115-4bad-ac53-5cbc268480e8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d6064b8d-b6c8-4a7c-970a-87d782e7914f","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a0f7f815-ffa8-4400-b8bb-a4b73b6b996a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ab34553-7e56-43fe-8989-8db40ef884d4","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"da2f590d-1511-47e6-b43f-3425199e1a9b","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e20f3942-63d8-45ee-bd31-e2415e9886e5","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -70,22 +68,13 @@
     "yorigin": 49,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Wolf_Summon_Ally_Attack","path":"sprites/spr_Wolf_Summon_Ally_Attack/spr_Wolf_Summon_Ally_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1569a5b2-1db1-4558-8b15-b8257a9fdcc7","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Other.yy",
+    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Wolf_Summon_Ally_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

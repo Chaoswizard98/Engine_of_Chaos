@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Innkeeper_Etiquette");
+Set_Searchable_Message(id,"Bookshelf","Innkeeper_Etiquette");

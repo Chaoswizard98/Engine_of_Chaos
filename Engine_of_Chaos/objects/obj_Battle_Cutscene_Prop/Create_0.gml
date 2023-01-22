@@ -6,6 +6,9 @@ end_y = 0;
 x_speed = 0;//calculated move speed
 y_speed = 0;
 movement_speed = 0;//Movement speed
+wave_x_center = 0;//sin wave center position
+wave_y_center = 0;//sin wave center position
+obj_following = noone;//The object we're following
 
 prop = "none";//Prop Name
 rotation = 0;//Rotation of the sprite

@@ -1,7 +1,7 @@
 function Max_With_Milkshake_Cutscene(){
 	var _jason = player_trigger;
-	var _max = Get_Character("Max","Default");
-	var _ciera = Get_Character("Ciera","Default");
+	var _max = Get_Character("AU_Max","Default");
+	var _ciera = Get_Character("AU_Ciera","Default");
 	var _milkshake = Get_Character("Milkshake","Default");
 
 	switch(state){

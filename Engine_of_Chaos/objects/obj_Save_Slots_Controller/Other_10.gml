@@ -16,9 +16,10 @@ else{
             if(event = "New_Game"){ state = "Display_Create_Character_Message"; }
             else if(event = "Load_Game"){ state = "Load_Game"; }
             else if(event = "Delete_Game"){ state = "Delete_Game"; }
+			else if(event = "Challenges"){ state = "Challenges";}
             
             global.Save_Slot = (arrow_position + start_index);
-            if(global.Save_Slot < (global.Number_Of_Save_Slots)){//If we didnt choose the delete option,
+            if((global.Save_Slot < (global.Number_Of_Save_Slots))&&(event != "Challenges")){//If we didnt choose the delete option,
                 current_object.window_pan_direction = "out";
             }
             window_pan_direction = "out";
@@ -73,6 +74,13 @@ else{
     //===========
     else if(state = "Delete_Game"){
         UI_Cancel_Event(current_object,"Delete_Game","none");
+        instance_destroy();//destroy this object
+    }
+	//==========
+    //Challenges
+    //==========
+    else if(state = "Challenges"){
+        UI_Cancel_Event(current_object,"Challenges","none");
         instance_destroy();//destroy this object
     }
 }

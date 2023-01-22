@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Karina_Portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 78,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a5c5b020-bc19-40cc-b304-9f4b41f9599d","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5c5b020-bc19-40cc-b304-9f4b41f9599d","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":{"name":"76ee2bca-a665-4100-82fc-7604077c59e2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Portrait","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"a5c5b020-bc19-40cc-b304-9f4b41f9599d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34356252-38c7-410d-8991-5f9b981d48c2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34356252-38c7-410d-8991-5f9b981d48c2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":{"name":"76ee2bca-a665-4100-82fc-7604077c59e2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Portrait","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"34356252-38c7-410d-8991-5f9b981d48c2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9adc3435-1243-44e2-9df8-7aeb4df4ca10","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9adc3435-1243-44e2-9df8-7aeb4df4ca10","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"LayerId":{"name":"76ee2bca-a665-4100-82fc-7604077c59e2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Portrait","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","name":"9adc3435-1243-44e2-9df8-7aeb4df4ca10","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5c5b020-bc19-40cc-b304-9f4b41f9599d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34356252-38c7-410d-8991-5f9b981d48c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9adc3435-1243-44e2-9df8-7aeb4df4ca10",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Karina_Portrait","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e251f7e8-59df-4b39-8861-cbc9be9c38d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5c5b020-bc19-40cc-b304-9f4b41f9599d","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a46c789b-8e3c-462d-9122-a7dae039f7e9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34356252-38c7-410d-8991-5f9b981d48c2","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"fced2991-0212-41a3-bf38-4707bd819006","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9adc3435-1243-44e2-9df8-7aeb4df4ca10","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Karina_Portrait","path":"sprites/spr_Karina_Portrait/spr_Karina_Portrait.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76ee2bca-a665-4100-82fc-7604077c59e2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"76ee2bca-a665-4100-82fc-7604077c59e2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "AU_Karina",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Karina.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Karina_Portrait",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

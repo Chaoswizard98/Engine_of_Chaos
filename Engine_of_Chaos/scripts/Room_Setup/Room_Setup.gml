@@ -5,4 +5,7 @@ function Room_Setup(){
 			script_execute(_script);//run the script
 		}
 	}
+	else{
+		Room_Creation_Default();
+	}
 }

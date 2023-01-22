@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Scripts/Character_Properties/AU/NPCs.yy",
+    "name": "Ashenwood",
+    "path": "folders/Scripts/Character_Properties/AU/NPCs/Ashenwood.yy",
   },
   "resourceVersion": "1.0",
   "name": "Character_Properties_Cieras_Older_Brother",

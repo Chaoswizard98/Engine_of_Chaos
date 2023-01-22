@@ -13,10 +13,10 @@ switch(state){
         state = "Display_Start_Menu";
         instance_destroy(obj_Screen_Fade_Controller);
         if(Pressed_Key("Any_Button",true)){//if we're holding a button on startup
-            Create_Dialogue(noone,sfx_Dialogue01,"I can tell just how pumped you are, so here's the menu to get started!@",id,false,false); 
+            Create_Dialogue(noone,sfx_Dialogue01,Get_General_Messages("Intro_Menu","Intro_Dialogue_Short"),id,false,false); 
         }
         else{
-            Create_Dialogue(noone,sfx_Dialogue01,"Did you know that you can skip this message by holding space on the previous screen?%\nI can tell just how pumped you are, so here's the menu to get started!@",id,false,false);//skip to final dialogue state
+            Create_Dialogue(noone,sfx_Dialogue01,Get_General_Messages("Intro_Menu","Intro_Dialogue"),id,false,false);//skip to final dialogue state
         }
     break;
     //===================
@@ -28,13 +28,3 @@ switch(state){
     break;
 }
 
-/*
-fade in
-message 1 (skip if space still held)
-message 2
-Create start menu
-
-
-
-/* */
-/*  */

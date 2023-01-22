@@ -1,9 +1,5 @@
-function Get_Item() {
+function Get_Item(_lookup_type,_character,_item_slot) {
 	//gets the item in the given item slot
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _item_slot = argument[2];
-
 	if(_item_slot = -1){//if the item slot is invalid
 	    return "none";//return the null item
 	}
@@ -18,7 +14,4 @@ function Get_Item() {
 	        return _character.items[_item_slot];
 	    }
 	}
-
-
-
 }

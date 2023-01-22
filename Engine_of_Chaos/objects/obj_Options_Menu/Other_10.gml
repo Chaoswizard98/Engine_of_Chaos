@@ -5,6 +5,6 @@ switch(display_type){
     case "Game_Settings": Game_Settings_Event(); break;
     //case 'Start_Menu': Start_Menu_Event(); break;
     //case 'New_Game': New_Game_Menu_Event(); break;
-    //case 'Challenges': Challenges_Menu_Event(); break;
+    //case "Challenges": Challenges_Menu_Event(); break;
 }
 

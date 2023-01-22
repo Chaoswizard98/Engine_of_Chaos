@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Fire_Festival");
+Set_Searchable_Message(id,"Bookshelf","Fire_Festival");

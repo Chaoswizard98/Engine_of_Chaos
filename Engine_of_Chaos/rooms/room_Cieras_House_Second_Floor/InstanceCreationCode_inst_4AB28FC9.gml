@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Hosting_Formal_Parties");
+Set_Searchable_Message(id,"Bookshelf","Hosting_Formal_Parties");

@@ -1,9 +1,4 @@
-function Set_Character_Water_Resistance() {
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _formula = argument[2];
-	var _ammount = argument[3];
-
+function Set_Character_Water_Resistance(_lookup_type,_character,_formula,_ammount) {
 	var _base;
 
 	//Get Base Stat

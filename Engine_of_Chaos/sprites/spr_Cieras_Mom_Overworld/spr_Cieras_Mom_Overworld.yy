@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Cieras_Mom_Overworld",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 24,
   "height": 24,
   "textureGroupId": {
@@ -24,27 +28,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a43952e2-2052-456e-a414-4aa2ad28a5c2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a43952e2-2052-456e-a414-4aa2ad28a5c2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"a43952e2-2052-456e-a414-4aa2ad28a5c2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f3e0dde-1ab9-4633-860f-383945969aa4","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f3e0dde-1ab9-4633-860f-383945969aa4","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"7f3e0dde-1ab9-4633-860f-383945969aa4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"283aa775-8372-4170-8ba2-4ad3a2266d4b","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"283aa775-8372-4170-8ba2-4ad3a2266d4b","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"283aa775-8372-4170-8ba2-4ad3a2266d4b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2d961cd2-0fab-43a0-8cb6-ab7293086e71","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d961cd2-0fab-43a0-8cb6-ab7293086e71","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"2d961cd2-0fab-43a0-8cb6-ab7293086e71","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c330827e-c94f-4ea8-b801-a641e01c9cb2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c330827e-c94f-4ea8-b801-a641e01c9cb2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"c330827e-c94f-4ea8-b801-a641e01c9cb2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9f88c87c-bfb4-4d1b-b81d-35201ba7726c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9f88c87c-bfb4-4d1b-b81d-35201ba7726c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"LayerId":{"name":"14e09013-50a5-49ad-94d7-4af6649dad2c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","name":"9f88c87c-bfb4-4d1b-b81d-35201ba7726c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a43952e2-2052-456e-a414-4aa2ad28a5c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7f3e0dde-1ab9-4633-860f-383945969aa4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"283aa775-8372-4170-8ba2-4ad3a2266d4b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d961cd2-0fab-43a0-8cb6-ab7293086e71",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c330827e-c94f-4ea8-b801-a641e01c9cb2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f88c87c-bfb4-4d1b-b81d-35201ba7726c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -55,16 +49,16 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8cf5ca70-7ef2-42fc-9057-07d0c9f6d6ad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a43952e2-2052-456e-a414-4aa2ad28a5c2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f1fdfc56-bc46-45d6-b90a-5ccecde91331","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f3e0dde-1ab9-4633-860f-383945969aa4","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0236413d-f318-4421-baa4-392b91b03946","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"283aa775-8372-4170-8ba2-4ad3a2266d4b","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6fca689f-d91e-4a84-b419-e4351f535dba","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d961cd2-0fab-43a0-8cb6-ab7293086e71","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8418e4c8-a429-471a-b4eb-1826ac16dbea","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c330827e-c94f-4ea8-b801-a641e01c9cb2","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6bb37e0f-a410-47db-81b7-033f90205b4d","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9f88c87c-bfb4-4d1b-b81d-35201ba7726c","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -78,22 +72,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Cieras_Mom_Overworld","path":"sprites/spr_Cieras_Mom_Overworld/spr_Cieras_Mom_Overworld.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"14e09013-50a5-49ad-94d7-4af6649dad2c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"14e09013-50a5-49ad-94d7-4af6649dad2c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Ashenwood_NPCs",
-    "path": "folders/Sprites/Character_Sprites/Overworld/Ashenwood_NPCs.yy",
+    "path": "folders/Sprites/Characters/AU/Ashenwood_NPCs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Cieras_Mom_Overworld",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

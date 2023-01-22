@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Advanced_Woodworking");
+Set_Searchable_Message(id,"Bookshelf","Advanced_Woodworking");

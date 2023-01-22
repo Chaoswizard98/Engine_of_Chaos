@@ -37,7 +37,4 @@ function Shop_Repair_Event() {
 	        }
 	    break;
 	}
-
-
-
 }

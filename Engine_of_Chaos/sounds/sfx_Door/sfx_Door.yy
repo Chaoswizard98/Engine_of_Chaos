@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Door",
-  "duration": 0.14958,
+  "duration": 0.14458,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

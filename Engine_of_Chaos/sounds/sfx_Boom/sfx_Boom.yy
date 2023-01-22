@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Boom",
-  "duration": 0.540397,
+  "duration": 0.535397,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",

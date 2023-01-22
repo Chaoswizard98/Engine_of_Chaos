@@ -25,9 +25,9 @@ function Create_Global_Game_Settings() {
 	global.Control_All_Units = false;
 	global.Unlimited_Gold = false;
 	global.Buy_All_Items = false;
-	global.Invincibility = false;//not implemented
-	global.Infinite_Magic = false;//no implemented
-	global.Infinite_Item_Use = false;//not implemented
+	global.Invincibility = false;
+	global.Infinite_Magic = false;
+	global.Infinite_Item_Use = false;
 	global.Ignore_Terrain = false;
 	global.Infinite_Movement = false;
 
@@ -41,12 +41,12 @@ function Create_Global_Game_Settings() {
 	global.Number_Of_Inventory_Slots = 4;
 	global.Number_Of_Equipment_Slots = 2;
 	global.Number_Of_Spell_Slots = 4;
-	global.Promotion_Level = 20;//level we can promote at
-	global.Level_Cap = 40;//highest possible level per promotion tier
 	global.Xp_Per_Level = 100;//xp required to level up
 	global.Allow_Xp_Roll_Over = true;//do we keep the remaining xp on level up?
 	global.Usable_HP_MP = false;//can we use newly aquired HP / MP in battle (via level up)
 	global.Damage_Cures_Sleep = true;//Does taking damage end the sleep status effect?
+	global.Gold_Cap = 9999999;//Highest value gold can be.
+	global.Use_Death_Sprite_Override = false;//Whether or not dead party members appear as blue flames when dead.
 
 	//Utility
 	global.Player = noone;//Keeps track of the current character we're controlling.

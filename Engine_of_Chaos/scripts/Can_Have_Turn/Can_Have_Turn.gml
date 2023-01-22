@@ -4,11 +4,15 @@ function Can_Have_Turn() {
 	    if(Get_Current_Turn().hidden){//if character is hidden,
 	        instance_activate_object(Get_Current_Turn());//activate the object
 	        if(!Tile_Is_Empty(Get_Current_Turn())){//if the tile is not empty
-	            instance_deactivate_object(Get_Current_Turn());
+				if(Get_Current_Turn().disable_on_hide){
+					instance_deactivate_object(Get_Current_Turn());
+				}
 	            return false;
 	        }
 	        else{
-	            instance_deactivate_object(Get_Current_Turn());
+	            if(Get_Current_Turn().disable_on_hide){
+					instance_deactivate_object(Get_Current_Turn());
+				}
 	        }
 	    }
 	}
@@ -19,7 +23,4 @@ function Can_Have_Turn() {
 	}
 
 	return true;
-
-
-
 }

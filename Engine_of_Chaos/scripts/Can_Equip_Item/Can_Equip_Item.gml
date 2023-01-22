@@ -1,13 +1,5 @@
-function Can_Equip_Item() {
+function Can_Equip_Item(_lookup_type,_character,_item,_equip_slot = "Any") {
 	//Checks if we can equip an item (optionally to a specific inventory slot)
-	var _lookup_type = argument[0];
-	var _character = argument[1];
-	var _item = argument[2];
-	var _equip_slot = "Any";
-	if(argument_count > 3){
-	    _equip_slot = argument[3];
-	}
-
 	var i = 0;
 	if(_equip_slot != "Any"){//if we provided an item slot,
 	    if(Get_Item_Stats(_item, _equip_slot,_lookup_type, _character)){ 
@@ -21,9 +13,5 @@ function Can_Equip_Item() {
 	        }
 	    }
 	}
-
 	return false;
-
-
-
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Phillip_Portrait",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 62,
   "height": 78,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"aa49dc25-e31d-42ac-85a4-1356c347be18","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aa49dc25-e31d-42ac-85a4-1356c347be18","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":{"name":"196c547b-f200-4fa7-9514-6f6d5574411f","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Portrait","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"aa49dc25-e31d-42ac-85a4-1356c347be18","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6f015308-457c-42f2-834e-5251098f88e6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6f015308-457c-42f2-834e-5251098f88e6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":{"name":"196c547b-f200-4fa7-9514-6f6d5574411f","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Portrait","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"6f015308-457c-42f2-834e-5251098f88e6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16dfceba-b545-49bf-a7cb-ba3cd6e67ff6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16dfceba-b545-49bf-a7cb-ba3cd6e67ff6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"LayerId":{"name":"196c547b-f200-4fa7-9514-6f6d5574411f","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Phillip_Portrait","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","name":"16dfceba-b545-49bf-a7cb-ba3cd6e67ff6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa49dc25-e31d-42ac-85a4-1356c347be18",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6f015308-457c-42f2-834e-5251098f88e6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16dfceba-b545-49bf-a7cb-ba3cd6e67ff6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Phillip_Portrait","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,13 +46,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0575f90b-01af-43bb-bcf5-6269c594b442","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa49dc25-e31d-42ac-85a4-1356c347be18","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"258a3559-9039-47b1-869c-d100ca163f7b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f015308-457c-42f2-834e-5251098f88e6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"a155f423-288d-4486-8335-6980b47cb1e9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16dfceba-b545-49bf-a7cb-ba3cd6e67ff6","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -66,22 +66,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Phillip_Portrait","path":"sprites/spr_Phillip_Portrait/spr_Phillip_Portrait.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"196c547b-f200-4fa7-9514-6f6d5574411f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"196c547b-f200-4fa7-9514-6f6d5574411f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Portraits",
-    "path": "folders/Sprites/Character_Sprites/Portraits.yy",
+    "name": "AU_Phillip",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Phillip.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Phillip_Portrait",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -11,6 +11,10 @@ function Town_Character_Stats_Enemy_Wolf(_character){
 	    agility = 3;
 	    movement_range = 5;
 	    movement_type = "Fast";
+		evasion = 0;
+		crit = 0;
+		counter = 0;
+		multi_strike = 0;
 	}
 }
 

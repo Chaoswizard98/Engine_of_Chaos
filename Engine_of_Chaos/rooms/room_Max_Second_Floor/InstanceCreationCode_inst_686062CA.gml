@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Note","Maxs_Desk");
+Set_Searchable_Message(id,"Note","Maxs_Desk");

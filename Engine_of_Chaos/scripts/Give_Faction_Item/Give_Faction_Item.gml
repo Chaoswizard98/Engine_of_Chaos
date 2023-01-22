@@ -1,7 +1,4 @@
-function Give_Faction_Item() {
-	var _lookup_type = argument[0];
-	var _faction = argument[1];
-	var _item = argument[2];
+function Give_Faction_Item(_lookup_type,_faction,_item) {
 	var i = 0;
 
 	if(_lookup_type = "Global"){
@@ -27,7 +24,4 @@ function Give_Faction_Item() {
 	        }
 	    }
 	}
-
-
-
 }

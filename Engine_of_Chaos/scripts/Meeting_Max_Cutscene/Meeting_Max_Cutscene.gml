@@ -1,6 +1,6 @@
 function Meeting_Max_Cutscene() {
 	var _jason = player_trigger;
-	var _max = Get_Character("Max","Default");
+	var _max = Get_Character("AU_Max","Default");
 	var _message = "";
 
 	switch(state){

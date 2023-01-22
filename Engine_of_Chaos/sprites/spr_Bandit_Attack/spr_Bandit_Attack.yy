@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Bandit_Attack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 76,
   "height": 66,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f6cb7437-8963-42bd-9fe0-fed2352b38ee","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6cb7437-8963-42bd-9fe0-fed2352b38ee","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":{"name":"d556260e-6c94-4b1d-ad14-c9ba6d7cde5d","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Attack","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"f6cb7437-8963-42bd-9fe0-fed2352b38ee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f337266-871a-4d9b-8c2b-b1cfc21d83d1","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f337266-871a-4d9b-8c2b-b1cfc21d83d1","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":{"name":"d556260e-6c94-4b1d-ad14-c9ba6d7cde5d","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Attack","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"8f337266-871a-4d9b-8c2b-b1cfc21d83d1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2a033d05-ca57-44e2-92b3-1406891c7bdd","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a033d05-ca57-44e2-92b3-1406891c7bdd","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"LayerId":{"name":"d556260e-6c94-4b1d-ad14-c9ba6d7cde5d","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Bandit_Attack","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","name":"2a033d05-ca57-44e2-92b3-1406891c7bdd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6cb7437-8963-42bd-9fe0-fed2352b38ee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f337266-871a-4d9b-8c2b-b1cfc21d83d1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a033d05-ca57-44e2-92b3-1406891c7bdd",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Bandit_Attack","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e046d138-7e18-45db-ab33-0c7ab234f883","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6cb7437-8963-42bd-9fe0-fed2352b38ee","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1bbbf753-27e3-4d97-a342-5b93b5bd4a80","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f337266-871a-4d9b-8c2b-b1cfc21d83d1","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"34623c76-3838-4558-a133-20439f6e0f1d","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a033d05-ca57-44e2-92b3-1406891c7bdd","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 57,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Bandit_Attack","path":"sprites/spr_Bandit_Attack/spr_Bandit_Attack.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d556260e-6c94-4b1d-ad14-c9ba6d7cde5d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d556260e-6c94-4b1d-ad14-c9ba6d7cde5d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Bandit",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Bandit.yy",
+    "name": "AU_Bandit",
+    "path": "folders/Sprites/Characters/AU/Enemies/AU_Bandit.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Bandit_Attack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

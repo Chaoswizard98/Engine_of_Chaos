@@ -1,1 +1,1 @@
-Set_Bookshelf(id,"Bookshelf","Accidental_Pickpocketing");
+Set_Searchable_Message(id,"Bookshelf","Accidental_Pickpocketing");

@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Characters",
-    "path": "folders/Scripts/DONE/Characters.yy",
+    "path": "folders/Scripts/Game_Logic/Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spawn_Followers",

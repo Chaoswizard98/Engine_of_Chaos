@@ -7,13 +7,15 @@ function NPC_Dialogue_English(_npc,_player,_dialogue_ID) {
 		//============
         case "Default_Advisor_Greeting": return ("Hello " + _player_name + ". Did you need something?"); break;
 	    case "Default_Advisor_Farewell": return ("Take it easy " + _player_name + "!"); break;
+		case "Default_Priest_Greeting": return ("Ah, I've been expecting you."); break;
+	    case "Default_Priest_Farewell": return ("May the light guide you on your journey."); break;
 		case "Default_Shopkeeper_Greeting": return ("What's up, boy!%\nWe guarantee all items to\nbe in good condition!"); break;
 	    case "Default_Shopkeeper_Farewell": return ("Thank you! Come again!"); break;
 		case "Default_Innkeeper_Greeting": return ("Hello there!%\nWhat can I do for ya?"); break;
 	    case "Default_Innkeeper_Farewell": return ("Take care now!"); break;
 		case "Default_Join_In_Battle": return ("Sure, I'll join you in battle."); break;
 		case "Default_Switch_Character": return ("Why don't you rest a while " +_player_name+ "?^ I'll take it from here."); break;
-		
+
 		//==============
 	    //Ashenwood NPCs
 		//==============
@@ -40,10 +42,39 @@ function NPC_Dialogue_English(_npc,_player,_dialogue_ID) {
 	    case "Ashenwood_Adventurer_2": return ("My friend and I just took down an ogre living in a cave up north.%\nHe was living with a group of around 50 goblins.%\nApparently they provided him with food and in turn, he offered his protection.%\nIt was a tough fight,^ but we managed to take them all out!"); break;
 	    case "Ashenwood_Traveler": return ("I traveled here all the way from Merillian City just to get my hands on a few drinks.%\nSeriously, the wine you make here is out of this world!"); break;
         
+		//=============
+		//Hillford NPCs
+		//=============
+		case "Priest": return ("Ah, I've been expecting you.%\nHow may I assist you today?"); break;
+		case "Annas_Herbals_Greeting": return ("Hey there!%\nWelcome to Anna's Herbals!"); break;
+		case "Judy": return ("My cat FLUFFY is missing.%\nIf you find him,^ please bring him back to me!%\nI miss him dearly..."); break;
+		case "Judy_With_Fluffy": return ("Thanks again for returning FLUFFY to me!"); break;
+		case "Hillford_Kid_1": return ("Chasing chickens is fun!"); break;
+		case "Hillford_Miner_01": return ("It's important to step outside every once in a while.%\n You'll go crazy if you spend too much time digging in a dimly lit mineshaft."); break;
+		case "Hillford_Miner_02": return ("Hillford and Moorenfirch worked together to carve a tunnel through the mountains to make travel easier.%\nOur little town grew a lot after that project was completed!"); break;
+		case "AU_Hillford_Mine_Blocker": return ("Sorry but I can't let you pass here just yet. ^We have a load of ore coming through."); break;
+		
+		case "Hillford_Villager_01": return ("Normally I'll take a walk through the forest,^ but the wolves get hostile this time of year.%\n Thankfully adventurers come through every once in a while and help keep their numbers down."); break;
+		case "Hillford_Villager_02": return ("Most people follow the Goddess Aronia here in Hillford,^ but all are welcome in our little church."); break;
+		case "Hillford_Kid_02": return ("My parents won't let me have a pony so I come here to pet these ones."); break;
+		case "AU_Hillford_Door_Blocker_01": return ("Oh quit your complaining. Moorenfirch ain't that far away."); break;
+		case "AU_Hillford_Door_Blocker_02": return ("I'm getting too old for all this walking around that we do."); break;
+		case "AU_Hillford_Innkeeper": return ("The mines should be relatively monster free.^ So long as you don't draw attention to yourself, you should be fine."); break;
+		
+		case "AU_Hillford_Miner_03": return ("This path leads to Silverwind.^ Well,^ it will eventually.^ It's our largest job yet!"); break;
+		case "AU_Hillford_Miner_04": return ("Ever since the tunnel between Hillford and Moorenfirch was completed, travel has become much easier."); break;
+		case "AU_Hillford_Miner_05": return ("Most of the gemstones here are sent to the mages college in Merillain City.^ Apparently they're used to imbue items with magic."); break;
+		case "AU_Hillford_Miner_06": return ("The gemstones we mine here are a form of condensed magical power."); break;
+		case "AU_Hillford_Miner_07": return ("Since they act as a form of light,^ we tend to leave a few gems in the walls.^ No need to mine them all!"); break;
+		case "AU_Hillford_Miner_08": return ("Even though Hillford is part of Merillian's territory,^ it was actually Silverwind that initiated the tunneling project."); break;
+		
+		
+		case "Hillford_BS_Apprentice": return ("Hello there,^ welcome to Dolan's Smithy.%\n I'm just an apprentice so if you’re looking to buy something,^ you should talk to my master."); break;
 		//=======
 		//Animals
 		//=======
 	    case "Cow": return ("Mooooooo!"); break;
+		case "Cat": return ("Meow!"); break;
         
 		//=======
 		//Default

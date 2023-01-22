@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_Karina_Idle",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 96,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f3857390-9fb2-44b8-8375-1c9a7b348948","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f3857390-9fb2-44b8-8375-1c9a7b348948","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"LayerId":{"name":"26e4d392-c75a-46a2-949f-a1103fd86297","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Idle","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","name":"f3857390-9fb2-44b8-8375-1c9a7b348948","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"410c636c-8c59-4483-afdb-e98563b6cc09","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"410c636c-8c59-4483-afdb-e98563b6cc09","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"LayerId":{"name":"26e4d392-c75a-46a2-949f-a1103fd86297","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Karina_Idle","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","name":"410c636c-8c59-4483-afdb-e98563b6cc09","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f3857390-9fb2-44b8-8375-1c9a7b348948",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"410c636c-8c59-4483-afdb-e98563b6cc09",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_Karina_Idle","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,12 +45,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1c1f27f7-2b28-401c-bb08-7f7c774f8c88","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3857390-9fb2-44b8-8375-1c9a7b348948","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6ff28a83-91a0-4563-b97f-35275dd6f3e5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"410c636c-8c59-4483-afdb-e98563b6cc09","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -62,22 +64,13 @@
     "yorigin": 94,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_Karina_Idle","path":"sprites/spr_Karina_Idle/spr_Karina_Idle.yy",},
-    "resourceVersion": "1.3",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"26e4d392-c75a-46a2-949f-a1103fd86297","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"26e4d392-c75a-46a2-949f-a1103fd86297","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Karina",
-    "path": "folders/Sprites/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Karina.yy",
+    "name": "AU_Karina",
+    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Karina.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_Karina_Idle",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
