@@ -73,6 +73,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Jamie",
-    "path": "folders/Sprites/Characters/AU/AU_Jamie.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Jamie.yy",
   },
 }

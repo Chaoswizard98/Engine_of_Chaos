@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Bat",
-    "path": "folders/Sprites/Characters/AU/Enemies/Bat.yy",
+    "path": "folders/Sprites/WIP/DELETE/Bat.yy",
   },
 }

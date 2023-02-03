@@ -40,7 +40,7 @@ function Get_Appearance_AU_Max(_lookup_type,_character,_stat){
 	//Class Sprites
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
-		case "SNPR": _overworld_sprite = spr_Chicken_Overworld; break;
+		case "SNPR": _overworld_sprite = spr_Generic_Chicken_Overworld; break;
 	}
 	//=====================
 	//Set costume overrides

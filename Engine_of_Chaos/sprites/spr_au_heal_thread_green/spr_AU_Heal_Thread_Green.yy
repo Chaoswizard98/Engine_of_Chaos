@@ -116,7 +116,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "AU_Blaze",
-    "path": "folders/Sprites/Spells/AU_Blaze.yy",
+    "name": "AU_Heal",
+    "path": "folders/Sprites/Spells/AU_Heal.yy",
   },
 }

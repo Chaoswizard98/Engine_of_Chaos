@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Jason",
-    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Jason.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Jason.yy",
   },
 }

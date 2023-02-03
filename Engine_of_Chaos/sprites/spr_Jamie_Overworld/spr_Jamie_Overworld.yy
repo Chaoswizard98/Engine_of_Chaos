@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "NPCs",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/NPCs.yy",
+    "path": "folders/Sprites/WIP/DELETE/Overworld/NPCs.yy",
   },
 }

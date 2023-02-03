@@ -1,7 +1,7 @@
 function Item_Stats_SF1_Forbidden_Box(_lookup_type,_character){
 	item_name = Get_Item_Display_Name("SF1_Forbidden_Box","Item_Name","Forbidden Box");//name of item (for dialogue)
 	menu_name = Get_Item_Display_Name("SF1_Forbidden_Box","Menu_Name","Forbidden\n Box");//name as it appears in menus
-	item_icon = spr_Item_Icons;
+	item_icon = spr_AU_Item_Icons;
 	frame_number = 30;
 	max_use_range = 0;
 	min_use_range = -1;

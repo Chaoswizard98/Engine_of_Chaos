@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Phillip",
-    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Phillip.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Phillip.yy",
   },
 }

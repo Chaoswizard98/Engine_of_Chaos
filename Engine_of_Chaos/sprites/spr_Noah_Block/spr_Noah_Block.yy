@@ -87,6 +87,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Noah",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Noah.yy",
+    "path": "folders/Sprites/WIP/DELETE/Temp/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Noah.yy",
   },
 }

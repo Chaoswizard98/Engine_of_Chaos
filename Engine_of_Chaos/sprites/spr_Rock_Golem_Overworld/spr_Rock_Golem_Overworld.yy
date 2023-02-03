@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Rock_Golem",
-    "path": "folders/Sprites/Characters/AU/Enemies/AU_Rock_Golem.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Rock_Golem.yy",
   },
 }

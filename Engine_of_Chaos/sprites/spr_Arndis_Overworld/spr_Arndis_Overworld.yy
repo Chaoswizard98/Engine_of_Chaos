@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Characters/AU/Enemies.yy",
+    "name": "DELETE",
+    "path": "folders/Sprites/WIP/DELETE.yy",
   },
 }

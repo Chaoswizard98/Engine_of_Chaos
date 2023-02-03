@@ -24,10 +24,10 @@ function Town_Character_Stats_Generic_Debug_Enemy(_character){
 //Overworld Sprite Setup
 //======================
 function Get_Appearance_Generic_Debug_Enemy(_lookup_type,_character,_stat){
-	var _overworld_sprite = spr_Wolf_Overworld;
+	var _overworld_sprite = spr_AU_Wolf_Overworld;
 	var _portrait = noone;
 	var _voice = sfx_Dialogue07;
-	var _battle_sprite = "Enemy_Wolf";
+	var _battle_sprite = "AU_Wolf";
 	
 	return Get_Basic_NPC_Appearance(_lookup_type,_character,_stat,_overworld_sprite,_portrait,_voice,_battle_sprite);
 }
@@ -41,7 +41,7 @@ function Get_Battle_Sprite_Stats_Generic_Debug_Enemy(_animation,_stat){
 	//=============
 	var _parent_animation = _animation;
 	var _location = "Background"; //Foreground or Background
-	var _sprite = spr_Wolf_Idle; //Sprite
+	var _sprite = spr_AU_Wolf_Idle; //Sprite
 	var _animation_speed = .0625; //Animation Speed
 	var _projectile_type = "Weapon"; //Projectile Sprite ("Weapon" uses sprite set via item's script)
 	var _projectile_path = "Default"; //Path of the projectile ("Default" = straight line, "Arc" = long volley)
@@ -52,8 +52,8 @@ function Get_Battle_Sprite_Stats_Generic_Debug_Enemy(_animation,_stat){
 	//Animation Overrides
 	//===================
 	switch(_animation){
-		case "Melee_Attack": _sprite = spr_Wolf_Attack; break;
-		case "Block": _sprite = spr_Wolf_Block; break;
+		case "Melee_Attack": _sprite = spr_AU_Wolf_Attack; break;
+		case "Block": _sprite = spr_AU_Wolf_Block; break;
 		default: //Run parent animation by default if child isn't set (ranged / spell_cast runs melee, etc.)
 			_parent_animation = Get_Battle_Sprite_Stats_Default(_animation,"Parent_Animation");
 			_use_controller_animation = Get_Battle_Sprite_Stats_Default(_animation,"Use_Controller_Animation");

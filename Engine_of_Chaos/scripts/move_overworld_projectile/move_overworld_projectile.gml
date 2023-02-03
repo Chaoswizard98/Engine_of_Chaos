@@ -7,8 +7,6 @@ function Move_Overworld_Projectile(_object, _end_x, _end_y, _speed, _end_rotatio
 			end_rotation = _end_rotation;
 		}
 		action = "Move_To_Location";
-		
-		//show_message(string(end_x)+ string(end_y)+ string(end_rotation)+ string(action));
 		event_perform(ev_other,ev_user1);
 	}
 }

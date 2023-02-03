@@ -25,7 +25,7 @@ function Get_Appearance_AU_Kira(_lookup_type,_character,_stat){
 	//Class Sprites
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
-		case "ASSN": _overworld_sprite = spr_Chicken_Overworld; break;
+		case "ASSN": _overworld_sprite = spr_Generic_Chicken_Overworld; break;
 	}
 	//=====================
 	//Set costume overrides

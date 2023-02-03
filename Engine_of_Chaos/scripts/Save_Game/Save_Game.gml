@@ -18,6 +18,7 @@ function Save_Game(_trigger) {
 	ini_write_string("General_Data","Difficulty",global.Difficulty);//Difficulty
 	ini_write_real("General_Data","Story_State",global.Story_State);//Story State
 	ini_write_real("General_Data","Gold",global.Gold);//Gold
+	//ini_write_string("General_Data","Player_ID",global.Player_ID);//Player ID
 
 	//===========
 	//Player Data

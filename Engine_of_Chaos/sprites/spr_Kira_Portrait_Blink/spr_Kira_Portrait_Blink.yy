@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Kira",
-    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Kira.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Kira.yy",
   },
 }

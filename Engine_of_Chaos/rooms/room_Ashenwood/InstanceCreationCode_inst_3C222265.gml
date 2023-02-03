@@ -1,1 +1,1 @@
-Set_Character_Stats(id,"Dog");
+Set_Character_Stats(id,"Generic_Dog");

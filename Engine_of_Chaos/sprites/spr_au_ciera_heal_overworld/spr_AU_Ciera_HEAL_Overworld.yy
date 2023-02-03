@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Ciera",
-    "path": "folders/Sprites/Ciera.yy",
+    "path": "folders/Sprites/Characters/AU/Party_Members/Ciera.yy",
   },
 }

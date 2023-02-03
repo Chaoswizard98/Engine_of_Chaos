@@ -71,6 +71,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Max",
-    "path": "folders/Sprites/Characters/AU/Party_Members/AU_Max.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Max.yy",
   },
 }

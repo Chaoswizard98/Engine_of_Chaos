@@ -24,11 +24,11 @@ function Spawn_Monster_Battle_01_Wolf_Cave(_spawner){
 	
 	with(_spawner){
 		if(remaining_units = 3){
-		    _character = Create_NPC(x,y,"Down","Enemy_Alpha_Wolf",true);//x,y,direction,character_ID,cutscene_mode
+		    _character = Create_NPC(x,y,"Down","AU_Alpha_Wolf",true);//x,y,direction,character_ID,cutscene_mode
 		    _character.ai_script_ID = "AI_Battle_01_Alpha_Wolf";
 		}
 		else{
-		    _character = Create_NPC(x,y,"Down","Enemy_Wolf",true);//x,y,direction,character_ID,cutscene_mode
+		    _character = Create_NPC(x,y,"Down","AU_Wolf",true);//x,y,direction,character_ID,cutscene_mode
 		    _character.ai_script_ID = "AI_Battle_01_Alpha_Wolf_Guard";
 		}
 	}

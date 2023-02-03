@@ -31,7 +31,6 @@ function Battle_03_Intro_Cutscene() {
 	        //_wolf.y += 72;
 	        //_wolf.cutscene_mode = true;
 			//Play_Music(noone,"Fade_Out",250,0);
-			//show_message("ping2");
 			var _jason = Spawn_Player("AU_Jason","Hillford_Mines");//default character, default spawn location (Overwritten by room transition controller if it exists)
 			Start_Room(_jason);
 	        Finish_Room_Transition(id);

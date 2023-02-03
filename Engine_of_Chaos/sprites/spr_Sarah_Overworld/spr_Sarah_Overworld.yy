@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Allies",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
+    "name": "Sarah",
+    "path": "folders/Sprites/Characters/SF2/Party_Members/Sarah.yy",
   },
 }

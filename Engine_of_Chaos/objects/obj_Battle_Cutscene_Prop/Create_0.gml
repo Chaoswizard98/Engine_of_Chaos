@@ -1,4 +1,6 @@
 current_frame = 0;//current frame of the sprite animation
+current_iteration = 1;
+number_of_iterations = 1;
 x_pos = 0;//Curent x/y position
 y_pos = 0;
 end_x = 0;//End x/y position to move to
@@ -18,6 +20,7 @@ mirror = 1;//do we mirror the sprite?
 loop_animation = false;//do we loop the animation
 action = "Default";//action to perform
 draw_location = "Highest";//Draw layer (Background,Foreground,Highest)
+instant_destruction = false;//Do we instantly destroy this when the spell controller is destroyed? (if false, it is destroyed on final frame instead)
 
 hidden = false;
 

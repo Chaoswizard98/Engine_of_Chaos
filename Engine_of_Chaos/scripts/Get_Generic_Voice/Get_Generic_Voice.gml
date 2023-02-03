@@ -47,11 +47,11 @@ function Get_Generic_Voice(_voice_ID){
 	    case "Male_Old_2": return sfx_Dialogue08; break;//Old
     
 	    //Animals
-	    case "Cow": return sfx_Dialogue08; break;
-	    case "Horse": return sfx_Dialogue07; break;
-	    case "Cat": return sfx_Dialogue01; break;
-	    case "Dog": return sfx_Dialogue06; break;
-	    case "Chicken": return sfx_Dialogue01; break;
+	    case "Generic_Cow": return sfx_Dialogue08; break;
+	    case "Generic_Horse": return sfx_Dialogue07; break;
+	    case "Generic_Cat": return sfx_Dialogue01; break;
+	    case "Generic_Dog": return sfx_Dialogue06; break;
+	    case "Generic_Chicken": return sfx_Dialogue01; break;
 	}
 	
 	return noone;

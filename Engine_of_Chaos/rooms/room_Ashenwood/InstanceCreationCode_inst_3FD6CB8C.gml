@@ -1,1 +1,1 @@
-Set_Character_Stats(id,"Cat_Orange");
+Set_Character_Stats(id,"Generic_Cat_Orange");

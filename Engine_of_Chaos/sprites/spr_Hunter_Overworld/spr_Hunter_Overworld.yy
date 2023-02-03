@@ -58,7 +58,7 @@
             {"id":"c5c6b654-13d8-42ff-ab83-8dc9a7500be4","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f495996-4f0d-47b2-a184-469a40a51b17","path":"sprites/spr_Hunter_Overworld/spr_Hunter_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Allies",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
+    "path": "folders/Sprites/WIP/DELETE/Overworld/Allies.yy",
   },
 }

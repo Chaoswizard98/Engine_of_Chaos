@@ -58,7 +58,7 @@
             {"id":"9e82334e-7d5d-4fa2-982b-809cd38f2560","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44e5309a-17a2-4fd0-b37a-e5cc5ed4b142","path":"sprites/spr_Forest_Serpent_Overworld/spr_Forest_Serpent_Overworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Forest_Serpent",
-    "path": "folders/Sprites/Characters/AU/Enemies/AU_Forest_Serpent.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Forest_Serpent.yy",
   },
 }

@@ -60,7 +60,7 @@ function Draw_Member_List_Top_Global_Magic() {
 	var i = 0;
 	for (i = 0; i<4; i+= 1){//loop through item / magic inventory
 	    //Draw Items
-	    if(Get_Spell(lookup_type,_character,i)!= "none"){//if we have an item in slot i
+	    if(Get_Spell_Level(lookup_type,_character,i) != 0){//if we have an item in slot i
 	        draw_text(_item_name_x,_item_name_y +(i*_index_offset),Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Menu_Name")+"\n "+Get_Menu_Display_Message("Generic","Level")+" " + string(_spell_level[i]));//draw item name
 	        draw_sprite(Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Spell_Icon"),Get_Spell_Slot_Stats(lookup_type,_character,i,-1,"Frame_Number"),_item_icon_x[i],_item_icon_y[i]);
 	    }
@@ -75,7 +75,7 @@ function Draw_Member_List_Top_Global_Magic() {
 
 	draw_set_color(equipped_font_color);
 
-	if(Get_Spell(lookup_type,_character,0)= "none"){//if we dont have an item in slot i
+	if(Get_Spell_Level(lookup_type,_character,0) = 0){//if we dont have an item in slot i
 	    draw_text(_item_name_x,_item_name_y,Get_Menu_Display_Message("Generic","Nothing"));//draw item name
 	}
 

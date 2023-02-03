@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Party_Spawn_Location",
   "spriteId": {
     "name": "spr_Spawn_Location",
     "path": "sprites/spr_Spawn_Location/spr_Spawn_Location.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Battle_Objects",
     "path": "folders/Objects/Game_Objects/Battle_Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Party_Spawn_Location",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -73,8 +73,8 @@ function NPC_Dialogue_English(_npc,_player,_dialogue_ID) {
 		//=======
 		//Animals
 		//=======
-	    case "Cow": return ("Mooooooo!"); break;
-		case "Cat": return ("Meow!"); break;
+	    case "Generic_Cow": return ("Mooooooo!"); break;
+		case "Generic_Cat": return ("Meow!"); break;
         
 		//=======
 		//Default

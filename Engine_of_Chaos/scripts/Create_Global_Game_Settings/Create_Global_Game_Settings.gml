@@ -50,7 +50,7 @@ function Create_Global_Game_Settings() {
 
 	//Utility
 	global.Player = noone;//Keeps track of the current character we're controlling.
-	global.Player_ID = "none";//Same as above, but the ID instead of the object.
+	global.Player_ID = "AU_Jason";//Same as above, but the ID instead of the object.
 	global.Price_Tag_Font = font_add_sprite(spr_Shop_Font, ord("0"), true, 1);//font for shop prices
 	global.Show_Terrain_Tiles = false;//debug for showing trigger tiles, etc
 	global.Show_FPS = false;//Whether or not we show the current FPS

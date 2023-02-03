@@ -6,7 +6,7 @@ function Item_Stats_Test_Arrow_2(_lookup_type,_character){
 	
 	item_name = Get_Item_Display_Name("Test_Arrow_2","Item_Name","Test Arrow 2");//name of item (for dialogue)
 	menu_name = Get_Item_Display_Name("Test_Arrow_2","Menu_Name","Test\n Arrow 2");//name as it appears in menus
-	item_icon = spr_Weapon_Icons;
+	item_icon = spr_AU_Weapon_Icons;
 	frame_number = 1;
 	value = 120;
 	shop_type = "Equipment";

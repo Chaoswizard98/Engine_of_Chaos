@@ -26,11 +26,11 @@ function Get_Appearance_AU_Ciera(_lookup_type,_character,_stat){
 	//=============
 	switch(Get_Character_Class(_lookup_type,_character,"Abbreviation")){
 		case "PRST": 
-			_overworld_sprite = spr_Chicken_Overworld; 
+			_overworld_sprite = spr_Generic_Chicken_Overworld; 
 			_battle_sprite = "AU_Ciera_PRST";
 		break;
 		case "MMNK": 
-			_overworld_sprite = spr_Chicken_Overworld; 
+			_overworld_sprite = spr_Generic_Chicken_Overworld; 
 			_battle_sprite = "AU_Ciera_PRST";
 		break;
 	}

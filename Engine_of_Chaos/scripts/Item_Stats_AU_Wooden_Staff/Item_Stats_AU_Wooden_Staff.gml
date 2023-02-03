@@ -6,7 +6,7 @@ function Item_Stats_AU_Wooden_Staff(_lookup_type,_character){
 	
 	item_name = Get_Item_Display_Name("AU_Wooden_Staff","Item_Name","Wooden Staff");//name of item (for dialogue)
 	menu_name = Get_Item_Display_Name("AU_Wooden_Staff","Menu_Name","Wooden\n Staff");//name as it appears in menus
-	item_icon = spr_Weapon_Icons;
+	item_icon = spr_AU_Weapon_Icons;
 	frame_number = 2;
 	value = 80;
 	shop_type = "Equipment";

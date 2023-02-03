@@ -73,6 +73,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Other",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Other.yy",
+    "path": "folders/Sprites/WIP/DELETE/Temp/Character_Sprites/Battle_Cutscene_Sprites/Other.yy",
   },
 }

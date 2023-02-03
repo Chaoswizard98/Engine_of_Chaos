@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Allies",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
+    "path": "folders/Sprites/WIP/DELETE/Overworld/Allies.yy",
   },
 }

@@ -1,8 +1,8 @@
 function Item_Stats_SF2_Healing_Rain(_lookup_type,_character){
 	item_name = Get_Item_Display_Name("SF2_Healing_Rain","Item_Name","Healing Rain");//name of item (for dialogue)
 	menu_name = Get_Item_Display_Name("SF2_Healing_Rain","Menu_Name","Healing\n Rain");//name as it appears in menus
-	item_icon = spr_Item_Icons;
-	frame_number = 21;
+	item_icon = spr_SF2_Item_Icons;
+	frame_number = 8;
 	use_degrade_chance = 100;
 	max_use_range = 1;
 	min_use_range = -1;

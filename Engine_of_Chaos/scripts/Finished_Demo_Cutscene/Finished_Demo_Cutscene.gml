@@ -9,7 +9,7 @@ function Finished_Demo_Cutscene() {
 	    break;
 	    case 1:
 	        state += 1;
-	        Create_Dialogue(spr_Chaos_Portrait,sfx_Dialogue05,"Greetings,^ and congratulations on completing the demo.% For now I'll put you back in Hillford so that you can explore the town further.% I promise it works this time.^^ Probably.% If you're not already aware,^ Milkshake has a wander radius of 99,^ a Ring of Chicken is hidden somewhere in Ashenwood,^ there is a Protect Milk hidden in Hillford,^ and enemies killed by a character named 'JOGURT' will drop a Jogurt Ring.%\nCheers!\n-Chaoswizard98",id,true,true);//portrait, voice, message,object,arrow,pan
+	        Create_Dialogue(spr_AU_Chaos_Portrait,sfx_Dialogue05,"Greetings,^ and congratulations on completing the demo.% For now I'll put you back in Hillford so that you can explore the town further.% I promise it works this time.^^ Probably.% If you're not already aware,^ Milkshake has a wander radius of 99,^ a Ring of Chicken is hidden somewhere in Ashenwood,^ there is a Protect Milk hidden in Hillford,^ and enemies killed by a character named 'JOGURT' will drop a Jogurt Ring.%\nCheers!\n-Chaoswizard98",id,true,true);//portrait, voice, message,object,arrow,pan
 	    break;
 	    case 2:
 	        state += 1;

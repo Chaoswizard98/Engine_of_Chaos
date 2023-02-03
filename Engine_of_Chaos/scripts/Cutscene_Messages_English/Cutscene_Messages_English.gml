@@ -76,7 +76,7 @@ function Cutscene_Messages_English(_cutscene_object,_message_ID) {
 				case "23": return ("Likewise."); break;
 				case "24": return ("I'm surprised to see you here early."); break;
 				case "25": return ("Of course I'm here early.^ I'm smart enough to know that one of you always insists on leaving as soon as possible."); break;
-				case "26": return ("It's not like it takes a genious to figure that out."); break;
+				case "26": return ("It's not like it takes a genius to figure that out."); break;
 				case "27": return ("It is a shame though.^ I was kind of hoping to lose the extra baggage and leave the princess behind."); break;
 				case "28": return ("Watch your tongue wildling or I'll cut it out."); break;
 				case "29": return ("I'll cut you down before you can even cast a single spell."); break;

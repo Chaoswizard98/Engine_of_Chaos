@@ -6,7 +6,7 @@ function Item_Stats_AU_Battered_Sword(_lookup_type,_character){
 	
 	item_name = Get_Item_Display_Name("AU_Battered_Sword","Item_Name","Battered Sword");//name of item (for dialogue)
 	menu_name = Get_Item_Display_Name("AU_Battered_Sword","Menu_Name","Battered\n Sword");//name as it appears in menus
-	item_icon = spr_Weapon_Icons;
+	item_icon = spr_AU_Weapon_Icons;
 	frame_number = 0;
 	attack = 3;
 	value = 100;

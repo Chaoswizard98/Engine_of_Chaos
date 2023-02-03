@@ -13,6 +13,7 @@ function Load_Game() {
 	global.Difficulty = ini_read_string("General_Data","Difficulty",global.Difficulty);//Difficulty
 	global.Story_State = ini_read_real("General_Data","Story_State",global.Story_State);//Story State
 	global.Gold = ini_read_real("General_Data","Gold",global.Gold);//Gold
+	global.Player_ID = ini_read_string("Player_Data","Character_ID",global.Player_ID);//Player ID
 
 	//===========
 	//Story Flags

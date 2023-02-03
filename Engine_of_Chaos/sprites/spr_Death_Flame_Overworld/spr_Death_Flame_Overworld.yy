@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Other",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Other.yy",
+    "name": "Generic",
+    "path": "folders/Sprites/Characters/Generic.yy",
   },
 }

@@ -91,6 +91,7 @@ if(allow_interaction){
             allow_interaction = false;
             pan_direction = "down";
             play_pan_sound = true;
+			Reset_Cursor_Display();
             Clear_Target_Range();
         }
     }

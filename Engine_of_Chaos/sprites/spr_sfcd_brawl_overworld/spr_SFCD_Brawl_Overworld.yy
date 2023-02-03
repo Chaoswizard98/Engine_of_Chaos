@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Overworld_Objects",
+    "path": "folders/Sprites/Overworld_Objects.yy",
   },
 }

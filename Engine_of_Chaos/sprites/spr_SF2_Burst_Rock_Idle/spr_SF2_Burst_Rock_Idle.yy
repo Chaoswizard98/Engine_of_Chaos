@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Burst_Rock",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Burst_Rock.yy",
+    "path": "folders/Sprites/Characters/SF2/Enemies/Burst_Rock.yy",
   },
 }

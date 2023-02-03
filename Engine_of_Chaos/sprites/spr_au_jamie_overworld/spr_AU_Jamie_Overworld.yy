@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Jamie",
-    "path": "folders/Sprites/Jamie.yy",
+    "path": "folders/Sprites/Characters/AU/Important_NPCs/Jamie.yy",
   },
 }

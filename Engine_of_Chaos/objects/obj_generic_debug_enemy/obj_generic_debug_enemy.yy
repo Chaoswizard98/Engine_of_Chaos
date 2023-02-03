@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Generic_Debug_Enemy",
   "spriteId": {
-    "name": "spr_Wolf_Overworld",
-    "path": "sprites/spr_Wolf_Overworld/spr_Wolf_Overworld.yy",
+    "name": "spr_AU_Wolf_Overworld",
+    "path": "sprites/spr_AU_Wolf_Overworld/spr_AU_Wolf_Overworld.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Enemies",
     "path": "folders/Objects/Game_Objects/Characters/Characters/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Generic_Debug_Enemy",
-  "tags": [],
-  "resourceType": "GMObject",
 }

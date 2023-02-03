@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Allies",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
+    "name": "Astral",
+    "path": "folders/Sprites/Characters/SF2/NPCs/Astral.yy",
   },
 }

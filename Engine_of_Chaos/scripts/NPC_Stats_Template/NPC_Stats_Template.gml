@@ -11,7 +11,7 @@ function Town_Character_Stats_NPCName(_character){
 //Overworld Sprite Setup
 //======================
 function Get_Appearance_NPCName(_lookup_type,_character,_stat){
-	var _overworld_sprite = spr_Chaos_Overworld;
+	var _overworld_sprite = spr_AU_Chaos_Overworld;
 	var _portrait = noone;
 	var _voice = sfx_Dialogue01;
 	var _battle_sprite = "none";

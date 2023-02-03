@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/NPCs.yy",
+    "name": "Townsfolk",
+    "path": "folders/Sprites/Characters/SF2/NPCs/Townsfolk.yy",
   },
 }

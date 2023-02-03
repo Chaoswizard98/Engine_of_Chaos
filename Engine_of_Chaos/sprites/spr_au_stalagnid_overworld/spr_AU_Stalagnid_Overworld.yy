@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Stalagnid",
-    "path": "folders/Sprites/Stalagnid.yy",
+    "path": "folders/Sprites/Characters/AU/Enemies/Stalagnid.yy",
   },
 }

@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Allies",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Overworld/Allies.yy",
+    "name": "Bowie",
+    "path": "folders/Sprites/Characters/SF2/Party_Members/Bowie.yy",
   },
 }

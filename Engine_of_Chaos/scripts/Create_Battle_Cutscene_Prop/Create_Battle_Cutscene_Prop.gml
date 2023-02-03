@@ -12,6 +12,7 @@ function Create_Battle_Cutscene_Prop(_prop,_x_pos,_y_pos,_rotation,_mirror,_loop
 	    sprite_index = Get_Battle_Cutscene_Prop_Stats(prop,"Sprite");
 	    image_speed = Get_Battle_Cutscene_Prop_Stats(prop,"Animation_Speed");
 		draw_location = Get_Battle_Cutscene_Prop_Stats(prop,"Draw_Location");
+		instant_destruction = Get_Battle_Cutscene_Prop_Stats(prop,"Instant_Destruction");
 	}
 
 	//Play start sound if we have one

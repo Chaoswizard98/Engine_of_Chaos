@@ -98,7 +98,7 @@ if(allow_interaction && !scrolling){
             Play_Sound(sfx_Menu_Move);
         }
         else if(state = "Selecting_Spell"){
-            if(Get_Spell(lookup_type,character_list[start_index + index],0)!= "none"){//if the character doesnt have any items
+            if(Get_Spell_Level(lookup_type,character_list[start_index + index],0)!= 0){//if the character doesnt have any items
                 item_index = 0;
             }
             Play_Sound(sfx_Menu_Move);
@@ -141,7 +141,7 @@ if(allow_interaction && !scrolling){
             Play_Sound(sfx_Menu_Move);
         }
         else if(state = "Selecting_Spell"){
-            if(Get_Spell(lookup_type,character_list[start_index + index],3)!= "none"){//if the character doesnt have any items
+            if(Get_Spell_Level(lookup_type,character_list[start_index + index],3)!= 0){//if the character doesnt have any items
                 item_index = 3;
             }
             Play_Sound(sfx_Menu_Move);
@@ -179,7 +179,7 @@ if(allow_interaction && !scrolling){
             Play_Sound(sfx_Menu_Move);
         }
         else if(state = "Selecting_Spell"){
-            if(Get_Spell(lookup_type,character_list[start_index + index],1)!= "none"){//if the character doesnt have any items
+            if(Get_Spell_Level(lookup_type,character_list[start_index + index],1)!= 0){//if the character doesnt have any items
                 item_index = 1;
             }
             Play_Sound(sfx_Menu_Move);
@@ -217,7 +217,7 @@ if(allow_interaction && !scrolling){
             Play_Sound(sfx_Menu_Move);
         }
         else if(state = "Selecting_Spell"){
-            if(Get_Spell(lookup_type,character_list[start_index + index],2)!= "none"){//if the character doesnt have any items
+            if(Get_Spell_Level(lookup_type,character_list[start_index + index],2)!= 0){//if the character doesnt have any items
                 item_index = 2;
             }
             Play_Sound(sfx_Menu_Move);

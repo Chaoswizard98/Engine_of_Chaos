@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Wisp",
-    "path": "folders/Sprites/Wisp.yy",
+    "path": "folders/Sprites/Characters/AU/Enemies/Wisp.yy",
   },
 }

@@ -42,6 +42,7 @@ function Room_Transfer(_character,_trigger,_data_1 = noone,_data_2 = noone) {
 	    break;
 	    case "Load_Game":
 	        _next_room = _data_1;
+			_character_ID = global.Player_ID;
 	        _transition_type = "Load_Game";
 	    break;
 		case "Restart":

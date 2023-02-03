@@ -71,6 +71,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Kajye",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Kajye.yy",
+    "path": "folders/Sprites/WIP/DELETE/Temp/Character_Sprites/Battle_Cutscene_Sprites/Party_Members/Kajye.yy",
   },
 }

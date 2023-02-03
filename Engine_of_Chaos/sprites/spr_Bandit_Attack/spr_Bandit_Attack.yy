@@ -73,6 +73,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Bandit",
-    "path": "folders/Sprites/Characters/AU/Enemies/AU_Bandit.yy",
+    "path": "folders/Sprites/WIP/DELETE/AU_Bandit.yy",
   },
 }

@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Prism_Flower",
-    "path": "folders/Sprites/Characters/Temp/Character_Sprites/Battle_Cutscene_Sprites/Enemies/Prism_Flower.yy",
+    "path": "folders/Sprites/Characters/SF2/Enemies/Prism_Flower.yy",
   },
 }

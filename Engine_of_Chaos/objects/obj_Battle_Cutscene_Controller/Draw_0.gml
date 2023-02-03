@@ -46,6 +46,27 @@ if(display){
             event_perform(ev_other,ev_user2);
         }
     }
+	
+	//Draw Props (Spell Effects)
+    with(obj_Battle_Cutscene_Prop){
+		if(draw_location = "Middle"){
+			event_perform(ev_other,ev_user2);
+		}
+    }
+	
+	 //Draw Foreground
+    with(obj_Battle_Cutscene_Character){
+        if(location = "Foreground"){
+            event_perform(ev_other,ev_user4);
+        }
+    }
+	
+	//Draw Props (Spell Effects)
+    with(obj_Battle_Cutscene_Prop){
+		if(draw_location = "Under_Foreground_Character"){
+			event_perform(ev_other,ev_user2);
+		}
+    }
     
     //Draw Battle cutscene Characters
     with(obj_Battle_Cutscene_Character){
@@ -69,6 +90,13 @@ if(display){
 	//Draw Props (Spell Effects)
     with(obj_Battle_Cutscene_Prop){
 		if(draw_location = "Highest"){
+			event_perform(ev_other,ev_user2);
+		}
+    }
+	
+	//Draw Props (Spell Effects)
+    with(obj_Battle_Cutscene_Prop){
+		if(draw_location = "Highest_02"){
 			event_perform(ev_other,ev_user2);
 		}
     }

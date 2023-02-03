@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_Prism_Flower_Shot",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": true,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Prism_Flower_Shot",
-  "duration": 1.13924,
+  "duration": 1.13424,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_Prism_Flower_Shot",
-  "tags": [],
-  "resourceType": "GMSound",
 }

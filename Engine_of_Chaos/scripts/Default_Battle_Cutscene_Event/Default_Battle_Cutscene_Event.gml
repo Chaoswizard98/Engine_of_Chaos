@@ -384,6 +384,9 @@ function Default_Battle_Cutscene_Event(){
 	        }
 	        with(obj_Battle_Cutscene_Prop){//end all spell loops (spell props delete after final frame)
 	            loop_animation = false;
+				if(instant_destruction){//if we destroy this object immediately on spell controller end.
+					instance_destroy();
+				}
 	        }
 	        performing_aoe = false;
 	        tint_color = draw_color;

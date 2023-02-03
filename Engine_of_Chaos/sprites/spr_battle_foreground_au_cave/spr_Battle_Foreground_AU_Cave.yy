@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Battle_Foregrounds",
+    "path": "folders/Sprites/Battle_Cutscenes/Battle_Foregrounds.yy",
   },
 }
