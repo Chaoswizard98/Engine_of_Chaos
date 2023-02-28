@@ -23,6 +23,10 @@ draw_location = "Highest";//Draw layer (Background,Foreground,Highest)
 instant_destruction = false;//Do we instantly destroy this when the spell controller is destroyed? (if false, it is destroyed on final frame instead)
 
 hidden = false;
+start_delay = 0;//wait x frames before playing our animation
+
+played_start_sound = false;
+start_sound = noone;
 
 number_of_tags = 5;
 var i = 0;

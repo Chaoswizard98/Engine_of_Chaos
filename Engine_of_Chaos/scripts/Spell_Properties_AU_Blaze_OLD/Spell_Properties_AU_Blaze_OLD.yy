@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "AU",
-    "path": "folders/Scripts/Spell_Properties/AU.yy",
+    "name": "Spell_Properties",
+    "path": "folders/Scripts/Spell_Properties.yy",
   },
 }

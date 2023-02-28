@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Terrain_Overgrowth",
   "spriteId": {
     "name": "spr_Terrain_Overgrowth",
     "path": "sprites/spr_Terrain_Overgrowth/spr_Terrain_Overgrowth.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Terrain",
     "path": "folders/Objects/Game_Objects/Terrain.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Terrain_Overgrowth",
-  "tags": [],
-  "resourceType": "GMObject",
 }

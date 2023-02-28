@@ -241,7 +241,7 @@ function Default_Battle_Cutscene_Event(){
 	                    _target.damage_taken = _damage;
 	                    Heal_Character(target,abs(_damage));
 	                    Grant_Experience(attacker,target,"Heal",abs(_target.damage_healed));
-	                    Play_Sound(sfx_Heal);
+	                    //Play_Sound(sfx_Heal);
 	                }
 	                else{//no damage or healing. Status effect / summoning
 	                    if(_magic_restored > 0){

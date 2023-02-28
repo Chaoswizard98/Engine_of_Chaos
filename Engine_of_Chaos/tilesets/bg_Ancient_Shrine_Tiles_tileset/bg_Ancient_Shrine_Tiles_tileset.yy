@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "bg_Ancient_Shrine_Tiles_tileset",
   "spriteId": {
     "name": "bg_Ancient_Shrine_Tiles",
     "path": "sprites/bg_Ancient_Shrine_Tiles/bg_Ancient_Shrine_Tiles.yy",
@@ -55,8 +58,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "bg_Ancient_Shrine_Tiles_tileset",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

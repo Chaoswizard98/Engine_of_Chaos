@@ -13,12 +13,13 @@ function Create_Battle_Cutscene_Prop(_prop,_x_pos,_y_pos,_rotation,_mirror,_loop
 	    image_speed = Get_Battle_Cutscene_Prop_Stats(prop,"Animation_Speed");
 		draw_location = Get_Battle_Cutscene_Prop_Stats(prop,"Draw_Location");
 		instant_destruction = Get_Battle_Cutscene_Prop_Stats(prop,"Instant_Destruction");
+		start_sound = _start_sound;
 	}
 
 	//Play start sound if we have one
-	if(_start_sound != noone){
-	    Play_Sound(_start_sound);
-	}
+	//if(_start_sound != noone){
+	//    Play_Sound(_start_sound);
+	//}
 
 	return _this;
 }
