@@ -5,8 +5,15 @@ function Battle_Victory_Conditions_Battle_01(){
 	var _script = "none";//No victory yet
 	
 	//Test for victory and assign cutscene
-	if(Defeated_All_Enemies("Player") || Defeated_Boss()){//killed all units or boss
+	if((!Battle_Flag_Was_Set(2) && Defeated_All_Enemies("Player")) || Defeated_Boss()){//killed all units or boss
 		_script = "Default_Battle_Victory";
+	}
+	
+	if(Battle_Flag_Was_Set(2,"Killed_Wolf")){//If we killed the wolf
+		obj_Battle_Controller.battle_flags[2] = "Round_Bypass";//bypass the second check
+	}
+	else if(Battle_Flag_Was_Set(2,"Round_Bypass")){
+		obj_Battle_Controller.battle_flags[2] = "";//reset after the check
 	}
 	
 	return _script;

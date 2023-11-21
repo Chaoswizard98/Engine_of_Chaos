@@ -107,6 +107,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Heal",
-    "path": "folders/Sprites/Spells/AU_Heal.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/AU_Spells/AU_Heal.yy",
   },
 }

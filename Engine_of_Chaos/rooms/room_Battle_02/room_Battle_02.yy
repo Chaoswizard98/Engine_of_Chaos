@@ -127,7 +127,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72246130","properties":[],"isDnd":false,"objectId":{"name":"obj_AU_Stalagnid","path":"objects/obj_AU_Stalagnid/obj_AU_Stalagnid.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":864.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_605C8B1B","properties":[],"isDnd":false,"objectId":{"name":"obj_AU_Stalagnid","path":"objects/obj_AU_Stalagnid/obj_AU_Stalagnid.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":888.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34771C3B","properties":[],"isDnd":false,"objectId":{"name":"obj_AU_Stalagnid","path":"objects/obj_AU_Stalagnid/obj_AU_Stalagnid.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":912.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DCFF607","properties":[],"isDnd":false,"objectId":{"name":"obj_Generic_Debug_Enemy","path":"objects/obj_Generic_Debug_Enemy/obj_Generic_Debug_Enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,},
       ],"visible":true,"depth":1900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Game_Object_Instance_Layer","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AA38334","properties":[],"isDnd":false,"objectId":{"name":"obj_Chest","path":"objects/obj_Chest/obj_Chest.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":528.0,"y":744.0,},
@@ -4688,7 +4687,6 @@
     {"name":"inst_3E7BD5A7","path":"rooms/room_Battle_02/room_Battle_02.yy",},
     {"name":"inst_6D9FFB16","path":"rooms/room_Battle_02/room_Battle_02.yy",},
     {"name":"inst_4681CFF1","path":"rooms/room_Battle_02/room_Battle_02.yy",},
-    {"name":"inst_4DCFF607","path":"rooms/room_Battle_02/room_Battle_02.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

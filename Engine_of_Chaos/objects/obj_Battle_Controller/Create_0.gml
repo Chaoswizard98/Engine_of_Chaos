@@ -27,6 +27,7 @@ for(i=0; i<number_of_AI_regions; i+=1){
 //Note: slot 0 is reserved for the player name when they die.
 number_of_battle_flags = 25;
 for(i=0; i<number_of_battle_flags; i+=1){
+	//NOTE* 0 is reserved for player death, 1 is reserved for boss death
     battle_flags[i] = "";
 }
 

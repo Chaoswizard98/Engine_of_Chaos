@@ -10,7 +10,7 @@ function Set_Monster_Spawner_Stats_Battle_01_Wolf_Cave(_spawner){
 		timer = 0;//timer counts from cooldown to 0
                 
 		spawn_criteria = "Turn_Start";//when does this event get triggered?
-		spawn_state = 2;//what region does the player need to be in?
+		spawn_state = 3;//what region does the player need to be in?
 		attack_on_spawn = true;//does this character attack when spawned in?
 		spawn_action = "none";//action variable, //Immediate_Action
 	}

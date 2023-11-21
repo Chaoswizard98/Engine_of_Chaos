@@ -1,7 +1,5 @@
-function Start_Battle_Death_Cutscene() {
+function Start_Battle_Death_Cutscene(_event) {
 	//returns the ID of the highest priority death script
-	var _event = argument[0];
-
 	var _script_ID = "Battle_Death_Animation";
 	if(_event = "End_Death_Animation"){
 	    _script_ID = "Battle_Death_Animation_End";

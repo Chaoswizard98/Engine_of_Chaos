@@ -127,6 +127,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Aura",
-    "path": "folders/Sprites/Spells/AU_Aura.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/AU_Spells/AU_Aura.yy",
   },
 }

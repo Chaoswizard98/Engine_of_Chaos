@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_AI_Region_04",
   "spriteId": {
     "name": "spr_AI_Region_04",
     "path": "sprites/spr_AI_Region_04/spr_AI_Region_04.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "AI_Regions",
     "path": "folders/Objects/Game_Objects/AI_Regions.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_AI_Region_04",
-  "tags": [],
-  "resourceType": "GMObject",
 }

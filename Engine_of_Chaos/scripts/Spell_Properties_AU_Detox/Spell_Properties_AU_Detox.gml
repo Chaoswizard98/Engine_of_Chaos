@@ -66,26 +66,51 @@ function Town_Spell_Effect_State_Run_Effect_AU_Detox(_object){
 
 
 
-
 function Spell_Animation_Hit_Event_AU_Detox(_object) {
 	var _target = Get_Battle_Cutscene_Character(obj_Battle_Cutscene_Controller.target);
 	var _x_pos = Get_Battle_Cutscene_Character_Draw_Location(_target,"X_Pos",0);
 	var _y_pos = Get_Battle_Cutscene_Character_Draw_Location(_target,"Y_Pos",0)-50;
 	var _mirror = Get_Battle_Cutscene_Character_Draw_Location(_target,"Mirror",0);
 	
-	//var _delay = 0;
-	//var _delay2 = 0;
-	//switch(_object.effect_level){
-	//	case 1: _delay = 0; /*_object.max_event_timer = 60;*/ break;
-	//	case 2: _delay = 9; /*_object.max_event_timer = 69;*/ break;
-	//	case 3: _delay = 9; /*_object.max_event_timer = 69;*/ break;
-	//	case 4: _delay = 0; _delay2 = 34; /*_object.max_event_timer = 94;*/ break;
-	//}
+	var _delay = 0;
+	switch(_object.effect_level){
+		case 1: _delay = 0; break;
+		case 2: _delay = 9; break;
+		case 3: _delay = 9; break;
+		case 4: _delay = 9; break;
+	}
 	
-	var _temp = noone;
+	Create_Battle_Cutscene_Prop("AU_Detox_Green_Charge",_x_pos,_y_pos,0,_mirror,false,true,sfx_Heal_2).start_delay = _delay;
+	Create_Battle_Cutscene_Prop("AU_Detox_Green_Circle_Intro",_x_pos,_y_pos,0,_mirror,false,false,noone).start_delay = _delay;
 	
-	//if(_object.effect_level < 4){
-		_temp = Create_Battle_Cutscene_Prop("AU_Detox_Green_Charge",_x_pos,_y_pos,0,_mirror,false,true,sfx_Heal);
-		_temp = Create_Battle_Cutscene_Prop("AU_Detox_Green_Circle_Intro",_x_pos,_y_pos,0,_mirror,false,false,sfx_Heal);
-	//}
+	//var _temp = noone;
+	if(_object.effect_level >= 2){
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos+39,_y_pos-9,0,_mirror,false,false,noone).start_delay = 42 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos,_y_pos-3,0,_mirror,false,false,noone).start_delay = 46 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos-22,_y_pos-13,0,_mirror,false,false,noone).start_delay = 48 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos+12,_y_pos+30,0,_mirror,false,false,noone).start_delay = 54 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos-19,_y_pos+12,0,_mirror,false,false,noone).start_delay = 58 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos+22,_y_pos+2,0,_mirror,false,false,noone).start_delay = 62 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle_Spark",_x_pos-38,_y_pos+33,0,_mirror,false,false,noone).start_delay = 70 + _delay;
+	}
+	if(_object.effect_level >= 3){
+		Create_Battle_Cutscene_Prop("AU_Detox_Thread_Purple",_x_pos-1,_y_pos-5,180,_mirror,false,false,noone).start_delay = 0 + _delay;	
+		Create_Battle_Cutscene_Prop("AU_Detox_Thread_Purple",_x_pos+5,_y_pos-5,90,_mirror*-1,false,false,noone).start_delay = 6 + _delay;	
+		Create_Battle_Cutscene_Prop("AU_Detox_Thread_Purple",_x_pos+5,_y_pos-1,180,_mirror*-1,false,false,noone).start_delay = 12 + _delay;	
+		Create_Battle_Cutscene_Prop("AU_Detox_Thread_Purple",_x_pos+6,_y_pos,270,_mirror,false,false,noone).start_delay = 18 + _delay;
+		
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle",_x_pos-28,_y_pos-21,0,_mirror,false,false,noone).start_delay = 50 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle",_x_pos+37,_y_pos+26,0,_mirror,false,false,noone).start_delay = 56 + _delay;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Circle",_x_pos,_y_pos,0,_mirror,false,false,noone).start_delay = 59 + _delay;
+	}
+	if(_object.effect_level >= 4){
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos-22,_y_pos+52,0,_mirror,false,false,noone).start_delay = 0;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos-6,_y_pos+52,0,_mirror,false,false,noone).start_delay = 6;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos+27,_y_pos+52,0,_mirror,false,false,noone).start_delay = 10;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos+10,_y_pos+52,0,_mirror,false,false,noone).start_delay = 14;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos-32,_y_pos+52,0,_mirror,false,false,noone).start_delay = 18;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos-22,_y_pos+52,0,_mirror,false,false,noone).start_delay = 24;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos+14,_y_pos+52,0,_mirror,false,false,noone).start_delay = 32;
+		Create_Battle_Cutscene_Prop("AU_Detox_Purple_Upstream",_x_pos-2,_y_pos+52,0,_mirror,false,false,noone).start_delay = 38;
+	}
 }

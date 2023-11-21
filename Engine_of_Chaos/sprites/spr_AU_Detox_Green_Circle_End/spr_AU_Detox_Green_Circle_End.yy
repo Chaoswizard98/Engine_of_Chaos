@@ -99,6 +99,6 @@
   "nineSlice": null,
   "parent": {
     "name": "AU_Detox",
-    "path": "folders/Sprites/Spells/AU_Detox.yy",
+    "path": "folders/Sprites/Battle_Cutscenes/Spell_Animations/AU_Spells/AU_Detox.yy",
   },
 }

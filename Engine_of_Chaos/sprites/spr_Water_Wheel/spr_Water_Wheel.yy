@@ -74,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Overworld_Objects",
-    "path": "folders/Sprites/Overworld_Objects.yy",
+    "name": "obsolete",
+    "path": "folders/Sprites/obsolete.yy",
   },
 }

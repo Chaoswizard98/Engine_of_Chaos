@@ -1,5 +1,4 @@
-function Can_Spawn_Character() {
-	var _spawner = argument[0];
+function Can_Spawn_Character(_spawner) {
 	var _spawn_count = 0;
 
 	with(obj_Character){

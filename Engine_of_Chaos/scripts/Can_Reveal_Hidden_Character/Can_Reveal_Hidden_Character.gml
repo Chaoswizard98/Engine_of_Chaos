@@ -1,8 +1,7 @@
-function Can_Reveal_Hidden_Character() {
-	var _character = argument[0];
+function Can_Reveal_Hidden_Character(_character) {
 	var _valid_state = false;
 
-	if(((_character.reveal_requires_exact_region) && (Player_Is_In_Region(_character.reveal_state)))||((_character.reveal_state <= Get_Current_Region())&&(!_character.reveal_requires_exact_region))){
+	if(_character.force_reveal_hidden || ((_character.reveal_requires_exact_region) && (Player_Is_In_Region(_character.reveal_state))) || ((_character.reveal_state <= Get_Current_Region())&&(!_character.reveal_requires_exact_region))){
 	    _valid_state = true;
 	}
 

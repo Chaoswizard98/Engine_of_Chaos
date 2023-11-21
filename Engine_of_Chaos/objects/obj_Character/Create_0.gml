@@ -149,6 +149,7 @@ reveal_state = -1;//what battle state do they reveal on?
 attack_on_reveal = false;//do they get a turn after they reveal themselves?
 reveal_action = "Default";//do they get a turn when revealing? Or wait until next round?
 reveal_requires_exact_region = false;//do we need to be in the exact region for them to reveal? If not, any higher region will trigger a reveal
+force_reveal_hidden = false; //Are we forcing them to reveal regardless of trigger conditions?
 
 turn_start_x = x;//x position at the start of the turn
 turn_start_y = y;//y position at the start of the turn

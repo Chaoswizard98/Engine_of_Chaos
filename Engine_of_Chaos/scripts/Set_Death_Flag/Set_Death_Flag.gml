@@ -1,5 +1,4 @@
-function Set_Death_Flag() {
-	var _character = argument[0];
+function Set_Death_Flag(_character) {
 	var _run_event = true;
 	_character.death_flag = true;//character is dead
 
@@ -36,6 +35,16 @@ function Set_Death_Flag() {
 	//Custom Death Flags=
 	//===================
 	switch(_character.death_flag_script){
+		case "Trigger_Hidden_Units_Battle_01":
+			if(Get_Enemies_Remaining("Player") = 2){//If this was the last enemy
+				Force_Hidden_Unit_Reveal("AU_Wolf")//Reveal hidden units
+				with(obj_Enemy_Spawner){//Turn spawner on
+					spawn_criteria = "Next_Action";	
+				}
+				obj_Battle_Controller.battle_flags[2] = "Killed_Wolf";//Set flag (this in particular bypasses the "killed all enemies" victory condition temporarilly)
+			}
+		break;
+		
 	    case "Challenge_1_Flag_1":
 	        with(obj_Character){
 	            if((death_flag_script = "Challenge_1_Flag_1")&&(!death_flag)){
