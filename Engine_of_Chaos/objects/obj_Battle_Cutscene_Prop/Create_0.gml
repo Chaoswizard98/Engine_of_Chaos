@@ -10,12 +10,14 @@ y_speed = 0;
 movement_speed = 0;//Movement speed
 wave_x_center = 0;//sin wave center position
 wave_y_center = 0;//sin wave center position
+wave_offset = 0;//Offset for the wave animation
 obj_following = noone;//The object we're following
 
 prop = "none";//Prop Name
 rotation = 0;//Rotation of the sprite
 call_event = false;//do we ping cutscene when done?
 mirror = 1;//do we mirror the sprite?
+alpha = 1;//Transparency
 
 loop_animation = false;//do we loop the animation
 action = "Default";//action to perform

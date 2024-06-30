@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Roof_Trigger_Outside",
   "spriteId": {
     "name": "spr_Roof_On",
     "path": "sprites/spr_Roof_On/spr_Roof_On.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -24,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,8 +36,4 @@
     "name": "Roof_Triggers",
     "path": "folders/Objects/Game_Objects/Roof_Triggers.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Roof_Trigger_Outside",
-  "tags": [],
-  "resourceType": "GMObject",
 }

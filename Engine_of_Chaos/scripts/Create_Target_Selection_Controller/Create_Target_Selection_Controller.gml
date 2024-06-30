@@ -31,7 +31,7 @@ function Create_Target_Selection_Controller() {
 	    Set_Cursor_Display(Get_Spell_Slot_Stats("Local",_character,_inventory_slot,_inventory_level,"Area"),Get_Spell_Slot_Stats("Local",_character,_inventory_slot,_inventory_level,"Cursor_Pattern"));
 	    _target_type = Get_Spell_Slot_Stats("Local",_character,_inventory_slot,_inventory_level,"Target_Type");
 	}
-	else if((_action = "Use_Item")||("AI_Use_Item")){
+	else if((_action = "Use_Item")||(_action = "AI_Use_Item")){
 	    Set_Cursor_Display(Get_Inventory_Item_Stats("Local",_character,_inventory_slot,"Use_Size"),Get_Inventory_Item_Stats("Local",_character,_inventory_slot,"Use_Cursor_Pattern"));
 	    _target_type = Get_Inventory_Item_Stats("Local",_character,_inventory_slot,"Use_Target_Type");
 	}

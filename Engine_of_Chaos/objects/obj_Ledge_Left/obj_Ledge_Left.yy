@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Ledge_Left",
   "spriteId": {
     "name": "spr_Ledge_Left",
     "path": "sprites/spr_Ledge_Left/spr_Ledge_Left.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Ledges",
     "path": "folders/Objects/Game_Objects/Ledges.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Ledge_Left",
-  "tags": [],
-  "resourceType": "GMObject",
 }

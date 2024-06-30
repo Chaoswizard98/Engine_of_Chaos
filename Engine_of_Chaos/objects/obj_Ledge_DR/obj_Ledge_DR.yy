@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_Ledge_DR",
   "spriteId": {
     "name": "spr_Ledge_DR",
     "path": "sprites/spr_Ledge_DR/spr_Ledge_DR.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -24,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,8 +36,4 @@
     "name": "Ledges",
     "path": "folders/Objects/Game_Objects/Ledges.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_Ledge_DR",
-  "tags": [],
-  "resourceType": "GMObject",
 }

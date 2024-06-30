@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_SF2_Prism_Flower",
   "spriteId": {
     "name": "spr_SF2_Prism_Flower_Overworld",
     "path": "sprites/spr_SF2_Prism_Flower_Overworld/spr_SF2_Prism_Flower_Overworld.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -24,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,8 +36,4 @@
     "name": "SF2",
     "path": "folders/Objects/Game_Objects/Characters/SF2.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_SF2_Prism_Flower",
-  "tags": [],
-  "resourceType": "GMObject",
 }

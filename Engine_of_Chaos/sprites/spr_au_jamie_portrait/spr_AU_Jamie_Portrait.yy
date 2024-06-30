@@ -30,7 +30,7 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36ce2c4a-7bf3-4e6f-bfc8-4b95ca1fb5f3",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b711e9c1-1109-4bf8-b382-7be055f7ab68",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bb7c0e6a-70d7-4e8f-94cd-3fbb5ed7467b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2894040-8104-4dae-8b1e-4f84952616bf",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -49,7 +49,7 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"120e0c25-ad99-43c2-97a6-94ffd00f038d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36ce2c4a-7bf3-4e6f-bfc8-4b95ca1fb5f3","path":"sprites/spr_AU_Jamie_Portrait/spr_AU_Jamie_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"27f9e80b-b959-4c4a-8d3d-729c2da37f07","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b711e9c1-1109-4bf8-b382-7be055f7ab68","path":"sprites/spr_AU_Jamie_Portrait/spr_AU_Jamie_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e2a44866-e3f9-4fe5-9eb9-2c62abc589f4","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb7c0e6a-70d7-4e8f-94cd-3fbb5ed7467b","path":"sprites/spr_AU_Jamie_Portrait/spr_AU_Jamie_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8866186c-c586-417b-8878-f076ddd56809","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2894040-8104-4dae-8b1e-4f84952616bf","path":"sprites/spr_AU_Jamie_Portrait/spr_AU_Jamie_Portrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

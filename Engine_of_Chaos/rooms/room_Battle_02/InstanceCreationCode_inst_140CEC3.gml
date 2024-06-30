@@ -5,4 +5,4 @@ disable_on_hide = false;
 is_battle_object = true;
 sprite_index = spr_AU_Stalagnid_Reveal;
 image_speed = 0;
-Set_Hidden_Character(id,"Turn_Start",3,true,false,false);//<character>,<criteria>,<state>,<requires exact state>,<can_attack>,<action>
+Set_Hidden_Character(id,"Turn_Start",3,true,true,true);//<character>,<criteria>,<state>,<requires exact state>,<can_attack>,<action>

@@ -37,7 +37,7 @@ function Set_Starting_Stats(_global_ID,_character_ID,_name,_level_scheme,_level 
 	//========================
 	//Level up the character =
 	//========================
-	while(global.Level[i] < _level){
+	while(global.Level[i] < _level && !Character_At_Max_Level("Global",_global_ID)){
 	    Level_Up("Global",i,true);
 	}
 

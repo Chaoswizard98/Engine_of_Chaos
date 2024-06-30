@@ -1,6 +1,6 @@
-ai_script_ID = "AI_Default_Physical_Wander";
-ai_walk_region = 3;//the region where the AI starts moving towards their target
-ai_sprint_region = 4;//The region where the AI sprints at their target
+ai_script_ID = "AI_Battle_02_Wisp_Sprint";
+ai_walk_region = 2;//the region where the AI starts moving towards their target
+ai_sprint_region = 2;//The region where the AI sprints at their target
 if(global.Story_State >= 9){
 	is_npc = true;//Flag them as an NPC
 	dialogue_script = "none";//Dialogue Message ID to print when talked to

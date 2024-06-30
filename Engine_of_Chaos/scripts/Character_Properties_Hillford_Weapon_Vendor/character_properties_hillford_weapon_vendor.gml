@@ -4,7 +4,7 @@ function Town_Character_Stats_Hillford_Weapon_Vendor(_character){
 		dialogue_script = "Generic_Shopkeeper_Dialogue";//Dialogue Message ID to print when talked to
 		allow_wander = false;//Allow NPC to wander.
 		wander_radius = 0;//Set NPC's Wander Radius
-		shop_ID[0] = "Ashenwood_Weapon";
+		shop_ID[0] = "Hillford_Weapon";
 		face_original_direction = true;//do they face the original direction after talking to them?
 		original_direction = "Down";//the way they originally face (for returning to this direction after talking to them)
 	}

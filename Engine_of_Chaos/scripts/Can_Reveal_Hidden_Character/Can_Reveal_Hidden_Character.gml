@@ -25,6 +25,11 @@ function Can_Reveal_Hidden_Character(_character) {
 	            return true;
 	        }
 	    break;
+		case "Distance"://reveal immediately when player is in range
+			if(Get_Closest_Character(_character,"Enemy",_character.reveal_state)){
+				return true;	
+			}
+		break;
 	}
 
 	return false;

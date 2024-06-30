@@ -21,6 +21,7 @@ function Room_Creation_Battle_02(){
 		    Spawn_Followers("Chapter_1");
 			Start_Room(_player);
 			Play_Music(bgm_Harvest_Season,"Fade_To_Next",250,0);
+			Create_Character_Light(_player,45);
 		break;
 	}
 }

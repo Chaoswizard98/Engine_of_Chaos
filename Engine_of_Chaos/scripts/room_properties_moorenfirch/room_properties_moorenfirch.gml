@@ -2,8 +2,12 @@
 //Room Creation Code
 //==================
 function Room_Creation_Moorenfirch(){
-	Play_Music(noone,"Fade_To_Next",250,0);
-	Start_Cutscene("Finished_Demo_Cutscene");
+	//Play_Music(noone,"Fade_To_Next",250,0);//Finished demo cutscene
+	//Start_Cutscene("Finished_Demo_Cutscene");
+	var _player = Spawn_Player("AU_Jason","Egress");//default character, default spawn location (Overwritten by room transition controller if it exists)
+	Start_Room(_player);
+	Spawn_Followers("Chapter_1");
+	Play_Music(bgm_Harvest_Season,"Fade_To_Next",250,0);
 }
 
 //=============

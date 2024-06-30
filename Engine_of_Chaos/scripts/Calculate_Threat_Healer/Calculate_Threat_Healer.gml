@@ -1,4 +1,4 @@
-function Healer_Threat(_character,_target,_effect,_effect_level,_divisor){
+function Calculate_Threat_Healer(_character,_target,_effect,_effect_level,_divisor){
 	var _threat = 0;
 	var _damage = 0;
 

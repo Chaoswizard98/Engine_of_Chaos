@@ -125,5 +125,30 @@ function Cutscene_Messages_English(_cutscene_object,_message_ID) {
 				case "16": return ("Okay I see where this is going.^ Let's get out of here before you two start killing each other again."); break;
 			}
 		break;
+		
+		case "AU_Guildmaster_Cutscene":
+			switch(_message_ID){
+				case "01": return ("Oowe, it's not fair!"); break;
+				case "02": return ("What's wrong there kiddo?"); break;
+				case "03": return ("I really want to go on an adventure, but everyone says I'm too young."); break;
+				case "04": return ("Well, if you train hard for a few years,^ you'll be more than qualified by the time you're old enough to become an adventurer."); break;
+				case "05": return ("Yeah that's dumb.^ If I were you, I'd just sneak aboard one of the ships here while no one is looking."); break;
+				case "06": return ("Oh that's a great idea!"); break;
+				case "07": return ("Yeah just hide in one of the barrels below deck.^ No one will even notice!"); break;
+				case "08": return ("Max don't give the kid any bad ideas."); break;
+				case "09": return ("I'm not.^ I'm just helping a young aspiring adventurer to accomplish her dreams."); break;
+				
+				case "10": return ("-Kira sticks a short wire into the lock-"); break;
+				case "11": return ("-The chest contains rope-"); break;
+				case "12": return ("What a surprise.^ A useless old rope."); break;
+				case "13": return ("Well,^ at least it's better than nothing."); break;
+				case "14": return ("If you want to carry that dirty old rope around with you,^ be my guest."); break;
+				case "15": return ("You're just jealous because you don't have a dirty old rope to carry."); break;
+				case "16": return ("Okay I see where this is going.^ Let's get out of here before you two start killing each other again."); break;
+			}
+		break;
+		
+		
+		
 	}
 }

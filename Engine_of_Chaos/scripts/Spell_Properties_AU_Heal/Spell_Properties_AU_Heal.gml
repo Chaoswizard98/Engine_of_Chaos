@@ -11,13 +11,20 @@ function Spell_Stats_AU_Heal(_effect_level,_lookup_type,_character){
 	min_target_range = -1; 
 	flash_color = make_color_rgb(222,182,222);
 	cure_bleed = true;
-        
+	
 	switch(_effect_level){
 	    case 1: heal_ammount = 15; max_target_range = 1; area = 1; magic_cost = 3; break;
 	    case 2: heal_ammount = 15; max_target_range = 2; area = 1; magic_cost = 5; break;
 	    case 3: heal_ammount = 30; max_target_range = 3; area = 1; magic_cost = 10; break;
 	    case 4: heal_ammount = 999; max_target_range = 1; area = 1; magic_cost = 20; break;
 	}
+	
+	if(_character != noone){
+		switch(Get_Equipped_Item(_lookup_type,_character,0)){//Get equipped weapon (slot 0)
+			case "AU_Healer_Staff": max_target_range += 1; break;//If item is Healer staff, increase range by 1
+		}
+	}
+	
 }
 
 function Spell_Animation_Hit_Event_AU_Heal(_object) {

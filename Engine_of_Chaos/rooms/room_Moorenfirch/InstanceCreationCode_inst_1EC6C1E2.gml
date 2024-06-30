@@ -1,0 +1,1 @@
+Set_Character_Stats(id,"AU_Moorenfirch_Priest");

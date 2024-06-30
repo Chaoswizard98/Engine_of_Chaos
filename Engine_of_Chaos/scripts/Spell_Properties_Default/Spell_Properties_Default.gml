@@ -108,7 +108,6 @@ function Spell_Animation_Create_Event_Default(_object){
 //Animation Loop Event
 //====================
 function Spell_Animation_Loop_Event_Default(_object){
-		//show_message("ping");
 }
 
 //===================

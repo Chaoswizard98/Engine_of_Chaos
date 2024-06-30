@@ -14,7 +14,7 @@ function Town_Character_Stats_AU_Hillford_Priest(_character){
 //======================
 function Get_Appearance_AU_Hillford_Priest(_lookup_type,_character,_stat){
 	var _overworld_sprite = spr_AU_Hillford_Priest_Overworld;
-	var _portrait = noone;
+	var _portrait = spr_AU_Hillford_Priest_Portrait;
 	var _voice = Get_Generic_Voice("Male_Old_2");
 	var _battle_sprite = "none";
 	

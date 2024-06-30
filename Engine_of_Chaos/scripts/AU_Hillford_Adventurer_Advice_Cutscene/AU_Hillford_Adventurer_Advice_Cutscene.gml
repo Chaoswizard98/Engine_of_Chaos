@@ -10,12 +10,12 @@ function AU_Hillford_Adventurer_Advice_Cutscene() {
 			Create_Character_Dialogue("Local",_adventurer,Get_Cutscene_Messages(id,"01"),id,false,true);
 	    break;
 	    case 1:
-	        state += 1;
-			Create_YesNo_Menu(id);
+	        state += 1;//increment state
+			Create_YesNo_Menu(id);//create menu, set callback object ID to this object (cutscene controller in this case)
 	    break;
-	    case 2:
+	    case 2://When an option is selected, this object's decision variable is set, and this event is called (via user event 14)
 	        state = 3;
-			if(decision = "Yes"){
+			if(decision = "Yes"){//Simple test for decision outcome
 				Start_New_Dialogue(Get_Cutscene_Messages(id,"02"),true,false);
 			}
 			else{
